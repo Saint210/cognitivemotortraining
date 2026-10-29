@@ -1,0 +1,2046 @@
+===== PAGE 1 =====
+SMARTfit Multi-Trainer and ProTrainer 
+Getting Started with Group Training 
+In Multi-Station Mode 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+smartfitinc.com/fitness
+
+===== PAGE 2 =====
+Training the Brain and Body Through Movement 
+SMARTfit Brain Health Training can be integrated into any existing program by adding the 
+benefits of cognitive training with movement. The result is that by engaging the brain in top-
+down executive function problem solving, planning and decision making while moving, the 
+results are sped up significantly and transference to activities of daily performance happens 
+faster.  
+Furthermore, executive function cognitive skills are transferable to skills that have not been 
+specifically trained such as reasoning, working memory and problem solving.  As a result, 
+participants enjoy benefits that extend beyond the programming being trained. 
+Enjoy your new SMARTfit™ system! 
+For more information, see our website: www.smartfitinc.com/fitness/
+
+===== PAGE 3 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+2 
+TABLE OF CONTENTS 
+ 
+Section 1 ................................................................................................................................... 6 
+Getting to Know Your SMARTfit ProTrainer/MultiTrainer ..................................................... 6 
+Chapter 1 Introduction: ............................................................................................................ 6 
+Key Benefits of SMARTfit Training .......................................................................................... 6 
+SMARTfit Program Manual ................................................................................................. 7 
+Chapter 2 ................................................................................................................................... 9 
+Using the SMARTfit User App .................................................................................................. 9 
+Performance Tracking ......................................................................................................... 9 
+Recommended Time and Game Settings for Activities and Programs: ....................... 9 
+How to Organize Your Group for a Class on SMARTfit System ............................................. 11 
+Chapter 3 ................................................................................................................................ 12 
+Getting Started With Your SMARTfit System ............................................................................ 12 
+Recommended Floor Markings: ............................................................................................ 12 
+What Equipment NOT to use on your SMARTfit™ System .................................................... 13 
+Chapter 4 ................................................................................................................................ 14 
+Group Training Drills .............................................................................................................. 14 
+Group Training Format .......................................................................................................... 14 
+Suggested Group Fitness Class Formats ................................................................................ 14 
+Modes of Play ..................................................................................................................... 15 
+Section 2 ................................................................................................................................ 16 
+Getting to Know The SMARTfit User Interface App ............................................................ 16 
+Chapter 1 ................................................................................................................................ 16 
+SMARTfit User Interface App Components ......................................................................... 16 
+SMARTfit Programming Designed For Every Age and Ability ................................................ 16 
+Predesigned Programming .................................................................................................... 17 
+Chapter 2 ................................................................................................................................ 19 
+SMARTfit Gamification Explained ........................................................................................ 19 
+Game Categories: .................................................................................................................. 19 
+Activities: ............................................................................................................................... 20 
+Programs: .............................................................................................................................. 20
+
+===== PAGE 4 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+3 
+Build Your Own: ..................................................................................................................... 20 
+Data: ...................................................................................................................................... 21 
+Multi-Site Data Management: Performance tracking and Reporting by Facility, Trainer and 
+Participant ............................................................................................................................. 21 
+Chapter 3 ................................................................................................................................ 23 
+SMALL Group and Large Group Training Programs ........................................................... 23 
+Quick Groups for Group Training Feature Makes it Easy to get Started on All Systems Including 
+the SMARTfit ProTrainer and MultiTrainer ............................................................................... 23 
+3. Group Training for the ProTrainer and MultiTrainer for Large Groups ............................ 24 
+Access Options: Cloud or Local .............................................................................................. 25 
+Section 3 ................................................................................................................................ 26 
+Connecting to The SMARTfit User Interface App ............................................................... 26 
+Chapter 1 ................................................................................................................................ 26 
+System Settings on Your SMARTfit System ........................................................................ 26 
+Setting Your SMARTfit™ MultiTrainer/ProTrainer to Perform as Desired ................................ 26 
+Power up the system: ............................................................................................................ 26 
+Connecting to the SMARTfit User Interface App ................................................................... 26 
+Section 3 ................................................................................................................................ 29 
+Group Training Activities and Programs in Round Robin Format ...................................... 29 
+Chapter 1: Youth Programs .................................................................................................. 29 
+Programs For School Aged Youth ........................................................................................ 29 
+ELEMENTARY LEVEL ............................................................................................................... 29 
+WARM-UP – The Warm Up (Level 1): .................................................................................... 29 
+CARDIO – Sprint Challenge (Level 1): .................................................................................... 29 
+STRENGTH – Plank Challenge (Level 1): ................................................................................ 29 
+BALANCE – Balance Challenge (Level 1): ............................................................................... 30 
+COOL-DOWN – Cooldown Toss (Level 1): ............................................................................. 30 
+Chapter 1 ................................................................................................................................ 31 
+Programs For School Aged Youth ........................................................................................ 31 
+MIDDLE SCHOOL LEVEL ............................................................................................................. 31 
+WARM-UP – The Warm Up (Level 2): .................................................................................... 31 
+CARDIO – Sprint Challenge (Level 2): .................................................................................... 31 
+STRENGTH – Plank Challenge (Level 2): ................................................................................ 31
+
+===== PAGE 5 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+4 
+BALANCE – Balance Challenge (Leve 2): ................................................................................ 32 
+COOL-DOWN – Cooldown (Level 2): ..................................................................................... 32 
+Activities and Programs For Middle and High School Youth ............................................. 33 
+WARM-UP – Warm Up (Level 3): ........................................................................................... 33 
+CARDIO – Suicides (Level 3): .................................................................................................. 33 
+STRENGTH – Plank Challenge (Level 3): ................................................................................ 33 
+BALANCE – Balance Challenge (Level 3): ............................................................................... 34 
+COOL-DOWN - Cooldown (Level 3): ...................................................................................... 34 
+Chapter 2: Older Adult Programs ......................................................................................... 35 
+Low Impact Activities and Programs For Older Adults ...................................................... 35 
+WARM-UP – Warm Up (Level 1): ........................................................................................... 35 
+CARDIO – March In Place (Level 1): ....................................................................................... 35 
+STRENGTH – Med Ball Taps (Level 1): ................................................................................... 35 
+BALANCE – Feet Together (Level 1): ...................................................................................... 35 
+COOL-DOWN (Cooldown Level 1): ........................................................................................ 36 
+Medium Impact Activities and Programs For Older Adults ................................................ 37 
+WARM-UP – Warm Up (Level 2): ........................................................................................... 37 
+CARDIO – March in Place (Level 2): ....................................................................................... 37 
+STRENGTH – Med Ball Taps (Level 2): ................................................................................... 37 
+BALANCE – Feet Together (Level 2): ...................................................................................... 38 
+COOL-DOWN – Cooldown (Level 2): ..................................................................................... 38 
+Advanced Activities and Programs For Older Adults .......................................................... 39 
+WARM-UP – Warm Up (Level 3): ........................................................................................... 39 
+CARDIO – Run In Place (Level 3): ........................................................................................... 39 
+STRENGTH – Med Ball Taps (Level 3): ................................................................................... 39 
+BALANCE – Feet Together (Level 3): ...................................................................................... 39 
+COOL-DOWN - Cool Down – (Level 3): .................................................................................. 40 
+Section 4 ................................................................................................................................ 41 
+Sports Performance Team Training in Round Robin Format ............................................. 41 
+Sports Performance Training ............................................................................................... 41 
+Chapter 1 BASKETBALL ........................................................................................................ 41 
+BASKETBALL – LOW IMPACT ................................................................................................. 41 
+SKILL 1 – Stationary Dribble (Level 1): ................................................................................... 41 
+SKILL 2 – Speed Dribble (Level 1): ......................................................................................... 41
+
+===== PAGE 6 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+5 
+SKILL 3 – Bounce Pass (Level 1): ............................................................................................ 42 
+SKILL 4 – Double Dribble (Level 1): ........................................................................................ 42 
+SKILL 5 – Basketball with Tennis Ball (Level 1): ..................................................................... 42 
+BASKETBALL – MEDIUM IMPACT............................................................................................... 43 
+SKILL 1 – Stationary Dribble (Level 2): ................................................................................... 43 
+SKILL 2 – Speed Dribble (Level 2): ......................................................................................... 43 
+SKILL 3 – Bounce Pass (Level 2): ............................................................................................ 43 
+SKILL 4 – Double Dribble (Level 2): ........................................................................................ 44 
+SKILL 5 – Basketball with Tennis Ball (Level 2): ..................................................................... 44 
+BASKETBALL – HIGH IMPACT ..................................................................................................... 44 
+SKILL 1 – Stationary Dribble (Level 3): ................................................................................... 44 
+SKILL 2 – Speed Dribble (Level 3): ......................................................................................... 45 
+SKILL 3 – Bounce Pass (Level 2): ............................................................................................ 45 
+SKILL 4 – Double Dribble (Level 2): ........................................................................................ 45 
+SKILL 5 – Basketball with Tennis Ball (Level 3): ..................................................................... 45 
+Chapter 2 SOCCER ................................................................................................................ 47 
+SOCCER – LOW IMPACT ............................................................................................................. 47 
+SKILL 1 – Stationary Foot Dribble (Level 1): ........................................................................... 47 
+SKILL 2 – Speed Foot Dribble (Level 1): ................................................................................. 47 
+SKILL 3 – Two Touch Pass (Level 1):....................................................................................... 47 
+SKILL 4 – One Touch Pass (Level 1): ....................................................................................... 48 
+SKILL 5 – Soccer Volley (Level 1): ........................................................................................... 48 
+SOCCER – MEDIUM IMPACT ...................................................................................................... 48 
+SKILL 1 – Stationary Foot Dribble (Level 2): ........................................................................... 48 
+SKILL 2 – Speed Foot Dribble (Level 2): ................................................................................. 48 
+SKILL 3 – Two Touch Pass (Level 2):....................................................................................... 49 
+SKILL 4 – One Touch Pass (Level 2): ....................................................................................... 49 
+SKILL 5 – Soccer Volley (Level 2): ........................................................................................... 49 
+SOCCER – HIGH IMPACT ............................................................................................................ 50 
+SKILL 1 – Stationary Foot Dribble (Level 3): ........................................................................... 50 
+SKILL 2 – Speed Foot Dribble (Level 3): ................................................................................. 50 
+SKILL 3 – Two Touch Pass (Level 3):....................................................................................... 50 
+SKILL 4 – One Touch Pass (Level 3): ....................................................................................... 51 
+SKILL 5 – Soccer Volley (Level 3): ............................................................................................... 51
+
+===== PAGE 7 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+6 
+Section 1  
+Getting to Know Your SMARTfit 
+ProTrainer/MultiTrainer 
+Chapter 1 Introduction:  
+Key Benefits of SMARTfit Training 
+SMARTfit delivers exciting evidence-based gamified programming that trains the brain and body 
+together to improve brain health and human performance simultaneously. Known as dual 
+tasking, respected published studies have shown this to be faster and more effective than 
+training each separately.   
+Because all performance starts with the brain, SMARTfit benefits all populations.  It integrates 
+easily into existing programming to keep a facility buzzing 24/7.  To engage, motivate, and retain 
+end users, thousands of pre-designed activities and programs measure results and track 
+progress in real time.  
+ 
+SMARTfit’s unique strength is its “top-down” cognitive-motor, dual-task approach (CMDT).  In 
+addition to training the brain to react faster (bottom-up cognitive processing), it also challenges 
+the executive function domain of the brain to make quicker and better decisions, solve 
+problems, improve working memory, enhance cognitive flexibility, build cognitive reserve, and 
+more.
+
+===== PAGE 8 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+7 
+All this happens while performing a variety of physical movements and tasks, which carry over 
+to daily life. Studies have revealed that it is this combination of reaction and executive function 
+training that leads to greater transference to real-world results than simpler reaction or non-
+brain-led strength or cardio training. 
+In summary, to enhance human performance and rehabilitation, SMARTfit links the brain and 
+body through movement, creating and strengthening neural pathways so users can: 
+• 
+Make quicker, smarter decisions while moving. 
+• 
+Execute physical and mental skills more efficiently. 
+• 
+Process visuals faster in order to react faster. 
+• 
+Train to enter the flow/zone quickly. 
+• 
+Improve focus, balance, coordination, and speed. 
+• 
+Build cognitive reserve to delay cognitive decline. 
+SMARTfit Program Manual 
+This manual is designed for use by trainers offering a quick way to get started on the SMARTfit 
+ProTrainer and MultiTrainer. 
+The SMARTfit MultiTrainer is a system with 2 to 4 separate panels, each forming a separate 
+station with its own scoreboard and 9 multifunctional targets that include a computerized 
+display and sensing system.  This system operates in Training Station mode with each station  
+ 
+maintaining its own score and the controller scoreboard displaying the total score of all the 
+stations.   
+ 
+The SMARTfit ProTrainer is a system comprised of 2 
+to 4 panels joined together and each incorporating 9 
+targets.  It operates in two modes: MultiTrainer mode 
+where every panel operates in competitive mode, and, 
+in ProTrainer mode where all the joined panels 
+operate as a single integrated target wall 
+incorporating all of the targets.  In ProTrainer setting, 
+the system functions as a goal or the opposing side of 
+nets sports such as tennis, pickleball or volleyball.  This
+
+===== PAGE 9 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+8 
+manual focuses on group training in MultiTrainer Mode 
+Each activity has a specific purpose and numerous skill-developing benefits which should be 
+repeated three times:  
+• 
+LEARN the activity and get used to working together as a team. 
+• 
+PRACTICE to improve both individually and as a team. 
+• 
+CHALLENGE participants to achieve their best score, and to compare their scores with 
+previous best scores or competitors. 
+• 
+Encourage the entire group focus on improving their combined scores which are 
+featured on the scoreboard located on the SMARTfit controller.   
+Number of participants: 
+Activities are designed to engage up to ten participants per station. Smaller groups may be 
+advisable for older adults and to speed up progress and increase cardiovascular demand. For 
+larger groups, we suggest fast moving round robins involving running, hopping, side stepping or 
+ball/bean bag throwing and catching.  Alternatively, create activity stations for individuals at 
+each point in the round robin. Examples: marching in place, dumb bells, balance pads/Bosu, etc.
+
+===== PAGE 10 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+9 
+Chapter 2 
+Using the SMARTfit User App 
+Performance Tracking 
+To track individual data, each client must first be added to the trainer’s account and activated 
+when using SMARTfit. The appropriate activities and programs should also be assigned to each 
+client. This will help organize the trainers for their training session. Once this is done, individuals 
+can be grouped together for team or class training. 
+Instructions on how to complete these steps can be found in the following locations: 
+• 
+The SMARTfit Website: https://smartfitinc.com/fitness/customer-resources/ 
+• 
+The “Help” section within the SMARTfit app: The “Help” option can be found on the 
+Home tab then select “Using the SMARTfit App.” 
+• 
+Our SMARTfit Academy: https://smartfitinc.com/courses/smartfit-academy-level-1-
+setup/ (new customers can request FREE access from customer support) 
+We recommend reviewing the SMARTfit App’s Data and Build tab to explore the available export 
+options. Reports can be generated in both PDF and Excel formats. Collecting four to six weeks of 
+consistent data is ideal for tracking participant progress over time. These reports are also a great 
+way to keep participants engaged and motivated. 
+If competition is part of your programming goals, SMARTfit games naturally encourage both 
+individual and team-based competition. Players get a great workout while having fun and 
+posting scores can help reinforce long-term skill retention. The possibilities for how you use your 
+system are truly endless. 
+Recommended Time and Game Settings for Activities and Programs: 
+Cardiorespiratory 
+• 
+Make the Games Last Longer - Set game times anywhere between 30 to 300 seconds. 
+Longer play equals better cardio workout. In group settings, make sure each player gets 
+several turns. 
+• 
+Move the Start Line Back - Place the start line farther from the targets. Start with 10 feet 
+and go up to 30 feet or more if space allows. Running back and forth increases heart 
+rate fast. 
+• 
+Use Team Relays - Create simple team relay races using SMARTfit. Choose a longer game 
+time (up to 300 seconds) so players stay moving and rotate turns. 
+• 
+Keep Everyone Moving - While players wait for their turn, have them do simple 
+exercises in line. For example, jumping jacks, squats, or high knees. This keeps their 
+heart rate up and keeps them engaged.
+
+===== PAGE 11 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+10 
+Speed/Agility 
+• 
+Keep Games Short - Use 30 to 60 second rounds so players can go full speed without 
+getting too tired. 
+• 
+Mix Up Movement Directions - Have players move forward, backward, and sideways to 
+the targets. This builds full-body coordination and better footwork. 
+• 
+Sprint and Retrieve - Throw a beanbag at the targets. Players must sprint to retrieve it 
+and sprint back to the start. Repeat quickly. This builds explosive speed. 
+• 
+Start Close for Quick Reactions - Set a short start line (about 5 feet away) for fast 
+movement back and forth between the start line and the targets. 
+• 
+Set Multiple Start Lines - Place 2–3 start lines at different distances. Have players run to 
+the target from each line like a “suicide drill.” This improves stamina and change of 
+direction. 
+• 
+Add Footwork Tools - Use speed ladders, dots, or cones between the start line and the 
+target. Players move through them before hitting the target. This builds foot speed and 
+coordination. 
+Sports Skill/Accuracy  
+• 
+Incorporate soccer balls for target drills involving foot-eye coordination, such as 
+dribbling and striking the target using controlled kicks. 
+• 
+Use basketballs for passing or dribbling drills. Players must dribble, pass, or bounce the 
+ball to hit SMARTfit targets at varying heights. 
+• 
+Integrate tennis balls for precision-based drills that require hand-eye coordination while 
+performing underhand throws, overhand throws, or controlled bounce throws. 
+Strength 
+• 
+Core-based drills such as holding a plank while alternating hand taps on targets are 
+excellent for building core strength, shoulder stability, and endurance under fatigue. 
+• 
+Use overhead strikes with hand weights or dumbbells to engage the shoulders, arms, 
+and upper back. 
+• 
+Players perform a squat, then explode upward to strike a target with their hand or a 
+medicine ball. This builds lower-body strength, power, and movement coordination. 
+• 
+Use a light-to-moderate medicine ball for wall taps or wall passes aimed at targets. This 
+improves rotational strength, explosive power, and upper-body coordination. 
+Balance 
+• 
+Incorporate both static and dynamic balance drills to improve postural control and 
+reduce fall risk. 
+• 
+Use standing balance variations with or without support, depending on participant 
+ability. 
+• 
+Adjust target selection to challenge balance progressively. More targets in play require 
+greater stability and control. 
+• 
+Static balance positions include narrow stance, staggered stance, tandem stance, and 
+single-leg stance. These build ankle, knee, and hip stability. Ensure that stance difficulty 
+is appropriate for the participant’s level.
+
+===== PAGE 12 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+11 
+• 
+Introduce unstable surfaces such as balance pads, BOSU balls, or Airex pads to increase 
+difficulty during SMARTfit gameplay. Use with supervision when needed. 
+Cognitive Cool Downs: Executive function and working memory 
+• 
+The cool-down is a vital part of the session, allowing participants to gradually lower their 
+heart rate while keeping the brain actively engaged. This phase should be calming, low 
+in physical intensity, and mentally stimulating. 
+• 
+Select cognitively demanding but low-activity SMARTfit games, such as: 
+o Pattern Recognition 
+o Math Equations (adjust difficulty by modifying max values) 
+o Spelling (create custom word lists suited to the group) 
+• 
+Avoid fast paced or physically demanding drills. Focus instead on attention, memory, 
+and decision-making to leave participants mentally sharp and physically relaxed. 
+How to Organize Your Group for a Class on SMARTfit System 
+The workouts in this manual are designed for both individual and group training sessions. For 
+group training, it is essential to plan and organize the group quickly in order to get players into 
+action as soon as the lesson starts.  
+SMARTfit Stations can accommodate up to 10 participants per station. It is preferable to match 
+participants of similar ages/abilities when choosing a team for each station. To organize teams, 
+get the whole group to stand in a line ranging in height from shortest to tallest. Then count off 
+the players, depending on the number of stations. If there are 4 stations, count off from the 
+front to back: 1, 2, 3, 4, 1, 2, 3, 4, and so on and then send all the 1’s to stand at the start marker 
+of station 1, 2’s to station 2, and so on.  Provide each team with a different colored band.  
+Additional Tips 
+The equipment list for each drill is per station. You can substitute as desired, using equipment 
+on hand to complement the ball kit shipped with each SMARTfit™ system.
+
+===== PAGE 13 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+12 
+Chapter 3 
+Getting Started With Your SMARTfit System 
+WORKING WITH THE STATIONS:  
+• 
+The Controller will always display the total score earned by all of the 
+stations 
+• 
+The controller also shows the time set for each game and will then 
+default to the time chosen, counting down seconds as the game 
+progresses. 
+• 
+The first station on the left (when facing the system) is station 1.  
+• 
+Each SMARTfit station’s display board centered at the top of each 
+station will keep track of its own score. 
+Recommended Floor Markings: 
+Use of the space in front of your SMARTfit stations can add options to your 
+program. Many of our lesson plans include the use of speed/agility ladders, 
+poly spots, cones, and pre-taped lines set at specific distances in front of the 
+SMARTfit system. We recommend taping, painting or incorporating into the 
+existing floor the following: Ladder a minimum of 16’ long and 2’ wide, divided 
+into 2’ squares. Center each ladder at the base of each Station. Place start lines 
+at 5,’ 10,’ 15’ and 20.’ 
+Your SMARTfit™ system is tough, durable and designed to take a beating. 
+However, because it is a computer, the following equipment list will be helpful 
+in preserving its longevity. The following is the recommended equipment list: 
+Air-filled regulation athletic balls (tennis, basketball, football, volleyball, soccer, 
+etc.) 
+• 
+Rubber practice baseballs, softballs, lacrosse, cricket or T-Balls (need to 
+bounce). 
+• 
+Playground balls of all diameters 
+• 
+Beanbags or dead balls for single directional play 
+• 
+Swim Noodles or foam bats for striking the targets 
+• 
+4 lb. or 2 kilo medicine ball (maximum weight) 
+• 
+BOSU balls or other balance devices for standing, sitting or lying 
+• 
+Implements for striking the balls (hockey sticks, paddles, padded bats, 
+rackets, etc.) 
+• 
+Cones to provide barriers or direction  
+• 
+Neoprene coated 2, 5, or ten pound hand weights (protect the panel 
+from developing scratch marks) 
+• 
+Boxing Gloves 
+• 
+Step Ups 
+• 
+Floor Matts
+
+===== PAGE 14 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+13 
+• 
+Hurdles 
+• 
+Resistance Bands 
+• 
+Soft wallballs up to balls up to 10lbs are usable 
+ 
+The following equipment is supplied with your system when it is purchased.  See spec sheets for 
+quantity details. 
+• 
+7” yellow playground balls 
+• 
+2 lb. medicine ball 
+• 
+Beanbag set  
+• 
+Foam noodles 
+• 
+Colored wristbands for team participation 
+ 
+ 
+What Equipment NOT to use on your SMARTfit™ System 
+ 
+• 
+Regulation baseball. It will NOT be returned properly because there is no bounce. Rubber 
+practice balls work well. 
+• 
+Regulation lacrosse balls. Use a rubber practice ball instead. 
+• 
+Regulation cricket balls. Use a rubber practice ball instead. 
+• 
+5 pounds and greater medicine balls for throwing at the system.  (Okay to use a heavier 
+medicine ball to touch the targets while holding the medicine ball with hands).  
+• 
+Soft wallballs up to balls greater than 10lbs are usable. 
+• 
+Any hard solid plastic implement such as a stick or bat for hitting targets.
+
+===== PAGE 15 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+14 
+Chapter 4 
+Group Training Drills 
+Group Training Format 
+Group classes can run between 20 and 50 minutes, depending on the number of exercise repetitions 
+and stations included. Each station can accommodate up to 8 participants, regardless of age or skill 
+level. Programs should be designed with modifications and progressions to ensure all participants 
+can engage safely and effectively. 
+Suggested Group Fitness Class Formats 
+Warm-up: The Warm-Up should run for 5 minutes within a 50-minute program. The main objective 
+of the warm-up is to loosen the muscles and prepare the participants for some fast-paced 
+movement. A proper warm-up will prepare individuals for instruction, reduce the chance of injury, 
+and set a fun mood for SMARTfit Training. 
+Skill: The Skill Development section should run for about 10 minutes within a 50-minute program. 
+The main focus here is the connection between the brain and body. Categories include speed, 
+agility, balance, hand-eye coordination, and reaction time. Skill development transfers into the 
+successful completion of life’s everyday activities. 
+Cardio: The Cardiorespiratory Endurance section should run for about 15 minutes within a 50-
+minute program. The main focus is cardio endurance, stamina, and calorie expenditure. Cardio 
+activity enhances circulation to the brain and muscles, supporting both cognitive performance and 
+physical health. 
+Strength: The strength section should run for about 5 minutes within a 50-minute program. The 
+main focus is on strengthening the abdominal muscles, back muscles, and pelvic floor. A strong body 
+improves balance, posture, and injury resistance. This can be accomplished through exercises like 
+sit-ups, overhead presses, planks, and bodyweight squats.  
+Balance: The balance section should run for about 5 minutes within a 50-minute program. The main 
+focus is to reduce fall risk, enhance proprioception and maintain functional independence. They 
+includes static exercises like tandem, single leg, or narrow stances. Incorporate unstable surfaces 
+with these exercises to demand more on the participants. 
+Cool-Down: The cool-down should last 5 to 10 minutes within a 50-minute program. This allows the 
+participants to lower their heart rate, encourage recovery and engage mental focus that leaves 
+participants calm after their session.  For this section use higher level brain games such as Pairing, 
+Equations, or Spelling which involve more thinking and less movement.
+
+===== PAGE 16 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+15 
+Modes of Play 
+There are four primary ways to run drills on the SMARTfit system. 
+For the first three modes listed below, refer to the Predesigned Activities found in the SMARTfit App 
+under the Play tab for examples: 
+Individual: Each player completes the entire game on their own from start to finish. Once the first 
+player finishes, the next player steps up and repeats the same game. This continues until all players 
+have taken their turn. 
+Partners: Players pair up within their team. The first pair completes the game together until the 
+timer runs out. Once time is up, the next pair starts a new game and continues until their time ends. 
+Repeat until all pairs have participated. 
+Team: Team members take turns during a continuous game. Each player performs a brief segment, 
+such as striking 1 or more targets, then returning to the start line to tag the next player. Players may 
+strike targets with their hands or use balls for throwing drills. This format allows multiple turns per 
+player within a single timed session. 
+* See Sections 3 and 4 of this manual for detailed examples on how to run group training classes. 
+Round Robin: This mode is similar to the Team format, but with quicker rotations. Each player 
+strikes only one target during their turn, then immediately peels off to the end of the line. The next 
+player continues by responding to the previous strike, and so on. This style works especially well for 
+ball play and encourages fast-paced engagement.
+
+===== PAGE 17 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+16 
+Section 2  
+Getting to Know The SMARTfit User Interface App 
+Chapter 1  
+SMARTfit User Interface App Components  
+All SMARTfit Systems are now activated and managed via the SMARTfit User Interface App available on the iOS 
+or Android platforms and can provide programming updates via internet. This is a key feature that ensures that 
+all customers will always be able to access the latest software and programming updates from anywhere in the 
+world. 
+For learning and demonstration purposes, all SMARTfit Sales Representatives should download the SMARTfit 
+app from Apple or Android app stores.  Search for “SMARTfit, Seize the Now”.  Sign in with 
+Username: demo@smartfitinc.com and Password: SMARTfit20N! Below are screenshots of the five main tabs. 
+The “Test” tab is available only with the RA license but is visible for all to see when you the app is not connected 
+to a SMARTfit controller: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SMARTfit Programming Designed For Every Age and Ability 
+• 
+High Performance Cognitive Training for Athletes. 
+• 
+Cognitive Motor Dual Task Strength and Conditioning Training for Tactical Performance. 
+• 
+Active Aging programs in community centers, fitness centers and retirement communities. 
+• 
+Youth Programs: after school, sports, physical education.
+
+===== PAGE 18 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+17 
+• 
+Early Childhood Development Programs. 
+Predesigned Programming 
+SMARTfit offers predesigned programming modules and data tracking for personal, small group and large group 
+training. 
+ 
+Home 
+Play 
+Test 
+Data 
+Build 
+ 
+ 
+ 
+ 
+ 
+The following updates are regularly delivered: 
+• 
+New Games 
+• 
+New Activities 
+• 
+New Programs for every demographic group 
+• 
+New Quick Start programs to help customers get started 
+SMARTfit’s internet-delivered programming updates take place via the iOS/Android SMARTfit app user interface. 
+All programs, client data, and progress tracking is stored on the HIPAA compliant cloud, thus ensuring data is 
+secure and that the systems will never be outdated. 
+Games: Our games address all areas of the brain and form the foundation of the SMARTfit system. When paired 
+with a physical task they become activities, programs and tests. There are 17 game categories, each focusing on 
+integrating cognitive, neuro and physical abilities. Cognitive focus is placed on improving processing speed, 
+attention, executive function, memory, and language. Physical training focuses on strength, balance, gait, and 
+activities of daily living. 
+SMARTfit game categories provide scalable training designed to address multiple brain domains while igniting 
+improvement in the brain and body connection.
+
+===== PAGE 19 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+18 
+User settings within each game allow trainers to precisely control how their clients are challenged. Each folder 
+includes multiple variations of games, and each game can be tailored to match and challenge the physical and 
+cognitive capability of any participant. Challenges can be gradually increased by altering the length of the games 
+as well as by making incremental changes to the settings.  Variations include: 
+o the duration of the game will last 
+o options for how many and which targets will be used 
+o the sequence the targets will light up in 
+o the level of sensitivity the targets have when hit by the user 
+o the images displayed on each target 
+o the physical activity while interacting with the targets.  
+In this way, skill building takes place in a controlled and measured way to ensure the best balance of challenge 
+and safety and also match the level of participants’ ability.  Note that the systems communications can execute 
+games at a speed faster than the fastest athlete while tracking performance data in real time.
+
+===== PAGE 20 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+19 
+Chapter 2 
+SMARTfit Gamification Explained  
+SMARTfit’s power lies in its gamified delivery of programming that will continuously demand faster and more 
+accurate results from its participants without incurring overwhelm or boredom. This form of gamified practice, 
+delivering score under time pressure, triggers engagement, incentive and high repetitions to create the practice 
+required to develop and strengthen neural pathways. It is this intensified motivation to improve game results 
+that drives the demand on the brain and motor system to develop new and more efficient neural pathways.  
+The more individuals practice at a higher level than their comfort zone, the faster the entire neuro system will 
+respond to meet the increasing demand. Continued practice at ever-increasing levels of demand is how 
+accelerated results are achieved. Of significance, the SMARTfit problem-solving games serve to achieve the dual 
+task engagement, which is the key to accelerating cognitive-motor improvement. This is how champions are 
+developed in record time. 
+Data provides evidence of a person’s present level of function and later proof of progress. SMARTfit’s tests are 
+quick and easy to administer, with progress reporting designed to reveal the effectiveness of subsequent 
+training as it applies to sports performance, activities of daily living, decreased fall risk, and other performance 
+indicators while also enhancing self-confidence and engagement.  
+Game categories offered within the SMARTfit user interface app provide scalable training designed to address 
+multiple brain domains while igniting improved performance of the brain and body connection. 
+User settings within each game allow trainers to precisely control how their clients are challenged and 
+trained. Each folder includes multiple variations of games, and each game can be tailored to match and 
+challenge the physical and cognitive capability of participants. Challenges can be gradually increased by altering 
+the length of the games as well making incremental changes to the settings.  Variations include: 
+• 
+options on how many and which targets will be used 
+• 
+the sequence  
+• 
+the level of sensitivity 
+• 
+the images that will be displayed 
+• 
+the physical activity that will be done while interacting with the targets.  
+In this way, skill building takes place in a controlled and measured way, ensuring the best balance of challenge 
+and safety to match the level of ability of participants.   
+Game Categories: 
+1. Rally wall: Skill – Ball Play – Ball Strike Within the Lit Region 3 
+2. Knock the Lights Out: Option of Race or Timed – Brain Domain Focus – Processing Speed            
+3. Track: Strike Sequential Lit Target – Brain Domain Focus – Processing Speed/Executive Function  
+4. Track Left, Right, Both: Sequential Lit Target/Decision Making – Brain Domain Focus – Processing 
+Speed/Executive Function 
+5. Chase: Sequential Lit Target/Preset Time Interval – Brain Domain Focus – Processing 
+Speed/Executive Function
+
+===== PAGE 21 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+20 
+6. Go No Go: Sequential Lit Target/Preset Time Interval (Interval/Avoid) – Brain Domain Focus – 
+Processing Speed/Executive Function  
+7. Seek: Multiple Choice – Brain Domain Focus – Attention/Executive Function  
+8. Metronome: – Synchronize Taps with Tone – Brain Domain Focus – Memory/Attention 
+9. Pattern Recognition: Tap Matching Targets – Brain Domain Focus – Memory/Attention 
+10. Stroop: Match Congruent/Incongruent Targets – Brain Domain Focus – Executive 
+Function/Attention 
+11. Flanker: Tap Targets Prompted by Middle Arrow on Center Target – Brain Domain Focus – Executive 
+Function/Attention 
+12. Corsi Block: Tap Targets in Sequence with Increasing Complexity – Brain Domain Focus – 
+Memory/Executive Function  
+13. Trail Making: Multiple Choice/Completion Time – Brain Domain Focus – Attention/Executive 
+Function  
+14. Digit Span: Tap Targets in Sequence with Increasing Complexity – Brain Domain Focus – 
+Memory/Executive Function 
+15. Serial 7’s: Multiple Choice Descending by 7’s (Completion Time) – Brain Domain Focus – 
+Memory/Executive Function  
+16. Memory Pairs: Match Identical Targets Until All are Found – Brain Domain Focus – 
+Memory/Executive Function  
+17. Pairing: Match Identical Targets/Refresh Each Time – Brain Domain Focus – Memory/Executive 
+Function 
+18. Memory Sequence: Tap Each Sequential Target – Race (first target sets start) – Brain Domain Focus 
+– Memory/Executive Function  
+19. Equations: Multiple Choice with Problem Solving – Brain Domain Focus – Executive 
+Function/Attention 
+20. Spelling: Tap Correct Order of Letters – Brain Domain Focus – Executive Function/Attention 
+21. Time Clock and Timer – Provides a valuable tool when setting and monitoring non-SMARTfit group 
+activities. 
+Activities:  
+An activity is a game tied to a specific physical activity. Numerous client-specific folders are provided, each 
+offering an extensive variety of predesigned dual task (cognitive and motor) activities. With over 3,000 in total, 
+each activity is supported with a how-to video designed to demonstrate progressive increments to address each 
+client’s ability. 
+Programs:  
+A program consists of specifically chosen activities deployed in a sequence. Programs include desired repetitions 
+and length of time. Ready-to-go turnkey dual task programs allow for quick implementation of scalable 
+workouts that also deliver progress reporting. These programs are built from pre-designed activities folders. 
+Build Your Own:  
+The build tab offers some outstanding features including the ability to: 
+• 
+create customized reports from data collected from any pre-designed or self-created program
+
+===== PAGE 22 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+21 
+• 
+design specific target sequences with any game 
+• 
+create specific levels within a game 
+• 
+insert a new list into the spelling game. 
+Data:  
+SMARTfit captures data from its programs and tests which can be delivered on screen as an Excel report, or 
+electronically via API. 
+Multi-Site Data Management: Performance tracking and Reporting by Facility, 
+Trainer and Participant 
+Standardized programming, testing and data tracking for multi-site organizations provides HQ with a detailed 
+dashboard showing the progress of each client or program at each location. This offers a powerful marketing 
+tool to increase the organization’s competitive advantage. SMARTfit now provides evidence-based technology 
+that automatically tracks data from rehab or wellness programs across the entire organization – providing the 
+ability to: 
+• 
+demonstrate efficacy at HQ, 
+• 
+increase staff accountability, 
+• 
+motivate participants by sharing assessment and training results with them, and 
+• 
+market the overall results to attract more participants and differentiate your business!
+
+===== PAGE 23 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+22 
+SMARTfit does all of the above and more, tracking key brain and body performance data by participant, 
+trainer/therapist, and location. Clients, residents, and members enjoy the experience. The gamified, dual-task 
+programming not only becomes faster with more effective results but also is engaging and challenging for all 
+ages and ability levels. YouTube: https://www.youtube.com/watch?v=cn0ltf-3ykQ&t=3s/
+
+===== PAGE 24 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+23 
+Chapter 3 
+SMALL Group and Large Group Training Programs 
+Quick Groups for Group Training Feature Makes it Easy to get Started on All 
+Systems Including the SMARTfit ProTrainer and MultiTrainer 
+A powerful time-saver for trainers, teachers, and coaches, Quick Groups allows them to set up group training 
+sessions without the need to create individual profiles for each participant. This feature makes it easier than 
+ever to organize sessions efficiently and focus on delivering an engaging training experience. 
+Additional features are available in Group Training that offer various options for setting up group training. These 
+include:
+
+===== PAGE 25 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+24 
+3. Group Training for the ProTrainer and MultiTrainer for Large Groups 
+The SMARTfit ProTrainer and MultiTrainer now support group training in multi-station mode, making it easier to 
+engage large groups in a structured format. The video shows how easy it is to get started with predesigned 
+group training with data tracking of each individual. Watch the video here: https://youtu.be/8wTI2GtugFc/ 
+Note: remember to get a set of SMARTfit wrist bands to assist players in tracking their place in play. Load your 
+group into a multi-station group training format: 
+Your active group will be automatically loaded 
+across your stations evenly.  
+You can drag and drop users into different 
+stations if you would like to make any 
+changes.  
+You can also swipe left on a member to 
+remove them from their station if they are not 
+present for this group training session.  
+These functions provide a flexible setup. 
+ 
+Choose Self-Select Mode or Fixed Order Mode 
+to determine the sequence of participation. 
+Self-select will allow you to choose which 
+member with an available turn is up next at 
+each station.  
+Fixed order will automatically select the next 
+member to be up at each station. 
+ 
+Alternate users by each attempt, activity, or 
+program for dynamic training sessions.
+
+===== PAGE 26 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+25 
+Stations are color-coded to match the new 
+SMARTfit wristbands (Blue, Red, Yellow, and 
+Green), streamlining user identification and 
+organization.  
+ 
+AirPlay support allows you to cast the Group 
+Training Tracker to a second screen when 
+using iOS for real-time progress tracking. 
+ 
+Access Options: Cloud or Local  
+SMARTfit offers extensive resources via its Cloud service, including the ability to have everyone’s progress stored 
+on the Cloud for any device. This delivers programming and access to regular software updates. Because not 
+everyone can enjoy the benefits of the Cloud, SMARTfit also offers Local Mode in which the Android/iOS tablet 
+used to operate the system is set to local mode and data is stored on the tablet itself. When an update is 
+needed, the tablet is taken to a location where the update can be downloaded and can be implemented upon 
+return to the system.
+
+===== PAGE 27 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+26 
+Section 3  
+Connecting to The SMARTfit User Interface App 
+Chapter 1 
+System Settings on Your SMARTfit System 
+Setting Your SMARTfit™ MultiTrainer/ProTrainer to Perform as 
+Desired 
+https://smartfitinc.com/fitness/smartfit-app/ 
+Power up the system:  
+ 
+1. Power up the system by switching the power switch that is located 
+on the right side of the controller. Check to make sure the station 
+powers up correctly and all sensors are operational. Verify all 
+speakers are producing sounds. 
+ 
+Connecting to the SMARTfit User Interface App 
+1. First download or update the SMARTfit App from either 
+the Apple App Store for iOS or Google Play Store for 
+Android. 
+2. Type in “SMARTfit – Seize the Now” in the search bar. 
+3. Select either the download or update option.
+
+===== PAGE 28 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+27 
+4. Open the SMARTfit App. 
+5. Select the button to take you to the SMARTfit portal.  
+6. Select the “Sign Up Now” option shown in the image at 
+right. 
+ 
+ 
+ 
+7. Type in your email address first, then select the send 
+verification code button. 
+8. You will need to open the email sent to the provided 
+address and enter the verification code in the provided 
+field in the app. 
+9. Select the Verify Code button to be approved. 
+10. Enter a new password and then confirm that password.  
+11. Continue to fill in your first and last name. 
+12. Fill out the gender role and date of birth then select the 
+“Create” button. 
+ 
+ 
+13. It is important to select the correct role. A Manager Role 
+is for a Trainer, Coach, Doctor, Therapist, or Owner and 
+has the ability to oversee a set of users.  
+14. A User role is for clients, athletes, members, or patients 
+and can still perform every function of the app except 
+managing another user.
+
+===== PAGE 29 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+28 
+15. Next, select between accounts: Medical, Commercial 
+Fitness, or Home Fitness. Each account offers access to 
+the appropriate medical, fitness, or home applications.   
+16. Select Fitness if your interest is fitness or sports 
+performance applications. 
+17. Select Home if the SMARTfit system is located at your 
+home. 
+ 
+ 
+18. Now, let’s connect to your SMARTfit Controller. Select 
+the “Manage Connections” menu item. 
+ 
+ 
+19. Select the 8-digit ID number displayed on your CPU. 
+ 
+ 
+ 
+20. Wait 5 - 10 seconds, while Bluetooth connects the CPU 
+and SMARTfit App. 
+21. NOTE: You will not be able to connect to the SMARTfit 
+system if you are connected to any other Bluetooth 
+device. Please be sure to disconnect from Apple watches, 
+wireless speakers, headphones, etc. 
+22. You’re now ready to choose a game!
+
+===== PAGE 30 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+29 
+Section 3  
+Group Training Activities and Programs in 
+Round Robin Format 
+Chapter 1: Youth Programs 
+Programs For School Aged Youth 
+ELEMENTARY LEVEL 
+WARM-UP – The Warm Up (Level 1):  
+Game: Track the Color - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows 
+Equipment: Hands – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player runs up to their station and hits six targets with their hands as quickly as 
+possible, hitting one target at a time. 
+• 
+After hitting six targets, the player runs back to the end of the line while the next player 
+moves toward their station. 
+• 
+Each player continues this same pattern until the time expires. 
+CARDIO – Sprint Challenge (Level 1):  
+Game: Track the Number Step Counting - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows  
+Equipment: Hands – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+Each player sprints to their station, hitting six targets while performing a stationary march 
+during the strikes. 
+• 
+After completing their hits, players sprint back to the end of the line and the next player 
+steps forward. 
+• 
+This pattern continues until the time expires. 
+STRENGTH – Plank Challenge (Level 1): 
+Game: Track the Target - Seconds: 180 - Sensitivity: High - Selection: Lower 2 Rows 
+Equipment: Hands – Start Line: 10-15’ Away 
+• 
+All players line up in equal, diverse groups in front of each station. 
+• 
+Each player takes turns running to their stations. 
+• 
+Once they reach their station, they drop down into a push up position on the floor.
+
+===== PAGE 31 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+30 
+• 
+Only the bottom two rows of targets will light up, one target at a time. Each player must 
+strike six targets, while alternating hands with each strike 
+• 
+After six hits, each player stands up and returns to the end of the line. 
+• 
+Players continues this same pattern until the time expires. 
+BALANCE – Balance Challenge (Level 1): 
+Game: Track the Letter - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows -  
+Equipment: Beanbags – Start Line: 10-15’ Away 
+• 
+All players line up in equal, diverse groups in front of each station.  
+• 
+The first player walks or runs to the station while balancing a bean bag on top of their head. 
+• 
+If the bean bag falls off, they must stop, reposition it, and then continue. 
+• 
+At their station, the player strikes six targets while keeping the bean bag balanced. 
+• 
+After completing their hits, the player returns to the end of the line, still balancing the bean 
+bag. 
+• 
+Continue this pattern until time expires. 
+COOL-DOWN – Cooldown Toss (Level 1): 
+Game: Seek the Number Reverse Step Counting - Seconds: 180 - Sensitivity: High - Selection: 
+Middle 3 rows –  
+Equipment: Beanbags – Start Line: 5’ Away 
+• 
+All players line up in equal, diverse groups in front of each station.  
+• 
+Each player throws overhand or underhand toward the correctly numbered target. 
+• 
+After the Go target is hit, players strike numbers in sequential order starting from 1. 
+• 
+After one throw, the player must retrieve their bean bag and hand it to the next player in 
+line. 
+• 
+Continue the pattern until time expires.
+
+===== PAGE 32 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+31 
+Chapter 1  
+Programs For School Aged Youth 
+MIDDLE SCHOOL LEVEL 
+WARM-UP – The Warmup (Level 2):  
+Game: Track Left Right Both Random - Seconds: 210 - Sensitivity: High - Selection: Lower 4 rows 
+Equipment: Hands – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player runs up to their station and hits six targets with their hands as quickly as 
+possible, hitting one target at a time. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands. 
+• 
+After hitting six targets, the player runs back to the end of the line while the next player 
+moves toward their station. 
+• 
+Each player continues this same pattern until the time expires. 
+CARDIO – Sprint Challenge (Level 2):  
+Game: Seek the Number Step counting - Seconds: 210 - Sensitivity: High - Selection: Middle 3 Rows  
+Counting by 1’s 
+Equipment: Hands – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+Con 
+• 
+Each player sprints to their station, hitting six correctly numbered targets while performing 
+high knees during each strike. 
+• 
+After the Go target is hit, players strike each target in sequential order starting from 1. 
+• 
+After completing 6 hits, players sprint back to the end of the line and the next player steps 
+forward. 
+• 
+This pattern continues until the time expires. 
+STRENGTH – Plank Challenge (Level 2): 
+Game: Seek the Color - Seconds: 210 - Sensitivity: High - Selection: Lower 2 rows 
+Equipment: 2lb medicine ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+Each player bear crawls to their station and maintains a plank position while striking the 
+correct color target 6 times. 
+• 
+Players must only strike the targets matching the GO color displayed at their station.
+
+===== PAGE 33 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+32 
+• 
+For example, if the GO target is yellow on station 1, then all players on station 1 must only 
+strike the yellow target. 
+• 
+After hitting 6 correct targets, players return to the end of the line and the next player steps 
+forward. 
+• 
+The pattern continues until time expires. 
+BALANCE – Balance Challenge (Leve 2): 
+Game: Seek the Letter - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows  
+Equipment: String or line of tape and bean bag – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+Each player walks heel to toe along a line of tape or secured line of string while moving 
+toward their station. They must also perform this task with a bean bag on their head.  
+• 
+If the bean bag falls off, they must stop, reposition it, and then continue. 
+• 
+Once they reach their station, they must hit six targets displaying the correct letter. 
+• 
+After the Go target is struck, players must strike each sequential letter of the alphabet 
+starting at A. 
+• 
+After completing their turn, players must return to the end of the line while maintaining 
+balance of the bean bag on their head. 
+• 
+Continue this pattern until time expires. 
+COOL-DOWN – Cooldown (Level 2): 
+Game: Seek the Number Step Counting - Seconds: 210 - Sensitivity: Medium - Selection: All  
+Interval: 2 
+Equipment: Playground Ball – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station.  
+• 
+Each player throws overhand or underhand toward the correct number. 
+• 
+After the Go target is hit, players strike numbers in sequential order starting from 1. 
+• 
+After one throw, the player must hand it to the next player in line. 
+• 
+Continue the pattern until time expires.
+
+===== PAGE 34 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+33 
+Activities and Programs For Middle and High School 
+Youth 
+WARM-UP – Warm Up (Level 3):  
+Game: Track Left Right Both Random - Seconds: 240 - Sensitivity: High - Selection: All  
+Equipment: Hands – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player runs up to their station and hits six targets with their hands as quickly as 
+possible, hitting one target at a time. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands. 
+• 
+After hitting six targets, the player runs back to the end of the line while the next player 
+moves toward their station. 
+• 
+Each player continues this same pattern until the time expires. 
+CARDIO – Suicides (Level 3):  
+Game: Seek the Number Step counting - Seconds: 240 - Sensitivity: High - Selection: All  
+Interval: 3 
+Equipment: Hands – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+Place cone markers at 5’ distances between the start line and their SMARTfit station. 
+• 
+Each player sprints to the first cone marker and then back to the start cone. They repeat this 
+for each cone marker until they reach their station. 
+• 
+Players will strike six correctly numbered targets while performing a burpee after each 
+successful strike 
+• 
+After the Go target is hit, players strike numbers in sequential order starting from 1 and 
+counting by 3s. 
+• 
+After completing 6 hits and 6 burpees, players sprint back to the end of the line and the next 
+player steps forward. 
+• 
+This pattern continues until the time expires. 
+STRENGTH – Plank Challenge (Level 3): 
+Game: Seek the Smiley - Seconds: 240 - Sensitivity: High - Selection: Lower 2 Rows 
+Equipment: Hands – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+Each player partners up with another player on their team. Together they perform a wheel 
+barrow movement to their station. The player that was on their hands maintains a push up 
+position while striking the smiley face 6 times. 
+• 
+After hitting 6 correct targets, players return to the end of the line and the next player steps 
+forward.
+
+===== PAGE 35 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+34 
+• 
+The pattern continues until time expires. 
+BALANCE – Balance Challenge (Level 3): 
+Game: Seek the Letter - Seconds: 240 - Sensitivity: High - Selection: All  
+Equipment: Spoon and Egg – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+One at a time, each player walks heel-to-toe along a taped line or secured string while 
+balancing an egg on a spoon in either hand. 
+• 
+If the egg falls, the player must stop, place it back on the spoon, and then continue. 
+• 
+Upon reaching the station, the player strikes six letter targets while keeping the egg 
+balanced on the spoon. 
+• 
+After the Go target is struck, players must strike each sequential letter of the alphabet 
+starting at A. 
+• 
+After completing the task, the player carefully returns to the end of the line, still maintaining 
+balance. 
+• 
+Continue this pattern until time expires. 
+COOL-DOWN - Cooldown (Level 3): 
+Game: Seek the Number Reverse Counting - Seconds: 240 - Sensitivity: High - Selection: All  
+By 3’s 
+Equipment: Tennis Ball – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station.  
+• 
+Each player throws overhand or underhand toward the correct number. 
+• 
+After the Go target is hit, players strike numbers in sequential order starting from 1 and 
+counting by 3 after each successful strike. 
+• 
+After one throw, the player must hand it to the next player in line. 
+• 
+Continue the pattern until time expires.
+
+===== PAGE 36 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+35 
+Chapter 2: Older Adult Programs 
+Low Impact Activities and Programs For Older Adults 
+WARM-UP – Warm Up (Level 1):  
+Game: Track the Color - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows 
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player walks or runs up to their station and hits six targets with their hands or 
+drumsticks as quickly as possible, hitting one target at a time. 
+• 
+After hitting six targets, the player walks or jogs back to the end of the line while the next 
+player moves toward their station. 
+• 
+Each player continues this same pattern until the time expires. 
+CARDIO – March In Place (Level 1):  
+Game: Track the Color - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows -  
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+Each player walks or jogs to their station, hitting six targets while performing a stationary 
+march during the strikes. 
+• 
+After completing their hits, players return to the end of the line and the next player steps 
+forward. 
+• 
+This pattern continues until the time expires. 
+STRENGTH – Med Ball Taps (Level 1): 
+Game: Track Targets - Seconds: 180 - Sensitivity: Medium - Selection: Middle 3 rows 
+Equipment: 2 - 5lb medicine ball – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station. 
+• 
+Each player takes turns walking or jogging to their stations to hit six smiley faces while 
+holding a 2lb medicine ball. 
+• 
+After six correct hits, each player returns to the end of the line. 
+• 
+Each player continues this same pattern until the time expires. 
+BALANCE – Feet Together (Level 1): 
+Game: Track Left Right Both - Random - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows -  
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station.
+
+===== PAGE 37 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+36 
+• 
+The first player walks or runs to the station and hits six targets while maintaining a narrow 
+balance stance. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands. 
+• 
+After completing their turn, players return to the end of the line. 
+• 
+Continue this pattern until time expires. 
+COOL-DOWN (Cooldown Level 1): 
+Game: Seek Letter - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows –  
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station.  
+• 
+Each player walks or runs up to the station to find and hit four letters. 
+• 
+After the Go target is hit, players strike letters in sequential order starting from A. 
+• 
+After completing their turn, each player returns to the end of the line. 
+• 
+Continue the pattern until time expires.
+
+===== PAGE 38 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+37 
+Medium Impact Activities and Programs For Older 
+Adults 
+WARM-UP – Warm Up (Level 2):  
+Game: Track Left Right Both - Fixed - Seconds: 210 - Sensitivity: High - Selection: Lower 4 rows -  
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player walks or runs up to their station and hits six targets with their hands or 
+drumsticks as quickly as possible, hitting one target at a time. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands. 
+• 
+After hitting six targets, the player walks or jogs back to the end of the line while the next 
+player moves toward their station. 
+• 
+Each player continues this same pattern until the time expires. 
+CARDIO – March in Place (Level 2):  
+Game: Seek the Color - Seconds: 210 - Sensitivity: High - Selection: Middle 3 rows -  
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station. 
+• 
+Players jog to their stations and strike the targets matching the GO color displayed at their 
+station. 
+• 
+For example, if the GO target is yellow on station 1, then all players on station 1 must only 
+strike the yellow target. 
+• 
+After completing 5 total hits while marching in place, players return to the end of the line 
+and the next player steps forward. 
+• 
+Each player continues this same pattern until the time expires. 
+STRENGTH – Med Ball Taps (Level 2): 
+Game: Go No Go - Seconds: 210 - Sensitivity: Medium - Selection: Middle 3 rows 
+Interval: 2 seconds - Chance of Avoid target: 40% 
+Equipment: 5 - 8lb Medicine ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+Each player approaches their station and hits four green "O" targets using a 2 lb medicine 
+ball.  
+• 
+Simultaneously, when a red "X" appears, the player must perform a squat and avoid striking 
+the red X. 
+• 
+After hitting 4 targets displaying a green O, the players return to the end of the line and the 
+next player steps forward. 
+• 
+The pattern continues until time expires.
+
+===== PAGE 39 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+38 
+BALANCE – Feet Together (Level 2): 
+Game: Track Left Right Both Random - Seconds: 210 - Sensitivity: High - Selection: Upper 4 Rows 
+Equipment: Drumsticks and air rex pad – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station. 
+• 
+Place an air rex pad horizontally in front of each station. 
+• 
+The first player walks or runs to the station and hits six targets while maintaining a narrow 
+balance stance on an air rex pad. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands. 
+• 
+After completing their turn, players return to the end of the line. 
+• 
+Continue this pattern until time expires. 
+COOL-DOWN – Cooldown (Level 2): 
+Game: Seek Letter - Seconds: 210 - Sensitivity: High - Selection: Upper 4 rows  
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station.  
+• 
+Each player walks or runs up to the station to find and hit three letters. 
+• 
+After the Go target is hit, players strike letters in sequential order starting from A. 
+• 
+After completing their turn, each player returns to the end of the line. 
+• 
+Continue the pattern until time expires.
+
+===== PAGE 40 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+39 
+Advanced Activities and Programs For Older Adults 
+WARM-UP – Warm Up (Level 3):  
+Game: Go No Go - Seconds: 240 - Sensitivity: Medium - Selection: All  
+Interval: 3 seconds Chance of Avoid Target: 40% with 5 green O hits 
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player walks or runs up to their station and hits 5 targets displaying a green O with 
+their hands or drumsticks as quickly as possible, hitting one target at a time. 
+• 
+If a red X appears, then the player must perform a squat and avoid hitting the red X. 
+• 
+After hitting 5 targets, the player walks or jogs back to the end of the line while the next 
+player moves toward their station. 
+• 
+Each player continues this same pattern until the time expires. 
+CARDIO – Run In Place (Level 3):  
+Game: Seek the Number Step Counting - Seconds: 240 - Sensitivity: Medium - Selection: Middle 3 
+Rows  
+Equipment: 5-10lb Medicine Ball – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station  
+• 
+Each player runs up to their station and hits four correct numbers as quickly as they can. 
+• 
+Simultaneously, each player performs a run in place when it’s their turn striking the targets. 
+• 
+After the Go target is hit, players strike numbers in sequential order starting from 1. 
+• 
+After four correct hits, the players rotate to the end of the line. 
+• 
+Side note, each player should help each other stay on track with the next number. 
+• 
+Each player continues this same pattern until the time expires. 
+STRENGTH – Med Ball Taps (Level 3): 
+Game: Seek Smiley - Seconds: 240 - Sensitivity: Medium - Selection: Upper 4 Rows 
+Equipment: 5 - 10lb Medicine ball – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station. 
+• 
+Player one from each team holds onto a 5-10lb medicine ball. 
+• 
+Each player takes turns jogging or running to their stations to hit four smiley faces while 
+holding a medicine ball. 
+• 
+A squat must be performed after each successful hit of a smiley face. 
+• 
+After four correct hits, each player returns to the end of the line. 
+• 
+Each player continues this same pattern until the time expires. 
+BALANCE – Feet Together (Level 3): 
+Game: Track Left Right Both Random - Seconds: 240 - Sensitivity: Low - Selection: All 
+Equipment: 5-10lb Hand Weights and Air Rex Pad – Start Line: 5-10’ Away
+
+===== PAGE 41 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+40 
+• 
+All players line up in equal, diverse groups in front of each station. 
+• 
+Place an air rex pad horizontally in front of each station and give the first player on each 
+team handled medicine balls or dumbbells. 
+• 
+The first player walks or runs to the station and hits six targets while maintaining a narrow 
+balance stance on an air rex pad. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands. 
+• 
+After completing their turn, players return to the end of the line. 
+• 
+Continue this pattern until time expires. 
+COOL-DOWN - Cool Down – (Level 3): 
+Game: Seek Letter - Seconds: 240 - Sensitivity: High - Selection: All  
+Equipment: Hands or Drumsticks – Start Line: 5-10’ Away 
+• 
+All players line up in equal, diverse groups in front of each station.  
+• 
+Each player walks or runs up to the station to find and hit three letters. 
+• 
+After the Go target is hit, players strike letters in sequential order starting from A. 
+• 
+After completing their turn, each player returns to the end of the line. 
+• 
+Continue the pattern until time expires.
+
+===== PAGE 42 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+41 
+Section 4 
+Sports Performance Team Training in 
+Round Robin Format 
+Sports Performance Training  
+SMARTfit Stations offer sports-specific, functional training for athletes (novice, amateur, and 
+professional). In addition to helping to refine sports-specific skills such as throwing and catching, 
+SMARTfit also assists in improving speed, accuracy, strength, balance, and coordination. SMARTfit 
+also speeds up the brain providing more time for strategy and technique. 
+Chapter 1 BASKETBALL  
+BASKETBALL – LOW IMPACT 
+SKILL 1 – Stationary Dribble (Level 1):  
+Game: Track the Color - Seconds: 180 - Sensitivity: High - Selection: Middle 3 Rows  
+Equipment: Basketball ball – Start Line: 10 – 15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a basketball toward their assigned station. 
+• 
+While maintaining control of the dribble with one hand, the player strikes six targets using 
+their free hand. 
+• 
+After completing six successful strikes, the player passes the basketball to the next player in 
+line and returns to the end of the line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this sequence until the allotted time expires. 
+SKILL 2 – Speed Dribble (Level 1):  
+Game: Track Left Right Both Random - Seconds: 180 - Sensitivity: High - Selection: Lower 4 rows -  
+Equipment: Basketball – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a basketball as fast as possible toward their assigned station. 
+• 
+While maintaining control of the dribble with one hand, the player strikes one target using 
+their free hand. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands.
+
+===== PAGE 43 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+42 
+• 
+After one successful strike, the player dribbles as fast as possible back and hands the 
+basketball to the next player in line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 3 – Bounce Pass (Level 1): 
+Game: Rallywall - Seconds: 180 - Sensitivity: Low - Selection: Middle 3 Rows 
+Equipment: Basketball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs three bounce passes aimed 
+at the lit region of targets. 
+• 
+After completing five passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of three bounce passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 4 – Double Dribble (Level 1): 
+Game: Rallywall - Seconds: 180 - Sensitivity: Low - Selection: Middle 3 rows -  
+Equipment: 2 Basketballs – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and dribbles two basketballs at the same 
+time. Each player performs four single hand passes with one of the basketballs aimed at the 
+lit region of targets. There should be two passes with each hand. 
+• 
+After completing four passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of four single passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 5 – Basketball with Tennis Ball (Level 1): 
+Game: Rallywall - Seconds: 180 - Sensitivity: Medium - Selection: Upper 3 Rows –  
+Equipment: Basketball and Tennis Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and dribbling a basketball in one hand and 
+holding a tennis ball in the other.  
+• 
+Each player performs four single hand passes the tennis ball aimed at the lit region of 
+targets. There should be two passes with each hand. 
+• 
+After completing four passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of four single passes. 
+• 
+Players continue this rotation until the allotted time expires.
+
+===== PAGE 44 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+43 
+BASKETBALL – MEDIUM IMPACT 
+SKILL 1 – Stationary Dribble (Level 2):  
+Game: Go No Go - Seconds: 210 - Sensitivity: High - Selection: Lower 4 Rows - Interval: 1.4 seconds 
+Equipment: Basketball ball – Start Line: 10 – 15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a basketball toward their assigned station. 
+• 
+While maintaining control of the dribble with one hand, the player strikes five green “O” 
+targets using their free hand. 
+• 
+If a red X appears, the player should not strike that target. Instead they perform a skill move, 
+such as a dribble through the legs. 
+• 
+After completing five successful strikes to a green O, the player passes the basketball to the 
+next player in line and returns to the end of the line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this sequence until the allotted time expires. 
+SKILL 2 – Speed Dribble (Level 2):  
+Game: Seek the Letter - Seconds: 210 - Sensitivity: High - Selection: Lower 4 rows -  
+Equipment: Basketball – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a basketball as fast as possible toward their assigned station. 
+• 
+While maintaining control of the dribble with one hand, the player strikes one correct letter 
+using their free hand.  
+• 
+After the Go target is hit, players strike letters in sequential order starting from A. 
+• 
+After one successful strike, the player dribbles as fast as possible back and hands the 
+basketball to the next player in line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 3 – Bounce Pass (Level 2): 
+Game: Track the Number Step Counting - Seconds: 210 - Sensitivity: Low - Selection: Middle 3 Rows 
+Equipment: Basketball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five bounce passes aimed at 
+the single active target. 
+• 
+After completing three passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of three bounce passes. 
+• 
+Players continue this rotation until the allotted time expires.
+
+===== PAGE 45 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+44 
+SKILL 4 – Double Dribble (Level 2): 
+Game: Track the Target - Seconds: 210 - Sensitivity: Low - Selection: Middle 3 rows -  
+Equipment: 2 Basketballs – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and dribbles two basketballs at the same 
+time. Each player performs four single hand passes with one of the basketballs aimed at the 
+single active target. There should be two passes with each hand. 
+• 
+After completing four passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of four single passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 5 – Basketball with Tennis Ball (Level 2): 
+Game: Track the Letter - Seconds: 210 - Sensitivity: Medium - Selection: Upper 3 Rows –  
+Equipment: Basketball and Tennis Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and dribbling a basketball in one hand and 
+holding a tennis ball in the other.  
+• 
+Each player performs four single hand passes the tennis ball aimed at the single active 
+target. There should be two passes with each hand. 
+• 
+After completing four passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of four single passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+BASKETBALL – HIGH IMPACT 
+SKILL 1 – Stationary Dribble (Level 3):  
+Game: Seel the Color - Seconds: 240 - Sensitivity: High - Selection: Lower 4 Rows  
+Equipment: Basketball ball – Start Line: 10 – 15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a basketball toward their assigned station. 
+• 
+While maintaining control of the dribble with one hand, the player strikes five targets using 
+their free hand. 
+• 
+Each player will only strike the targets matching the GO color displayed at their station. 
+• 
+For example, if the GO target is yellow on station 1, then all players on station 1 must only 
+strike the yellow target. 
+• 
+After completing five successful strikes, the player passes the basketball to the next player 
+in line and returns to the end of the line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this sequence until the allotted time expires.
+
+===== PAGE 46 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+45 
+SKILL 2 – Speed Dribble (Level 3):  
+Game: Pattern Recognition - Seconds: 210 - Sensitivity: High - Selection: Lower 4 rows – Target 
+Object: Letters 
+Equipment: Basketball – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a basketball as fast as possible toward their assigned station. 
+• 
+While maintaining control of the dribble with one hand, each player strikes one correct pair 
+of letters using their free hand.  
+• 
+After one successful pair of letters is struck, each player dribbles as fast as possible back and 
+hands the basketball to the next player in line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 3 – Bounce Pass (Level 2): 
+Game: Seek the Number Step Counting - Seconds: 240 - Sensitivity: Low - Selection: Middle 3 Rows 
+Equipment: Basketball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five bounce passes aimed at 
+the correct number.  
+• 
+After the Go target is hit, players strike numbers in sequential order starting from 1. 
+• 
+After completing three passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of three bounce passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 4 – Double Dribble (Level 2): 
+Game: Seek the Smiley - Seconds: 230 - Sensitivity: Low - Selection: Middle 3 rows -  
+Equipment: 2 Basketballs – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and dribbles two basketballs at the same 
+time. Each player performs four single hand passes with one of the basketballs aimed at the 
+smiley face. There should be two passes with each hand. 
+• 
+After completing four passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of four single passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 5 – Basketball with Tennis Ball (Level 3): 
+Game: Seek the Letter - Seconds: 210 - Sensitivity: Medium - Selection: Upper 3 Rows –  
+Equipment: Basketball and Tennis Ball – Start Line: 5-10’ Away
+
+===== PAGE 47 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+46 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and dribbling a basketball in one hand and 
+holding a tennis ball in the other.  
+• 
+Each player performs four single hand passes the tennis ball aimed at the correct letter. 
+There should be two passes with each hand. 
+• 
+After the Go target is hit, players strike letters in sequential order starting from A. 
+• 
+After completing four passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of four single passes. 
+• 
+Players continue this rotation until the allotted time expires.
+
+===== PAGE 48 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+47 
+Chapter 2 SOCCER  
+SOCCER – LOW IMPACT 
+SKILL 1 – Stationary Foot Dribble (Level 1):  
+Game: Track the Color - Seconds: 180 - Sensitivity: High - Selection: Middle 3 Rows  
+Equipment: Soccer ball – Start Line: 10 – 15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a soccer ball toward their assigned station. 
+• 
+While performing an inside foot touch between each foot continuously, the player strikes six 
+targets using their hands. 
+• 
+After completing six successful strikes, the player passes the soccer ball to the next player in 
+line and returns to the end of the line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this sequence until the allotted time expires. 
+SKILL 2 – Speed Foot Dribble (Level 1):  
+Game: Track Left Right Both Random - Seconds: 180 - Sensitivity: High - Selection: Middle 3 rows -  
+Equipment: Soccer Ball – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles the soccer ball as fast as possible toward their assigned station. 
+• 
+While maintaining control of the dribble with one hand, the player strikes one target using 
+their free hand. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands. 
+• 
+After one successful strike, the player dribbles as fast as possible back and touches the 
+soccer ball to the next player in line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 3 – Two Touch Pass (Level 1): 
+Game: Rallywall - Seconds: 180 - Sensitivity: Low - Selection: Lower 2 Rows 
+Equipment: Soccer Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five two touch passes aimed 
+at the lit region of targets. 
+• 
+After completing five two touch passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five two touch passes. 
+• 
+Players continue this rotation until the allotted time expires.
+
+===== PAGE 49 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+48 
+SKILL 4 – One Touch Pass (Level 1): 
+Game: Rallywall - Seconds: 180 - Sensitivity: Low - Selection: Lower 2 rows -  
+Equipment: Soccer Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five one touch passes aimed 
+at the lit region of targets. 
+• 
+After completing five one touch passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five one touch passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 5 – Soccer Volley (Level 1): 
+Game: Rallywall - Seconds: 180 - Sensitivity: Medium - Selection: Upper 3 Rows –  
+Equipment: Basketball and Tennis Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five volleys aimed at the lit 
+region of targets. 
+• 
+After completing five volleys, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five volleys. 
+• 
+Players continue this rotation until the allotted time expires. 
+ 
+SOCCER – MEDIUM IMPACT 
+SKILL 1 – Stationary Foot Dribble (Level 2):  
+Game: Track Left Right Both Random - Seconds: 210 - Sensitivity: High - Selection: Middle 3 Rows  
+Equipment: Soccer ball – Start Line: 10 – 15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a soccer ball toward their assigned station. 
+• 
+While performing alternating toe tap touches with each foot continuously, the player strikes 
+five targets using their hands. 
+• 
+The targets will display directional prompts. A target displaying an “R” means the players 
+strike with their right hand, an “L” with their left hand, or “B” for both hands. 
+• 
+After completing five successful strikes, the player passes the soccer ball to the next player 
+in line and returns to the end of the line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this sequence until the allotted time expires. 
+SKILL 2 – Speed Foot Dribble (Level 2):  
+Game: Seek the Letter - Seconds: 210 - Sensitivity: High - Selection: Upper 4 rows -
+
+===== PAGE 50 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+49 
+Equipment: Soccer Ball – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles the soccer ball as fast as possible toward their assigned station. 
+• 
+While maintaining control of the dribble, the player strikes one target using their hand. 
+• 
+After the Go target is hit, players strike letters in sequential order starting from A. 
+• 
+After one successful strike, the player dribbles as fast as possible back and touches the 
+soccer ball to the next player in line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 3 – Two Touch Pass (Level 2): 
+Game: Track the Color - Seconds: 210 - Sensitivity: Low - Selection: Lower 2 Rows 
+Equipment: Soccer Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five two touch passes aimed 
+at the single active target. 
+• 
+After completing five two touch passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five two touch passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 4 – One Touch Pass (Level 2): 
+Game: Track the Target - Seconds: 210 - Sensitivity: Low - Selection: Lower 2 rows -  
+Equipment: Soccer Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five one touch passes aimed 
+at the single active target. 
+• 
+After completing five one touch passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five one touch passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 5 – Soccer Volley (Level 2): 
+Game: Track the Number Step Counting - Seconds: 210 - Sensitivity: Low - Selection: Upper 3 Rows  
+Equipment: Soccer Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five volleys aimed at the 
+single lit target. 
+• 
+After completing five volleys, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five volleys. 
+• 
+Players continue this rotation until the allotted time expires.
+
+===== PAGE 51 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+50 
+SOCCER – HIGH IMPACT  
+SKILL 1 – Stationary Foot Dribble (Level 3):  
+Game: Seek the Color - Seconds: 240 - Sensitivity: High - Selection: Middle 3 Rows  
+Equipment: Soccer ball – Start Line: 10 – 15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles a soccer ball toward their assigned station. 
+• 
+While performing alternating toe tap drags with each foot continuously, the player strikes 
+five targets using their hands. 
+• 
+Each player will only strike the targets matching the GO color displayed at their station. 
+• 
+For example, if the GO target is yellow on station 1, then all players on station 1 must only 
+strike the yellow target. 
+• 
+After completing five successful strikes, the player passes the soccer ball to the next player 
+in line and returns to the end of the line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this sequence until the allotted time expires. 
+SKILL 2 – Speed Foot Dribble (Level 3):  
+Game: Pattern Recognition - Seconds: 240 - Sensitivity: High - Selection: All – Symbol Type: Letters 
+Equipment: Soccer Ball – Start Line: 10-15’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player dribbles the soccer ball as fast as possible toward their assigned station. 
+• 
+While maintaining control of the dribble, each player strikes one correct pair of letters using 
+their hand.  
+• 
+After one successful pair of letters is struck, each player dribbles as fast as possible back and 
+touches the soccer ball to the next player in line. 
+• 
+The next player immediately begins dribbling toward their station and repeats the same 
+pattern. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 3 – Two Touch Pass (Level 3): 
+Game: Seek the Color - Seconds: 240 - Sensitivity: Low - Selection: Lower 2 Rows 
+Equipment: Soccer Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five two touch passes aimed 
+at the correct answer. 
+• 
+Each player will only strike the targets matching the GO color displayed at their station. 
+• 
+For example, if the GO target is yellow on station 1, then all players on station 1 must only 
+strike the yellow target.
+
+===== PAGE 52 =====
+© 2025 SMARTfit Inc. • www.smartfitinc.com/fitness 
+51 
+• 
+After completing five two touch passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five two touch passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 4 – One Touch Pass (Level 3): 
+Game: Seek the Smiley - Seconds: 240 - Sensitivity: Low - Selection: Lower 2 rows -  
+Equipment: Soccer Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five one touch passes aimed 
+at the smiley face. 
+• 
+After completing five one touch passes, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five two touch passes. 
+• 
+Players continue this rotation until the allotted time expires. 
+SKILL 5 – Soccer Volley (Level 3): 
+Game: Seekt he Number Step Counting - Seconds: 240 - Sensitivity: Medium - Selection: Upper 3 
+Rows –  
+Equipment: Soccer Ball – Start Line: 5-10’ Away 
+• 
+Players line up in equal, diverse groups in front of each station. 
+• 
+The first player stands at the designated start line and performs five volleys aimed at the 
+correct number. 
+• 
+After the Go target is hit, players strike numbers in sequential order starting from 1. 
+• 
+After completing five volleys, the player returns to the end of the line. 
+• 
+The next player in line steps forward and begins their set of five volleys. 
+• 
+Players continue this rotation until the allotted time expires.

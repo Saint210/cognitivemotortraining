@@ -1,0 +1,1849 @@
+===== PAGE 1 =====
+This report contains a total of 47 pages and may be reproduced in full only. Partial reproduction may only be done with the 
+written consent of CKC Laboratories, Inc.  
+ 
+ 
+SMARTFIT Inc.   
+ 
+ 
+TEST REPORT FOR  
+ 
+SMARTfit™ CPU Controller 
+Model:  3-56322  
+ 
+ 
+ 
+Tested To The Following Standard: 
+ 
+EN 300 220-2 v3.1.1  
+ 
+ 
+ 
+Report No.: 99819-9 
+ 
+ 
+Date of issue: June 2, 2017 
+ 
+ 
+ 
+ 
+ 
+This test report bears the accreditation symbol indicating that the 
+testing performed herein meets the test and reporting requirements 
+of ISO/IEC 17025 under the applicable scope of EMC testing for 
+CKC Laboratories, Inc. 
+ 
+We strive to create long-term, trust based relationships by providing 
+sound, adaptive, customer first testing services.  We embrace each of 
+our customers’ unique EMC challenges, not as an interruption to set 
+processes, but rather as the reason we are in business.
+
+===== PAGE 2 =====
+Page 2 of 47
+Report No.: 99819-9
+TABLE OF CONTENTS 
+ 
+Administrative Information .......................................................................................................................... 3 
+Test Report Information ............................................................................................................................................ 3 
+Report Authorization ................................................................................................................................................. 3 
+Test Facility Information ............................................................................................................................................ 4 
+Software Versions ...................................................................................................................................................... 4 
+Summary of Results ................................................................................................................................................... 5 
+Modifications During Testing ..................................................................................................................................... 6 
+Conditions During Testing.......................................................................................................................................... 6 
+Equipment Under Test ............................................................................................................................................... 6 
+EN 300 220-2 V3.1.1...................................................................................................................................... 7 
+4.2 All Equipment Conformance Requirement .......................................................................................................... 7 
+4.2.1 Operating Frequency .................................................................................................................................... 7 
+4.2.2 Unwanted Emissions in the Spurious Domain .............................................................................................. 8 
+4.3 Transmitter Conformance Requirement ........................................................................................................... 14 
+4.3.1 Effective Radiated Power ............................................................................................................................ 14 
+4.3.4 Occupied Bandwidth ................................................................................................................................... 19 
+4.3.5 Transmitter Out of Band Emissions ............................................................................................................ 24 
+4.3.6 Transient Power .......................................................................................................................................... 35 
+4.4 Receivers Conformance Requirement ............................................................................................................... 42 
+4.4.2 Blocking ....................................................................................................................................................... 42 
+Supplemental Information .......................................................................................................................... 47 
+Measurement Uncertainty ...................................................................................................................................... 47
+
+===== PAGE 3 =====
+Page 3 of 47
+Report No.: 99819-9
+ 
+ADMINISTRATIVE INFORMATION 
+ 
+Test Report Information 
+ 
+ 
+REPORT PREPARED FOR: 
+ 
+ 
+REPORT PREPARED BY: 
+ 
+SMARTFIT Inc.  
+3977 Camino Ranchero  
+Camarillo, CA 93012 
+ 
+Terri Rayle 
+CKC Laboratories, Inc. 
+5046 Sierra Pines Drive 
+Mariposa, CA 95338 
+ 
+ 
+ 
+Representative: Jim Manley   
+ 
+Project Number: 99819 
+Customer Reference Number: 2667 
+ 
+ 
+ 
+ 
+ 
+DATE OF EQUIPMENT RECEIPT:  
+ 
+May 17, 2017 
+DATE(S) OF TESTING:  
+ 
+May 17-25, 2017 
+ 
+ 
+Report Authorization 
+ 
+The test data contained in this report documents the observed testing parameters pertaining to and are relevant 
+for only the sample equipment tested in the agreed upon operational mode(s) and configuration(s) as identified 
+herein. Compliance assessment remains the client’s responsibility. This report may not be used to claim product 
+endorsement by A2LA or any government agencies. This test report has been authorized for release under quality 
+control from CKC Laboratories, Inc. 
+ 
+ 
+ 
+ 
+Steve Behm 
+Director of Quality Assurance & Engineering Services 
+CKC Laboratories, Inc.
+
+===== PAGE 4 =====
+Page 4 of 47
+Report No.: 99819-9
+ 
+Test Facility Information 
+ 
+ 
+ 
+ 
+Our laboratories are configured to effectively test a 
+wide variety of product types.  CKC utilizes first class 
+test equipment, anechoic chambers, data acquisition 
+and information services to create accurate, repeatable 
+and affordable test results. 
+ 
+ 
+ 
+ 
+TEST LOCATION(S):  
+CKC Laboratories, Inc. 
+110 Olinda Place 
+Brea, CA  92823 
+ 
+ 
+ 
+Software Versions 
+ 
+CKC Laboratories Proprietary Software 
+Version 
+EMITest Emissions 
+5.03.02 
+EMITest Immunity 
+5.03.02
+
+===== PAGE 5 =====
+Page 5 of 47
+Report No.: 99819-9
+SUMMARY OF RESULTS 
+ 
+Standard / Specification: EN 300 220-2 v3.1.1  
+ 
+Test Procedure 
+Description 
+Modification Results 
+4.2 All Equipment Conformance Requirements 
+4.2.1 
+Operating Frequency 
+NA 
+Manufacturer 
+declaration 
+4.2.2 
+Unwanted Emissions in the Spurious Domain 
+Mod. #1 
+Pass 
+4.3 Transmitter Conformance Requirements 
+4.3.1 
+Effective Radiated Power 
+NA 
+Pass 
+4.3.2 
+Maximum E.R.P. Spectral Density 
+NA 
+NA8 
+4.3.3 
+Duty Cycle 
+NA 
+NA1 
+4.3.4 
+Occupied Bandwidth 
+NA 
+Pass 
+4.3.5 
+TX Out of Band Emissions 
+NA 
+Pass 
+4.3.6 
+Transient Power 
+NA 
+Pass 
+4.3.7 
+Adjacent Channel Power 
+NA 
+NA2 
+4.3.8 
+TX Behavior Under Low Voltage Conditions 
+NA 
+NA7 
+4.3.9 
+Adaptive Power Control 
+NA 
+NA3 
+4.3.10 
+FHSS Equipment 
+NA 
+NA4 
+4.3.11 
+Short Term Behaviour 
+NA 
+NA5 
+4.4 Receivers Conformance Requirements 
+4.4.1 
+RX Sensitivity 
+NA 
+NA6 
+4.4.2 
+Blocking 
+NA 
+Pass 
+4.5 Polite Spectrum Access Conformance Requirements 
+4.5.2 
+Clear Channel Assessment Method 
+NA 
+NA6 
+4.5.3 
+Polite Spectrum Access Timing Parameters 
+NA 
+NA6 
+4.5.4 
+Adaptive Frequency Agility 
+NA 
+NA6 
+NA = Not Applicable 
+NA1: Not applicable because there is no requirement. The EUT operates within band I. 
+NA2: Not applicable because the EUT’s occupied bandwidth is more than 25kHz. 
+NA3: Not applicable because the EUT does not have adaptive power control. 
+NA4: Not applicable because the EUT is not a FHSS equipment. 
+NA5: Not applicable because the EUT does not operate in band where Ton or Toff limit are specified in annex C, 
+table C.1 
+NA6: Not applicable because the EUT does not have polite spectrum access technique.  
+NA7: Not applicable because the EUT does not operate on battery power.  
+NA8: Not applicable because the EUT Modulation bandwidth is less than 250kHz.
+
+===== PAGE 6 =====
+Page 6 of 47
+Report No.: 99819-9
+Modifications During Testing 
+This list is a summary of the modifications made to the equipment during testing.  
+Summary of Conditions 
+Modification #1: Installed a ferrite (manufacturer: Fair-Rite, PN: 0431177081) on AC cable with two loops. 
+ 
+Modifications listed above must be incorporated into all production units. 
+ 
+ 
+Conditions During Testing 
+This list is a summary of the conditions noted to the equipment during testing.  
+Summary of Conditions 
+None 
+ 
+ 
+ 
+ 
+EQUIPMENT UNDER TEST 
+ 
+During testing numerous configurations may have been utilized.  The configurations listed below support 
+compliance to the standard(s) listed in the Summary of Results section. 
+ 
+Configuration 1 
+Equipment Tested: 
+Device 
+Manufacturer 
+Model # 
+S/N 
+SMARTfitTM CPU Controller 
+SMARTFIT Inc. 
+3-56322 
+NA 
+ 
+Support Equipment: 
+Device 
+Manufacturer 
+Model # 
+S/N 
+SMARTfitTM Pod Target 
+SMARTFIT Inc. 
+3-56228 
+NA 
+Power Supply 
+Triad Magnetics 
+WSU060-3000 
+NA
+
+===== PAGE 7 =====
+Page 7 of 47
+Report No.: 99819-9
+EN 300 220-2 V3.1.1 
+ 
+4.2 ALL EQUIPMENT CONFORMANCE REQUIREMENT  
+ 
+4.2.1 Operating Frequency 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea 
+Test Engineer: 
+D. Nguyen 
+Manufacturer 
+Declarations: 
+ 
+Operational Frequency band or bands 
+433.05MHz - 434.79MHz 
+Nominal Operating Frequency or Frequencies 
+433.92MHz 
+Operating Channel width(s) - OCW 
+116kHz
+
+===== PAGE 8 =====
+Page 8 of 47
+Report No.: 99819-9
+4.2.2 Unwanted Emissions in the Spurious Domain 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab A 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 300 220-1 v3.1.1 §5.9.3.3 
+Test Date(s): 
+5/17/2017 
+Declarations: 
+Modification #1 was in place during testing. 
+Configuration: 
+1 
+Test Setup: 
+The EUT is placed on Styrofoam platform at 1.5m in height. The input voltage is 
+230Vac/50Hz. USB and DC ports are unterminated and not accessible to user. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+The EUT is set to continuously transmit.  
+ 
+Operating frequency: 433.92MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+Test signal: D-M3 
+ 
+Frequency range of measurement = 9kHz-6GHz 
+9 kHz  –  150 kHz, RBW=1kHz, VBW=3kHz 
+150 kHz – 30 MHz, RBW=10 kHz, VBW=27 kHz 
+30 MHz – 1000 MHz, RBW=100 kHz, VBW=300 kHz 
+1000 MHz – 6000 MHz, RBW=1 MHz, VBW=3 MHz   
+ 
+Environmental Conditions 
+Ambient Temperature (ºC) 
+18 
+Relative Humidity (%): 
+42 
+ 
+Test Equipment 
+Asset#  
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+00309 
+Preamp 
+HP 
+8447D 
+3/14/2016 
+3/14/2018 
+01995 
+Biconilog Antenna 
+Chase 
+CBL6111C 
+5/10/2016 
+5/10/2018 
+P05275 
+Attenuator 
+Weinschel 
+1W 
+5/5/2016 
+5/5/2018 
+P05050 
+Cable 
+Pasternack 
+RG223/U 
+1/20/2017 
+1/20/2019 
+P05198 
+Cable 
+Belden 
+8268 
+12/7/2016 
+12/7/2018 
+02672 
+Spectrum Analyzer 
+Belden 
+E4446A 
+3/2/2017 
+3/2/2019 
+00786 
+Preamp 
+HP 
+83017A 
+5/9/2016 
+5/9/2018 
+00849 
+Horn Antenna 
+ETS 
+3115 
+3/4/2016 
+3/4/2018 
+02946 
+Cable 
+Astrolab Inc. 
+32022-2-2909K-
+36TC 
+11/2/2015 
+11/2/2017 
+P06661 
+Cable 
+Andrew 
+LDF1-50 
+5/6/2016 
+5/6/2018 
+03419 
+Signal Generator 
+Agilent 
+E4438C 
+7/8/2015 
+7/8/2017 
+P05497 
+Dipole Antenna 
+Schwarzbeck 
+UHAP 
+1/19/2017 
+1/19/2019 
+01646 
+Horn Antenna 
+ETS 
+3115 
+3/4/2016 
+3/4/2018 
+00314 
+Loop Antenna 
+EMCO 
+6502 
+5/20/2016 
+5/20/2018
+
+===== PAGE 9 =====
+Page 9 of 47
+Report No.: 99819-9
+Test Data 
+ 
+TX Mode 
+Frequency (MHz) 
+Antenna polarity 
+Measure power (dBm) 
+Limit (dBm) 
+Result 
+58.73 
+Horiz 
+-70.4 
+-54 
+Pass 
+59.43 
+Horiz 
+-69.7 
+-54 
+Pass 
+60.03 
+Horiz 
+-69.4 
+-54 
+Pass 
+60.31 
+Vert 
+-59.1 
+-54 
+Pass 
+60.93 
+Horiz 
+-70.8 
+-54 
+Pass 
+61.01 
+Vert 
+-58.8 
+-54 
+Pass 
+68.51 
+Vert 
+-59.6 
+-54 
+Pass 
+73.41 
+Vert 
+-57.2 
+-54 
+Pass 
+74.01 
+Vert 
+-57.3 
+-36 
+Pass 
+74.73 
+Horiz 
+-73.1 
+-36 
+Pass 
+119.16 
+Horiz 
+-71.3 
+-36 
+Pass 
+867.758 
+Horiz 
+-42.5 
+-36 
+Pass 
+867.764 
+Vert 
+-43.2 
+-36 
+Pass 
+867.764 
+Vert 
+-41.2 
+-36 
+Pass 
+1301.677 
+Horiz 
+-41.5 
+-30 
+Pass 
+1301.707 
+Vert 
+-47.0 
+-30 
+Pass 
+1735.577 
+Vert 
+-43.4 
+-30 
+Pass 
+1735.58 
+Horiz 
+-39.1 
+-30 
+Pass 
+2169.447 
+Vert 
+-51.6 
+-30 
+Pass 
+2169.45 
+Horiz 
+-50.3 
+-30 
+Pass 
+2603.237 
+Horiz 
+-45.6 
+-30 
+Pass 
+2603.317 
+Vert 
+-41.7 
+-30 
+Pass 
+3037.223 
+Horiz 
+-57.2 
+-30 
+Pass 
+3037.237 
+Vert 
+-56.1 
+-30 
+Pass 
+3471.093 
+Horiz 
+-44.7 
+-30 
+Pass 
+3471.107 
+Vert 
+-43.2 
+-30 
+Pass 
+3904.943 
+Vert 
+-46.2 
+-30 
+Pass 
+3904.947 
+Horiz 
+-42.7 
+-30 
+Pass 
+4338.83 
+Vert 
+-50.7 
+-30 
+Pass 
+4338.867 
+Horiz 
+-51.5 
+-30 
+Pass 
+4772.717 
+Vert 
+-43.7 
+-30 
+Pass 
+4772.753 
+Horiz 
+-48.1 
+-30 
+Pass 
+5640.427 
+Horiz 
+-46.3 
+-30 
+Pass 
+5640.457 
+Vert 
+-50.0 
+-30 
+Pass
+
+===== PAGE 10 =====
+Page 10 of 47
+Report No.: 99819-9
+Standby Mode 
+Frequency (MHz) 
+Antenna polarity 
+Measure power (dBm) 
+Limit (dBm) 
+Result 
+58.73 
+Horiz 
+-70.4 
+-57 
+Pass 
+59.43 
+Horiz 
+-69.7 
+-57 
+Pass 
+60.03 
+Horiz 
+-69.4 
+-57 
+Pass 
+60.31 
+Vert 
+-59.1 
+-57 
+Pass 
+60.93 
+Horiz 
+-70.8 
+-57 
+Pass 
+61.01 
+Vert 
+-58.8 
+-57 
+Pass 
+68.51 
+Vert 
+-59.6 
+-57 
+Pass 
+73.41 
+Vert 
+-57.2 
+-57 
+Pass 
+74.01 
+Vert 
+-57.3 
+-57 
+Pass 
+74.73 
+Horiz 
+-73.1 
+-57 
+Pass 
+119.16 
+Horiz 
+-71.3 
+-57 
+Pass 
+ 
+RX Mode 
+Frequency (MHz) 
+Antenna polarity 
+Measure power (dBm) 
+Limit (dBm) 
+Result 
+58.73 
+Horiz 
+-70.4 
+-57 
+Pass 
+59.43 
+Horiz 
+-69.7 
+-57 
+Pass 
+60.03 
+Horiz 
+-69.4 
+-57 
+Pass 
+60.31 
+Vert 
+-59.1 
+-57 
+Pass 
+60.93 
+Horiz 
+-70.8 
+-57 
+Pass 
+61.01 
+Vert 
+-58.8 
+-57 
+Pass 
+68.51 
+Vert 
+-59.6 
+-57 
+Pass 
+73.41 
+Vert 
+-57.2 
+-57 
+Pass 
+74.01 
+Vert 
+-57.3 
+-57 
+Pass 
+74.73 
+Horiz 
+-73.1 
+-57 
+Pass 
+119.16 
+Horiz 
+-71.3 
+-57 
+Pass
+
+===== PAGE 11 =====
+Page 11 of 47
+Report No.: 99819-9
+ 
+ 
+ 
+ 
+ 
+State 
+47MHz - 74MHz 
+87.5MHz - 118MHz 
+174MHz - 230MHz 
+470MHz - 790MHz 
+Other frequencies below 
+1000MHz 
+Frequencies above 
+1000MHz 
+TX mode 
+-54 dBm 
+-36 dBm 
+-30 dBm 
+RX and all other modes 
+-57 dBm 
+-57 dBm 
+-47 dBm
+
+===== PAGE 12 =====
+Page 12 of 47
+Report No.: 99819-9
+Test Setup Photos
+
+===== PAGE 13 =====
+Page 13 of 47
+Report No.: 99819-9
+
+===== PAGE 14 =====
+Page 14 of 47
+Report No.: 99819-9
+4.3 TRANSMITTER CONFORMANCE REQUIREMENT  
+ 
+4.3.1 Effective Radiated Power 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab A 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 300 220-1 v3.1.1 §5.2.2.1.2 
+Test Date(s): 
+5/17/2017 
+Declarations: 
+None 
+Configuration: 
+1 
+Test Setup: 
+The EUT is placed on Styrofoam platform at 1.5m in height. The input voltage is 
+230Vac/50Hz. USB and DC ports are unterminated and not accessible to user. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+The EUT is set to continuously transmit.  
+ 
+Extreme condition test setup:  
+The EUT is placed inside temperature chamber. The EUT top cover is removed to fit inside 
+the temperature chamber. External AC power supply is connected to the EUT to vary input 
+power. Probe antenna is placed next to the EUT to monitor fundamental transmission 
+signal.  
+ 
+Operating frequency: 433.92MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+Test signal: D-M3 
+ 
+Frequency range of measurement = fundamental frequency 
+RBW = 1 MHz, VBW = 1 MHz 
+ 
+Environmental Conditions 
+Ambient Temperature (ºC) 
+18 
+Relative Humidity (%): 
+42 
+ 
+Test Equipment 
+Asset# 
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+00309 
+Preamp 
+HP 
+8447D 
+3/14/2016 
+3/14/2018 
+01995 
+Biconilog Antenna 
+Chase 
+CBL6111C 
+5/10/2016 
+5/10/2018 
+P05275 
+Attenuator 
+Weinschel 
+1W 
+5/5/2016 
+5/5/2018 
+P05050 
+Cable 
+Pasternack 
+RG223/U 
+1/20/2017 
+1/20/2019 
+P05198 
+Cable 
+Belden 
+8268 
+12/7/2016 
+12/7/2018 
+02672 
+Spectrum Analyzer 
+Belden 
+E4446A 
+3/2/2017 
+3/2/2019 
+00786 
+Preamp 
+HP 
+83017A 
+5/9/2016 
+5/9/2018 
+03419 
+Signal Generator 
+Agilent 
+E4438C 
+7/8/2015 
+7/8/2017 
+P05497 
+Dipole Antenna 
+Schwarzbeck 
+UHAP 
+1/19/2017 
+1/19/2019 
+01878 
+Temperature 
+Chamber 
+Thermotron Corp. 
+S 1.2 Mini-Max 
+5/15/2017 
+5/15/2019
+
+===== PAGE 15 =====
+Page 15 of 47
+Report No.: 99819-9
+ 
+Test Data 
+ 
+ 
+ 
+Test Conditions 
+ 
+Transmitter Power 
+(mW) 
+Limit (mW) 
+Result 
+Tnom(25 )C 
+Vnom(230)Vac 
+0.29 
+1 
+Pass 
+Tmin(-20 )C 
+Vmin(253)Vac 
+0.14 
+1 
+Pass 
+Vmax(207)Vac 
+0.51 
+1 
+Pass 
+Tmax(55)C 
+Vmin(253)Vac 
+0.04 
+1 
+Pass 
+Vmax(207Vac 
+0.02 
+1 
+Pass 
+Maximum Deviation 
+0.27 
+NA 
+NA
+
+===== PAGE 16 =====
+Page 16 of 47
+Report No.: 99819-9
+ 
+Test Setup Photos
+
+===== PAGE 17 =====
+Page 17 of 47
+Report No.: 99819-9
+ 
+ 
+Inside Temperature Chamber 
+ 
+ 
+ 
+Inside Temperature Chamber
+
+===== PAGE 18 =====
+Page 18 of 47
+Report No.: 99819-9
+ 
+ 
+Temperature Chamber
+
+===== PAGE 19 =====
+Page 19 of 47
+Report No.: 99819-9
+4.3.4 Occupied Bandwidth 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab A 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 300 220-1 v3.1.1 §5.6.3.4 
+Test Date(s): 
+5/17/2017 
+Declarations: 
+None 
+Configuration: 
+1 
+Test Setup: 
+The EUT is placed on Styrofoam platform at 1.5m in height. The input voltage is 
+230Vac/50Hz. USB and DC ports are unterminated and not accessible to user. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+The EUT is set to continuously transmit.  
+ 
+Extreme condition test setup:  
+The EUT is placed inside temperature chamber. The EUT top cover is removed to fit inside 
+the temperature chamber. External AC power supply is connected to the EUT to vary input 
+power. Probe antenna is placed next to the EUT to monitor fundamental transmission 
+signal.  
+ 
+Operating frequency: 433.92MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+Test signal: D-M3 
+ 
+Frequency range of measurement = fundamental frequency 
+RBW = 2 kHz, VBW = 6.2 kHz 
+ 
+Environmental Conditions 
+Ambient Temperature (ºC) 
+18 
+Relative Humidity (%): 
+42 
+ 
+Test Equipment 
+Asset# 
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+00309 
+Preamp 
+HP 
+8447D 
+3/14/2016 
+3/14/2018 
+01995 
+Biconilog Antenna 
+Chase 
+CBL6111C 
+5/10/2016 
+5/10/2018 
+P05275 
+Attenuator 
+Weinschel 
+1W 
+5/5/2016 
+5/5/2018 
+P05050 
+Cable 
+Pasternack 
+RG223/U 
+1/20/2017 
+1/20/2019 
+P05198 
+Cable 
+Belden 
+8268 
+12/7/2016 
+12/7/2018 
+02672 
+Spectrum Analyzer 
+Belden 
+E4446A 
+3/2/2017 
+3/2/2019 
+00786 
+Preamp 
+HP 
+83017A 
+5/9/2016 
+5/9/2018 
+01878 
+Temperature 
+Chamber 
+Thermotron Corp. 
+S 1.2 Mini-Max 
+5/15/2017 
+5/15/2019
+
+===== PAGE 20 =====
+Page 20 of 47
+Report No.: 99819-9
+Test Data 
+ 
+ 
+ 
+Test Conditions 
+ 
+Occupied Bandwidth 
+(kHz) 
+Limit 
+Result 
+Tnom(25 )C 
+Vnom(230)Vac 
+116.0484 
+Within Band 
+Pass 
+Tmin(-20 )C 
+Vmin(253)Vac 
+116.8767 
+Within Band 
+Pass 
+Vmax(207)Vac 
+117.7542 
+Within Band 
+Pass 
+Tmax(55)C 
+Vmin(253)Vac 
+115.9157 
+Within Band 
+Pass 
+Vmax(207Vac 
+116.8380 
+Within Band 
+Pass 
+Maximum Deviation 
+1.7058 
+NA 
+NA
+
+===== PAGE 21 =====
+Page 21 of 47
+Report No.: 99819-9
+Test Setup Photos
+
+===== PAGE 22 =====
+Page 22 of 47
+Report No.: 99819-9
+ 
+ 
+Inside Temperature Chamber 
+ 
+ 
+ 
+Inside Temperature Chamber
+
+===== PAGE 23 =====
+Page 23 of 47
+Report No.: 99819-9
+ 
+ 
+Temperature Chamber
+
+===== PAGE 24 =====
+Page 24 of 47
+Report No.: 99819-9
+4.3.5 Transmitter Out of Band Emissions 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab A 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 300 220-1 v3.1.1 §5.8.3.4 
+Test Date(s): 
+5/25/2017 
+Declarations: 
+None 
+Configuration: 
+1 
+Test Setup: 
+The EUT is placed on Styrofoam platform at 1.5m in height. The input voltage is 
+230Vac/50Hz. USB and DC ports are unterminated and not accessible to user. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+The EUT is set to continuously transmit. 
+ 
+Extreme condition test setup:  
+The EUT is placed inside temperature chamber. The EUT top cover is removed to fit inside 
+the temperature chamber. External AC power supply is connected to the EUT to vary input 
+power. Probe antenna is placed next to the EUT to monitor fundamental transmission 
+signal.  
+  
+Operating frequency: 433.92MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+Test signal: D-M3 
+ 
+Frequency range of measurement = fundamental frequency 
+RBW = 1 kHz, VBW = 1 kHz 
+ 
+Result: pass 
+ 
+Environmental Conditions 
+Ambient Temperature (ºC) 
+18 
+Relative Humidity (%): 
+42 
+ 
+Test Equipment 
+Asset# 
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+00309 
+Preamp 
+HP 
+8447D 
+3/14/2016 
+3/14/2018 
+01995 
+Biconilog Antenna 
+Chase 
+CBL6111C 
+5/10/2016 
+5/10/2018 
+P05275 
+Attenuator 
+Weinschel 
+1W 
+5/5/2016 
+5/5/2018 
+P05050 
+Cable 
+Pasternack 
+RG223/U 
+1/20/2017 
+1/20/2019 
+P05198 
+Cable 
+Belden 
+8268 
+12/7/2016 
+12/7/2018 
+02672 
+Spectrum Analyzer 
+Belden 
+E4446A 
+3/2/2017 
+3/2/2019 
+00786 
+Preamp 
+HP 
+83017A 
+5/9/2016 
+5/9/2018 
+03419 
+Signal Generator 
+Agilent 
+E4438C 
+7/8/2015 
+7/8/2017 
+P05497 
+Dipole Antenna 
+Schwarzbeck 
+UHAP 
+1/19/2017 
+1/19/2019 
+01878 
+Temperature 
+Chamber 
+Thermotron Corp. 
+S 1.2 Mini-Max 
+5/15/2017 
+5/15/2019
+
+===== PAGE 25 =====
+Page 25 of 47
+Report No.: 99819-9
+Test Data 
+ 
+ 
+Tnom(25 )C, Vnom(230)Vac 
+ 
+ 
+ 
+Tnom(25 )C, Vnom(230)Vac
+
+===== PAGE 26 =====
+Page 26 of 47
+Report No.: 99819-9
+ 
+Tlow(-20 )C, Vlow(207)Vac 
+ 
+ 
+ 
+Tlow(-20 )C, Vhi(253)Vac
+
+===== PAGE 27 =====
+Page 27 of 47
+Report No.: 99819-9
+ 
+Tlow(-20 )C, Vlow(207)Vac 
+ 
+ 
+ 
+Tlow(-20 )C, Vhi(253)Vac
+
+===== PAGE 28 =====
+Page 28 of 47
+Report No.: 99819-9
+ 
+Tlow(55)C, Vlow(207)Vac 
+ 
+ 
+ 
+Tlow(55)C, Vhi(253)Vac
+
+===== PAGE 29 =====
+Page 29 of 47
+Report No.: 99819-9
+ 
+Tlow(55)C, Vlow(207)Vac 
+ 
+ 
+ 
+Tlow(55)C, Vhi(253)Vac
+
+===== PAGE 30 =====
+Page 30 of 47
+Report No.: 99819-9
+
+===== PAGE 31 =====
+Page 31 of 47
+Report No.: 99819-9
+Domain 
+Frequency Range 
+RBWREF 
+Max power limit 
+OOB limits applicable to 
+Operational Frequency 
+Band 
+(See Figure 6) 
+f ≤ flow_OFB - 400 kHz 
+10 kHz 
+-36 dBm 
+Flow_OFB - 400 kHz ≤ f ≤ flow_OFB - 200 kHz 
+1 kHz 
+-36 dBm 
+flow - 200 kHz ≤ f < flow_OFB 
+1 kHz 
+See Figure 6 
+f = flow_OFB 
+1 kHz 
+0 dBm 
+f = fhigh_OFB 
+1 kHz 
+0 dBm 
+Fhigh_OFB < f ≤ fhigh_OFB + 200 kHz 
+1 kHz 
+See Figure 6 
+Fhigh_OFB + 200 kHz ≤ f ≤ fhigh_OFB + 400 kHz 
+1 kHz 
+-36 dBm 
+Fhigh_OFB + 400 kHz ≤ f 
+10 kHz 
+-36 dBm 
+OOB limits applicable to 
+Operating Channel 
+(See Figure 5) 
+f = fc- 2.5 x OCW 
+1 kHz 
+-36 dBm 
+fc - 2,5 x OCW ≤ f ≤ fc - 0,5 x OCW 
+1 kHz 
+See Figure 5 
+f = fc - 0,5 x OCW 
+1 kHz 
+0 dBm 
+f = fc + 0,5 x OCW 
+1 kHz 
+0 dBm 
+fc + 0,5 x OCW ≤ f ≤ fc + 2,5 x OCW 
+1 kHz 
+See Figure 5 
+f = fc+ 2,5 x OCW 
+1 kHz 
+-36 dBm 
+NOTE: f is the measurement frequency. 
+fc is the Operating Frequency. 
+Flow_OFB is the lower edge of the Operational Frequency Band. 
+Fhigh_OFB is the upper edge of the Operational Frequency Band. 
+OCW is the operating channel bandwidth.
+
+===== PAGE 32 =====
+Page 32 of 47
+Report No.: 99819-9
+ 
+Test Setup Photos
+
+===== PAGE 33 =====
+Page 33 of 47
+Report No.: 99819-9
+ 
+ 
+Inside Temperature Chamber 
+ 
+ 
+ 
+Inside Temperature Chamber
+
+===== PAGE 34 =====
+Page 34 of 47
+Report No.: 99819-9
+ 
+ 
+Temperature Chamber
+
+===== PAGE 35 =====
+Page 35 of 47
+Report No.: 99819-9
+4.3.6 Transient Power  
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab A 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 300 220-1 v3.1.1 §5.10.3.2 
+Test Date(s): 
+5/17/2017 
+Declarations: 
+None 
+Configuration: 
+1 
+Test Setup: 
+The EUT is placed on Styrofoam platform at 1.5m in height. The input voltage is 
+230Vac/50Hz. USB and DC ports are unterminated and not accessible to user. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+The EUT is set to continuously transmit.  
+ 
+Operating frequency: 433.92MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+Test signal: D-M3 
+ 
+Frequency range of measurement = 433.92-0,5 x OCW -1200 kHz to 422.92+0,5 x OCW + 
+1200 kHz 
+RBW = 1 kHz, VBW = 10 kHz (offset: +/-0,5 x OCW +/-3 kHz 
+RBW = 10 kHz, VBW = 100 kHz (offset: +/-OCW) 
+RBW = 100 kHz, VBW = 1000 kHz (offset: +/-0,5 x OCW +/- 400 kHz) 
+RBW = 300 kHz, VBW = 3000 kHz (offset: +/-0,5 x OCW +/- 1200 kHz) 
+ 
+Environmental Conditions 
+Ambient Temperature (ºC) 
+18 
+Relative Humidity (%): 
+42 
+ 
+Test Equipment 
+Asset# 
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+00309 
+Preamp 
+HP 
+8447D 
+3/14/2016 
+3/14/2018 
+01995 
+Biconilog Antenna 
+Chase 
+CBL6111C 
+5/10/2016 
+5/10/2018 
+P05275 
+Attenuator 
+Weinschel 
+1W 
+5/5/2016 
+5/5/2018 
+P05050 
+Cable 
+Pasternack 
+RG223/U 
+1/20/2017 
+1/20/2019 
+P05198 
+Cable 
+Belden 
+8268 
+12/7/2016 
+12/7/2018 
+02672 
+Spectrum Analyzer 
+Belden 
+E4446A 
+3/2/2017 
+3/2/2019 
+00786 
+Preamp 
+HP 
+83017A 
+5/9/2016 
+5/9/2018 
+03419 
+Signal Generator 
+Agilent 
+E4438C 
+7/8/2015 
+7/8/2017 
+P05497 
+Dipole Antenna 
+Schwarzbeck 
+UHAP 
+1/19/2017 
+1/19/2019
+
+===== PAGE 36 =====
+Page 36 of 47
+Report No.: 99819-9
+Test Data 
+ 
+Offset Frequency (kHz) 
+Peak power (dBm) 
+Limit (dBm) 
+Result 
+-0,5 x OCW - 3 kHz 
+-26.43 
+0 
+Pass 
++0,5 x OCW - 3 kHz 
+-46.31 
+0 
+Pass 
+-OCW 
+-53.31 
+0 
+Pass 
++OCW 
+-54.82 
+0 
+Pass 
+-0,5 x OCW - 400 kHz 
+-68.83 
+-27 
+Pass 
++0,5 x OCW + 400 kHz 
+-69.60 
+-27 
+Pass 
+-0,5 x OCW - 1200 kHz 
+-68.50 
+-27 
+Pass 
++0,5 x OCW + 1200 kHz 
+-68.44 
+-27 
+Pass 
+ 
+ 
+ 
+-0.5OCW-3kHz
+
+===== PAGE 37 =====
+Page 37 of 47
+Report No.: 99819-9
+ 
++0.5OCW+3kHz 
+ 
+-OCW
+
+===== PAGE 38 =====
+Page 38 of 47
+Report No.: 99819-9
+ 
++OCW 
+ 
+ 
+-0.5OCW-400kHz
+
+===== PAGE 39 =====
+Page 39 of 47
+Report No.: 99819-9
+ 
++0.5OCW+400kHz 
+ 
+ 
+-0.5OCW-1200kHz
+
+===== PAGE 40 =====
+Page 40 of 47
+Report No.: 99819-9
+ 
++0.5OCW+1200kHz
+
+===== PAGE 41 =====
+Page 41 of 47
+Report No.: 99819-9
+Test Setup Photos
+
+===== PAGE 42 =====
+Page 42 of 47
+Report No.: 99819-9
+4.4 RECEIVERS CONFORMANCE REQUIREMENT  
+ 
+4.4.2 Blocking  
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab A 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 300 220-1 v3.1.1 §5.18.6.4 
+Test Date(s): 
+5/17/2017 
+Declarations: 
+None 
+Configuration: 
+1 
+Test Setup: 
+The EUT is placed on Styrofoam platform at 1.5m in height. The input voltage is 
+230Vac/50Hz. USB and DC ports are unterminated and not accessible to user. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+The EUT is set into receive mode and paired with a companion device. A support signal 
+generator is used to transmit unwanted signal and connected to a dipole antenna.  
+ 
+Operating frequency: 433.92MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+Test signal: D-M3 
+ 
+Frequency range of measurement = 433.92MHz +/-(5%*433.92)MHz  
+RBW = 100 kHz, VBW = 100 kHz   
+ 
+The manufacturer declares that the EUT is category 3 receiver. 
+ 
+Environmental Conditions 
+Ambient Temperature (ºC) 
+18 
+Relative Humidity (%): 
+42 
+ 
+Test Equipment 
+Asset# 
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+00309 
+Preamp 
+HP 
+8447D 
+3/14/2016 
+3/14/2018 
+01995 
+Biconilog Antenna 
+Chase 
+CBL6111C 
+5/10/2016 
+5/10/2018 
+P05275 
+Attenuator 
+Weinschel 
+1W 
+5/5/2016 
+5/5/2018 
+P05050 
+Cable 
+Pasternack 
+RG223/U 
+1/20/2017 
+1/20/2019 
+P05198 
+Cable 
+Belden 
+8268 
+12/7/2016 
+12/7/2018 
+02672 
+Spectrum Analyzer 
+Belden 
+E4446A 
+3/2/2017 
+3/2/2019 
+00786 
+Preamp 
+HP 
+83017A 
+5/9/2016 
+5/9/2018 
+03419 
+Signal Generator 
+Agilent 
+E4438C 
+7/8/2015 
+7/8/2017 
+P05497 
+Dipole Antenna 
+Schwarzbeck 
+UHAP 
+1/19/2017 
+1/19/2019
+
+===== PAGE 43 =====
+Page 43 of 47
+Report No.: 99819-9
+Test Data 
+ 
+Operating 
+Frequency 
+(MHz) 
+Offset 
+Frequency 
+(MHz) 
+Signal 
+Generator A 
+Power (dBm) 
+Blocking 
+Level (dBm) 
+Limit 
+(dBm) 
+Result 
+433.92 
++2 
+-19.19 
+-26.22 
+≥ -80 
+Pass, no degradation in 
+performance 
+433.92 
+-2 
+-19.19 
+-26.47 
+≥ -80 
+Pass, no degradation in 
+performance 
+433.92 
++10 
+-19.19 
+-23.09 
+≥ -60 
+Pass, no degradation in 
+performance 
+433.92 
+-10 
+-19.19 
+-28.07 
+≥ -60 
+Pass, no degradation in 
+performance 
+433.92 
++5%*433.92 
+-19.19 
+-23.89 
+≥ -60 
+Pass, no degradation in 
+performance 
+433.92 
+-5%*433.92 
+-19.19 
+-30.54 
+≥ -60 
+Pass, no degradation in 
+performance 
+ 
+ 
+ 
+Blocking +2MHz
+
+===== PAGE 44 =====
+Page 44 of 47
+Report No.: 99819-9
+ 
+Blocking -2MHz 
+ 
+Blocking +10MHz
+
+===== PAGE 45 =====
+Page 45 of 47
+Report No.: 99819-9
+ 
+Blocking -10MHz 
+ 
+Blocking +5%*433.92MHz
+
+===== PAGE 46 =====
+Page 46 of 47
+Report No.: 99819-9
+ 
+Blocking -5%*433.92MHz 
+ 
+Test Setup Photo
+
+===== PAGE 47 =====
+Page 47 of 47
+Report No.: 99819-9
+SUPPLEMENTAL INFORMATION 
+ 
+ 
+Measurement Uncertainty 
+ 
+Parameter Uncertainty 
+Actual 
+Limit 
+Unit of Measure 
+Uncertainty Parameter 
+Actual 
+Limit 
+Unit of Measure 
+Occupied Channel Bandwidth 
+1 
+5 
+% 
+RF output power, conducted 
+0.67 
+1.5 
+dB 
+Power Spectral Density, conducted 
+0.67 
+3 
+dB 
+Unwanted Emissions, conducted 
+0.67 
+3 
+dB 
+All emissions, radiated 
+3.73 
+6 
+dB 
+Temperature 
+1 
+3 
+ºC 
+Humidity 
+3.4 
+5 
+% 
+DC and low frequency voltages 
+2 
+3 
+% 
+Time 
+1.1 
+5 
+% 
+ 
+Uncertainties reported are worst case for all CKC Laboratories’ sites and represent expanded uncertainties 
+expressed at approximately the 95% confidence level using a coverage factor of k=2.   
+Compliance is deemed to occur provided measurements are below the specified limits.

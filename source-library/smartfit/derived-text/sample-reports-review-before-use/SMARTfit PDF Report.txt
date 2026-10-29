@@ -1,0 +1,429 @@
+===== PAGE 1 =====
+Total Body General Fitness
+Basic Information
+Name
+Bob
+ID
+96f2a211d05059963fbb6f704f9abb5e
+Age
+75
+Gender
+Male
+Condition
+Mild Cognitive Impairment
+Notes
+
+===== PAGE 2 =====
+Bob (96f2a211d05059963fbb6f704f9abb5e)
+Sit to Stand - Seek the Color
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Session Analysis
+Score: Session Data
+
+===== PAGE 3 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Growth Analysis
+growth rate
+37%
+this game
+160
+in 1D
+117
+Score: Overall
+
+===== PAGE 4 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Strike Analysis
+Score: Strike Data
+
+===== PAGE 5 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Target Analysis
+Score: Target Breakdown
+ 1: 30 (25)
+ 2: 5 (0)
+ 3: 30 (25)
+ 4: 10 (5)
+ 5: 10 (5)
+ 6: 25 (20)
+ 7: 15 (10)
+ 8: 10 (5)
+ 9: 25 (21)
+
+===== PAGE 6 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Session Analysis
+Accuracy: Session Data
+
+===== PAGE 7 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Growth Analysis
+growth rate
+-6%
+this game
+86%
+in 1D
+92%
+Accuracy: Overall
+
+===== PAGE 8 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Strike Analysis
+Accuracy: Strike Data
+
+===== PAGE 9 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Target Analysis
+Accuracy: Target Breakdown
+ 1: 100% (4%)
+ 2: 100% (4%)
+ 3: 66% (-15%)
+ 4: 100% (0%)
+ 5: 100% (0%)
+ 6: 100% (4%)
+ 7: 100% (15%)
+ 8: 100% (6%)
+ 9: 71% (-8%)
+
+===== PAGE 10 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Session Analysis
+Response Time: Session Data
+
+===== PAGE 11 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Growth Analysis
+growth rate
+38%
+this game
+0.78 sec
+in 1D
+1.26 sec
+Average Response Time: Overall
+
+===== PAGE 12 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Strike Analysis
+Average Response Time: Strike Data
+
+===== PAGE 13 =====
+Summary
+Date
+6/23/2020 9:23 AM
+Category
+Seek the Color
+Score
+160
+Accuracy
+86%
+Average Response Time
+0.76 sec
+Target Analysis
+Average Response Time: Target Breakdown
+ 1: 0.76 sec (-0.66 sec)
+ 2: 0.76 sec (-0.38 sec)
+ 3: 1.01 sec (-0.56 sec)
+ 4: 0.56 sec (-0.56 sec)
+ 5: 0.66 sec (-0.31 sec)
+ 6: 0.69 sec (-0.47 sec)
+ 7: 0.8 sec (-0.49 sec)
+ 8: 0.84 sec (-0.42 sec)
+ 9: 0.7 sec (-0.84 sec)
+
+===== PAGE 14 =====
+Session Notes
+6/23/2020 9:18 AM
+There are no notes attached to this session.
+6/23/2020 9:19 AM
+There are no notes attached to this session.
+6/23/2020 9:19 AM
+There are no notes attached to this session.
+6/23/2020 9:20 AM
+There are no notes attached to this session.
+6/23/2020 9:21 AM
+There are no notes attached to this session.
+
+===== PAGE 15 =====
+6/23/2020 9:22 AM
+There are no notes attached to this session.
+6/23/2020 9:22 AM
+There are no notes attached to this session.
+6/23/2020 9:23 AM
+There are no notes attached to this session.
+
+===== PAGE 16 =====
+Bob (96f2a211d05059963fbb6f704f9abb5e)
+Boxing - Go No Go
+Summary
+Date
+6/23/2020 9:25 AM
+Category
+Chase the Target
+Score
+210
+Accuracy
+74%
+Average Response Time
+0.4 sec
+Session Analysis
+Response Time: Session Data
+
+===== PAGE 17 =====
+Summary
+Date
+6/23/2020 9:25 AM
+Category
+Chase the Target
+Score
+210
+Accuracy
+74%
+Average Response Time
+0.4 sec
+Growth Analysis
+growth rate
+37%
+this game
+0.42 sec
+in 1D
+0.66 sec
+Average Response Time: Overall
+
+===== PAGE 18 =====
+Summary
+Date
+6/23/2020 9:25 AM
+Category
+Chase the Target
+Score
+210
+Accuracy
+74%
+Average Response Time
+0.4 sec
+Strike Analysis
+Average Response Time: Strike Data
+
+===== PAGE 19 =====
+Summary
+Date
+6/23/2020 9:25 AM
+Category
+Chase the Target
+Score
+210
+Accuracy
+74%
+Average Response Time
+0.4 sec
+Target Analysis
+Average Response Time: Target Breakdown
+ 1: 0.67 sec (-0.1 sec)
+ 2: 0.48 sec (-0.21 sec)
+ 3: 0.44 sec (-0.28 sec)
+ 4: 0.56 sec (-0.15 sec)
+ 5: 0.34 sec (-0.3 sec)
+ 6: 0.37 sec (-0.21 sec)
+ 7: 0.41 sec (-0.28 sec)
+ 8: 0.23 sec (-0.34 sec)
+ 9: 0.3 sec (-0.27 sec)
+
+===== PAGE 20 =====
+Session Notes
+6/23/2020 9:24 AM
+There are no notes attached to this session.
+6/23/2020 9:24 AM
+There are no notes attached to this session.
+6/23/2020 9:25 AM
+There are no notes attached to this session.
+
+===== PAGE 21 =====
+Bob (96f2a211d05059963fbb6f704f9abb5e)
+Core Plank - L R B
+Summary
+Date
+6/23/2020 9:28 AM
+Category
+Track Left, Right, Both
+Score
+370
+Accuracy
+97%
+Average Response Time
+0.88 sec
+Session Analysis
+Accuracy: Session Data
+
+===== PAGE 22 =====
+Summary
+Date
+6/23/2020 9:28 AM
+Category
+Track Left, Right, Both
+Score
+370
+Accuracy
+97%
+Average Response Time
+0.88 sec
+Growth Analysis
+growth rate
+-1%
+this game
+97%
+in 1D
+98%
+Accuracy: Overall
+
+===== PAGE 23 =====
+Summary
+Date
+6/23/2020 9:28 AM
+Category
+Track Left, Right, Both
+Score
+370
+Accuracy
+97%
+Average Response Time
+0.88 sec
+Strike Analysis
+Accuracy: Strike Data
+
+===== PAGE 24 =====
+Summary
+Date
+6/23/2020 9:28 AM
+Category
+Track Left, Right, Both
+Score
+370
+Accuracy
+97%
+Average Response Time
+0.88 sec
+Target Analysis
+Accuracy: Target Breakdown
+ 1: 100% (0%)
+ 2: 80% (-20%)
+ 3: 100% (0%)
+ 4: 100% (0%)
+ 5: 100% (0%)
+ 6: 100% (11%)
+ 7: 100% (0%)
+ 8: 100% (0%)
+ 9: 100% (0%)
+
+===== PAGE 25 =====
+Final Notes
+Conclude the report here.

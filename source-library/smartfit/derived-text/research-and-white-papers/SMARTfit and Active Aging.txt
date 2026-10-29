@@ -1,0 +1,382 @@
+===== PAGE 1 =====
+SMARTFit and Active Aging 
+ 
+ 
+According to the Alzheimer’s Association, the 2018 costs of Alzheimer’s dementia in the 
+US alone total approximately $277 billion dollars. With a steadily increasing population of older 
+adults, it has become critical to detect, manage, and prevent cognitive decline. Exercise and other 
+lifestyle factors have been shown to helpful in doing this, yet more aggressive and innovative 
+solutions have yet to be popularized. Exercise specifically has garnered attention based on its 
+positive effects on brain structure, function and cognition. Similarly, cognitive training has been 
+highlighted as both a rich field of potential, but also one of false claims. A technology that 
+effectively combines the two has yet to become widespread.  
+ 
+SMARTFit is a multi-target system that displays complex information that allows various 
+cognitive processes to be trained while motor and aerobic demands may be simultaneously 
+placed on the user. SMARTFit offers a solution to harnessing the synergistic effects of 
+simultaneous cognitive and physical training,  
+ 
+This whitepaper examines the synergistic effects of engaging in physical and cognitive 
+exercises simultaneously and dives into the proposed mechanisms by which these concurrent 
+behaviors help to shape the body and sharpen the mind. Preliminary research suggests that 
+engaging in these two types of exercise simultaneously may be more beneficial than merely the 
+sum of their separate gains and that their combined effects can have a profound impact on both 
+ameliorating and preventing cognitive decline in older individuals.  
+ 
+In order to understand the potential mechanisms in which cognitive-motor training may 
+be helpful, it is first critical to understand the definitions from which it borrows from, and the 
+neurobiology of how it may create beneficial adaptations.  
+ 
+The Science and Practice of Dual-Tasking 
+ 
+Dual-tasking is the concurrent performance of two tasks that can be performed 
+independently and have distinct and separate goals. Here, we examine the effects of dual-tasking 
+using concurrent physical and cognitive challenges. One of the most interesting aspects of dual-
+tasking both physical and cognitive challenges at the same time is that one is, in fact, doing three 
+difficult tasks simultaneously: engaging in physical exercise, working out cognitive challenges 
+and multitasking by attending to both tasks at once and transferring attention between the two.  
+Frequently, performance on one or both tasks at hand can deteriorate due to the high demands on 
+the individual. Those high demands result in increased cognitive load, and the switching between 
+these tasks requires a lot of effort and use of executive functions.  
+ 
+The classic dual-task one thinks of is walking and solving math equations or saying the 
+alphabet. However, there are many more complex dual-task situations in everyday life. Dual-
+tasking has many real-world applications and is one cognitive ability that tends to deteriorate 
+with age. In fact, a reduced ability to simultaneously divide attention between tasks (dual-
+tasking) has been linked to reduced reaction time and walking speed, more frequent run-ins with 
+obstacles and an increased risk in falls [1]. Inability to successfully dual-task also creates
+
+===== PAGE 2 =====
+dangerous conditions when driving [2]. It seems that practicing dual-tasking can be hugely 
+beneficial for older individuals, and may even prolong functional independence. Dual-tasking 
+has also been shown to assess attentional resources and functional cognitive ability. Dual-tasking 
+is even more useful when those two tasks at hand are specific to the cognitive goals and needs of 
+the individual.  
+ 
+Dual tasking with aerobic exercise and cognitive challenges is a recently emerging and 
+promising area of research. While cognitive exercise and physical exercise have unique benefits 
+on the body and brain, several benefits are shared between the two. The primary ones are 
+neurogenesis, synaptogenesis, and increased cerebral blood flow. Preliminary research in both 
+animals and humans suggests that the simultaneous activation of these benefits may be larger 
+than the additive properties of doing the two exercises sequentially or separately. Further 
+research needs to be done to confirm some of these theories, but pilot studies on the subject are 
+encouraging.[3] 
+ 
+SMARTFit allows this dual-task training to take place effectively, while maintaining 
+engagement and practical applications to a variety of training environments. SMARTFit offers a 
+multimodal set of cognitive stimuli that allows dual-tasking to be domain specific; meaning that 
+instead of simply walking while reciting the ABC’s, an individual may be perform a functional 
+task (such as a lunge), while receiving a cognitive stimulus specific to the individuals needs 
+(such as selective attention training; the process of filtering irrelevant stimuli while directing 
+goal-oriented attention on the “correct” stimulus, as demonstrated in the SMARTFit category 
+“Seek the Letter”).  
+ 
+Research Findings on Cognitive-Motor Training  
+ 
+One study examined the effects of cognitive-motor dual-task training on executive 
+functions in a sedentary older adult population over 12 weeks and found that this combined 
+training was more beneficial than single task training alone in improving broad domains of 
+cognitive functions.[4] In another study participants engaged in a combination of a dual task 
+training program as well as a mixed aerobic and resistance training program. While this 
+particular study did not find synergistic effects of the two interventions, they did find that the 
+dual task training program led to transfer effects in terms of executive performance on 
+neuropsychological tests. This effect was not present in the exercise only or cognitive challenge 
+only groups.[5]  
+ 
+Another study looked at an intervention using at Multicomponent Training (MCT) which 
+consists of focusing on neuromuscular coordination, balance, agility, and cognitive executive 
+control. This study found that the MCT intervention had a profound impact on improving 
+inhibition in an older population.[6] Animal studies using novel combinations of physical and 
+cognitive activities resulted in significant cognitive improvements when compared with control 
+animals, specifically in the area of working memory.[7]
+
+===== PAGE 3 =====
+Lastly, a systematic review of all current studies examining the effects of motor and 
+cognitive dual tasking to prevent or slow the age-related decline in cognition found that either 
+simultaneous or subsequent combined cognitive physical training was more successful when 
+compared with singular interventions alone. This landmark study, which examined over 20 peer-
+reviewed articles also noted that while some results should be interpreted with caution, there is 
+clear evidence that there are effective training interventions using cognitive physical dual 
+tasking, provided the interventions and tests are properly designed.[8] 
+ 
+ 
+Mechanisms of Cognitive-Motor Training: Cerebral Blood Flow, Angiogenesis and 
+Neurotransmitters 
+ 
+One shared benefit of both aerobic exercise and cognitive challenges is an increase in 
+cerebral blood flow.[9] Cerebral blood flow is essential because while the brain does not have 
+very much blood relative to the other organs in the body, the blood it does receive is vital to its 
+function and overall health. Brain health, in turn, impacts the function of the body as a whole. 
+Obviously, complete lack of blood flow to the brain deprives the brain of oxygen and results in 
+death. Less evident is the damage that comes from inadequate cerebral blood flow in the form of 
+oxidative stress. Oxidative stress can cause the death of brain cells and is implicated in the 
+progression of diseases of the brain as well as in cognitive impairment and "brain fog."  
+ 
+While brain fog is not entirely due to oxidative stress or lack of oxygen to the brain it is 
+certainly an important factor and the importance of healthy blood flow to the brain cannot be 
+overstated. This steady flow of blood bathes the vital tissues of the brain with oxygen, glucose 
+and other nutrients. Amazingly, both regular aerobic exercise and cognitive challenges amp up 
+this flow of nourishing blood and increase the rate at which the brain receives these necessary 
+ingredients. The combination of the two means one is engaging in two brain blood-boosting 
+activities at once. In addition, the adding of cognitive challenges during exercise allows for the 
+release of acetylcholine, dopamine, and other beneficial neurotransmitters that accelerate cortical 
+plasticity, increase engagement, and facilitate faster learning. SMARTFit can provide additional 
+cognitive challenges while allowing for the release of these beneficial neurotransmitters through 
+the process of learning and novelty via new, randomized tasks in a gamified context, which in 
+turn promotes engagement. The release of these neurotransmitters has been theorized to 
+accelerate cortical plasticity, as highlighted by the work of Dr. Michael Merzenich.  
+ 
+Another way both physical exercise and cognitive challenges improve brain blood health 
+is through the mechanism of angiogenesis in the cerebellum and the cortex of the brain[14]. 
+Angiogenesis is the physiological process by which new blood vessels form from preexisting 
+ones. Like increased blood flow, more blood vessels in the brain result in a healthier, more 
+nutrient-rich brain tissue. These new capillaries aid the brain tissues in the critical exchange of 
+oxygen and metabolites. Capillaries grow and regress due to metabolic demands all over the 
+body. Engaging in repeated activities which foster this new blood vessel growth, especially 
+simultaneously, is an excellent way to maintain a healthy blood supply to the vital tissues of the 
+brain. Doing so keeps the vasculature of the brain healthy and active and helps to stave off 
+atrophy. Fascinatingly, there is emerging evidence that the progression of cognitive decline and
+
+===== PAGE 4 =====
+Alzheimer’s disease itself may be due, at least in part, to an age-related decline in angiogenesis. 
+Researchers call this theory the Angiogenesis Hypothesis.[15] In a nutshell, it suggests that 
+Alzheimer's and dementia symptoms are due to these age-related decreases in new blood vessel 
+formation which in turn diminishes blood flow and reduced cerebral microcirculation. This 
+reduction in cerebral capillary density, due to several growth factors in the blood, leads to 
+cognitive decline. This is a burgeoning and exciting new area of research with lots of data in 
+animal studies to support the angiogenesis hypothesis.[16] It is also interesting, of course, 
+because it suggests that with increased blood flow and neuroangiogenesis we might be able to 
+stave off or even reverse some age-related cognitive decline.  
+ 
+Trophic Factors 
+ 
+In addition to these shared benefits, aerobic exercise and increased cardiovascular activity 
+can increase bioenergetic factors like Brain-Derived Neurotrophic Factor (BDNF) insulin-like 
+growth factor -1 (IGF-1) and Vascular Endothelial Growth Factor (VEGF).[10] These growth 
+factors are putative mechanisms by which cardiovascular activity benefits cognitive function. 
+Changes in serum concentrations of these important markers are linked to changes in functional 
+connectivity and brain growth. Specifically, researchers found exercise-induced increases in 
+functional connectivity in the temporal lobe of older adults after a one-year aerobic exercise 
+program[11] 
+ 
+Subjective Cognitive Decline and Dual-Tasking 
+ 
+In addition to brain fog, many older adults report suffering from subjective cognitive 
+decline. Subjective cognitive decline (SCD) is the subjective interpretation of cognitive decline 
+with no diagnosis of dementia. Oftentimes this impairment in cognition can progress to Mild 
+Cognitive Impairment (MCI) and in some cases SCD can be the first signs of the progression of 
+Alzheimer’s Disease (AD). Some researchers refer to the symptoms of SCD as “senior 
+moments”. There is a range of severity in of these symptoms, from trivial forgetfulness like 
+walking into a room and forgetting why you went there, to more severe and potentially 
+dangerous types of memory impairment. There is preliminary evidence that engaging in 
+challenging cognitive exercises and a variety of physical activity can help to combat SCD and 
+may even help to reverse it.[12] 
+ 
+ Interestingly, dual-tasking may work both as a tool to prevent cognitive decline and as an 
+early detection mechanism. This has been seen in the dual-tasking “timed up and go” (TUG) test 
+in which a traditional physical assessment adds a layer of cognitive assessment in order to add 
+some more real-world functionality to it. In these assessments, individuals with early-stage 
+cognitive decline do more poorly on the dual task parts of the assessment than neurocognitively 
+normal controls.[13] While normative data has yet to be collected, SMARTFit offers promising 
+potential as one of these combined cognitive-physical assessment strategies. In the absence of 
+normative data to be able to compare performance on SMARTFit tasks to similar age groups, 
+demographics, and clinical conditions, it is possible to assess and demonstrate relative 
+improvements in individual performance on cognitive-motor tasks.
+
+===== PAGE 5 =====
+The Aging Brain and Neurogenesis 
+ 
+Another hypothesis relating to the aging brain is the frontal lobe hypothesis. This hypothesis 
+theorizes that the atrophy and decreased functional activity in the prefrontal cortex of older 
+adults leads to decreases in executive functions. Executive functions are a set of cognitive 
+processes that are necessary for the cognitive control of behavior. They include selecting and 
+successfully monitoring behaviors that facilitate the attainment of chosen goals. By integrating 
+cognitive demands into our exercise plan we can adhere to both the angiogenesis hypothesis 
+(increasing blood flow through both cognitive and physical challenges) and providing engaging 
+prefrontal cortex stimulation by incorporating cognitive challenges that specifically work on 
+improving executive functions. 
+ 
+One of the most profound ways that both exercise and cognitive challenges can improve 
+brain and body health is through complementary processes of neurogenesis. Neurogenesis is the 
+adult production of new neurons in the brain. Every day, thousands of new neurons are produced 
+in the adult brain.[17] However, unlike the highly plastic and flexible brains of infants and 
+children, adult brains are thought to only grow new neurons in two distinct regions of the brain: 
+the olfactory bulb (area of the brain pertaining to smell) and the hippocampus (an area of the 
+brain specific to learning and memory).  
+ 
+Unfortunately, rates of neurogenesis can decline rapidly with age; however, several 
+behaviors can foster and promote neurogenesis, specifically in the hippocampus. Two of those 
+behaviors are aerobic exercise and effortful learning. Interestingly, these two behaviors affect the 
+process of neurogenesis in distinct but interconnected ways. New cells undergo two crucial 
+phases of existence: proliferation (literally the birth of new cells) and survival (integration into 
+existing neural networks). Merely making new cells is not enough, they must incorporate into the 
+existing brain tissue to survive. Due to this feature, many people describe hippocampal 
+neurogenesis as a kind of "use it or lose it" scenario. The new cells can be made abundantly 
+through specific activities, but if they are not used, by doing some activity that recruits them to 
+stay, they undergo apoptosis and die in a relatively short period of time. 
+ 
+Luckily, exercise and cognitive challenges in tandem seem to be a perfect recipe for the 
+guaranteed survival of at least some of these precious new cells. Aerobic exercise helps to 
+increase the proliferation of the cells[18] and effortful learning helps integrates them [19]! 
+Combination of increased proliferation from the aerobic exercise and increased survival from the 
+cognitive challenges is a putative neurobiological explanation for how the combined 
+simultaneous exercise and cognitive challenge paradigm manifests itself and delivers benefits 
+greater than the sum of its parts. The diagram below explains the process in further detail: 
+(Figure from Curlik & Shors, 2013) 
+  
+These newly proliferated neurons have a relatively small window of time during which 
+they must be stimulated (by effortful learning or cognitive challenges) in order to survive. The 
+“sweet spot” seems to be about 7 to 14 days after proliferation. That is to say that the cells that 
+are proliferated today, will atrophy and die if they are not recruited or engaged in the coming
+
+===== PAGE 6 =====
+week. This is due to the functional maturing of the cell and the normal lifespan of new neurons. 
+The best way to ensure these new neurons are recruited is to keep up a consistent pattern of 
+aerobic exercise and cognitive challenges. SMARTFit allows this to occur through either the 
+simultaneous incorporation of physical activity during cognitive challenges, sequential cognitive 
+stimulation amidst physical activities, or as a platform for cognitive stimulation with a significant 
+aerobic or motoric load. 
+ 
+ The image below explains the interesting phenomenon of the lifespan of newly 
+proliferated hippocampal neurons and their survival intervention window in greater depth: 
+ 
+ 
+(adapted from Shors article in Scientific American) 
+  
+         Preliminary studies in animals and humans seem to support this hypothesis that combined 
+physical and cognitive training is more effective at recruiting and maintaining new neurons than 
+either intervention alone. In fact, in one study wherein aerobic exercise was combined with an 
+enhanced environment (similar to a cognitive challenge for rodents) researchers found as much 
+as a 30% greater increase in new neurons than was found with either of the singular interventions 
+alone[20]! 
+ 
+Synaptogenesis
+
+===== PAGE 7 =====
+In addition to neurogenesis, exercise and cognitive challenges also aid in synaptogenesis 
+or birth of new synapses. Synapses are spaces between neurons and link the activity of one 
+neuron to another. Neurons can have many synapses and link to one another an almost limitless 
+number of configurations. There is an old adage in neuroscience that "neurons that fire together 
+wire together" meaning that the neural patterns that one engages in reinforce on a physiological 
+level. This process is called Hebbian Law, after its founder, Donald Hebb. In short, an increase 
+in synaptic efficacy results from the presynaptic cells’ persistent and repeated stimulation of the 
+postsynaptic cell. Through repeated activation of this link, the link is strengthened. This 
+persistent strengthening of the synaptic connections through activity is just one of many ways 
+that behavior and physiology are directly linked. The circuits you frequently engage are 
+strengthened and those which get little or no use atrophy and wither. In this sense, 
+synaptogenesis (like neurogenesis) is genuinely a "use it or lose it" process. Like neurogenesis 
+and angiogenesis, synaptogenesis is rampant during early brain development and slows later in 
+life. Robust increases in synaptogenesis and neurogenesis can lead to an overall increase in brain 
+volume, specifically in the gray matter areas of the cortex and cerebellum. Thus, both aerobic 
+exercise and cognitive challenges have also been shown to increase brain volume through the 
+mechanisms described.[21] 
+ 
+Conclusion 
+The benefits of robust brain volume in old age are enormous. The boost in neural 
+plasticity from neurogenesis and synaptogenesis is thought to have a direct positive impact on 
+cognition. While some of the exact benefits of neurogenesis are still in research, we know new 
+neural growth can help to enhance learning and memory as well as to act as a protective factor 
+against neurodegenerative diseases. Other areas of cognition that can improve with these 
+interventions include verbal memory, executive functioning, processing speed and visuospatial 
+memory. There is even some evidence that improvements in these areas can lead to improved 
+mood and declines in rates of some forms of mental illness. SMARTFit offers a variety of 
+programming that may be able to specifically address these cognitive deficits that occur with 
+age, as well as deliver the multi-domain benefits of exercise sequentially and/or simultaneously.  
+ 
+In short, a brain that engages in increased levels of angiogenesis, synaptogenesis, and 
+neurogenesis is more efficient, plastic and adaptive. This physiological improvement translates 
+behaviorally into better performance and imparts protective factors against further decline and 
+disease. During a critical period in life, when typically cognitive function declines and brain 
+volume shrinks, it is significant to recognize that innovative technological solutions, such as 
+SMARTFit, can be implemented in addition to exercise and lifestyle modifications to hopefully 
+improve the cognitive trajectory over the lifespan.  
+ 
+ 
+[1] Melzer, I., Kurz, I., & Oddsson, L. I. (2010). A retrospective analysis of balance control parameters in elderly 
+fallers and non-fallers. Clinical Biomechanics, 25(10), 984-988.
+
+===== PAGE 8 =====
+Pichierri, G., Wolf, P., Murer, K., & de Bruin, E. D. (2011). Cognitive and cognitive-motor interventions affecting 
+physical functioning: a systematic review. BMC geriatrics, 11(1), 29 
+  
+  
+[2] Anstey, K. J., Wood, J., Lord, S., & Walker, J. G. (2005). Cognitive, sensory and physical factors enabling 
+driving safety in older adults. Clinical Psychology Review, 25(1), 45–65. https://doi.org/10.1016/j.cpr.2004.07.008 
+  
+[3] McEwen, S. C., Siddarth, P., Abedelsater, B., Kim, Y., Mui, W., Wu, P., … Merrill, D. A. (2018). Simultaneous 
+Aerobic Exercise and Memory Training Program in Older Adults with Subjective Memory Impairments. Journal of 
+Alzheimer’s Disease: JAD, 62(2), 795–806.  https://doi.org/10.3233/JAD-170846 
+  
+[4] Yokoyama, H., Okazaki, K., Imai, D., Yamashina, Y., Takeda, R., Naghavi, N., … Miyagawa, T. (2015). The 
+effect of cognitive-motor dual-task training on cognitive function and plasma amyloid β peptide 42/40 ratio in 
+healthy elderly persons: a randomized controlled trial. BMC Geriatrics, 15, 60. https://doi.org/10.1186/s12877-015-
+0058-4 
+  
+[5] Desjardins-Crépeau, L., Berryman, N., Fraser, S. A., Vu, T. T. M., Kergoat, M.-J., Li, K. Z., … Bherer, L. 
+(2016). Effects of combined physical and cognitive training on fitness and neuropsychological outcomes in healthy 
+older adults. Clinical Interventions in Aging, 11, 1287–1299. https://doi.org/10.2147/CIA.S115711 
+  
+[6] Forte, R., Boreham, C. A., Leite, J. C., De Vito, G., Brennan, L., Gibney, E. R., & Pesce, C. (2013). Enhancing 
+cognitive functioning in the elderly: multicomponent vs resistance training. Clinical Interventions in Aging, 8, 19–
+27. https://doi.org/10.2147/CIA.S36514 
+  
+[7] Langdon, K. D., & Corbett, D. (2012). Improved working memory following novel combinations of physical and 
+cognitive activity. Neurorehabilitation and Neural Repair, 26(5), 523–532. 
+https://doi.org/10.1177/1545968311425919 
+  
+[8] Lauenroth, A., Ioannidis, A. E., & Teichmann, B. (2016). Influence of combined physical and cognitive training 
+on cognition: a systematic review. BMC Geriatrics, 16(1), 141. https://doi.org/10.1186/s12877-016-0315-1 
+  
+[9] Ide, K., & Secher, N. H. (2000). Cerebral blood flow and metabolism during exercise. Progress in 
+neurobiology, 61(4), 397-414. 
+Mozolic, J. L., Hayaska, S., & Laurienti, P. J. (2010). A cognitive training intervention increases resting cerebral 
+blood flow in healthy older adults. Frontiers in human neuroscience, 4, 16. 
+  
+[10] Voss, M. W., Erickson, K. I., Prakash, R. S., Chaddock, L., Kim, J. S., Alves, H., … Kramer, A. F. (2013). 
+Neurobiological markers of exercise-related brain plasticity in older adults. Brain, Behavior, and Immunity, 28, 90–
+99. https://doi.org/10.1016/j.bbi.2012.10.021 
+  
+[11] Voss, M. W., Erickson, K. I., Prakash, R. S., Chaddock, L., Kim, J. S., Alves, H., … Kramer, 
+A. F. (2013). Neurobiological markers of exercise-related brain plasticity in older adults. Brain, 
+Behavior, and Immunity, 28, 90–99. https://doi.org/10.1016/j.bbi.2012.10.021 
+[12] Bhome, R., Berry, A. J., Huntley, J. D., & Howard, R. J. (2018). Interventions for subjective cognitive decline: 
+systematic review and meta-analysis. BMJ Open, 8(7), e021610. https://doi.org/10.1136/bmjopen-2018-021610
+
+===== PAGE 9 =====
+[13] Shumway-Cook, A., Brauer, S., & Woollacott, M. (2000). Predicting the probability for falls 
+in community-dwelling older adults using the Timed Up & Go Test. Physical therapy, 80(9), 
+896-903. 
+  
+[14] Black J. E., Isaacs K. R., Anderson B. J., Alcantara A. A., Greenough W. T. (1990). Learning causes 
+synaptogenesis, whereas motor activity causes angiogenesis, in cerebellar cortex of adult rats. Proc. Natl. Acad. Sci. 
+U.S.A. 87, 5568–5572. 10.1073/pnas.87.14.5568 
+Ding Y. H., Li J., Zhou Y., Rafols J. A., Clark J. C., Ding Y. (2006). Cerebral angiogenesis and expression of 
+angiogenic factors in aging rats after exercise. Curr. Neurovasc. Res. 3, 15–23. 10.2174/156720206775541787 
+  
+[15] Ambrose, C. T. (2012). Neuroangiogenesis: a vascular basis for Alzheimer’s disease and cognitive decline 
+during aging. Journal of Alzheimer’s Disease: JAD, 32(3), 773–788. https://doi.org/10.3233/JAD-2012-120067 
+  
+[16] Castellano, J. M., Kirby, E. D., & Wyss-Coray, T. (2015). Blood-Borne Revitalization of the Aged Brain. 
+JAMA Neurology, 72(10), 1191–1194. https://doi.org/10.1001/jamaneurol.2015.1616 
+Villeda, S. A., et al. 2014. Young blood reverses age-related impairments in cognitive function and synaptic 
+plasticity in mice. Nature Medicine 20:659–663 
+  
+[17] Cameron HA, McKay RD. Adult neurogenesis produces a large pool of new granule cells in the dentate gyrus. 
+The Journal of comparative neurology. 2001;435(4):406–17.  
+  
+[18] Van Praag, H., Kempermann, G., & Gage, F. H. (1999). Running increases cell proliferation and neurogenesis 
+in the adult mouse dentate gyrus. Nature Neuroscience, 2(3), 266. 
+  
+[19] Curlik, D. M., & Shors, T. J. (2013). Training your brain: Do mental and physical (MAP) training enhance 
+cognition through the process of neurogenesis in the hippocampus? Neuropharmacology, 64(1), 506–514. 
+https://doi.org/10.1016/j.neuropharm.2012.07.027 
+  
+[20] Fabel, K., Wolf, S. A., Ehninger, D., Babu, H., Leal-Galicia, P., & Kempermann, G. (2009). Additive Effects 
+of Physical Exercise and Environmental Enrichment on Adult Hippocampal Neurogenesis in Mice. Frontiers in 
+Neuroscience, 3. https://doi.org/10.3389/neuro.22.002.2009 
+  
+[21] Colcombe, S. J., Kramer, A. F., Erickson, K. I., Scalf, P., McAuley, E., Cohen, N. J., … Elavsky, S. (2004). 
+Cardiovascular fitness, cortical plasticity, and aging. Proceedings of the National Academy of Sciences, 101(9), 
+3316–3321. https://doi.org/10.1073/pnas.0400266101 
+Boyke J., Driemeyer J., Gaser C., Büchel C., May A. (2008). Training-induced brain structure changes in the 
+elderly. J. Neurosci. 28, 7031–7035. 10.1523/JNEUROSCI.0742-08.2008

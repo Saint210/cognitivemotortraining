@@ -1,0 +1,703 @@
+===== PAGE 1 =====
+Academic Editor: Wei Liu
+Received: 17 July 2025
+Revised: 23 August 2025
+Accepted: 29 August 2025
+Published: 1 September 2025
+Citation: Polecho´nski, J.; Horbacz, A.
+Assessment of the Validity and
+Reliability of Reaction Speed
+Measurements Using the Rezzil Player
+Application in Virtual Reality.
+Multimodal Technol. Interact. 2025, 9, 91.
+https://doi.org/10.3390/mti9090091
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license
+(https://creativecommons.org/
+licenses/by/4.0/).
+Article
+Assessment of the Validity and Reliability of Reaction Speed
+Measurements Using the Rezzil Player Application in Virtual Reality
+Jacek Polecho´nski 1,*
+and Agata Horbacz 2
+1
+Institute of Sport Sciences, The Jerzy Kukuczka Academy of Physical Education in Katowice,
+40-065 Katowice, Poland
+2
+Institute of Physical Education and Sport, Pavol Jozef Šafárik University, 04180 Kosice, Slovakia;
+agata.horbacz@upjs.sk
+*
+Correspondence: j.polechonski@awf.katowice.pl
+Abstract
+Virtual reality (VR) is widely used across various areas of human life. One field where
+its application is rapidly growing is sport and physical activity (PA). Training applica-
+tions are being developed that support various sports disciplines, motor skill acquisition,
+and the development of motor abilities. Immersive technologies are increasingly being
+used to assess motor and cognitive capabilities. As such, validation studies of these
+diagnostic tools are essential. The aim of this study was to estimate the validity and
+reliability of reaction speed (RS) measurements using the Rezzil Player application (“Reac-
+tion” module) in immersive VR compared to results obtained with the SMARTFit device
+in a real environment (RE). The study involved 43 university students (17 women and
+26 men). Both tests required participants to strike light targets on a panel with their
+hands. Two indicators of response were analyzed in both tests: the number of hits on
+illuminated targets within a specified time frame and the average RS in response to vi-
+sual stimuli. Statistically significant and relatively strong correlations were observed
+between the two measurement methods: number of hits (rS = 0.610; p < 0.001) and average
+RS (rS = 0.535; p < 0.001). High intraclass correlation coefficients (ICCs) were also found
+for both test environments: number of hits in VR (ICC = 0.851), average RS in VR (0.844),
+number of hits in RE (ICC = 0.881), and average RS in RE (0.878). The findings indicate
+that the Rezzil Player application can be considered a valid and reliable tool for measuring
+reaction speed in VR. The correlation with conventional methods and the high ICC values
+attest to the psychometric quality of the tool.
+Keywords: reaction speed; coordination; virtual reality; reaction time; motor tests
+1. Introduction
+Modern sport is characterized by a continuous pursuit of innovative technological
+solutions that support both training processes and the diagnosis of athletes’ motor per-
+formance. One of the most dynamically developing areas in this context is the use of
+virtual reality (VR) in sport and physical activity (PA). In particular, VR is applied to
+develop motor, cognitive, and mental abilities, as well as to train strategies and tactics
+in immersive environments [1–5]. It is also used in motor learning [6–9] and in athlete
+rehabilitation [10–13]. Recent literature reviews show that most published studies demon-
+strate statistically significant training effects of VR interventions compared to traditional
+protocols [14]. Additionally, PA in VR is associated with high levels of enjoyment, which
+enhances the attractiveness and potentially the effectiveness of this form of exercise [15–18].
+Multimodal Technol. Interact. 2025, 9, 91
+https://doi.org/10.3390/mti9090091
+
+===== PAGE 2 =====
+Multimodal Technol. Interact. 2025, 9, 91
+2 of 13
+Immersive technologies also offer unique opportunities for assessing motor poten-
+tial [8,19–21]. Motor tests developed in VR may offer advantages over traditional ap-
+proaches, particularly for evaluating coordination abilities. Although traditional methods
+are well-established, they often present limitations in terms of cost, portability, equip-
+ment availability, and objectivity—many of which can be addressed by virtual environ-
+ments. Coordination abilities are typically assessed through both precise laboratory-based
+tests [22–25] and simpler movement-based tests [26–28]. Laboratory tests allow accurate
+measurements but are mostly based on fine motor skills, are usually conducted while
+seated, and primarily involve finger or hand movements—thus failing to reflect typical
+athletic motion. Simpler tests, in contrast, often lack measurement precision and objectiv-
+ity, which limits reproducibility. Considering these shortcomings, VR technology offers
+not only an innovative but also a potentially groundbreaking solution for motor diag-
+nostics. VR-based fitness tests allow for precise measurement while replacing fine motor
+actions with global movement patterns, thus combining the advantages of laboratory and
+functional testing [20].
+One of the most important coordination-related motor abilities for athletes is reaction
+speed (RS), as it determines success in many sports disciplines [21,29–32]. This is especially
+relevant in sports requiring quick responses to dynamic gameplay, such as team sports,
+tennis, or martial arts. RS includes not only simple responses to stimuli but also complex
+decision-making processes that must occur in extremely short timeframes. RS refers to the
+speed of response, or the rate at which we respond to a stimulus. Motor response speed
+depends on reaction time (RT) and movement time (MT) [33]. RT is the time between the
+appearance of an unexpected stimulus and the initiation of the correct motor response.
+MT is the time interval from the beginning to the end of the movement [34]. RT involves
+a multi-stage information processing process, starting with the generation of stimulation
+in the receptor, continuing through its transmission to the central nervous system and
+then to the motor center, where after forming an executive signal and transmitting it to
+the muscle it is stimulated, its tension changes, and movement is initiated. Depending on
+the variety of stimuli to which the individual is exposed, simple reaction time (SRT) and
+choice reaction time (CRT) are distinguished. In the former, there is a single signal and a
+required response. CRT, on the other hand, requires a different response to two or more
+stimuli [35]. The stimulus identification phase is believed to be the longest segment of infor-
+mation processing [36]. The number of processed stimuli lengthens RT, as demonstrated by
+numerous researchers [37]. This relationship is related to Hick’s law, according to which an
+increase in the number of choices logarithmically increases the time to make a decision [38].
+Therefore, complex reaction time, where the task is more difficult and requires a variety
+of actions in response to emerging stimuli, is longer than simple reaction time, regardless
+of whether the generated signal was visual, auditory, tactile, or mixed [39]. Classical re-
+action tests typically involve responding to a visual or auditory stimulus with a specific
+motor task [40,41], making them relatively straightforward to implement in immersive
+VR environments. Prototype tools for assessing RS in VR already exist [8,19–21,42]. This at-
+tests to the growing interest in methods that enable the assessment of reaction performance
+in immersive environments. Validation studies of these devices are promising, indicating
+relatively high validity and reliability of such solutions. However, a limitation is that
+they rely on research-grade VR systems rather than commercially available applications,
+which constrains practical use [8,19–21,42]. There are also commercially available solutions,
+such as the Rezzil Player application, which includes a “React” module offering various
+RS assessment modes. One of the test formats features a 3 × 3 target grid with randomly
+appearing light stimuli (illuminated virtual disks), which the user must hit with their
+hands. This setup enables assessment of both simple reaction speed and the ability to
+
+===== PAGE 3 =====
+Multimodal Technol. Interact. 2025, 9, 91
+3 of 13
+quickly localize stimuli in space. This test closely resembles reaction assessments per-
+formed using the widely used SMARTFit diagnostic and training system, which is applied
+in therapeutic contexts [43,44].
+The introduction of new diagnostic technologies in sport requires rigorous validation
+to confirm their validity and consistency. Without such validation, new diagnostic tools
+may produce misleading results and poor training decisions. It is crucial to compare the
+outcomes of novel instruments with established measurement standards. Validity refers
+to the degree to which a diagnostic tool actually measures the intended ability [45]. In
+the context of RS measurement in VR, validity means that test results correspond with
+the individual’s actual reaction abilities. The nature of VR introduces several variables
+that can affect measurement outcomes, including system latency, differences in depth and
+distance perception, potential simulator sickness symptoms, and novelty effects. Reliability,
+on the other hand, refers to the consistency, stability, and repeatability of results under
+unchanged conditions [46].
+So far, most studies on the use of VR in sport have focused primarily on training appli-
+cations [7,14,47–53], while the diagnostic potential of VR remains underexplored [8,19–21].
+There is thus a strong need for systematic validation studies to confirm or refute the diag-
+nostic value of immersive technologies in sport. This study aims to fill this gap by compre-
+hensively assessing the validity and reliability of the commercially available Rezzil Player
+application (“Reaction” module) for measuring RS in VR compared to results obtained
+using the standard SMARTFit diagnostic-training device in real-world (RE) settings. Addi-
+tionally, we analyzed the correlation between two indicators of the assessed coordination
+ability in both tests—the number of hits on illuminated targets and the average RS to visual
+stimuli—and compared the RS results of participants between VR and RE conditions. The
+outcomes of this study may have practical implications for implementing VR technologies
+in training centers, sports clubs, and research institutions.
+2. Materials and Methods
+The study was conducted at the certified Laboratory of Research on Pro-Health Phys-
+ical Activity at the Academy of Physical Education in Katowice (Quality Management
+System PN-EN ISO 9001:2015). A total of 43 physically fit university students partici-
+pated in the study, including 17 women (age 23.0 ± 2.2 years, body mass 62.5 ± 11.3 kg,
+height 167.8 ± 6.3 cm) and 26 men (age 22.5 ± 2.2 years, body mass 81.8 ± 11.3 kg, height
+180.0 ± 6.3 cm). Prior to the study, each participant was informed about the research
+procedures, objectives, and the intended use of the collected data. Participants were also
+informed of their right to withdraw at any time without providing a reason and without
+consequences. All participants gave written informed consent and signed a data privacy
+statement. The study was conducted in accordance with the Declaration of Helsinki and
+was reviewed and approved by the Research Ethics Committee of the Academy of Physical
+Education in Katowice (protocol 9/2018, 19 April 2018; protocol supplement KB/27/2022,
+25 October 2022).
+All tests were performed under standardized laboratory conditions (constant ambient
+lighting, no acoustic stimuli that could disturb the test, and a temperature 22 ◦C). Reaction
+speed in VR was assessed using a Meta Quest 2 headset (Meta Platforms, Menlo Park, CA,
+USA) and the Rezzil Player application (v.1.1.1265, Rezzil, Manchester, United Kingdom),
+available on the Meta store. This app includes several training modules for soccer, American
+football, and basketball, as well as a reaction speed training and diagnostic module called
+“Reaction,” which was used in this study. It allows the evaluation of RS based on appearing
+light stimuli. The “Micro Wall” option was selected, where users must hit virtual red-light
+targets (approximately 10 cm in diameter) arranged in a 3 × 3 grid as quickly as possible
+
+===== PAGE 4 =====
+Multimodal Technol. Interact. 2025, 9, 91
+4 of 13
+with either hand (Figure 1). The centers of the virtual targets were spaced horizontally by
+approximately 22 cm and vertically by approximately 38 cm. After a successful hit, the
+light turns off and another target lights up randomly. Each test lasted 60 s. The subjects
+stood at such a distance from the virtual grid that they could freely touch each of the nine
+targets with their right and left hands. Two output parameters were analyzed: the average
+reaction time (in seconds) and the number of target hits. The software measures RS with an
+accuracy of 0.001 s.
+ 
+Figure 1. Participant during the test using the Rezzil Player application (Reaction module, “Reaction
+Wall” 3 × 3 option).
+To assess the validity of the VR-based test, the obtained RS values were compared
+with those from a test performed in a real-world environment using the SMARTfit Mini
+device (model 1-30111, On-Wall Adjustable version). This interactive measurement system,
+produced by SMARTfit Inc. (Camarillo, CA, USA), includes nine multifunctional LED
+targets (diameter 11.5 cm, 16 × 16 pixels each) mounted on a 116.84 × 116.84 cm panel.
+The distance between the centers of the disks vertically and horizontally is 38 cm. It allows
+for measuring RS, movement accuracy, and analyzing motor patterns by recording target
+strikes. The “track the targets” mode, analogous to the VR test, was used. Participants
+struck illuminated targets randomly appearing on a 3 × 3 grid for 60 s (Figure 2). Unlike
+in VR, the RE test targets were represented as white emoji icons instead of red disks.
+Participants were positioned at a distance from the board such that they could touch each
+target with their right or left hand. The system recorded average RS (in milliseconds) and
+the number of target hits.
+ 
+Figure 2. Participant during the test using the SMARTFit board.
+
+===== PAGE 5 =====
+Multimodal Technol. Interact. 2025, 9, 91
+5 of 13
+Both tests were repeated three times. The final test result was the average of all
+trials. The averaged values from each trial were used to assess test reliability. A 5 min
+break was provided between measurements. Participants were allowed to stop the test
+in case of discomfort. After the VR test, they were verbally asked about symptoms of
+cybersickness, such as dizziness, nausea, eye strain, or headache. A short briefing and
+one trial test preceded the main measurement. A 10 min break was given between the
+VR and RE tests. To eliminate order effects, half of the participants completed the VR
+test first, followed by the RE test, and the other half completed the tests in the reverse
+order. Before each of the main measurements (VR and RE), participants completed one
+practice test to familiarize themselves with the measurement environment and procedure.
+All students declared that they had not previously used the SMARTFit device or the Rezzil
+Player app. All participants also reported familiarity with VR technology and had used it
+at least a few times.
+Statistical analyses were conducted using Statistica (version 13.3) and SPSS (version
+26.0) software. Basic descriptive statistics were calculated: arithmetic means and standard
+deviations. The Shapiro–Wilk test was used to verify the normality of data distribution. The
+convergent validity of the VR test was assessed by correlating its results with those from
+the SMARTFit device using Spearman’s rank correlation, while agreement was estimated
+using the Bland–Altman method [54], reporting the bias (mean VR−RE difference) and
+the 95% limits of agreement (LOA = bias ± 1.96·SD of the differences) for both outcomes
+(reaction speed, number of hits). Interpretation of the results followed the scale proposed
+by Dancey and Reidy [45].
+Measurement reliability for the VR and RE tests was estimated using the intraclass
+correlation coefficient (ICC) and its 95% confidence interval (CI), according to the proce-
+dures of Koo and Li [55]. A two-way mixed-effects model was used, with random effects
+for subjects and fixed effects for items. The ICC type was defined as absolute agreement.
+Reliability was evaluated based on a single measurement, incorporating three repeated
+measurements per participant, using the following formula:
+ICC (3.1) =
+MSR −MSE
+MSR + (k −1)MSE + k
+n(MSC −MSE)
+where
+-
+MSR—mean square for rows (subjects);
+-
+MSE—mean square error;
+-
+MSC—mean square for columns (trials);
+-
+n—number of subjects;
+-
+k—number of repeated measurements per subject.
+The ICC values were interpreted as follows: poor (<0.5), moderate (0.5–0.75), good
+(0.75–0.9), and excellent (>0.9) reliability [55]. Statistical significance of ICC values was
+assessed using the F-test.
+To verify differences between the results of the two tests, the nonparametric Wilcoxon
+test was applied. Effect sizes were calculated using the rank-biserial correlation coefficient
+(rrb). A p-value < 0.05 was considered statistically significant.
+3. Results
+The results showed a strong (rS = 0.610) and statistically significant (p < 0.001) correlation
+between the number of target hits in the VR and RE tests (Figure 3), according to the scale
+proposed by Dancey and Reidy [45]. A relatively high correlation (rS = 0.535; p < 0.001) was also
+observed for the second analyzed parameter—average RS (Figure 4).
+
+===== PAGE 6 =====
+Multimodal Technol. Interact. 2025, 9, 91
+6 of 13
+Figure 3. Correlation between the number of target hits in virtual reality (VR) and in real environment
+(RE); rS, Spearman’s rank correlation coefficient; p, p value; n = 43.
+Figure 4. Correlation between mean reaction speed (RS) in virtual reality (VR) and in the real
+environment (RE); rS, Spearman’s rank correlation coefficient; p, p-value; n = 43.
+Additionally, the relationship between the number of hits and RS was very strong and sta-
+tistically significant in both environments: VR (rS = 0.999; p < 0.001) and RE (rS = 0.916; p < 0.001)
+(Figures 5 and 6). This suggests that both parameters can be used interchangeably to evaluate
+reaction performance.
+Figure 5. Correlation between the number of target hits and reaction speed (RS) in the virtual reality
+(VR) test; rS, Spearman’s rank correlation coefficient; p, p-value; n = 43.
+
+===== PAGE 7 =====
+Multimodal Technol. Interact. 2025, 9, 91
+7 of 13
+Figure 6. Correlation between the number of target hits and reaction speed (RS) in the real environ-
+ment (RE) test; rS, Spearman’s rank correlation coefficient; p, p-value; n = 43.
+The ICC values for the reaction tests in VR demonstrated high measurement reliability
+and were similar to the values observed in the RE tests. For the average RS parameter in
+VR, the ICC was 0.844, while in RE it was 0.878. For the number of hits per minute, the
+ICCs were 0.851 in VR and 0.881 in RE (Tables 1 and 2).
+Table 1. Intraclass correlation coefficients (ICCs) for reaction tests in virtual reality (VR).
+Parameter
+ICC (95% CI)
+F
+p
+Reaction Speed
+0.844 (0.758–0.906)
+17.120
+0.001
+Hits per Minute
+0.851 (0.768–0.910)
+18.036
+0.001
+Legend: ICC, intraclass correlation coefficient; CI, confidence interval; F, F-test value; p, p-value; n = 43.
+Table 2. Intraclass correlation coefficients (ICCs) for reaction tests in the real environment (RE).
+Parameter
+ICC (95% CI)
+F
+p
+Reaction Speed
+0.878 (0.809–0.928)
+23.373
+0.001
+Hits per Minute
+0.881 (0.813–0.929)
+22.956
+0.001
+Legend: ICC, intraclass correlation coefficient; CI, confidence interval; F, F-test value; p, p-value; n = 43.
+The mean RS in VR was significantly (p < 0.001; rrb = 0.992) higher (528.0 ms) than in
+the real environment (426.4 ms), with a difference of 101.6 ms (Figure 7).
+Figure 7. Mean reaction speed (RS) during tests in virtual reality (VR) and in the real environment
+(RE); rrb, rank-biserial correlation coefficient; p, p-value; n = 43.
+For the number of hits, Bland–Altman analysis indicated a positive bias (VR−RE) of
++19.7, with 95% limits of agreement from 3.3 to 36.1 (n = 43) (Figure 8). For RS, Bland–
+
+===== PAGE 8 =====
+Multimodal Technol. Interact. 2025, 9, 91
+8 of 13
+Altman analysis indicated a positive bias of +101.6, with 95% limits of agreement from
+2.3 to 200.8 ms (n = 43) (Figure 9).
+Figure 8. Bland–Altman plot for the number of hits in virtual reality (VR) and the real environment
+(RE) (n = 43). The solid line shows the mean difference (bias; VR−RE), and the dashed lines indicate
+the 95% limits of agreement (LOAs); n = 43.
+Figure 9. Bland–Altman plot for reaction speed (RS, ms) in virtual reality (VR) and the real environ-
+ment (RE) (n = 43). The solid line shows the mean difference (bias; VR−RE), and the dashed lines
+indicate the 95% limits of agreement (LOAs); n = 43.
+4. Discussion
+The results of the present study provide significant evidence for the measurement
+validity of the Rezzil Player application as a tool for assessing reaction speed (RS) in
+a virtual reality (VR) environment. The obtained correlation coefficients (rS = 0.610 for
+the number of target hits and rS = 0.535 for mean RS) are consistent with findings from
+previous studies validating similar diagnostic tools in VR. Polecho´nski and Langer [21]
+reported comparable correlations (r = 0.564–0.744) when validating reaction tests in VR
+among combat sports athletes. The VR task involved pressing controller buttons with index
+fingers in response to the illumination of virtual disks, and results were compared with
+classical computer-based tests. In another validation study [19], significant correlations
+(r = 0.683–0.767) were found when comparing results from standard computer-based tests
+with a VR-implemented Ruler Drop test. The same authors also compared results from
+the VR version of the Ruler Drop test with its traditional real-world counterpart, yielding
+
+===== PAGE 9 =====
+Multimodal Technol. Interact. 2025, 9, 91
+9 of 13
+slightly lower but still statistically significant correlations (r = 0.468–0.474). These studies
+were conducted among mixed martial arts athletes, which supports the consistency of
+results across different populations of physically fit young individuals. A very similar
+correlation (r = 0.445) between Drop-bar test results in VR and real environments was also
+reported by Pastel et al. [8], who tested a group of young adults. Much higher correlation
+values (r = 0.85–0.89) were found by Chen and Liang [42], who compared the results of
+similar VR and real-world reaction tests that involved quickly responding to visual stimuli
+by pressing a button with the index finger.
+An important part of the present study was the assessment of the reliability of the
+Rezzil Player measurement tool in a VR environment. To this end, intraclass correla-
+tion coefficient (ICC) analysis was conducted. The obtained ICC values, ranging from
+0.844 to 0.851, indicate good measurement reliability according to the classification by
+Koo and Li [55]. It should be noted that very similar results (ICC = 0.878–0.881) were
+obtained in the same test conducted in the real environment using the SMARTFit device.
+Our findings are in line with those of Pastel et al. [8], who demonstrated high reliability
+of the Drop-bar reaction test in both real (ICC = 0.858) and virtual (ICC = 0.888) environ-
+ments. Chen and Liang [42] reported an ICC of 0.710 for a VR-based version of a classical
+reaction test involving index finger responses to visual stimuli. Comparable ICC values
+were obtained in other studies assessing reaction to a falling object in VR (Ruler Drop test;
+ICC = 0.710–0.783) [19], finger response to virtual lights (ICC = 0.730–0.805) [21], and hand
+strikes on illuminated virtual targets (ICC = 0.792–0.846) [20]. In the first two cases, parallel
+traditional computer tests were conducted, with ICC values ranging from 0.800 to 0.845 and
+0.743–0.836, respectively. These converging results suggest that VR technology has reached
+a sufficient level of technological maturity to allow stable and repeatable measurements of
+reaction ability.
+Another aspect of the present results was the correlation between two indicators of the
+examined coordination ability: the number of target hits and the mean RS to light stimuli.
+This analysis was conducted for tests performed in both virtual and real environments.
+In both cases, the correlation was very high: VR (rs = 0.999), RE (rs = 0.916). According
+to basic psychometric principles, a high correlation between different indicators of the
+same construct is evidence of convergent validity [56]. This result has important practical
+implications, as it allows both parameters to be used interchangeably depending on the
+specifics of the study or diagnostic preference. Although the redundancy found suggests
+that a single metric could suffice for future evaluations, it appears likely that both metrics
+will be used interchangeably as needed. The number of hits will be more intuitive in a prac-
+tical context, while the average response speed provides greater precision in millisecond
+measurements and may be more useful for scientific comparisons.
+The study also compared the reaction speed results obtained in virtual and real
+environments. A significant difference (p < 0.001; rrb = 0.992) was observed between
+the mean RS in VR (528.0 ms) and RE (426.4 ms), which requires further analysis. One
+possible explanation is technological delay inherent in VR systems [57,58]. The motion-to-
+photon latency for systems similar to the Meta Quest 2 (HTC Vive, Oculus Rift, Oculus
+Rift S) is 21–42 ms [59]. The 101.6 ms difference between VR and RE cannot therefore be
+explained solely by technical latency. This indicates the involvement of additional factors.
+Reaction time differences between VR and real-world settings may also result from distinct
+perceptual and motor demands in virtual environments. For instance, depth and distance
+perception in VR may differ from natural perception, influencing motor decision-making
+time [60]. Technological delays may also affect user experience quality and measurement
+accuracy [61]. Another technical limitation is the risk of dropped or reprojected frames,
+which may compromise the accuracy of reaction time measurements. It should also be
+
+===== PAGE 10 =====
+Multimodal Technol. Interact. 2025, 9, 91
+10 of 13
+noted that despite the high similarity between the tests and their procedures, the two
+measurement tools differed slightly (e.g., the shape of the 3 × 3 grid/wall, the color of the
+stimuli). Nonetheless, the results of the present study are consistent with findings from
+similar research comparing RS in VR and standard computer tests [19,21,42]. In all of these
+studies, reaction times were significantly slower in virtual environments.
+Bland–Altman analysis confirms the presence of systematic but constant bias between
+VR and RE measurements. The absence of proportional bias indicates that differences be-
+tween methods remain relatively constant across the full range of participant performance,
+which is favorable from a practical application perspective. The systematic bias of 101.6 ms
+for RS and 19.7 hits can be accounted for in result interpretation through the application
+of correction coefficients or the use of relative rather than absolute measurements. The
+95% limits of agreement suggest that for individual measurements, differences between
+methods may range from 2.3 to 200.8 ms for RS and from 3.3 to 36.1 hits, which should be
+considered when making decisions about the interchangeable use of methods in clinical or
+sports applications.
+One limitation of the present study is the use of a single VR headset (Meta Quest 2),
+which restricts the generalizability of the findings to other systems. Different VR headsets
+may vary in motion capture precision, latency, and tracking accuracy. Another limitation
+is the relatively small sample size (n = 43) and the homogeneity of the group (physically
+fit university students), which limits the possibility of generalizing the findings of the
+study to other populations. Therefore, future validation of the Rezzil Player application
+should include participants from diverse age groups and fitness levels (elderly people,
+patients, children, and athletes). The study also did not include a systematic assessment
+of cybersickness, which should be considered a limitation, as there are reports suggesting
+that cybersickness can affect cognitive and motor performance [62]. It should be noted,
+however, that none of the participants reported experiencing any discomfort during or
+after the tests that could indicate the occurrence of cybersickness.
+5. Conclusions
+The conducted study provides compelling evidence for the validity and reliability of
+the Rezzil Player application as a tool for measuring reaction speed in a VR environment.
+The obtained correlation coefficients with traditional measurement methods and high ICC
+values confirm the psychometric quality of the tool. The observed difference in reaction
+times between VR and the real world, although statistically significant, does not disqualify
+the tool but should be considered when interpreting results. These findings contribute to
+the growing body of research validating VR tools in sports and diagnostics, confirming the
+potential of this technology to complement traditional measurement methods.
+Author Contributions: Conceptualization, J.P.; methodology, J.P.; validation, J.P. and A.H.; formal
+analysis, J.P. and A.H.; investigation, J.P.; resources, J.P.; data curation, J.P.; writing—original draft
+preparation, J.P.; writing—review and editing, J.P. and A.H.; visualization, J.P.; supervision, J.P.; project
+administration, J.P. All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: The study was conducted in accordance with the Declaration
+of Helsinki and was reviewed and approved by the Research Ethics Committee of the Academy of
+Physical Education in Katowice (protocol 9/2018, 19 April 2018; protocol supplement KB/27/2022,
+25 October 2022).
+Informed Consent Statement: Informed consent was obtained from all subjects involved in the study.
+
+===== PAGE 11 =====
+Multimodal Technol. Interact. 2025, 9, 91
+11 of 13
+Data Availability Statement: The raw data supporting the conclusions of this article will be made
+available by the authors on request.
+Conflicts of Interest: The authors declare no conflicts of interest.
+Abbreviations
+The following abbreviations are used in this manuscript:
+VR
+Virtual reality
+PA
+Physical activity
+RS
+Reaction speed
+RE
+Real environment
+rS
+Spearman’s rank correlation coefficient
+p
+p-value
+ICC
+Intraclass correlation coefficient
+RT
+Reaction time
+MT
+Movement time
+MSR
+Mean square for rows
+MSE
+Mean square error
+MSC
+Mean square for columns
+n
+Number of subjects
+k
+Number of repeated measurements per subject
+Cl
+Confidence interval
+F
+F-test value
+rrb
+Rank-biserial correlation coefficient
+References
+1.
+Cotterill, S.T. Virtual Reality and Sport Psychology: Implications for Applied Practice. Case Stud. Sport Exerc. Psychol. 2018, 2,
+21–22. [CrossRef]
+2.
+Grosprêtre, S.; Marcel-Millet, P.; Eon, P.; Wollesen, B. How Exergaming with Virtual Reality Enhances Specific Cognitive and
+Visuo-Motor Abilities: An Explorative Study. Cogn. Sci. 2023, 47, e13278. [CrossRef]
+3.
+Harris, D.J.; Buckingham, G.; Wilson, M.R.; Brookes, J.; Mushtaq, F.; Mon-Williams, M.; Vine, S.J. The Effect of a Virtual Reality
+Environment on Gaze Behaviour and Motor Skill Learning. Psychol. Sport Exerc. 2020, 50, 101721. [CrossRef]
+4.
+Schack, T.; Hagan, J.E., Jr.; Essig, K. Coaching with Virtual Reality, Intelligent Glasses and Neurofeedback: The Potential Impact
+of New Technologies. Int. J. Sport Psychol. 2020, 51, 667–688.
+5.
+Yu, C.; Wang, C.; Xie, Q.; Wang, C. Effect of Virtual Reality Technology on Attention and Motor Ability in Children with
+Attention-Deficit/Hyperactivity Disorder: Systematic Review and Meta-Analysis. JMIR Serious Games 2024, 12, e56918. [CrossRef]
+[PubMed]
+6.
+Levac, D.E.; Huber, M.E.; Sternad, D. Learning and Transfer of Complex Motor Skills in Virtual Reality: A Perspective Review. J.
+Neuroeng. Rehabil. 2019, 16, 121. [CrossRef]
+7.
+Pastel, S.; Petri, K.; Chen, C.H.; Wiegand Cáceres, A.M.; Stirnatis, M.; Nübel, C.; Schlotter, L.; Witte, K. Training in Virtual Reality
+Enables Learning of a Complex Sports Movement. Virtual Real. 2023, 27, 523–540. [CrossRef]
+8.
+Pastel, S.; Klenk, F.; Bürger, D.; Heilmann, F.; Witte, K. Reliability and Validity of a Self-Developed Virtual Reality-Based Test
+Battery for Assessing Motor Skills in Sports Performance. Sci. Rep. 2025, 15, 6256. [CrossRef]
+9.
+Witte, K.; Bürger, D.; Pastel, S. Sports Training in Virtual Reality with a Focus on Visual Perception: A Systematic Review. Front.
+Sports Act. Living 2025, 7, 1530948. [CrossRef]
+10.
+Gokeler, A.; Bisschop, M.; Myer, G.D.; Benjaminse, A.; Dijkstra, P.U.; van Keeken, H.G.; van Raay, J.J.A.M.; Burgerhof, J.G.M.;
+Otten, E. Immersive Virtual Reality Improves Movement Patterns in Patients after ACL Reconstruction: Implications for Enhanced
+Criteria-Based Return-to-Sport Rehabilitation. Knee Surg. Sports Traumatol. Arthrosc. 2016, 24, 2280–2286. [CrossRef]
+11.
+Lal, H.; Mohanta, S.; Kumar, J.; Patralekh, M.K.; Lall, L.; Katariya, H.; Arya, R.K. Telemedicine-Rehabilitation and Virtual Reality
+in Orthopaedics and Sports Medicine. Indian J. Orthop. 2023, 57, 7–19. [CrossRef]
+12.
+Nambi, G.; Abdelbasset, W.K.; Elsayed, S.H.; Alrawaili, S.M.; Abodonya, A.M.; Saleh, A.K.; Elnegamy, T.E. Comparative Effects
+of Isokinetic Training and Virtual Reality Training on Sports Performances in University Football Players with Chronic Low Back
+Pain-Randomized Controlled Study. Evid. Based Complement. Alternat. Med. 2020, 2020, 2981273. [CrossRef] [PubMed]
+
+===== PAGE 12 =====
+Multimodal Technol. Interact. 2025, 9, 91
+12 of 13
+13.
+Yan, H. Construction and Application of Virtual Reality-Based Sports Rehabilitation Training Program. Occup. Ther. Int. 2022,
+2022, 4364360. [CrossRef] [PubMed]
+14.
+Richlan, F.; Weiß, M.; Kastner, P.; Braid, J. Virtual Training, Real Effects: A Narrative Review on Sports Performance Enhancement
+through Interventions in Virtual Reality. Front. Psychol. 2023, 14, 1240790. [CrossRef]
+15.
+Polecho´nski, J.; Zwierzchowska, A.; Makioła, Ł.; Groffik, D.; Kostorz, K. Handheld Weights as an Effective and Comfortable
+Way To Increase Exercise Intensity of Physical Activity in Virtual Reality: Empirical Study. JMIR Serious Games 2022, 10, e39932.
+[CrossRef]
+16.
+Polecho´nski, J.; Szczechowicz, B.; Ry´snik, J.; Tomik, R. Recreational Cycling Provides Greater Satisfaction and Flow in an
+Immersive Virtual Environment than in Real Life. BMC Sports Sci. Med. Rehabil. 2024, 16, 31. [CrossRef] [PubMed]
+17.
+Rubio-Arias, J.Á.; Verdejo-Herrero, A.; Andreu-Caravaca, L.; Ramos-Campo, D.J. Impact of Immersive Virtual Reality Games
+or Traditional Physical Exercise on Cardiovascular and Autonomic Responses, Enjoyment and Sleep Quality: A Randomized
+Crossover Study. Virtual Real. 2024, 28, 64. [CrossRef]
+18.
+Zeng, N.; Pope, Z.; Gao, Z. Acute Effect of Virtual Reality Exercise Bike Games on College Students’ Physiological and Psycholog-
+ical Outcomes. Cyberpsychology Behav. Soc. Netw. 2017, 20, 453–457. [CrossRef]
+19.
+Langer, A.; Polecho´nski, J.; Polecho´nski, P.; Cholewa, J. Ruler Drop Method in Virtual Reality as an Accurate and Reliable Tool for
+Evaluation of Reaction Time of Mixed Martial Artists. Sustainability 2023, 15, 648. [CrossRef]
+20.
+Polecho´nski, J.; Langer, A.; Stastny, P.; Zak, M.; Zaj ˛ac-Gawlak, I.; Maszczyk, A. Does Virtual Reality Allow for a Reliable
+Assessment of Reaction Speed in Mixed Martial Arts Athletes? Balt. J. Health Phys. Act. 2024, 16, 3. [CrossRef]
+21.
+Polecho´nski, J.; Langer, A. Assessment of the Relevance and Reliability of Reaction Time Tests Performed in Immersive Virtual
+Reality by Mixed Martial Arts Fighters. Sensors 2022, 22, 4762. [CrossRef]
+22.
+Gierczuk, D.; Ljach, W. Evaluating the Coordination of Motor Abilities in Greco-Roman Wrestlers by Computer Testing. Hum.
+Mov. 2018, 13, 323–329. [CrossRef]
+23.
+Hülsdünker, T.; Ostermann, M.; Mierau, A. Standardised Computer-Based Reaction Tests Predict the Sport-Specific Visuomotor
+Speed and Performance of Young Elite Table Tennis Athletes. Int. J. Perform. Anal. Sport 2019, 19, 953–970. [CrossRef]
+24.
+Matczak, D.; Wieczorek, M. Effective Motor Learning and Coordination Abilities of Girls and Boys Aged 9–10. J. Educ. Health
+Sport 2023, 18, 49–61. [CrossRef]
+25.
+Valayi, F.; Bagherli, J.; Taheri, M. The Impact of Performance Fatigue on Visual Perception, Concentration, and Reaction Time in
+Professional Female Volleyball Players. Int. J. Sport Stud. Health 2024, 7, 47–54. [CrossRef]
+26.
+Ángel Latorre-Roman, P.; Robles-Fuentes, A.; García-Pinillos, F.; Salas-Sánchez, J. Reaction Times of Preschool Children on the
+Ruler Drop Test: A Cross-Sectional Study with Reference Values. Percept. Mot. Skills 2018, 125, 866–878. [CrossRef]
+27.
+Machowska-Krupa, W.; Cych, P. Differences in Coordination Motor Abilities between Orienteers and Athletics Runners. Int. J.
+Environ. Res. Public Health 2023, 20, 2643. [CrossRef] [PubMed]
+28.
+Olajos, A.A.; Takeda, M.; Dobay, B.; Radak, Z.; Koltai, E. Freestyle Gymnastic Exercise Can Be Used to Assess Complex
+Coordination in a Variety of Sports. J. Exerc. Sci. Fit. 2020, 18, 47–56. [CrossRef] [PubMed]
+29.
+Broodryk, A.; Skala, F.; Broodryk, R. Light-Based Reaction Speed Does Not Predict Field-Based Reactive Agility in Soccer Players.
+J. Funct. Morphol. Kinesiol. 2025, 10, 239. [CrossRef]
+30.
+Mori, S.; Ohtani, Y.; Imanaka, K. Reaction Times and Anticipatory Skills of Karate Athletes. Hum. Mov. Sci. 2002, 21, 213–230.
+[CrossRef]
+31.
+Supriadi, A.; Mesnan; Azandi, F.; Destya, M.R.; Farooque, S.M. Enhancing Goalkeeper Reaction Speed in Football: The Impact of
+Ball Launcher Training in Physical Training Methods. J. Sport Area 2023, 8, 447–456. [CrossRef]
+32.
+Zwierko, M.; Jedziniak, W.; Popowczak, M.; Rokita, A. Effects of Six-Week Stroboscopic Training Program on Visuomotor Reaction
+Speed in Goal-Directed Movements in Young Volleyball Players: A Study Focusing on Agility Performance. BMC Sports Sci. Med.
+Rehabil. 2024, 16, 59. [CrossRef]
+33.
+Schmidt, R.A. Motor Learning and Performance; Human Kinetics Publishers: Champaign, IL, USA, 1991.
+34.
+Balkó, Š.; Borysiuk, Z.; Simonek, J. The Influence of Different Performance Level of Fencers on Simple and Choice Reaction Time.
+Rev. Bras. Cineantropometria E Desempenho Hum. 2016, 18, 391–400. [CrossRef]
+35.
+Colman, A.M. Dictionary of Psychology; Oxford University Press: Oxford, UK, 2015; ISBN 978-0-19-965768-1.
+36.
+Harmenberg, J.; Ceci, R.; Barvestad, P.; Hjerpe, K.; Nyström, J. Comparison of Different Tests of Fencing Performance. Int. J. Sports
+Med. 2008, 12, 573–576. [CrossRef]
+37.
+Heirani, A.; Vazinitaher, A.; Soori, Z.; Rahmani, M. Relationship between Choice Reaction Time and Expertise in Team and
+Individual Sports: A Gender Differences Approach. Aust. J. Basic Appl. Sci. 2012, 6, 344–348.
+38.
+Gignac, G.E.; Vernon, P.A. Reaction Time and the Dominant and Non-Dominant Hands: An Extension of Hick’s Law. Pers. Individ.
+Differ. 2004, 36, 733–739. [CrossRef]
+39.
+Shelton, J.; Kumar, G.P. Comparison between Auditory and Visual Simple Reaction Times. Neurosci. Med. 2010, 1, 30–32.
+[CrossRef]
+
+===== PAGE 13 =====
+Multimodal Technol. Interact. 2025, 9, 91
+13 of 13
+40.
+Badau, D.; Baydil, B.; Badau, A. Differences among Three Measures of Reaction Time Based on Hand Laterality in Individual
+Sports. Sports 2018, 6, 45. [CrossRef] [PubMed]
+41.
+Polecho´nski, J.; Pilch, J.; Langer, A.; Pro´nczuk, M.; Markowski, J.; Maszczyk, A. Assessment of the Reliability and Validity of
+Simple and Complex Reaction Speed Tests in Mixed Martial Arts Athletes Using the BlazePod System. Balt. J. Health Phys. Act.
+2025, 17, 1–12. [CrossRef]
+42.
+Chen, Y.-C.; Liang, H.-W. Application of a Virtual Reality-Based Measurement of Simple Reaction Time in Adults: A Psychometric
+Evaluation. Virtual Real. 2025, 29, 108. [CrossRef]
+43.
+Chua, L.-K.; Chung, Y.-C.; Bellard, D.; Swan, L.; Gobreial, N.; Romano, A.; Glatt, R.; Bonaguidi, M.A.; Lee, D.J.; Jin, Y.; et al.
+Gamified Dual-Task Training for Individuals with Parkinson Disease: An Exploratory Study on Feasibility, Safety, and Efficacy.
+Int. J. Environ. Res. Public. Health 2021, 18, 12384. [CrossRef]
+44.
+Jhaveri, S.; Romanyk, M.; Glatt, R.; Satchidanand, N. SMARTfit Dual-Task Exercise Improves Cognition and Physical Function in
+Older Adults with Mild Cognitive Impairment: Results of a Community-Based Pilot Study. J. Aging Phys. Act. 2023, 31, 621–632.
+[CrossRef]
+45.
+Dancey, C.;
+Reidy, J. Statistics Without Maths for Psychology, 3rd ed.;
+Pearson Prentice Hall:
+Harlow, UK, 2004.
+ISBN 978-0-13-124941-7.
+46.
+Nunnally, J.C.; Bernstein, I.H. Psychometric Theory, 3rd ed.; McGraw-Hill: New York, NY, USA, 1994.
+47.
+Polecho´nski, J.; Langer, A.; Akba¸s, A.; Zwierzchowska, A. Application of Immersive Virtual Reality in the Training of Wheelchair
+Boxers: Evaluation of Exercise Intensity and Users Experience Additional Load– a Pilot Exploratory Study. BMC Sports Sci. Med.
+Rehabil. 2024, 16, 80. [CrossRef]
+48.
+Polecho´nski, J.; Przepiórzy´nski, A.; Polecho´nski, P.; Tomik, R. Effect of Elastic Resistance on Exercise Intensity and User Satisfaction
+While Playing the Active Video Game BoxVR in Immersive Virtual Reality: Empirical Study. JMIR Serious Games 2024, 12, e58411.
+[CrossRef]
+49.
+Neumann, D.L.; Moffitt, R.L.; Thomas, P.R.; Loveday, K.; Watling, D.P.; Lombard, C.L.; Antonova, S.; Tremeer, M.A. A Systematic
+Review of the Application of Interactive Virtual Reality to Sport. Virtual Real. 2018, 22, 183–198. [CrossRef]
+50.
+Putranto, J.S.; Heriyanto, J.; Kenny; Achmad, S.; Kurniawan, A. Implementation of Virtual Reality Technology for Sports
+Education and Training: Systematic Literature Review. Procedia Comput. Sci. 2023, 216, 293–300. [CrossRef]
+51.
+Rutkowski, S.; Jakóbczyk, A.; Abrahamek, K.; Nowakowska, A.; Nowak, M.; Liska, D.; Batalik, L.; Colombo, V.; Sacco, M.
+Training Using a Commercial Immersive Virtual Reality System on Hand–Eye Coordination and Reaction Time in Students: A
+Randomized Controlled Trial. Virtual Real. 2024, 28, 7. [CrossRef]
+52.
+Witte, K.; Droste, M.; Ritter, Y.; Emmermacher, P.; Masik, S.; Bürger, D.; Petri, K. Sports Training in Virtual Reality to Improve
+Response Behavior in Karate Kumite with Transfer to Real World. Front. Virtual Real. 2022, 3, 903021. [CrossRef]
+53.
+Zhang, Y.; Tsai, S.-B. Application of Adaptive Virtual Reality with AI-Enabled Techniques in Modern Sports Training. Mob. Inf.
+Syst. 2021, 2021, 6067678. [CrossRef]
+54.
+Bland, J.M.; Altman, D.G. Measuring Agreement in Method Comparison Studies. Stat. Methods Med. Res. 1999, 8, 135–160.
+[CrossRef]
+55.
+Koo, T.K.; Li, M.Y. A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research. J. Chiropr.
+Med. 2016, 15, 155–163. [CrossRef]
+56.
+Furr, R.M. Psychometrics: An Introduction; SAGE Publications: Thousand Oaks, CA, USA, 2021; ISBN 978-1-07-182408-5.
+57.
+Kelkkanen, V.; Lindero, D.; Fiedler, M.; Zepernick, H.-J. Hand-Controller Latency and Aiming Accuracy in 6-DOF VR. Adv.
+Hum.-Comput. Interact. 2023, 2023, 1563506. [CrossRef]
+58.
+Stauffert, J.-P.; Niebling, F.; Latoschik, M.E. Simultaneous Run-Time Measurement of Motion-to-Photon Latency and Latency
+Jitter. In Proceedings of the 2020 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), Atlanta, GA, USA, 22–26 March
+2020; pp. 636–644.
+59.
+Warburton, M.; Mon-Williams, M.; Mushtaq, F.; Morehead, J.R. Measuring Motion-to-Photon Latency for Sensorimotor Experi-
+ments with Virtual Reality Systems. Behav. Res. Methods 2023, 55, 3658–3678. [CrossRef] [PubMed]
+60.
+Subramanian, S.K.; Levin, M.F. Viewing Medium Affects Arm Motor Performance in 3D Virtual Environments. J. Neuroeng.
+Rehabil. 2011, 8, 36. [CrossRef] [PubMed]
+61.
+Brunnström, K.; Dima, E.; Qureshi, T.; Johanson, M.; Andersson, M.; Sjöström, M. Latency Impact on Quality of Experience in a
+Virtual Reality Simulator for Remote Control of Machines. Signal Process. Image Commun. 2020, 89, 116005. [CrossRef]
+62.
+Kourtesis, P.; Linnell, J.; Amir, R.; Argelaguet, F.; MacPherson, S.E. Cybersickness in Virtual Reality Questionnaire (CSQ-VR): A
+Validation and Comparison against SSQ and VRSQ. Virtual Worlds 2023, 2, 16–35. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

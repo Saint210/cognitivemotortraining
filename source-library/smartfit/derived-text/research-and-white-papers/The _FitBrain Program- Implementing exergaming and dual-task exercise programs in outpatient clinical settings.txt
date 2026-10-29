@@ -1,0 +1,2312 @@
+===== PAGE 1 =====
+EDITED BY
+Emma Fortune,
+Mayo Clinic, United States
+REVIEWED BY
+Christian Werner,
+Heidelberg University Hospital, Germany
+Dereck Salisbury,
+University of Minnesota Twin Cities,
+United States
+*CORRESPONDENCE
+Ryan M. Glatt
+rglatt@paciﬁcneuro.org
+RECEIVED 15 June 2024
+ACCEPTED 13 November 2024
+PUBLISHED 06 December 2024
+CITATION
+Glatt RM, Patis C, Miller KJ, Merrill DA, Stubbs B,
+Adcock M, Giannouli E and Siddarth P (2024)
+The “FitBrain” program: implementing
+exergaming & dual-task exercise programs in
+outpatient clinical settings.
+Front. Sports Act. Living 6:1449699.
+doi: 10.3389/fspor.2024.1449699
+COPYRIGHT
+© 2024 Glatt, Patis, Miller, Merrill, Stubbs,
+Adcock, Giannouli and Siddarth. This is an
+open-access article distributed under the
+terms of the Creative Commons Attribution
+License (CC BY). The use, distribution or
+reproduction in other forums is permitted,
+provided the original author(s) and the
+copyright owner(s) are credited and that the
+original publication in this journal is cited, in
+accordance with accepted academic practice.
+No use, distribution or reproduction is
+permitted which does not comply with these
+terms.
+The “FitBrain” program:
+implementing exergaming &
+dual-task exercise programs in
+outpatient clinical settings
+Ryan M. Glatt
+1*, Corwin Patis
+1, Karen J. Miller
+1, David A. Merrill
+1,2,3,
+Brendon Stubbs
+4,5, Manuela Adcock
+6,7, Eleftheria Giannouli
+7 and
+Prabha Siddarth
+1,3
+1Paciﬁc Neuroscience Institute and Foundation, Santa Monica, CA, United States, 2Department of
+Psychiatry and Biobehavioral Sciences, David Geffen School of Medicine at the University of California
+Los Angeles, Los Angeles, CA, United States, 3Department of Translational Neuroscience,
+St. John’s Cancer Institute, Santa Monica, CA, United States, 4Institute of Psychiatry, Psychology, and
+Neuroscience, King’s College London, London, United Kingdom, 5Department of Sport and Human
+Movement Science, Centre for Sport Science and University Sports, University of Vienna, Wien, Austria,
+6Department of Research, Dividat AG, Schindellegi, Switzerland, 7Department of Health Sciences and
+Technology, ETH Zurich, Zurich, Switzerland
+Dual-task training and exergaming interventions are increasingly recognized for
+their potential to enhance cognitive, physical, and mood outcomes among older
+adults and individuals with neurological conditions. Despite this, clinical and
+community programs that use these interventions are limited in availability.
+This paper presents the “FitBrain” program, an outpatient clinical model that
+combines dual-task and exergaming interventions to promote cognitive and
+physical health. We review the scientiﬁc rationale supporting these methods,
+detail the structure and methodology of the FitBrain program, and provide
+examples of session designs that integrate dual-tasking through exergaming.
+The paper also addresses implementation considerations, such as tailoring
+interventions to speciﬁc populations, ensuring user-centered design, and
+leveraging accessible technologies. We discuss key challenges, including
+limited
+research
+on
+programs
+utilizing
+multiple
+technologies
+and
+cost
+constraints, and propose directions for future research to reﬁne best practices
+and
+evaluate
+the
+comparative
+effectiveness
+of
+multimodal
+vs.
+singular
+interventions. This paper aims to inform clinicians and program developers on
+implementing dual-task and exergaming interventions within diverse clinical
+and community settings by offering a structured model and practical guidelines.
+KEYWORDS
+dual-task,
+exergaming,
+cognitive-motor
+dual-tasking,
+cognitive-motor
+training,
+neurological, older adults, rehabilitation, serious games
+1 Introduction
+With the aging global population, cognitive impairments and neurological conditions
+are becoming increasingly common, imposing signiﬁcant burdens on individuals and
+healthcare systems. Millions of older adults live with conditions such as Mild Cognitive
+Impairment (MCI) and dementia, both of which incur substantial personal and societal
+costs (1–5). Non-pharmacological strategies, especially physical activity and exercise,
+have shown potential in addressing this challenge by mitigating cognitive decline and
+enhancing physical function in older adults (1–7). Exercise interventions have shown
+TYPE Methods
+PUBLISHED 06 December 2024
+|
+DOI 10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+01
+frontiersin.org
+
+===== PAGE 2 =====
+beneﬁts for physical and cognitive functions, even in individuals
+with cognitive impairments (4–6).
+Exergaming and dual-task training appear to support cognitive
+and
+physical
+health
+through
+multiple
+mechanisms.
+These
+interventions promote neuroplasticity (8, 9), particularly in the
+prefrontal cortex (10), enhancing executive function and gait
+performance
+(11,
+12).
+They also
+improve attention-shifting
+abilities and cognitive load management, helping to maintain
+balance and reduce fall risk (13–15). Dual-task training increases
+cognitive efﬁciency
+and
+information
+processing
+speed
+(16),
+beneﬁting
+overall
+cognitive
+performance,
+particularly
+in
+individuals with lower baseline cognitive function (8, 9, 17–22).
+1.1 Exercise and cognition
+In addition to exercise, cognitive training has emerged as
+another non-pharmacological intervention to enhance cognitive
+functions. However, the evidence supporting the efﬁcacy of
+cognitive training alone remains inconclusive, with mixed results
+reported across numerous studies (7, 23, 24). Recognizing the
+potentially limited effects of either exercise or cognitive training
+alone, there has been growing interest in combining these
+interventions. Simultaneous cognitive and physical training may
+better
+mimic
+real-life
+demands
+and
+is
+more
+effective
+in
+improving cognitive outcomes than sequential training (16).
+Herold et al. (17) suggest that cognitive tasks should be
+integrated into motor tasks rather than treated as separate
+entities for optimal improvement in cognitive and motor functions.
+1.2 Simultaneous cognitive and physical
+training approaches
+The meta-analysis by Zhu et al. (19) found that interventions
+combining cognitive and physical exercise provide superior
+cognitive improvement compared to physical exercise alone in
+healthy older adults. These cognitive gains are observed over
+various periods, but the meta-analysis particularly highlights
+sustained effects for durations extending up to 12 months. This
+suggests that combined interventions are effective for short-term
+and
+long-term
+improvement
+of
+cognitive
+functions.
+Two
+approaches to incorporating simultaneous cognitive and physical
+training include dual-tasking and exergaming. Dual-tasking refers
+to the simultaneous performance of a cognitive and physical task,
+designed
+to
+mimic
+real-world
+multitasking
+situations.
+Exergaming, on the other hand, involves engaging in physical
+activity through interactive video games that require physical
+movement to control the game. While both approaches aim to
+improve cognitive and physical outcomes, dual-tasking focuses
+on integrating two distinct tasks, whereas exergaming uses
+gamiﬁcation to motivate physical activity. However, exergaming
+incorporates elements of dual-tasking, and therefore exergaming
+could also be considered a dual-tasking intervention, with the
+addition of visual gamiﬁcation elements. Both exergaming and
+dual-task training interventions have been studied for their role
+in the rehabilitation exercise and cognitive training in multiple
+clinical populations, including in older adults with and without
+cognitive impairments and in neurological populations such as
+those with Parkinson’s Disease and Multiple Sclerosis (8, 9, 19–23).
+1.3 Implementation of dual-tasking and
+exergame training
+Current
+research
+has
+identiﬁed
+modest
+yet
+signiﬁcant
+improvements in dual-task abilities resulting from simultaneous
+cognitive
+and
+physical
+training
+compared
+to
+separate
+implementations (19). This is particularly evident in older adults
+(16, 19), individuals with MCI and dementia (8, 9), and those
+with neurological conditions such as Parkinson’s Disease and
+Multiple Sclerosis (25–27). The ability to dual-task or perform
+two separate tasks simultaneously tends to decline with age and
+the onset of neurological conditions, correlating with overall
+cognitive decline and increased fall risk (21, 22). Despite the
+promising evidence, the clinical implementation of dual-task and
+exergaming interventions remains limited. There is a need for
+structured programs that integrate these interventions within
+clinical settings to enhance their accessibility and feasibility. A
+structured methodological program could address these barriers
+by
+providing
+clear
+protocols,
+training
+requirements,
+and
+operational considerations, thus facilitating the integration and
+scaling of these interventions in clinical practice.
+1.4 Theoretical approach of a “brain gym
+program”
+The “brain gym program” proposed here draws on established
+cognitive rehabilitation models, enhancing them by combining
+cognitive-motor
+training
+with
+dual-tasking
+interventions
+in
+clinical
+settings.
+The
+brain
+gym
+program
+proposes
+a
+comprehensive
+and
+evidence-based
+approach
+by
+integrating
+multiple exergaming and dual-task interventions into a cohesive
+program. This model is akin to the “Clinical Arcade” concept in
+cardiac rehabilitation, which utilizes a variety of exergames to
+target speciﬁc rehabilitation goals (28). Integrating multiple
+modalities in the brain gym maximizes therapeutic beneﬁts and
+enhances patient engagement and adherence by offering a diverse
+range of cognitive and physical challenges. Research has shown
+that
+such
+multimodal
+strategies
+can
+signiﬁcantly
+improve
+cognitive functions,
+physical
+health,
+and
+dual-task
+abilities,
+providing a robust framework for addressing the complex needs
+of older adults with neurological conditions (12, 19, 29, 30).
+2 Literature review
+In conducting a review for this manuscript, we employed an
+approach to ensure a comprehensive and up-to-date analysis of
+dual-tasking and exergaming interventions aimed at improving
+cognitive and physical outcomes in older adults. We searched
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+02
+frontiersin.org
+
+===== PAGE 3 =====
+multiple academic databases, including PubMed, Scopus, Web of
+Science, and PsycINFO, using keywords such as “dual-tasking,”
+“exergaming,” “cognitive training,” “physical exercise,” “older
+adults,” and “neurorehabilitation.” The search was limited to
+studies published in English within the last 10 years, though
+seminal works outside this period were considered if frequently
+cited up until June 15th, 2024. This manuscript did not adhere
+to the full methodological requirements of a systematic review,
+nor did it conduct a formal data extraction or assessment of bias.
+2.1 Review of exergaming interventions
+“Exergames” are active (video) games that require physical
+interaction in response to visual or auditory stimuli (31). These
+games fall under the Games for Health Taxonomy and are
+primarily classiﬁed as “preventative” interventions, with their
+therapeutic use in conditions like dementia referred to as
+“Rehabilitainment” (32). Exergaming is a multi-faceted training
+approach that addresses various elements of exercise sciences
+(with acute variables such as dosage, duration, intensity, and
+frequency),
+targeted
+domains
+(cognition,
+physical
+function),
+populations (older adults, cognitive impairment, neurological
+conditions), and settings (community, clinical, or research) (33).
+Exergaming examples include the Nintendo Wii, Microsoft
+Kinect system, stepping and dance games like Dance Dance
+Revolution,
+exergaming
+treadmills,
+exergaming
+cycling,
+and
+camera-based (i.e., Kinect, webcam) games (11). These can be
+general, i.e., not targeting speciﬁc cognitive or physical outcomes
+[e.g., Wii Sports (34)], or speciﬁc, aimed at outcomes (12).
+Speciﬁc
+exergames,
+termed
+“clinical
+exergames”
+in
+clinical
+settings, target rehabilitation goals, with some settings adopting a
+“Clinical Arcade” concept (28). Examples of speciﬁc exergames
+with clinical utility include CyberCycle (35), Dividat Senso (25),
+and SMARTFit (36), which are further discussed in Section 3.1.
+While speciﬁc exergames have not been shown to produce
+superior effects to general exergames, the therapeutic target of
+speciﬁc exergames is theorized to be more targeted (12, 34).
+Treadmill walking is considered an exergame when synchronized
+with
+interactive
+visual
+or
+auditory
+stimuli
+that
+require
+user response.
+Randomized controlled trials (RCTs) indicate that exergaming
+may prevent and alleviate age-related cognitive decline in healthy
+older
+adults
+and
+individuals
+with
+neurological
+conditions
+(25, 26), including in those with cognitive impairments (37, 38).
+Exergaming has been found to improve neuropsychological
+functions comparably to other physical activities in healthy older
+adults (39). A meta-analysis of 17 RCTs showed signiﬁcant
+improvements in executive functioning (g = 0.256, p = 0.048),
+attention (g = 0.298, p = 0.027), and visuospatial skills (g = 0.345,
+p = 0.033) with a moderate effect size on global cognition
+(g = 0.436, p = 0.001) through exergaming in clinical and non-
+clinical populations (11). Exergames are perceived as less intense
+yet
+maintain
+similar
+physiological
+intensity
+as
+traditional
+exercises, making them suitable for those hesitant to engage in
+conventional exercise methods (40). Currently, the authors have
+not identiﬁed any particular type of exergame that demonstrates
+superior
+effects
+on
+cognitive
+function,
+as
+head-to-head
+comparisons of exergame types have not yet been conducted.
+2.2 Review of dual-tasking interventions
+Dual-task
+techniques
+require
+participants
+to
+engage
+in
+cognitive processes (e.g., memory recall and problem-solving)
+while performing physical actions (e.g., walking, balancing).
+These techniques are designed to mimic real-life scenarios that
+require
+allocation
+towards
+more
+than
+one
+task,
+thereby
+simultaneously demanding cognitive and physical functions.
+Dual-tasking
+requires
+performing
+two
+independent
+tasks
+simultaneously, each with distinct goals (41). As McIsaac et al.
+(42) describe, dual-tasking differs and can involve dual cognitive-
+motor or motor-motor tasks, with complexity and novelty
+varying
+based
+on
+the
+intervention’s
+goals
+(41).
+Dual-task
+interventions are used in diverse populations, including those
+with neurological conditions, to improve cognitive and physical
+abilities and transfer competencies to everyday life dual-task
+demands in everyday life. The speciﬁc cognitive and physical
+tasks involved vary considerably. Fritz et al.’s systematic review
+(21) highlighted the effectiveness of motor-cognitive dual-task
+training in enhancing gait velocity, stride length, balance, and
+cognition in Parkinson’s and Alzheimer’s patients (21). This
+review
+(21)
+covered
+14
+studies
+on
+dual-tasking,
+with
+interventions involving verbal ﬂuency and naming tasks, serial
+subtractions (i.e., −3’s and −7’s), information processing speed
+tasks, counting tasks, ball-catching and hand-eye coordination
+tasks, and responding to questions while conducting gait or
+balance
+tasks.
+However,
+no
+analyses
+have
+been
+of
+what
+techniques were more or less effective than others (27, 42–45).
+Other dual-task interventions include balancing while engaging
+in ball activities (13), Dual-task Zumba Gold (46), stepping and
+squatting with verbal tasks (47), square-stepping exercises (48),
+and navigating obstacles while counting or distinguishing sound
+tones (14). Studies by Weightman et al. (49) and Silsupadol et al.
+(14) identiﬁed various cognitive-motor dual-tasks targeting older
+adults
+with
+balance
+impairments,
+encompassing
+diverse
+secondary cognitive tasks alongside primary physical tasks, as
+detailed in Table 1.
+2.3 Comparing exergaming to dual-tasking
+Dual-task interventions, which require individuals to engage in
+both cognitive and physical tasks simultaneously, have shown
+efﬁcacy in enhancing cognitive and physical functions across
+various groups, including healthy older adults (29), individuals
+with neurological conditions such as dementia and Parkinson’s
+Disease (9, 21), and those with MCI (30). Exergames, a subset of
+dual-task interventions, often incorporate cognitive-motor dual-
+tasking, where users perform physical actions in response to
+cognitive challenges. General-purpose exergames, such as those
+on the Nintendo Wii, provide nonspeciﬁc cognitive stimulation
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+03
+frontiersin.org
+
+===== PAGE 4 =====
+but still improve cognitive and physical function (34). In contrast,
+purpose-built exergames are speciﬁcally designed to target deﬁned
+cognitive domains and physical skills. As Wollensen et al. (12)
+highlighted, general exergames engage broad cognitive functions,
+whereas speciﬁc exergames are structured to align closely with
+targeted cognitive domains that match the outcome measures
+collected. This distinction underscores how general and targeted
+dual-task interventions can be applied through various modalities,
+including exergaming, to optimize speciﬁc functional outcomes.
+It is notable that many exergaming devices primarily deliver
+cognitive stimuli. To constitute a dual-task paradigm, users must
+engage
+in
+concurrent
+physical
+activity.
+However,
+some
+exergames, offering visual stimuli requiring physical responses,
+may intermittently halt movement, which McIsaac et al. (42)
+might classify as a “complex single task” (41), still offering
+potential beneﬁts. Currently, there is a scarcity of accessible dual-
+task training programs and exergame technologies in community
+and
+clinical
+settings.
+Notably
+lacking
+are
+those
+addressing
+cognitive and physical health in older adults and individuals with
+neurological conditions, focusing on speciﬁc cognitive domains
+such as executive functions, processing speed, and memory
+(39, 50). To be effective in clinical and community settings,
+exergames and dual-tasking interventions must be population-
+speciﬁc, feasible, and engaging; for example, selecting speciﬁc
+techniques, games, or tasks based on condition (such as stroke or
+Parkinson’s Disease), cognitive domain (such as memory or
+processing speed) and physical function (such as balance or
+cardiovascular endurance) (12, 21, 30, 39, 51, 52).
+3 The “brain gym” program
+The “brain gym” program is deeply rooted in cognitive
+rehabilitation theories and supported by research on multimodal
+exercise interventions. Recent studies demonstrate that combined
+cognitive and physical training is more effective in improving
+cognitive outcomes than either intervention alone (8, 9, 17, 19–22).
+Furthermore, dual-task and exergaming interventions, like those
+explored in the FitBrain program (which is the speciﬁc brand name
+of a “brain gym” at the Paciﬁc Neuroscience Institute), have
+signiﬁcantly enhanced cognitive and physical functions across
+diverse
+populations,
+including
+older
+adults
+with
+neurological
+conditions (23, 29, 30). By systematically integrating multiple
+exergaming and dual-task interventions within a uniﬁed framework,
+the brain gym program draws on these established protocols and
+extends them by offering a more comprehensive and adaptable
+approach tailored to the needs of older adults and individuals with
+cognitive
+impairments.
+Currently,
+no
+preliminary
+evidence
+demonstrates that participation in a program such as FitBrain
+improves cognitive or physical function.
+3.1 Single-modality vs. multi-modality
+approaches
+Several existing studies focus on single-modality interventions,
+such as one game, device, or analog dual-task techniques. The brain
+gym program proposes a more comprehensive approach by
+integrating multiple exergaming and dual-task interventions into
+a uniﬁed program. Similar to successful multimodal exercise
+interventions, this multimodal strategy has yielded superior
+outcomes in various domains (53, 54). For instance, the “Clinical
+Arcade” concept in cardiac rehabilitation utilizes a range of
+exergames tailored to speciﬁc rehabilitation goals, demonstrating
+the potential beneﬁts of this integrated approach (28). A similar
+model, adapted for geriatric and neurologic populations under
+the “brain gym” framework, offers a comprehensive, targeted
+intervention that addresses these populations’ complex cognitive
+and physical needs. However, no speciﬁc data has been reported
+comparing single-modality vs. multi-modality approaches.
+TABLE 1 Examples of domain-speciﬁc cognitive tasks for cognitive-motor
+dual-tasks from weightman et al. (49) and Silsupadol et al. (14) with
+Targeted Cognitive Domains.
+Task name(s)
+Example(s) of domain-
+speciﬁc tasks
+Targeted
+cognitive
+domain(s)
+Auditory
+discrimination
+Identify and name noises (cat vs.
+dog), voices (man vs. woman), or
+sounds (high vs. low tones)
+Auditory Processing
+Speed, Selective
+Attention
+Naming
+Animals, states, foods, ﬂowers,
+names of people
+Verbal Fluency,
+Information Processing
+Speed
+Visual
+Discrimination
+“Spot-the-difference” tasks (does
+the picture shown matches the
+picture seen before; yes or no?)
+Visuospatial Working
+Memory
+Random Digit
+Generation
+Randomly name numbers
+between 0 and 300
+Information Processing
+Sped
+Backward Counting
+Counting backward by 2’s, 3’s, or
+7’s
+Attention, Working
+Memory
+Visuospatial
+Place or name a number, object,
+or letter in a real or imagined
+space; recite or recall directions
+from or to a speciﬁc location.
+Visuospatial Working
+Memory
+N-Back
+Recite numbers, days, or months
+backward or skip every other
+target in the sequence.
+Working Memory
+Subtracting
+Numbers from
+Letters
+Provide a letter as the result of an
+equation (k-1 = j)
+Working Memory
+Memorization and
+Recall
+Memorizing or recalling objects,
+names, words, numbers, or prices
+Short-Term Visual or
+Spatial Memory
+Story Telling/Recall
+Tell a story about a day or
+vacation or recall details of a told
+story.
+Episodic Memory
+Opposing
+Directions
+State or move in the opposite
+direction of action (if a left leg is
+moved, say, or move to the
+“right,” or if a ball is kicked to the
+right, say, or move to “left”).
+Inhibitory Control,
+Attention
+Backwards or
+Forwards Spelling
+Spelling a word, or series of
+words, forwards or backward.
+Skipping letters in forward or
+reverse order.
+Working Memory
+Sentence Generation
+Stating a complete a sentence,
+completing a sentence or idiom
+Verbal Fluency,
+Attention
+Stroop
+Naming the color of the ink but
+not the word (if the word pink is
+colored in the ink “blue,” say
+“blue”)
+Information Processing
+Speed, Inhibitory
+Control
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+04
+frontiersin.org
+
+===== PAGE 5 =====
+3.2 “FitBrain” program overview
+The FitBrain program (Figure 1) is speciﬁcally designed to address
+older adults’ cognitive and physical needs, utilizing a combination of
+advanced technologies and evidence-based methods to deliver
+personalized interventions. The program occupies approximately
+3,000 square feet, akin to a medium-sized physical therapy clinic or
+ﬁtness space (in the USA), featuring areas for group activities,
+functional training, and individual treatment rooms shared by
+physical therapists and medical ﬁtness professionals. The design
+prioritizes functional movement, with equipment arranged along
+the walls and ample open space for interaction and mobility tasks.
+The methodology section details the intervention protocols used in
+the FitBrain program, including the rationale for selecting speciﬁc
+exergames and dual-task tasks. Each protocol is designed to be
+adaptable to various clinical populations, with examples of session
+structures
+provided
+to
+illustrate
+how
+interventions
+can
+be
+customized based on individual needs.
+3.3 Overview of dual-task training and
+exergaming technologies used
+Dual-task training and exergaming interventions often leverage
+technology, such as screens, cameras, tablets, touch-sensitive
+targets, ﬂoor-based markers, and Virtual Reality (VR) headsets.
+While non-technological dual-tasks are feasible and already
+adopted in rehabilitation settings, more technology-dependent
+interventions
+may
+offer
+speciﬁcity,
+variability,
+complexity,
+engaging
+stimuli,
+and
+potential
+saliency.
+Fitness
+and
+rehabilitation centers often seek to integrate novel technology
+and
+approaches
+to
+diversify
+their
+programming.
+However,
+adopting
+evidence-based
+exergaming
+and
+dual-tasking
+interventions and technologies tailored to speciﬁc populations
+remains lacking. There are currently no studies looking into the
+potential combination of these interventional approaches in
+comparison
+with
+singular
+interventions
+(for
+example,
+the
+effectiveness of using a single exergaming technology vs. multiple
+exergaming technologies or the combination of technology-
+enabled dual-tasking interventions vs. non-technological dual-
+tasking interventions). However, the integration of numerous
+exergame and dual-task approaches may increase adherence
+through variety and enjoyment while allowing the targeting of
+multiple cognitive and physical functions.
+The
+subsequent
+sections
+categorize
+the
+dual-task
+and
+exergaming technologies into “cardiovascular”, “reaction-based,”
+and
+“gaming-based.”
+While
+more
+categories
+exist,
+these
+categories summarize the currently utilized technologies within
+the FitBrain program based on their interface, training purposes,
+and
+implementation.
+Cardiovascular
+technologies
+typically
+involve stationary bikes or treadmills paired with visual stimuli
+delivered through screens, tablets, or VR headsets, complemented
+by dual-task techniques administered by professionals. “Reaction-
+based” technologies utilize screens, LED lights, and sensor-based
+systems
+requiring
+users
+to
+interact
+with
+speciﬁc
+targets.
+“Gaming-based” exergaming technologies engage users in various
+game paradigms, demanding physical responses to interact with a
+gaming environment or tasks. Given that all interventions may
+include aspects of “gamiﬁcation” and “dual-tasking”, it is difﬁcult
+to separate these interventions simply by either label, and there it
+should be assumed that all exergames include aspects of dual-
+tasking, and dual-tasking interventions may include one or more
+elements of gamiﬁcation (e.g., score, competition, goals, etc.).
+3.3.1 Cardiovascular exergaming and dual-task
+technologies
+CyberCycle (Figure 2): The CyberCycle (Blue Goji, Austin, TX)
+is a recumbent exercise bike with an interactive screen and
+handlebars for steering an on-screen character through virtual
+environments.
+Earlier
+studies
+suggest
+that
+adherence
+to
+a
+12-week CyberCycle program may lead to improvements in
+FIGURE 2
+Cybercycle.
+FIGURE 1
+An image of the “FitBrain program” space, with the SMARTFit
+technology shown with a participant balancing on a foam pad
+while searching for two symbols that match.
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+05
+frontiersin.org
+
+===== PAGE 6 =====
+executive
+function
+and
+a
+modest
+risk
+reduction
+of
+MCI
+conversion (55–57).
+RendeverFit (Figure 3): RendeverFit (Rendever, Somerville,
+MA) is an immersive VR platform that includes activities such as
+Cycle,
+Paddle,
+and
+Paint,
+merging
+physical
+and
+cognitive
+stimulation with social engagement for individuals with major
+neurocognitive disorders. While its effectiveness on physical and
+cognitive functioning is currently being studied, some initial
+evidence from Rendever’s social aspects suggests it may reduce
+social isolation and enhance well-being in older adults (58, 59).
+ReAxing (Figure 4): ReAxing (Reaxing USA, Simi Valley, CA)
+uses
+tools
+like
+tilting
+treadmills
+and
+ﬂuid-ﬁlled
+resistance
+implements to create unpredictable perturbations that increase
+neuromuscular demands. It aims to address fall risks in older
+adults
+and
+those
+with
+neurological
+conditions.
+Preliminary
+research suggests potential improvements in balance in older
+adults and neurological populations from perturbation training
+(such as slip-based perturbations, which do not use ReAxing
+equipment) (15, 60, 61). However, no research has been published
+utilizing ReAxing tools (which use tilt-based perturbations).
+3.3.2 Reaction-based exergaming and dual-task
+technologies
+SMARTFit (Figure 5): SMARTFit (SMARTFit Inc., Camarillo,
+CA) features touch-sensitive LED targets controlled by a mobile
+app, combining cognitive tasks with physical exercises. Two
+recent feasibility studies in populations with Parkinson’s Disease
+(62) and MCI (36) suggest that SMARTFit is safe, feasible,
+potentially productive, and enjoyable in clinical and community
+settings. Chua et al. (62) found that eight weeks of SMARTFit
+training may improve cognitive outcomes more effectively than
+standard physical therapy for Parkinson’s patients. In addition,
+another study indicated signiﬁcant improvements in balance and
+executive functions in older adults with MCI after 12 weeks of
+SMARTFit training (36).
+FitLights (Figure 6): FitLights (Fitlight, Aurora, Ont., CA), a
+system of LED discs with touch and proximity sensors, can be
+used for agility, balance, and gait tasks and assessments. A pilot
+study found that 12-week FitLights training signiﬁcantly reduced
+fall risk in older adults and provided valuable assessments of
+reaction time and anticipatory strategies in dynamic postural
+control dual tasks (63–67).
+Reﬂexion (Figure 7): Reﬂexion (Reﬂexion, Lancaster, PA),
+primarily developed for athletes, is an LED-based touch-screen
+board designed to train visual-cognitive skills. Although its initial
+research focused on athletes, there is potential for its application
+in older adults for visual-cognitive skill training, though further
+research is required (68).
+BlazePods (Figure 8): BlazePods (BlazePod, Miami, FL) are
+modular, wireless lights controlled by a mobile app. They
+facilitate reaction-time tasks and are used in balance, agility,
+rehabilitation, and sport-speciﬁc exercises. Preliminary studies
+FIGURE 4
+Reaxing treadmill.
+FIGURE 5
+SMARTFit.
+FIGURE 3
+Rendeverﬁt.
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+06
+frontiersin.org
+
+===== PAGE 7 =====
+suggest BlazePods may be effective as a reactive assessment tool
+and improve these physical functions (69–76).
+3.3.3 Exergaming technologies with speciﬁc game
+paradigms
+Jintronix (Figure 9): Jintronix (Ludica Health, Montreal, QC,
+CA) utilizes Microsoft Kinect to offer games focusing on joint
+motion, dynamic movements, and cognitive exercises. Early
+studies
+have
+demonstrated
+safety,
+feasibility,
+and
+potential
+effectiveness in improving gait speed, physical functioning, and
+motor
+outcomes
+in
+various
+settings,
+including
+stroke
+rehabilitation and ICU environments (77–83).
+Dividat Senso (Figure 10): The Dividat Senso (Dividat AG,
+Schindellegi, CH) is a lower-extremity stepping-based clinical
+exergaming system featuring an LCD screen and ﬂoor-based
+arrangement of arrows activated by stepping and weight-shifting.
+Its
+exergames
+target
+physical
+functions
+such
+as
+balance,
+cardiovascular
+function,
+stepping
+strategies,
+and
+cognitive
+domains like attention, executive function, processing speed, and
+memory. Preliminary studies indicate it may be feasible and
+beneﬁcial
+for
+individuals
+with
+conditions
+like
+Parkinson’s
+Disease, multiple sclerosis, and vestibular hypofunction, as well
+as for older adults in rehabilitation settings (10, 84–89).
+Neurotracker
+(Figure
+11):
+Neurotracker
+(NeuroTracker,
+Montreal, QC, CA) is a 3D-MOT task paradigm software
+designed to enhance perceptual, cognitive, and visual abilities.
+The majority of Neurotracker’s paradigms include tracking one
+or more targets at one time, ignoring distractor targets, for a set
+period of seconds, until being required to select the correct
+original targets. The task may be viewed in 2D, 3D, or virtual
+reality, with the number, color, and speed of targets being
+modiﬁable, in addition to the type of background. Some case
+studies suggest that its use may improve memory and processing
+speed in older adults, though more comprehensive studies are
+needed (90–94).
+TRCare (Figure 12): TRCare’s NeuroMotion system (TRCare
+Inc., Alviso, CA) is designed for post-stroke recovery, delivering
+therapeutic games to train speciﬁc physical tasks such as upper
+extremity function and ﬁne motor skills through button-pressing
+mechanics with point-and-shoot games, card games (such as
+matching cards and blackjack) and games that involve pressing
+certain buttons at speciﬁc times with varying speeds. Early
+studies indicate it is feasible and effective in improving reaction
+time, coordination, and cognitive demands during early post-
+stroke recovery (95).
+3.3.4 Mobile, in-home & tele-rehab technologies
+iPACES (iPACES, LLC, Clifton Park, NY) (Figure 13), a tablet-
+based exergame for exercise bikes, integrates cognitive tasks with
+physical exercise by asking users to select one of two “exits” by
+FIGURE 6
+Fitlights.
+FIGURE 7
+Reﬂexion.
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+07
+frontiersin.org
+
+===== PAGE 8 =====
+turning the tablet left or right (like a steering wheel) as a
+selection mechanism based on an initially presented list of
+words to be memorized in forward and then reverse order,
+showing
+promise
+in
+preliminary
+studies
+for
+improving
+executive function (96, 97).
+Mobile apps, like ClockYourself (Next Step Health, QLD, AUS)
+(Figure 14) and SwitchedOn (SwitchedOn Training App, Chicago,
+IL) (Figure 15), combine physical and cognitive exercises, potentially
+aiding in fall prevention and cognitive function. However, further
+research is needed to solidify these ﬁndings (38, 96–101).
+Virtual sessions within the FitBrain program are delivered
+through platforms like Zoom or Google Meet, offering both
+individual and group formats to support participants who may
+be unable to attend in person. These sessions are designed to
+extend the dual-task training environment into a home setting,
+making use of various techniques and tools to ensure effective
+engagement. Participants are expected to have basic technology
+access at home, including a computer or tablet with video
+conferencing capabilities.
+In these virtual sessions, a variety of dual-task methods are
+employed, often incorporating auditory stimuli. For example,
+participants may use self-generated cues (such as counting
+backward or completing verbal ﬂuency tasks listed in Table 1) or
+respond to real-time prompts from the instructor (such as
+stepping left upon hearing “blue” or performing a squat at even
+numbers). Visual aids, such as virtual drawing tools, are used to
+demonstrate
+movement
+patterns
+and
+create
+quadrants
+that
+participants can follow within their home space. Additionally,
+mobile apps like SwitchedOn (Figure 15) or ClockYourself
+FIGURE 9
+Jintronix.
+FIGURE 10
+Dividat senso.
+FIGURE 8
+Blazepods.
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+08
+frontiersin.org
+
+===== PAGE 9 =====
+(Figure 14) can be incorporated into these sessions via screen-
+sharing to enhance interactive participation, accommodating
+participants without specialized equipment.
+Custom computer programs or web-based tools may be used to
+design exercises where cognitive tasks cue physical movements,
+fostering a synchronized cognitive-motor experience. An example
+of this includes dual-task exercises developed in Unity on a web-
+app (“Virtual FitBrain Games”), illustrated in Figure 16, allows
+for structured dual-task exercises even in a virtual environment
+through teleconference screen-sharing, helping participants to
+beneﬁt from the program from the convenience of their homes.
+These virtual sessions can be conducted with one individual or a
+group through teleconferencing tools.
+4 Program inclusionary and
+exclusionary criteria
+Participants are selected based on the following inclusion
+criteria: aged 50 years and older, cognitively healthy (as indicated
+by at least a 28/30 on the MoCA or equivalent), or diagnosed
+with
+MCI
+(as
+indicated
+by an
+18–25
+on
+the
+MoCA
+or
+equivalent) or early-to-moderate dementia (as indicated by a
+range of 10–17 or lower on the MoCA), neurological conditions
+(Parkinson’s Disease, Multiple Sclerosis), acquired brain injuries
+(stroke, TBI), and capable of participating in physical activity as
+FIGURE 11
+Neurotracker.
+FIGURE 12
+TRCare.
+FIGURE 13
+iPACES.
+FIGURE 14
+Clockyourself App.
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+09
+frontiersin.org
+
+===== PAGE 10 =====
+conﬁrmed by a medical professional. Exclusion criteria included
+severe cognitive impairment (less than 10 points on the MoCA
+or
+equivalent
+or
+neuropsychological
+evaluation),
+signiﬁcant
+physical limitations preventing exercise participation, and any
+severe
+neurological
+or
+psychiatric
+impairments
+that
+could
+interfere with the ability to engage in the intervention activities.
+For the FitBrain program, participants must be proﬁcient in
+English, although some technologies offer multiple languages.
+Signiﬁcant vision or hearing loss is included as an exclusion
+criterion due to potential limitations in using visual or auditory
+interactive technologies. However, this may be on a case-by-case
+basis depending on the types of techniques employed, as
+traditional non-technological dual-task techniques are primarily
+auditory, while the majority of exergames and screen or light-
+based technologies are visual.
+4.1 Asesessments
+The
+FitBrain
+program’s
+intake
+process
+begins
+with
+a
+consultation
+and
+an
+initial
+assessment.
+Physical
+therapists
+conduct comprehensive evaluations using balance questionnaires
+(e.g., Activity-Speciﬁc Balance Conﬁdence Scale) and physical
+activity assessments (e.g., Physical Activity Vital Signs). Tests
+include static balance (Four Stage Balance Test), dynamic balance
+(Four Square Step Test, which includes a change of direction and
+short-term memory of a series of steps, components present in
+dual-tasking), strength endurance (30 Second Sit-to-Stand, Grip
+Strength, 5× Sit-to-Stand), cardiovascular ﬁtness (2 or 6 Minute
+Walk Test, 10 Meter Walk Test), mobility (Timed Up and Test),
+cognitive-motor dual-task ability (Timed Up and Go Cognitive
+Test), motor-motor dual-task ability (Timed Up and Test with
+an additional motor task), blood pressure, and sensory function
+(modiﬁed Clinical Test of Sensory Integration and Balance).
+Personal
+trainers
+can
+implement
+sub-clinical
+assessments,
+including those that are part of the Senior Fitness Test, which
+may
+provide
+some
+overlap
+with
+the
+assessments
+that
+rehabilitation clinicians can provide. Sessions introduce various
+exergames to evaluate difﬁculty, enjoyment, and relevance, with
+initial
+scores
+as
+baselines
+for
+future
+progress.
+“Less
+comprehensive” assessments refer to baseline functional ﬁtness
+evaluations that do not integrate cognitive assessments.
+Rehabilitation professionals may use additional measures
+before and after dual-task and exergaming interventions, such as
+the MMSE or MoCA assessments, pencil and paper tests,
+computerized
+cognitive
+tests,
+Quantitative
+Electro-
+Encephalography (QEEG), and volumetric or functional magnetic
+resonance imaging (vMRI, fMRI). Experimental measures might
+include dual-task balance tests like the Four-Square Step Test
+cognitive condition (which involves a serial subtraction task)
+(102) and variations of the Timed Up and Go Cognitive test
+with Oral Trail Making Parts A and B (103).
+Plummer et al. (22) reviewed diverse dual-task gait assessments
+in older adults, such as counting exercises, verbal ﬂuency tasks, and
+carrying objects, which include the Timed Up and Go Cognitive,
+Manual, and Triple conditions previously mentioned. Additional
+assessments include the Multiple Resource Questionnaire (104)
+and the Dual-Task Impact on Daily Living Questionnaire (105).
+Gait evaluation should cover single- and dual-task assessments
+and dual-task cost calculations. The Gait and Brain Study by
+Montero-Odasso et al. (106) showed that dual-task gait ability
+could indicate cognitive decline (107) and distinguish cognitive
+aging stages (108). In summary, despite the high number of
+potential outcome measures, practitioners select the outcome
+measures based on scope-of-practice, relevance to participant
+goals,
+evidence
+base,
+the
+type
+of
+participant
+(i.e.,
+age,
+FIGURE 15
+Switchedon training App.
+FIGURE 16
+Virtual “FitBrain” games.
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+10
+frontiersin.org
+
+===== PAGE 11 =====
+impairment, diagnosis), and allotted assessment time. However, a
+standardized assessment process may be developed to track
+outcomes across multiple participants.
+4.2 Programming
+The FitBrain program offers one-hour, one-on-one sessions
+with group and virtual options for cost-effectiveness. Sessions are
+tailored to individual goals and abilities and are implemented in
+a manner to overcome barriers for participation. The tailoring of
+sessions can be done via a decision tree, which includes a
+selection of speciﬁc tasks that address various cognitive domains,
+which are selected based on upon any objective or subjective
+cognitive assessments. Furthermore, physical assessment allows
+facilitators to customize the selection of physical tasks based on
+participant goals and limitations. Referrals come from various
+clinicians, and prospective participants get a program overview
+and a 30–60-minute consultation, which can be insurance-
+covered by a billable provider or paid out-of-pocket. Participants
+are provided with general education on exercise resources,
+including those in the community and digital resources, and
+information on general exercise guidelines. Participants typically
+attend one or two one-hour sessions weekly for 8 to 12 weeks,
+based on research on optimal exergaming and dual-tasking
+interventions for cognitive enhancement in older adults (11, 50).
+The program intervention consists of 12-week sessions, with
+participants attending three 60-minute sessions per week. Each
+session includes a warm-up, followed by a series of dual-tasking
+and exergaming activities. Dual-task activities involve cognitive
+tasks
+such
+as
+memory
+recall
+or
+arithmetic
+performed
+simultaneously with physical tasks like walking or balance
+exercises. Exergaming activities are designed to target speciﬁc
+cognitive and physical domains, with progression managed by
+increasing the difﬁculty of cognitive tasks or the intensity of
+physical activities over time.
+4.3 Intervention
+The FitBrain program combines domain-speciﬁc cognitive
+exercises with targeted physical activities. For example, dual-task
+exercises to improve executive function and balance might
+challenge impulse control during a staggered stance. Sessions
+focus on cognitive domains such as executive function, attention,
+processing
+speed,
+and
+memory,
+often
+incorporating
+multi-
+domain interventions, as research suggests these may be more
+effective than single-domain training for improving cognitive
+outcomes like memory (109–111). Participants may engage in the
+program for 8–12 weeks, 1–2 times per week, and ongoing at a
+rate of 1–2 times per week as desired by the participant and
+program capacity.
+The FitBrain program integrates exergame and dual-task
+technologies with neuromotor tasks, using equipment such as
+agility dots, cones, hurdles, balls, and various sporting gear. This
+program follows a structured approach, aligning with evidence-
+based guidelines, including the FIIT (Frequency, Intensity, Time,
+and Type) principles from the American College of Sports
+Medicine (ACSM) and the World Health Organization (WHO)
+recommendations for physical activity and exercise in older
+adults.
+Moderate-intensity
+exercise
+is
+encouraged
+and
+implemented, given the evidence that it can enhance cognitive
+function in older adults with and without cognitive impairments
+(1–7).
+The
+program
+supports
+comprehensive
+physical
+conditioning and includes aerobic steps, balance pads, and
+resistance tools like dumbbells, weighted bars, sandbags, and
+exercise bands. Sessions incorporate aerobic, resistance, and
+neuromotor exercises alongside cognitive-motor dual-tasking to
+promote overall health beneﬁts.
+The FitBrain program also uses analog methods for dual-task
+interventions, providing options for an affordable and low-tech
+approach. This includes non-electronic equipment like speed,
+agility, and quickness (SAQ) tools (hurdles, agility dots), balance
+implements (foam pads), agility ladders, marked cones, and mats
+with stimuli (colors, numbers, symbols, letters), as well as various
+projectiles (balls, balloons, cloth). These items are used in dual-
+task drills for physical tasks (balancing, stepping, navigating
+obstacles) or cognitive tasks (target identiﬁcation, matching).
+Stimuli
+can
+be
+verbal
+or
+visual,
+incorporating
+cognitive
+tasks described by Weightman et al. (14) and Silsupadol et al.
+(49) (Table 1).
+To ensure safety and effectiveness, the program uses a self-
+reported Rate of Perceived Exertion (RPE) to monitor physical
+exertion and assess the cognitive load, enabling tailored intensity
+adjustments based on each participant’s physical and cognitive
+abilities. Techniques are adapted to individual goals and exercise
+tolerance, emphasizing balance and coordination for vulnerable
+populations. This approach provides a structured yet ﬂexible
+training environment, modifying complexity and intensity to
+challenge participants’ physical and cognitive capacities safely.
+Table 2 shows an example of a FitBrain session based on
+available equipment. The results of the intake assessments help
+guide the programming and intervention selection, allowing for
+an individualized approach. Rest periods are not shown in the
+table, but 2-minute rest periods are provided in between exercises
+or as needed by the participant, with the duration of the task
+including a “practice round” of each task as needed based on the
+novelty of the task and prior experience and cognitive level of
+the participant.
+4.4 Program considerations for a
+“brain gym”
+Comprehensive planning is essential when establishing a “brain
+gym” like the FitBrain program. This involves selecting appropriate
+equipment, tools, and software for exergaming and dual-tasking
+interventions, along with careful consideration of stafﬁng, spatial
+requirements, assessment, and intake processes (which vary
+depending upon the practitioner and setting), implementation
+strategies for sessions (including the use of technology, virtual
+platforms, or traditional methods), business models, and tailoring
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+11
+frontiersin.org
+
+===== PAGE 12 =====
+the program to the intended demographic. The primary referrals
+are received from local neurologists and primary care providers,
+with at least 80% of referred participants completing at least 12
+weeks of training. However, speciﬁc adherence and dropout rates
+are not reported in this manuscript. In terms of safety, no
+adverse effects have been observed or reported. The majority of
+participants
+indicate
+overall
+enjoyment
+in
+participation
+of
+the program.
+Barriers to attendance can include cost of paying out-of-pocket
+if physical therapy services are not available, and transportation can
+be an additional challenge for some participants. There is an
+educational component of teaching providers how to utilize best
+and troubleshoot exergaming technology and disseminate best
+practices based on current literature (23, 52). In addition, general
+health education on healthy, evidence-based lifestyle behaviors
+such as exercise, nutrition, sleep, cognitive stimulation, and stress
+(18) are provided based on the request and willingness of
+participants. The costs associated with starting a program,
+including equipment, are an important consideration. While all
+the equipment overviewed in section 3.2 is part of the FitBrain
+program, it is unnecessary to possess all this equipment to run a
+program. Early iterations of the program included reaction lights
+(i.e., Fitlights, Blazepods), apps, agility equipment, and traditional
+dual-task
+techniques.
+Subsequent
+iterations
+included
+adding
+larger equipment (i.e., SMARTFit, CyberCycle), with the latest
+iterations including the equipment listed in section 3.2.
+4.5 Stafﬁng considerations
+FitBrain’s
+stafﬁng
+model
+includes
+diverse
+healthcare
+professionals
+experienced
+with
+older
+adults
+and
+specialized
+populations. The team typically features board-certiﬁed physical
+therapists,
+ideally
+with
+Geriatric
+Clinical
+Specialist
+or
+Neurological
+Clinical
+Specialist
+designations,
+and
+personal
+trainers with an NCCA (National Commission for Certifying
+Agencies) accredited certiﬁcation and specialized training in
+older adults, medical ﬁtness and additional specialization in
+working with special populations. The program may incorporate
+occupational
+therapists,
+speech-language
+pathologists,
+neuropsychologists, and recreational therapists. Service sessions
+focus on movement and exercise, are offered in 30- or 60-minute
+segments, and can be individual or group sessions based on
+participant preferences and needs.
+4.5.1 Billing considerations
+Billing practices depend on the provider’s credentials. Services
+by qualiﬁed physical therapists may be eligible for insurance billing,
+while other services might require out-of-pocket payments, either
+as single sessions or packages. Insurance-billed services provided
+by Physical Therapists incorporate speciﬁc technologies and dual-
+task techniques into care plans to address the unique needs of
+patients,
+who
+may
+be
+referred
+for
+conditions
+like
+MCI,
+Parkinson’s Disease, MS, or general gait and balance issues. The
+technologies and techniques used in the FitBrain program are
+selected to meet these individual deﬁcits and needs.
+5 Discussion
+Exergames are well-received and feasible across various
+populations, including older adults (112). However, employing
+user-centered design practices (113) and customizing programs
+to the target population is essential to overcome barriers to
+adoption and participation (114). Given the visual nature of
+information delivery in exergames, considerations for individuals
+with visual deﬁcits are essential, potentially necessitating a
+greater reliance on auditory stimuli. Accommodating a range of
+sensory abilities is vital, especially in older and neurologically
+diverse populations. Older adults with cognitive deﬁcits often
+prefer exergames as they address both cognitive and motor
+functions effectively and enjoyably (23). Tailoring interventions
+to users’ speciﬁc cognitive, physical, and mood proﬁles may
+enhance
+cognitive
+functioning
+(39).
+Additionally,
+dual-task
+interventions
+should
+embrace
+the
+principles
+of
+progressive
+overload,
+incrementally
+increasing
+difﬁculty,
+complexity,
+intensity, duration, and task speciﬁcity to ensure transferability to
+daily activities (12).
+5.1 Limitations of methods
+This program’s primary limitation lies in the lack of feasibility
+and effectiveness data and high equipment costs. These factors
+limit program scalability and affordability across diverse settings.
+TABLE 2 Sample dual-task and exergaming session structure.
+Equipment
+Technique/Task(s)
+Targeted cognitive
+domains
+Target physical
+domains
+Duration
+CyberCycle
+Collecting Coins
+Visuospatial, Attention
+Cardiovascular
+8 min
+SMARTFit
+Matching Like Symbols while Marching in Place
+Complex Attention, Working
+Memory
+Cardiovascular
+8 min
+Dividat Senso
+Steps on one of four targets at the right time at varying speeds
+Task-switching, Reaction Time
+Dynamic Balance
+8 min
+Jintronix
+Skiing Downhill with Weight Shifting and Squatting
+Attention, Inhibition
+Strength
+8 min
+SMARTFit
+Selecting the Correct Sequence of Numbers while Hurdle
+Stepping
+Working Memory, Set-Shifting
+Dynamic Balance
+8 min
+Resistance
+Training
+Counting Backwards While Conducting Weighted Moves
+Executive Functioning
+Neuromuscular
+8 min
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+12
+frontiersin.org
+
+===== PAGE 13 =====
+Dual-task interventions exhibit considerable variation, as do the
+outcome measures used in research, particularly in neurological
+populations, posing challenges in comparison and highlighting
+the need for more robust randomized controlled trials (RCTs)
+(21). A notable issue is that many dual-task and exergame
+interventions must be co-developed with their target populations,
+potentially
+overlooking
+user
+concerns
+and
+preferences
+and
+impacting
+task
+relevance,
+enjoyment,
+and
+adherence
+(52).
+Additionally, more data on the feasibility, enjoyment, adherence,
+and effectiveness of the FitBrain program (or similar programs
+incorporating
+multiple
+dual-task
+and
+exergame
+approaches)
+should be collected in future studies to guide implementation
+better. The cost of various exergame and dual-task approaches
+should also be considered, identifying the cost-effectiveness of
+interventions
+that
+employ
+multiple
+technologies
+and
+interventions and comparing the effectiveness among several
+combinations
+of
+different
+technologies.
+Lastly,
+a
+more
+comprehensive
+and
+structured
+literature
+review
+should
+be
+conducted across various exergame and dual-task approaches,
+addressing issues with varied terminologies.
+5.2 Research gaps and recommendations
+Future research in dual-tasking and exergaming should focus
+on comprehensive feasibility studies and user-centered design to
+ensure safety, adherence, enjoyment, and relevance (114–118).
+Considering the variability of outcomes in dual-tasking and
+exergaming studies, incorporating standardized, sensitive, valid,
+and repeatable physical and cognitive measures is critical (119,
+120). Studies should explore the combined effects of multiple
+dual-tasking and exergaming modalities. Additionally, future
+technologies
+and
+approaches
+in
+this
+ﬁeld
+should
+aim
+to
+streamline workﬂows for more straightforward implementation in
+real-world settings (121–123). To the best of our knowledge, no
+study directly compares the effects of exergaming and dual-task
+training, and future research should consider designing studies to
+evaluate the comparative differences in outcomes between these
+two approaches. Lastly, more research should be conducted to
+evaluate the feasibility and effectiveness of programs combining
+multiple dual-tasking and exergaming approaches and comparing
+singular approaches to combined approaches in multiple populations.
+6 Conclusion
+Dual-tasking and exergaming offer signiﬁcant health beneﬁts,
+both
+physically
+and
+cognitively,
+across
+various
+clinical
+populations, particularly in older adults. These interventions,
+deliverable through diverse approaches and mediums, vary in
+cost and evidence base. Given their demonstrated beneﬁts,
+integrating
+dual-tasking
+and
+exergaming
+into
+clinical,
+rehabilitation, and ﬁtness settings warrants robust evaluation.
+Despite their growing popularity, it is crucial to focus on
+developing evidence-based interventions.
+The brain gym program, exempliﬁed by the FitBrain program,
+offers signiﬁcant potential for improving cognitive and physical
+outcomes in older adults. Future research should focus on
+further validating this model through longitudinal studies and
+exploring its long-term impact on diverse populations. By
+integrating dual-tasking and exergaming into clinical practice, we
+can develop more effective, evidence-based interventions to
+support healthy aging.
+Data availability statement
+The original contributions presented in the study are included
+in the article/Supplementary Material, further inquiries can be
+directed to the corresponding author.
+Ethics statement
+Written informed consent was obtained from the individuals
+AND/OR
+participants
+legal
+guardian
+for
+photos
+in
+this
+manuscript. Permission to use photos of products were provided
+by the companies and are publicly available via their websites
+Author contributions
+RG: Conceptualization, Methodology, Visualization, Writing –
+original draft, Writing – review & editing. CP: Writing – review &
+editing,
+Conceptualization,
+Methodology.
+KM:
+Supervision,
+Writing
+–
+review
+&
+editing,
+Conceptualization.
+DM:
+Conceptualization, Writing – review & editing. BS: Writing –
+review & editing. MA: Writing – review & editing. EG: Writing –
+review
+&
+editing.
+PS:
+Conceptualization,
+Methodology,
+Supervision, Writing – review & editing.
+Funding
+The author(s) declare that no ﬁnancial support was received for
+the research, authorship, and/or publication of this article.
+Acknowledgments
+We thank the diverse and talented group of clinicians,
+individuals, and researchers that enabled the establishment of the
+FitBrain program, including support from the Saint John’s
+Health Center Foundation, the Paciﬁc Neuroscience Institute and
+Foundation, and Providence Health and Human Services. The
+authors would like to thank Will and Cary Singleton and the
+Beal Foundation for their generous support of the equipment for
+the FitBrain program and companies that provided in-kind
+equipment for the purposes of this program.
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+13
+frontiersin.org
+
+===== PAGE 14 =====
+Conﬂicts of interest
+RG acts as a consultant and advisor for multiple companies
+mentioned in this article. The relevant companies have provided
+some of the equipment mentioned in this paper in-kind.
+The remaining authors declare that the research was conducted
+in the absence of any commercial or ﬁnancial relationships that
+could be construed as a potential conﬂict of interest.
+Publisher’s note
+All claims expressed in this article are solely those of the
+authors and do not necessarily represent those of their afﬁliated
+organizations, or those of the publisher, the editors and the
+reviewers. Any product that may be evaluated in this article, or
+claim that may be made by its manufacturer, is not guaranteed
+or endorsed by the publisher.
+References
+1. Falck RS, Davis JC, Best JR, Crockett RA, Liu-Ambrose T. Impact of exercise
+training on physical and cognitive function among older adults: a systematic review
+and
+meta-analysis.
+Neurobiol
+Aging.
+(2019)
+79:119–30.
+doi:
+10.1016/j.
+neurobiolaging.2019.03.007
+2. Denkinger MD, Nikolaus T, Denkinger C, Lukas A. Physical activity to prevent
+cognitive decline. Z Für Gerontol Geriatr. (2012) 45(1):11–6. doi: 10.1007/s00391-
+011-0262-6
+3. Small GW. Detection and prevention of cognitive decline. Am J Geriatr
+Psychiatry. (2016) 24(12):1142–50. doi: 10.1016/j.jagp.2016.08.013
+4. Law CK, Lam FM, Chung RC, Pang MY. Physical exercise attenuates cognitive
+decline
+and
+reduces
+behavioural
+problems
+in
+people
+with
+mild
+cognitive
+impairment and dementia: a systematic review. J Physiother. (2020) 66(1):9–18.
+doi: 10.1016/j.jphys.2019.11.014
+5. Demurtas J, Schoene D, Torbahn G, Marengoni A, Grande G, Kelaiditi E, et al.
+Physical activity and exercise in mild cognitive impairment and dementia: an
+umbrella review of intervention and observational studies. J Am Med Dir Assoc.
+(2020) 21(10):1415–1422.e6. doi: 10.1016/j.jamda.2020.08.031
+6. Loprinzi PD, Blough J, Ryu S, Kang M. Experimental effects of exercise on
+memory function among mild cognitive impairment: systematic review and meta-
+analysis. Phys Sportsmed. (2018) 47(1):21–6. doi: 10.1080/00913847.2018.1527647
+7. Snowden M, Steinman L, Mochan K, Grodstein F, Prohaska TR, Thurman DJ,
+et al. Effect of exercise on cognitive performance in community-dwelling older
+adults: review of intervention trials and recommendations for public health practice
+and research. J Am Geriatr Soc. (2011) 59(4):704–16. doi: 10.1111/j.1532-5415.2011.
+03323.x
+8. Law LLF, Barnett F, Yau MK, Gray MA. Effects of combined cognitive and
+exercise interventions on cognition in older adults with and without cognitive
+impairment: a systematic review. Ageing Res Rev. (2014) 15:61–75. doi: 10.1016/j.
+arr.2014.02.008
+9. Karssemeijer EGA, Aaronson JA, Bossers WJ, Smits T, Olde Rikkert MGM,
+Kessels RPC. Positive effects of combined cognitive and physical exercise training
+on cognitive function in older adults with mild cognitive impairment or dementia:
+a meta-analysis. Ageing Res Rev. (2017) 40:75–83. doi: 10.1016/j.arr.2017.09.003
+10. Schättin A, Arner R, Gennaro F, de Bruin ED. Adaptations of prefrontal brain
+activity, executive functions, and gait in healthy elderly following exergame and
+balance training: a randomized-controlled study. Front Aging Neurosci. (2016)
+8:278. doi: 10.3389/fnagi.2016.00278
+11. Stanmore E, Stubbs B, Vancampfort D, de Bruin ED, Firth J. The effect of active
+video games on cognitive functioning in clinical and non-clinical populations: a meta-
+analysis of randomized controlled trials. Neurosci Biobehav Rev. (2017) 78:34–43.
+doi: 10.1016/j.neubiorev.2017.04.011
+12. Wollesen B, Wildbredt A, van Schooten KS, Lim ML, Delbaere K. The effects of
+cognitive-motor training interventions on executive functions in older people: a
+systematic review and meta-analysis. Eur Rev Aging Phys Act Off J Eur Group Res
+Elder Phys Act. (2020) 17:9. doi: 10.1186/s11556-020-00240-y
+13. Shin SS, An DH. The effect of motor dual-task balance training on balance and
+gait of elderly women. J Phys Ther Sci. (2014) 26(3):359–61. doi: 10.1589/jpts.26.359
+14. Silsupadol P, Siu KC, Shumway-Cook A, Woollacott MH. Training of balance
+under single- and dual-task conditions in older adults with balance impairment.
+Phys Ther. (2006) 86(2):269–81. doi: 10.1093/ptj/86.2.269
+15. Kümmel J, Kramer A, Giboin LS, Gruber M. Speciﬁcity of balance training in
+healthy individuals: a systematic review and meta-analysis. Sports Med. (2016) 46
+(9):1261–71. doi: 10.1007/s40279-016-0515-z
+16. Tait JL, Duckham RL, Milte CM, Main LC, Daly RM. Inﬂuence of sequential vs.
+simultaneous dual-task exercise training on cognitive function in older adults. Front
+Aging Neurosci. (2017) 9:368. doi: 10.3389/fnagi.2017.00368
+17. Herold F, Hamacher D, Schega L, Müller NG. Thinking while moving or
+moving while thinking - concepts of motor-cognitive training for cognitive
+performance enhancement. Front Aging Neurosci. (2018) 10:228. doi: 10.3389/fnagi.
+2018.00228
+18. Bamidis PD, Vivas AB, Styliadis C, Frantzidis C, Klados M, Schlee W, et al. A
+review of physical and cognitive interventions in aging. Neurosci Biobehav Rev.
+(2014) 44:206–20. doi: 10.1016/j.neubiorev.2014.03.019
+19. Zhu X, Yin S, Lang M, He R, Li J. The more the better? A meta-analysis on
+effects of combined cognitive and physical intervention on cognition in healthy
+older adults. Ageing Res Rev. (2016) 31:67–79. doi: 10.1016/j.arr.2016.07.003
+20. Werner C, Rosner R, Wiloth S, Lemke NC, Bauer JM, Hauer K. Time course of
+changes in motor-cognitive exergame performances during task-speciﬁc training in
+patients with dementia: identiﬁcation and predictors of early training response.
+J Neuroengineering Rehabil. (2018) 15(1):100. doi: 10.1186/s12984-018-0433-4
+21. Fritz NE, Cheek FM, Nichols-Larsen DS. Motor-cognitive dual-task training in
+persons with neurologic disorders: a systematic review. J Neurol Phys Ther JNPT.
+(2015) 39(3):142–53. doi: 10.1097/NPT.0000000000000090
+22. Plummer P, Zukowski LA, Giuliani C, Hall AM, Zurakowski D. Effects of
+physical exercise interventions on gait-related dual-task interference in older adults:
+a systematic review and meta-analysis. Gerontology. (2015) 62(1):94–117. doi: 10.
+1159/000371577
+23. Manser P, Adcock-Omlin M, de Bruin ED. Design considerations for an
+exergame-based training intervention for older adults with mild neurocognitive
+disorder: qualitative study including focus groups with experts and health care
+professionals and individual semistructured in-depth patient interviews. JMIR
+Serious Games. (2023) 11:e37616. doi: 10.2196/37616
+24. Karr JE, Areshenkoff CN, Rast P, Garcia-Barrera MA. An empirical comparison
+of the therapeutic beneﬁts of physical exercise and cognitive training on the executive
+functions of older adults: a meta-analysis of controlled trials. Neuropsychology. (2014)
+28(6):829–45. doi: 10.1037/neu0000101
+25. Adcock M, Thalmann M, Schättin A, Gennaro F, de Bruin ED. A pilot study of
+an in-home multicomponent exergame training for older adults: feasibility, usability
+and Pre-post evaluation. Front Aging Neurosci. (2019) 11:304. doi: 10.3389/fnagi.
+2019.00304
+26. Eggenberger P, Theill N, Holenstein S, Schumacher V, de Bruin ED.
+Multicomponent physical exercise with simultaneous cognitive training to enhance
+dual-task walking of older adults: a secondary analysis of a 6-month randomized
+controlled trial with 1-year follow-up. Clin Interv Aging. (2015) 10:1711–32. doi: 10.
+2147/CIA.S91997
+27. Evans JJ, Greenﬁeld E, Wilson BA, Bateman A. Walking and talking therapy:
+improving cognitive–motor dual-tasking in neurological illness. J Int Neuropsychol
+Soc. (2009) 15(1):112–20. doi: 10.1017/S1355617708090152
+28. Bond S, Laddu DR, Ozemek C, Lavie CJ, Arena R. Exergaming and virtual reality
+for health: implications for cardiac rehabilitation. Curr Probl Cardiol. (2021) 46
+(3):100472. doi: 10.1016/j.cpcardiol.2019.100472
+29. Gallou-Guyot M, Mandigout S, Bherer L, Perrochon A. Effects of exergames and
+cognitive-motor dual-task training on cognitive, physical and dual-task functions in
+cognitively healthy older adults: an overview. Ageing Res Rev. (2020) 63:101135.
+doi: 10.1016/j.arr.2020.101135
+30. Gallou-Guyot M, Mandigout S, Combourieu-Donnezan L, Bherer L, Perrochon
+A. Cognitive and physical impact of cognitive-motor dual-task training in cognitively
+impaired older adults: an overview. Neurophysiol Clin. (2020) 50(6):441–53. doi: 10.
+1016/j.neucli.2020.10.010
+31. Oh Y, Yang SP. Deﬁning exergames & exergaming. Meaningful play. In 2010
+Conference Paper (2010).
+32. McCallum S, Boletsis C. A taxonomy of serious games for dementia. Games for
+Health. (2013) (1) p. 219–32. doi: 10.1007/978-3-658-02897-8_17
+33. Benzing V, Schmidt M. Exergaming for children and adolescents: strengths,
+weaknesses, opportunities and threats. J Clin Med. (2018) 7(11):422. doi: 10.3390/
+jcm7110422
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+14
+frontiersin.org
+
+===== PAGE 15 =====
+34. Chao YY, Scherer YK, Montgomery CA. Effects of using Nintendo WiiTM
+exergames in older adults. J Aging Health. (2015) 27(3):379–402. doi: 10.1177/
+0898264314551171
+35. Anderson-Hanley C, Arciero PJ, Westen SC, Nimon J, Zimmerman E.
+Neuropsychological beneﬁts of stationary bike exercise and a cybercycle exergame
+for older adults with diabetes: an exploratory analysis. J Diabetes Sci Technol. (2012)
+6(4):849–57. doi: 10.1177/193229681200600416
+36. Jhaveri S, Romanyk M, Glatt R, Satchidanand N. SMARTﬁt dual-task exercise
+improves cognition and physical function in older adults with mild cognitive
+impairment: results of a community-based pilot study. J Aging Phys Act. (2023) 31
+(4):621–32. doi: 10.1123/japa.2022-0040
+37. Noviana M, Syahmansyur MAF, Pratama AD, Pahlawi R, Abdullah F. The
+effectiveness of exergame exercises to improve cognitive function in cases of
+dementia: literature review. Proc AMIA Annu Fall Symp. (2022) 83(1):29. doi: 10.
+3390/proceedings2022083029
+38. Anderson-Hanley C, Stark J, Wall KM, VanBrakle M, Michel M, Maloney M,
+et al. The interactive physical and cognitive exercise system (iPACES™): effects of a
+3-month in-home pilot clinical trial for mild cognitive impairment and caregivers.
+Clin Interv Aging. (2018) 13:1565–77. doi: 10.2147/CIA.S160756
+39. Stojan R, Voelcker-Rehage C. A systematic review on the cognitive beneﬁts and
+neurophysiological correlates of exergaming in healthy older adults. J Clin Med. (2019)
+8(5):734. doi: 10.3390/jcm8050734
+40. Barry G, van Schaik P, MacSween A, Dixon J, Martin D. Exergaming (XBOX
+KinectTM) versus traditional gym-based exercise for postural control, ﬂow, and
+technology acceptance in healthy adults: a randomised controlled trial. BMC Sports
+Sci Med Rehabil. (2016) 8(1):25–25. doi: 10.1186/s13102-016-0050-0
+41. McIsaac TL, Lamberg EM, Muratori LM. Building a framework for a dual task
+taxonomy. BioMed Res Int. (2015) 2015:591475. doi: 10.1155/2015/591475
+42. Yogev-Seligmann G, Giladi N, Brozgol M, Hausdorff JM. A training program to
+improve gait while dual tasking in patients with Parkinson’s disease: a pilot study.
+Arch Phys Med Rehabil. (2012) 93(1):176–81. doi: 10.1016/j.apmr.2011.06.005
+43. de Andrade LP, Gobbi LTB, Coelho FGM, Christofoletti G, Riani Costa JL, Stella
+F. Beneﬁts of multimodal exercise intervention for postural control and frontal
+cognitive functions in individuals with Alzheimer’s disease: a controlled trial. J Am
+Geriatr Soc. (2013) 61(11):1919–26. doi: 10.1111/jgs.12531
+44. Schwenk M, Zieschang T, Oster P, Hauer K. Dual-task performances can be
+improved in patients with dementia: a randomized controlled trial. Neurology.
+(2010) 74(24):1961–8. doi: 10.1212/WNL.0b013e3181e39696
+45. Coelho FG, Andrade LP, Pedroso RV, Santos-Galduroz RF, Gobbi S, Costa JL,
+et al. Multimodal exercise intervention improves frontal cognitive functions and gait
+in
+Alzheimer’s
+disease:
+a
+controlled
+trial.
+Geriatr
+Gerontol
+Int.
+(2013)
+13
+(1):198–203. doi: 10.1111/j.1447-0594.2012.00887.x
+46. Parial LL, Leung AYM, Sumile EF, Lam SC. Pilot testing of dual-task zumba gold
+(DTZ) for community-dwelling people with mild cognitive impairment: a mixed-
+methods study. Geriatr Nur (Lond). (2021) 42(6):1397–407. doi: 10.1016/j.gerinurse.
+2021.09.013
+47. Merchant RA, Tsoi CT, Tan WM, Lau W, Sandrasageran S, Arai H.
+Community-based peer-led intervention for healthy ageing and evaluation of the
+“HAPPY” program. J Nutr Health Aging. (2021) 25(4):520–7. doi: 10.1007/s12603-
+021-1606-6
+48. Wang YH, Liu YH, Yang YR, Wang RY. Effects of square-stepping exercise on
+motor and cognitive function in older adults — a systematic review and meta-analysis.
+Geriatr Nur (Lond). (2021) 42(6):1583–93. doi: 10.1016/j.gerinurse.2021.10.022
+49. Weightman MM, Radomski MV, Mashima PA, Roth CR. Mild Traumatic Brain
+Injury Rehabilitation Toolkit. Vol. 1. Fort Sam Houston, TX: Borden Institute (2014).
+50. Zhao Y, Feng H, Wu X, Du Y, Yang X, Hu M, et al. Effectiveness of exergaming
+in improving cognitive and physical function in people with mild cognitive
+impairment or dementia: systematic review. JMIR Serious Games. (2020) 8(2):
+e16841. doi: 10.2196/16841
+51. Skjæret N, Nawaz A, Morat T, Schoene D, Helbostad JL, Vereijken B. Exercise
+and rehabilitation delivered through exergames in older adults: an integrative review of
+technologies, safety and efﬁcacy. Int J Med Inf. (2016) 85(1):1–16. doi: 10.1016/j.
+ijmedinf.2015.10.008
+52. Manser P, de Bruin ED. Making the best out of IT: design and development of
+exergames for older adults with mild neurocognitive disorder - A methodological
+paper. Front Aging Neurosci. (2021) 13:734012. doi: 10.3389/fnagi.2021.734012
+53. Bouaziz W, Lang PO, Schmitt E, Kaltenbach G, Geny B, Vogel T. Health beneﬁts
+of multicomponent training programmes in seniors: a systematic review. Int J Clin
+Pract. (2016) 70(7):520–36. doi: 10.1111/ijcp.12822
+54. Tseng CN, Gau BS, Lou MF. The effectiveness of exercise on improving
+cognitive function in older people: a systematic review. J Nurs Res. (2011) 19(2):119.
+doi: 10.1097/JNR.0b013e3182198837
+55. Lamoth CJ, van Heuvelen MJ, Posthuma W, Swinnen SP, Cramer AO, Beek PJ,
+et al. Effects of dual-task walking on gait stability and cognitive performance in
+healthy older adults. Clin Biomech. (2011) 26(6):574–9. doi: 10.1016/j.clinbiomech.
+2011.03.002
+56. Barcelos N, Shah N, Cohen K, Hogan MJ, Mulkerrin E, Arciero PJ, et al. Aerobic
+and cognitive exercise (ACE) pilot study for older adults: executive function improves
+with cognitive challenge while exergaming. J Int Neuropsychol Soc. (2015) 21
+(10):768–79. doi: 10.1017/S1355617715001083
+57. Anderson-Hanley C, Barcelos NM, Zimmerman EA, Gillen RW, Dunnam M,
+Cohen BD, et al. The aerobic and cognitive exercise study (ACES) for community-
+dwelling older adults with or at-risk for mild cognitive impairment (MCI):
+neuropsychological, neurobiological and neuroimaging outcomes of a randomized
+clinical trial. Front Aging Neurosci. (2018) 10:76. doi: 10.3389/fnagi.2018.00076
+58. Anastasiadou Z, Lanitis A. Development and evaluation of a prototype VR
+application for the elderly, that can help to prevent effects related to social
+isolation. In: 2022 International Conference on Interactive Media, Smart Systems and
+Emerging Technologies (IMET) (2022). p. 1–4. doi: 10.1109/IMET54801.2022.9930049
+59. Lin X, Xueyang C. Designing virtual reality (VR) experience for older adults and
+determine its impact on their overall well-being (Thesis). Massachusetts Institute of
+Technology (2017). Available online at: https://dspace.mit.edu/handle/1721.1/113523
+(accessed April 23, 2023).
+60. Okubo Y, Schoene D, Lord SR. Step training improves reaction time, gait and
+balance and reduces falls in older people: a systematic review and meta-analysis. Br
+J Sports Med. (2017) 51(7):586–93. doi: 10.1136/bjsports-2015-095452
+61. Mansﬁeld A, Wong JS, Bryce J, Knorr S, Patterson KK. Does perturbation-based
+balance training prevent falls? Systematic review and meta-analysis of preliminary
+randomized controlled trials. Phys Ther. (2015) 95(5):700–9. doi: 10.2522/ptj.
+20140090
+62. Chua LK, Chung YC, Bellard D, Swan L, Gobreial N, Romano A, et al. Gamiﬁed
+dual-task training for individuals with Parkinson disease: an exploratory study on
+feasibility, safety, and efﬁcacy. Int J Environ Res Public Health. (2021) 18(23):12384.
+doi: 10.3390/ijerph182312384
+63. Koppelaar H, Kordestani-Moghadam P, Kouhkani S, Irandoust F, Segers G, de
+Haas L, et al. Proof of concept of novel visuo-spatial-motor fall prevention training for
+old people. Geriatrics (Basel). (2021) 6(3):66. doi: 10.3390/geriatrics6030066
+64. Hastürk G, Akyıldız Munusturlar M. The effects of exergames on physical and
+psychological health in young adults. Games Health J. (2022) 11(6):425–34. doi: 10.
+1089/g4h.2022.0093
+65. Lim JY, Lee SJ, Park DS. Choice stepping reaction time under unstable
+conditions in healthy young and older adults: a reliability and comparison study.
+J Korean Phys Ther. (2021) 33(6):265–71. doi: 10.18857/jkpt.2021.33.6.265
+66. Myers LR, Toonstra JL, Cripps AE. The test–retest reliability and minimal
+detectable change of the FitLight TrainerTM. Int J Athl Ther Train. (2023) 28
+(2):84–8. doi: 10.1123/ijatt.2022-0012
+67. Laessoe U, Grarup B, Bangshaab J. The use of cognitive cues for anticipatory
+strategies in a dynamic postural control task - validation of a novel approach to
+dual-task testing. PLoS One. (2016) 11(8):e0157421. doi: 10.1371/journal.pone.
+0157421
+68. Wilkes JR, Kelly JT, Walter AE, Slobounov SM. Reaction time task performance
+in concussed athletes over a 30-day period: an observational study. Arch Clin
+Neuropsychol. (2022) 37(2):240–8. doi: 10.1093/arclin/acab077
+69. Chander H, McCrory A, Chandler SJ, Freeny S, Grifﬁth A, Burch R, et al. Noise
+interference impacts simple and choice response times during a lower extremity
+cognitive–motor task. Clin Transl Neurosci. (2023) 7(1):4. doi: 10.3390/ctn7010004
+70. Lowell RK, Conner NO, Derby H, Hill CM, Gillen ZM, Burch R, et al. Quick on
+your feet: modifying the star excursion balance test with a cognitive motor response
+time task. Int J Environ Res Public Health. (2023) 20(2):1204. doi: 10.3390/
+ijerph20021204
+71. Wilk K, Thomas ZM, Arrigo CA, Davies GJ. The need to change return to play
+testing in athletes following ACL injury: a theoretical model. Int J Sports Phys Ther.
+(2023) 18(1):272–81. doi: 10.26603/001c.67988
+72. Hoffman JR. Evaluation of a reactive agility assessment device in youth
+football players. J Strength Cond Res. (2020) 34(12):3311–5. doi: 10.1519/JSC.
+0000000000003867
+73. Taghvaei E, Ezhov A, Zakharova A. Monitoring of visual-motor coordination of
+hockey players in the preparatory and competitive periods of training at the training
+stage. Fundamental Science and Technology. (2022) p. 26–9. UDC 796.085.
+74. Farag AE. Effect of visual exercises on speed of the motor response and accuracy
+performance of straight volley drop shot for squash players. Sci J Phys Educ Sports Sci.
+(2022) 46(1):1–16. doi: 10.21608/ejsk.2022.145098.1143
+75. de-Oliveira LA, Matos MV, Fernandes IGS, Nascimento DA, da Silva-Grigoletto
+ME. Test-Retest reliability of a visual-cognitive technology (BlazePodTM) to
+measure response time. J Sports Sci Med. (2021) 20(1):179–80. doi: 10.52082/jssm.
+2021.179
+76. Bingöl Diedhiou A, Andre H. Does caffeine help reactive-agility performance?
+Fis Communications (2021). p. 81.
+77. Martel D, Lauzé M, Agnoux A, Fruteau de Laclos L, Daoust R, Émond M, et al.
+Comparing the effects of a home-based exercise program using a gerontechnology to a
+community-based group exercise program on functional capacities in older adults
+after a minor injury. Exp Gerontol. (2018) 108:41–7. doi: 10.1016/j.exger.2018.03.016
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+15
+frontiersin.org
+
+===== PAGE 16 =====
+78. Valiani V, Lauzé M, Martel D, Pahor M, Manini TM, Anton S, et al. New
+adaptive home-based exercise technology among older adults living in nursing
+home: a pilot study on feasibility, acceptability and physical performance. J Nutr
+Health Aging. (2017) 21(7):819–24. doi: 10.1007/s12603-016-0820-0
+79. Lauzé M, Martel DD, Aubertin-Leheudre M. Feasibility and effects of a
+physical activity program using gerontechnology in assisted living communities for
+older adults. J Am Med Dir Assoc. (2017) 18(12):1069–75. doi: 10.1016/j.jamda.
+2017.06.030
+80. Norouzi-Gheidari N, Levin MF, Fung J, Archambault P. Interactive virtual
+reality game-based rehabilitation for stroke patients. 2013 International Conference
+on Virtual Rehabilitation (ICVR) (2013) :220–221 doi: 10.1109/icvr.2013.6662126
+81. Archambault P, Norouzi-Gheidari N, Tao G, Solomon JM, Kairy D, Levin MF.
+Use of exergames for upper extremity rehabilitation in stroke patients. Ann Phys
+Rehabil Med. (2015) 58:e97–8. doi: 10.1016/j.rehab.2015.07.237
+82. Cannell J, Jovic E, Rathjen A, Lane K, Tyson AM, Callisaya ML, et al. The
+efﬁcacy of interactive, motion capture-based rehabilitation on functional outcomes
+in an inpatient stroke population: a randomized controlled trial. Clin Rehabil.
+(2018) 32(2):191–200. doi: 10.1177/0269215517720790
+83. Parke S, Hough CL, Bunnell AE. The feasibility and acceptability of virtual
+therapy environments for early ICU mobilization. PM&R. (2020) 12(12):1214–21.
+doi: 10.1002/pmrj.12352
+84. Jäggi S, Wachter A, Adcock M, de Bruin ED, Möller JC, Marks D, et al.
+Feasibility and effects of cognitive-motor exergames on fall risk factors in typical
+and atypical Parkinson’s inpatients: a randomized controlled pilot study. Eur J Med
+Res. (2023) 28(1):30. doi: 10.1186/s40001-022-00963-x
+85. Swanenburg J, Büchi F, Straumann D, Weber KP, de Bruin ED. Exergaming with
+integrated head turn tasks improves compensatory saccade pattern in some patients
+with chronic peripheral unilateral vestibular hypofunction. Front Neurol. (2020)
+11:601. doi: 10.3389/fneur.2020.00601
+86. Altorfer P, Adcock M, de Bruin ED, Graf F, Giannouli E. Feasibility of cognitive-
+motor exergames in geriatric inpatient rehabilitation: a pilot randomized controlled
+study. Front Aging Neurosci. (2021) 13:739948. doi: 10.3389/fnagi.2021.739948
+87. Seinsche J, de Bruin ED, Carpinella I, Ferrarin M, Moza S, Rizzo F, et al. Older
+adults’ needs and requirements for a comprehensive exergame-based telerehabilitation
+system: a focus group study. Front Public Health. (2023) 10:1076149. doi: 10.3389/
+fpubh.2022.1076149
+88. Swinnen N, Vandenbulcke M, de Bruin ED, Akkerman R, Stubbs B, Firth J, et al.
+The efﬁcacy of exergaming in people with major neurocognitive disorder residing in
+long-term care facilities: a pilot randomized controlled trial. Alzheimers Res Ther.
+(2021) 13(1):70. doi: 10.1186/s13195-021-00806-7
+89. Swinnen N, Vandenbulcke M, de Bruin ED, Akkerman R, Stubbs B,
+Vancampfort D. Exergaming for people with major neurocognitive disorder: a
+qualitative study. Disabil Rehabil. (2022) 44(10):2044–52. doi: 10.1080/09638288.
+2020.1822934
+90. Fragala MS, Beyer KS, Jajtner AR, Townsend JR, Pruna GJ, Boone CH, et al.
+Resistance exercise may improve spatial awareness and visual reaction in older
+adults.
+J
+Strength
+Cond
+Res.
+(2014)
+28(8):2079–87.
+doi:
+10.1519/JSC.
+0000000000000520
+91. Klotzbier TJ, Park SY, Blümer V, Schott N. Effect of intermittent exercise on
+performance in 3D multiple objects tracking in children, young and older adults—a
+pilot study. J Integr Neurosci. (2022) 21(4):122. doi: 10.31083/j.jin2104122
+92. Legault I, Faubert J. Perceptual-cognitive training improves biological motion
+perception. NeuroReport. (2012) 23(8):469–73. doi: 10.1097/WNR.0b013e328353e48a
+93. Michaels J, Watanabe D, Hirsch P, Bellavance F, Faubert J. 3D-MOT Predicts
+Q21
+driving
+skills
+in
+older
+drivers.
+Invest Ophthalmol
+Vis
+Sci.
+(2016)
+57
+(12):1505–1505.
+94. Assed MM, de Carvalho MKHV, de Almeida Rocca CC, de Pádua Seraﬁm A.
+Memory training and beneﬁts for quality of life in the elderly: a case report.
+Dement Neuropsychol. (2016) 10(2):152–5. doi: 10.1590/S1980-5764-2016DN1002012
+95. Edwards D, Kumar S, Brinkman L, Ferreira IC, Esquenazi A, Nguyen T, et al.
+Telerehabilitation
+initiated
+early
+in
+post-stroke
+recovery:
+a
+feasibility
+study.
+Neurorehabil Neural Repair. (2023) 37(2-3):131–41. doi: 10.1177/15459683231159660
+96. Wall K, Stark J, Schillaci A, Saulnier ET, McLaren E, Striegnitz K, et al.
+The enhanced interactive physical and cognitive exercise system (iPACESTM
+v2.0):
+pilot
+clinical
+trial
+of
+an
+in-home
+iPad-based
+neuro-exergame
+for
+mild cognitive impairment (MCI). J Clin Med. (2018) 7(9):249. doi: 10.3390/
+jcm7090249
+97. Anderson-Hanley C, Maloney M, Barcelos N, Striegnitz K, Kramer A.
+Neuropsychological beneﬁts of neuro-exergaming for older adults: a pilot study of
+an interactive physical and cognitive exercise system (iPACES). J Aging Phys Act.
+(2017) 25(1):73–83. doi: 10.1123/japa.2015-0261
+98. Burton E, Hill K, Ellis KA, Hill AM, Lowry M, Moorin R, et al. Balance on the
+brain: a randomised controlled trial evaluating the effect of a multimodal exercise
+programme on physical performance, falls, quality of life and cognition for people
+with mild cognitive impairment-study protocol. BMJ Open. (2022) 12(4):e054725.
+doi: 10.1136/bmjopen-2021-054725
+99. Rodrigues IB, Ponzano M, Giangregorio LM. Practical tips for prescribing
+exercise for fall prevention. Osteoporos Int. (2019) 30(10):1953–60. doi: 10.1007/
+s00198-019-05141-0
+100. Ponzano M, Rodrigues IB, Giangregorio LM. Physical activity for fall and
+fracture prevention. Curr Treat Options Rheumatol. (2018) 4(3):268–78. doi: 10.
+1007/s40674-018-0103-5
+101. Salgueiro C, Urrùtia G, Cabanas-Valdés R. Available apps for stroke
+telerehabilitation during corona virus disease 2019 conﬁnement in Spain. Disabil
+Rehabil Assist Technol. (2023) 18:538–543. doi: 10.1080/17483107.2021.1883751
+102. Hoffman R, Bucholz H. Standard and cognitive four square step test (FSST).
+Phys Ther Schol Proj. (2019) 679:11–21. Available online at: https://commons.und.
+edu/pt-grad/679
+103. Langeard A, Torre MM, Temprado JJ. A dual-task paradigm using the oral trail
+making test while walking to study cognitive-motor interactions in older adults. Front
+Aging Neurosci. (2021) 13:712463. doi: 10.3389/fnagi.2021.712463
+104. Boles DB, Bursk JH, Phillips JB, Perdelwitz JR. Predicting dual-task
+performance with the multiple resources questionnaire (MRQ). Hum Factors J Hum
+Factors Ergon Soc. (2007) 49(1):32–45. doi: 10.1518/001872007779598073
+105. Pedullà L, Tacchino A, Podda J, Bragadin MM, Bonzano L, Battaglia MA, et al.
+The patients’ perspective on the perceived difﬁculties of dual-tasking: development
+and validation of the dual-task impact on daily-living activities questionnaire
+(DIDA-Q). Mult Scler Relat Disord. (2020) 46:102601. doi: 10.1016/j.msard.2020.
+102601
+106. Montero-Odasso MM, Sarquis-Adamson Y, Speechley M, Borrie MJ, Hachinski
+VC, Wells J, et al. Association of dual-task gait with incident dementia in mild
+cognitive impairment: results from the gait and brain study. JAMA Neurol. (2017)
+74(7):857–65. doi: 10.1001/jamaneurol.2017.0643
+107. Pieruccini-Faria F, Black SE, Masellis M, Smith EE, Almeida QJ, Li KZH, et al.
+Gait variability across neurodegenerative and cognitive disorders: results from the
+Canadian consortium of neurodegeneration in aging (CCNA) and the gait and
+brain study. Alzheimers Dement. (2021) 17(8):1317–28. doi: 10.1002/alz.12298
+108. Åhman HB, Cedervall Y, Kilander L, Giedraitis V, Berglund L, McKee KJ, et al.
+Dual-task tests discriminate between dementia, mild cognitive impairment, subjective
+cognitive impairment, and healthy controls - a cross-sectional cohort study. BMC
+Geriatr. (2020) 20(1):258. doi: 10.1186/s12877-020-01645-1
+109. Walton CC, Kavanagh A, Downey LA, Lomas J, Camﬁeld DA, Stough C.
+Online cognitive training in healthy older adults: a preliminary study on the effects
+of single versus multi-domain training. Transl Neurosci. (2015) 6(1):13–9. doi: 10.
+1515/tnsci-2015-0003
+110. Ballesteros S, Rieker JA, Mayas J, Prieto A, Toril P, Jiménez MP, et al. Effects of
+multidomain versus single-domain training on executive control and memory in older
+adults: study protocol for a randomized controlled trial. Trials. (2020) 21(1):404.
+doi: 10.1186/s13063-020-04293-3
+111. Cheng Y, Wu W, Feng W, Wang J, Chen Y, Shen Y, et al. The effects of multi-
+domain versus single-domain cognitive training in non-demented older people: a
+randomized controlled trial. BMC Med. (2012) 10:30. doi: 10.1186/1741-7015-10-30
+112. Nawaz A, Skjæret N, Helbostad JL, Vereijken B, Boulton E, Svanaes D.
+Usability and acceptability of balance exergames in older adults: a scoping review.
+Health Informatics J. (2016) 22(4):911–31. doi: 10.1177/1460458215598638
+113. Chu CH, Biss RK, Cooper L, Quan AML, Matulis H. Exergaming platform for
+older adults residing in long-term care homes: user-centered design, development, and
+usability study. JMIR Serious Games. (2021) 9(1):e22370. doi: 10.2196/22370
+114. Ning H, Jiang D, Du Y, Li X, Zhang H, Wu L, et al. Older adults’ experiences of
+implementing exergaming programs: a systematic review and qualitative meta-
+synthesis. Age Ageing. (2022) 51(12):afac251. doi: 10.1093/ageing/afac251
+115. Bird ML, Clark B, Millar J, Whetton S, Smith S. Exposure to “exergames”
+increases older adults’ perception of the usefulness of technology for improving
+health and physical activity: a pilot study. JMIR Serious Games. (2015) 3(2):e8.
+doi: 10.2196/games.4275
+116. Crane BM, Drazich BF, Taylor JL, Moored KD, Ahmad O, Krakauer JW, et al.
+Older adults
+and
+three-dimensional
+exergaming:
+motivators and
+barriers
+to
+participation and retention. Games Health J. (2023) 12(2):150–7. doi: 10.1089/g4h.
+2022.0131
+117. Freed SA, Sprague BN, Stephan AT, Doyle CE, Tian J, Phillips CB, et al.
+Feasibility and enjoyment of exercise video games in older adults. Front Public
+Health. (2021) 9:751289. doi: 10.3389/fpubh.2021.751289
+118. Rogers C, Shamley D, Amosun S. Older adults’ experience of an exergaming
+intervention to improve balance and prevent falls: a nested explanatory qualitative
+study. Appl Sci. (2021) 11(24):11678. doi: 10.3390/app112411678
+119. Lauenroth A, Ioannidis AE, Teichmann B. Inﬂuence of combined physical and
+cognitive training on cognition: a systematic review. BMC Geriatr. (2016) 16(1):141.
+doi: 10.1186/s12877-016-0315-1
+120. Pichierri G, Wolf P, Murer K, de Bruin ED. Cognitive and cognitive-motor
+interventions affecting physical functioning: a systematic review. BMC Geriatr.
+(2011) 11(1):29. doi: 10.1186/1471-2318-11-29
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+16
+frontiersin.org
+
+===== PAGE 17 =====
+121. Moan ME, Vonstad EK, Su X, Vereijken B, Solbjør M, Skjæret-Maroni N.
+Experiences of stroke survivors and clinicians with a fully immersive virtual reality
+treadmill exergame for stroke rehabilitation: a qualitative pilot study. Front Aging
+Neurosci. (2021) 13:735251. doi: 10.3389/fnagi.2021.735251
+122. Demers M, Nguyen AV, Ong YLA, Luo CX, Thuraisingam T, Rubino M, et al.
+(2019).
+Exergaming
+for
+stroke
+rehabilitation:
+lessons
+learned
+for
+future
+implementation
+strategies.
+International
+Conference
+on
+Virtual
+Rehabilitation
+(ICVR). IEEE (2019). p. 1–3. doi: 10.1109/ICVR46560.2019.8994419
+123. Domingos J, Dean J, Fernandes JB, Godinho C. Professionals’ self-reported
+difﬁculties towards integrating dual task training in care for people with Parkinson’s
+disease.
+Int
+J
+Environ
+Res
+Public
+Health.
+(2022)
+19(3):1281.
+doi:
+10.3390/
+ijerph19031281
+Glatt et al.
+10.3389/fspor.2024.1449699
+Frontiers in Sports and Active Living
+17
+frontiersin.org

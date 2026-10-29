@@ -1,0 +1,4012 @@
+===== PAGE 1 =====
+This report contains a total of 47 pages and may be reproduced in full only. Partial reproduction may only be done with the 
+written consent of CKC Laboratories, Inc.  
+ 
+ 
+SMARTFIT Inc.   
+ 
+ 
+EMC TEST REPORT FOR  
+ 
+SMARTfit™ Pod Target 
+Model: 3-56228  
+ 
+ 
+ 
+Tested to The Following Standards: 
+ 
+EN 301 489-3 v2.1.1 / EN 301 489-1 v2.1.1 
+ 
+ 
+ 
+Report No.: 99820-8 
+ 
+ 
+Date of issue: June 2, 2017 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We strive to create long-term, trust based relationships by providing 
+sound, adaptive, customer first testing services.  We embrace each of 
+our customers’ unique EMC challenges, not as an interruption to set 
+processes, but rather as the reason we are in business.
+
+===== PAGE 2 =====
+Page 2 of 47
+Report No.: 99820-8
+TABLE OF CONTENTS 
+ 
+Administrative Information .......................................................................................................................... 3 
+Test Report Information ............................................................................................................................................ 3 
+Report Authorization ................................................................................................................................................. 3 
+Test Facility Information ............................................................................................................................................ 4 
+Software Versions ...................................................................................................................................................... 4 
+Site Registration & Accreditation Information .......................................................................................................... 4 
+Summary of Results ................................................................................................................................................... 5 
+Modifications During Testing ..................................................................................................................................... 6 
+Conditions During Testing.......................................................................................................................................... 6 
+Equipment Under Test ............................................................................................................................................... 6 
+EN 301 489-3 ................................................................................................................................................. 7 
+Conducted Emissions ................................................................................................................................................. 7 
+Telecom Conducted Emissions ................................................................................................................................ 18 
+Radiated Emissions .................................................................................................................................................. 18 
+Harmonic Emissions ................................................................................................................................................. 19 
+Voltage Fluctuation and Flicker Emissions............................................................................................................... 23 
+Immunity ................................................................................................................................................................. 26 
+Immunity Performance Criteria Definitions ............................................................................................................ 26 
+Immunity Setup and Monitoring ............................................................................................................................. 27 
+Electrostatic Discharge ............................................................................................................................................ 28 
+Radiated Immunity .................................................................................................................................................. 33 
+Electrical Fast Transients / Bursts ............................................................................................................................ 36 
+Surge ........................................................................................................................................................................ 38 
+Conducted Immunity ............................................................................................................................................... 40 
+Voltage Dips and Interrupts ..................................................................................................................................... 42 
+Transients and Surges in the Vehicle Environment ................................................................................................. 44 
+Supplemental Information .......................................................................................................................... 45 
+Measurement Uncertainty ...................................................................................................................................... 45 
+Emissions Test Details .............................................................................................................................................. 45 
+Immunity Test Details .............................................................................................................................................. 47
+
+===== PAGE 3 =====
+Page 3 of 47
+Report No.: 99820-8
+ADMINISTRATIVE INFORMATION 
+ 
+Test Report Information 
+ 
+ 
+REPORT PREPARED FOR: 
+ 
+ 
+REPORT PREPARED BY: 
+ 
+SMARTFIT Inc.  
+3977 Camino Ranchero  
+Camarillo, CA 93012  
+ 
+Terri Rayle 
+CKC Laboratories, Inc. 
+5046 Sierra Pines Drive 
+Mariposa, CA 95338 
+ 
+ 
+ 
+Representative: Jim Manley    
+ 
+Project Number: 99820 
+Customer Reference Number: 2668 
+ 
+ 
+ 
+ 
+ 
+DATE OF EQUIPMENT RECEIPT:  
+ 
+May 5, 2017 
+DATE(S) OF TESTING:  
+ 
+May 5-24, 2017 
+ 
+ 
+Report Authorization 
+ 
+The test data contained in this report documents the observed testing parameters pertaining to and are relevant 
+for only the sample equipment tested in the agreed upon operational mode(s) and configuration(s) as identified 
+herein. Compliance assessment remains the client’s responsibility. This report may not be used to claim product 
+endorsement by A2LA or any government agencies. This test report has been authorized for release under quality 
+control from CKC Laboratories, Inc. 
+ 
+ 
+ 
+ 
+Steve Behm 
+Director of Quality Assurance & Engineering Services 
+CKC Laboratories, Inc.
+
+===== PAGE 4 =====
+Page 4 of 47
+Report No.: 99820-8
+ 
+Test Facility Information 
+ 
+ 
+ 
+ 
+Our laboratories are configured to effectively test a 
+wide variety of product types.  CKC utilizes first class 
+test equipment, anechoic chambers, data acquisition 
+and information services to create accurate, repeatable 
+and affordable test results. 
+ 
+ 
+ 
+ 
+TEST LOCATION(S):  
+CKC Laboratories, Inc. 
+110 Olinda Place 
+Brea, CA  92823 
+ 
+ 
+Software Versions 
+ 
+CKC Laboratories Proprietary Software 
+Version 
+EMITest Emissions 
+5.03.02 
+EMITest Immunity 
+5.03.02 
+ 
+ 
+Site Registration & Accreditation Information 
+ 
+Location 
+CB # 
+TAIWAN 
+CANADA 
+FCC 
+JAPAN 
+Brea A, CA 
+US0060 
+SL2-IN-E-1146R 
+3082D-1 
+US1025 
+A-0147
+
+===== PAGE 5 =====
+Page 5 of 47
+Report No.: 99820-8
+SUMMARY OF RESULTS 
+ 
+Standard / Specification: EN 301 489-3 v2.1.1 / EN 301 489-1 v2.1.1         
+ 
+Test Procedure 
+Description 
+Modifications 
+Results 
+EN 301 489-3 
+Conducted Emissions 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+EN 301 489-3 
+Telecom Conducted Emissions 
+NA 
+NA 
+ 
+ 
+ 
+ 
+EN 301 489-3 
+Radiated Emissions 
+NA 
+NA 
+ 
+ 
+ 
+ 
+EN 61000-3-2 (2014)1 
+Harmonic Emissions 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+EN 61000-3-3 (2013)1 
+Voltage Fluctuations and Flicker Emissions 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+EN 61000-4-2 (2009) 
+Electrostatic Discharge 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+EN 61000-4-3 (2006)+A1+A2 
+Radiated Immunity 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+EN 61000-4-4 (2012) 
+Electrical Fast Transient Burst 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+EN 61000-4-5 (2006) 
+Surge 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+EN 61000-4-6 (2009) 
+Conducted Immunity 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+EN 61000-4-11 (2004) 
+Voltage Dips and Interrupts 
+NA 
+Pass 
+ 
+ 
+ 
+ 
+ISO 7637-2 (2011) 
+Transients and Surges in the Vehicle Environment 
+NA 
+NA 
+ 
+ 
+ 
+ 
+NA= Not Applicable 
+1The AC mains current harmonics and voltage flicker test requirements are derived from European Union CE mark 
+directives.
+
+===== PAGE 6 =====
+Page 6 of 47
+Report No.: 99820-8
+ 
+Modifications During Testing 
+This list is a summary of the modifications made to the equipment during testing.  
+Summary of Conditions 
+No modifications were made during testing. 
+ 
+Modifications listed above must be incorporated into all production units. 
+ 
+Conditions During Testing 
+This list is a summary of the conditions noted to the equipment during testing.  
+Summary of Conditions 
+Testing was performed to EN 301 489-3 v2.1.1 which at the time of testing was not an approved standard in 
+Europe. 
+ 
+ 
+ 
+ 
+EQUIPMENT UNDER TEST 
+ 
+During testing numerous configurations may have been utilized.  The configurations listed below support 
+compliance to the standard(s) listed in the Summary of Results section. 
+ 
+Configuration 1 and Configuration A 
+Equipment Tested: 
+Device 
+Manufacturer 
+Model # 
+S/N 
+SMARTfitTM Pod Target 
+SMARTFIT Inc. 
+3-56228 
+NA 
+Power Supply 
+Triad Magnetics 
+WSU060-3000 
+NA 
+ 
+Support Equipment: 
+Device 
+Manufacturer 
+Model # 
+S/N 
+SMARTfitTM CPU Controller SMARTFIT Inc. 
+3-56322 
+NA
+
+===== PAGE 7 =====
+Page 7 of 47
+Report No.: 99820-8
+EN 301 489-3  
+ 
+Conducted Emissions 
+ 
+Test Notes: Conducted Disturbances at Mains Terminals, LISN method. 
+ 
+Test Setup / Conditions / Data 
+ 
+Test Location: 
+CKC Laboratories Inc.  •  110 N. Olinda Place  •  Brea, CA 92823  •  714-993-6112 
+Customer: 
+SMARTFIT Inc. 
+Specification: 
+EN 301 489-3 AC/DC Mains Input/Output - Average 
+Work Order #: 
+99820 
+Date:  5/5/2017 
+Test Type: 
+Conducted Emissions 
+Time:  15:25:24 
+Tested By: 
+Don Nguyen 
+Sequence#:  3 
+Software: 
+EMITest 5.03.02 
+  230V 50Hz 
+ 
+Equipment Tested: 
+Device 
+Manufacturer 
+Model # 
+S/N 
+Configuration 1 
+ 
+ 
+ 
+ 
+Support Equipment: 
+Device 
+Manufacturer 
+Model # 
+S/N 
+Configuration 1 
+ 
+ 
+ 
+ 
+Test Conditions / Notes: 
+  The EUT is placed on tabletop. The EUT is connected to 6Vdc adapter. The input voltage to ACDC adapter is 
+230Vac/50Hz. A 3.7Vdc lithium battery is installed inside the EUT. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+The EUT is set to continuously transmit.  
+ 
+Operating frequency: 434MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+ 
+Frequency range of measurement = 150kHz-30MHz 
+150kHz-30MHz, RBW=9kHz, VBW=9kHz 
+ 
+Temperature:  26°C, Humidity: 40%, Pressure: 100.1kPa.   
+Site A.   
+Test Method: EN 55032 (2015) annex A.3
+
+===== PAGE 8 =====
+Page 8 of 47
+Report No.: 99820-8
+
+===== PAGE 9 =====
+Page 9 of 47
+Report No.: 99820-8
+Test Equipment: 
+ID 
+Asset # 
+Description 
+Model 
+Calibration Date 
+Cal Due Date 
+T1 
+ANC00079 
+Attenuator 
+ 
+2/3/2017 
+2/3/2019 
+T2 
+ANP04358 
+Cable 
+RG142 
+3/14/2016 
+3/14/2018 
+T3 
+AN00969A 
+50uH LISN-Line 1 
+(L1) 
+3816/2NM 
+3/14/2017 
+3/14/2019 
+ 
+AN00969A 
+50uH LISN-Line2 
+(L2) 
+3816/2NM 
+3/14/2017 
+3/14/2019 
+ 
+AN02672 
+Spectrum Analyzer 
+E4446A 
+3/2/2017 
+3/2/2019 
+T4 
+AN02610 
+High Pass Filter 
+HE9615-150K-
+50-720B 
+10/22/2015 
+10/22/2017 
+ 
+Measurement Data: 
+Reading listed by margin. 
+Test Lead: L1 
+# 
+Freq 
+Rdng 
+T1 
+T2 
+T3 
+T4 
+Dist 
+Corr  
+Spec 
+Margin 
+Polar 
+ 
+MHz 
+dBµV 
+dB 
+dB 
+dB 
+dB 
+Table 
+dBµV 
+dBµV 
+dB 
+Ant 
+  1   373.979k 
+    36.3 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  46.4 
+  48.4 
+   -2.0 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+  2   821.211k 
+    33.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  44.0 
+  46.0 
+   -2.0 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+  3   848.117k 
+    33.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.9 
+  46.0 
+   -2.1 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+  4   800.122k 
+    33.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.8 
+  46.0 
+   -2.2 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+  5   367.434k 
+    36.3 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  46.4 
+  48.6 
+   -2.2 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+  6     1.745M 
+    33.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  43.8 
+  46.0 
+   -2.2 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+  7   859.025k 
+    33.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.8 
+  46.0 
+   -2.2 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+  8   875.024k 
+    33.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.5 
+  46.0 
+   -2.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+  9   864.843k 
+    33.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.5 
+  46.0 
+   -2.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 10     1.660M 
+    33.5 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  43.5 
+  46.0 
+   -2.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 11     1.592M 
+    33.5 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  43.5 
+  46.0 
+   -2.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 12     1.643M 
+    33.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  43.4 
+  46.0 
+   -2.6 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 13   805.939k 
+    33.2 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.3 
+  46.0 
+   -2.7 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 14   869.206k 
+    33.2 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.3 
+  46.0 
+   -2.7 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 15   815.393k 
+    33.1 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.2 
+  46.0 
+   -2.8 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 16   867.752k 
+    33.1 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.2 
+  46.0 
+   -2.8 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 17   873.569k 
+    33.1 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  43.2 
+  46.0 
+   -2.8 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 18     1.753M 
+    33.0 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  43.0 
+  46.0 
+   -3.0 
+L1
+
+===== PAGE 10 =====
+Page 10 of 47
+Report No.: 99820-8
+ 19     3.067M 
+    32.7 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  42.9 
+  46.0 
+   -3.1 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 20     2.821M 
+    32.8 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.9 
+  46.0 
+   -3.1 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 21   803.758k 
+    32.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  42.9 
+  46.0 
+   -3.1 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 22     1.553M 
+    32.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  42.9 
+  46.0 
+   -3.1 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 23     1.821M 
+    32.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  42.7 
+  46.0 
+   -3.3 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 24     2.153M 
+    32.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  42.7 
+  46.0 
+   -3.3 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 25   525.965k 
+    32.5 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  42.6 
+  46.0 
+   -3.4 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 26     2.804M 
+    32.5 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.6 
+  46.0 
+   -3.4 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 27   819.029k 
+    32.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  42.5 
+  46.0 
+   -3.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 28   540.509k 
+    32.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  42.5 
+  46.0 
+   -3.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 29     2.187M 
+    32.5 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  42.5 
+  46.0 
+   -3.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 30     2.438M 
+    32.4 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.5 
+  46.0 
+   -3.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 31     2.336M 
+    32.4 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.5 
+  46.0 
+   -3.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 32     1.502M 
+    32.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  42.4 
+  46.0 
+   -3.6 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 33     1.171M 
+    32.3 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  42.4 
+  46.0 
+   -3.6 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 34   536.146k 
+    32.3 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  42.4 
+  46.0 
+   -3.6 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 35     3.501M 
+    32.2 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  42.4 
+  46.0 
+   -3.6 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 36     2.757M 
+    32.3 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.4 
+  46.0 
+   -3.6 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 37     1.872M 
+    32.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  42.4 
+  46.0 
+   -3.6 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 38     2.247M 
+    32.2 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.3 
+  46.0 
+   -3.7 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 39     2.855M 
+    32.2 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.3 
+  46.0 
+   -3.7 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 40     2.910M 
+    32.2 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.3 
+  46.0 
+   -3.7 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 41     2.566M 
+    32.1 
+   +9.8 
+   +0.2 
+  +0.0 
+  +0.1   +0.0 
+  42.2 
+  46.0 
+   -3.8 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 42   494.920k 
+    26.0 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.1 
+  46.1 
+  -10.0 
+L1    
+ 
+Ave 
+       
+ 
+ 
+      
+^   494.920k 
+    44.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  54.9 
+  46.1 
+   +8.8 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+^   495.422k 
+    44.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  54.9 
+  46.1 
+   +8.8 
+L1
+
+===== PAGE 11 =====
+Page 11 of 47
+Report No.: 99820-8
+ 45   471.425k 
+    22.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  33.0 
+  46.5 
+  -13.5 
+L1    
+ 
+Ave 
+       
+ 
+ 
+      
+^   471.425k 
+    41.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  52.0 
+  46.5 
+   +5.5 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 47   465.607k 
+    21.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  32.0 
+  46.6 
+  -14.6 
+L1    
+ 
+Ave 
+       
+ 
+ 
+      
+^   465.607k 
+    41.1 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  51.2 
+  46.6 
+   +4.6 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 49   427.793k 
+    20.1 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  30.2 
+  47.3 
+  -17.1 
+L1    
+ 
+Ave 
+       
+ 
+ 
+      
+^   427.792k 
+    39.2 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  49.3 
+  47.3 
+   +2.0 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 51   433.610k 
+    19.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  29.9 
+  47.2 
+  -17.3 
+L1    
+ 
+Ave 
+       
+ 
+ 
+      
+^   433.610k 
+    39.3 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  49.4 
+  47.2 
+   +2.2 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+^   435.064k 
+    39.1 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  49.2 
+  47.2 
+   +2.0 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+^   430.701k 
+    39.0 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  49.1 
+  47.2 
+   +1.9 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 55   380.524k 
+    19.1 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  29.2 
+  48.3 
+  -19.1 
+L1    
+ 
+Ave 
+       
+ 
+ 
+      
+^   380.524k 
+    37.1 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  47.2 
+  48.3 
+   -1.1 
+L1    
+ 
+ 
+       
+ 
+ 
+      
+ 57   945.249k 
+    14.6 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  24.7 
+  46.0 
+  -21.3 
+L1    
+ 
+Ave 
+       
+ 
+ 
+      
+^   945.248k 
+    34.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  45.0 
+  46.0 
+   -1.0 
+L1
+
+===== PAGE 12 =====
+Page 12 of 47
+Report No.: 99820-8
+Test Location: 
+CKC Laboratories Inc.  •  110 N. Olinda Place  •  Brea, CA 92823  •  714-993-6112 
+Customer: 
+SMARTFIT Inc. 
+Specification: 
+EN 301 489-3 AC/DC Mains Input/Output - Average 
+Work Order #: 
+99820 
+Date:  5/5/2017 
+Test Type: 
+Conducted Emissions 
+Time:  15:28:25 
+Tested By: 
+Don Nguyen 
+Sequence#:  4 
+Software: 
+EMITest 5.03.02 
+  230V 50Hz 
+ 
+Equipment Tested: 
+Device 
+Manufacturer 
+Model # 
+S/N 
+Configuration 1 
+ 
+ 
+ 
+ 
+Support Equipment: 
+Device 
+Manufacturer 
+Model # 
+S/N 
+Configuration 1 
+ 
+ 
+ 
+ 
+Test Conditions / Notes: 
+  The EUT is placed on tabletop. The EUT is connected to 6Vdc adapter. The input voltage to ACDC adapter is 
+230Vac/50Hz. A 3.7Vdc lithium battery is installed inside the EUT. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+The EUT is set to continuously transmit.  
+ 
+Operating frequency: 434MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+ 
+Frequency range of measurement = 150kHz-30MHz 
+150kHz-30MHz, RBW=9kHz, VBW=9kHz 
+ 
+Temperature:  26°C, Humidity: 40%, Pressure: 100.1kPa.   
+Site A.   
+Test Method: EN 55032 (2015) annex A.3
+
+===== PAGE 13 =====
+Page 13 of 47
+Report No.: 99820-8
+
+===== PAGE 14 =====
+Page 14 of 47
+Report No.: 99820-8
+Test Equipment: 
+ID 
+Asset # 
+Description 
+Model 
+Calibration Date 
+Cal Due Date 
+T1 
+ANC00079 
+Attenuator 
+ 
+2/3/2017 
+2/3/2019 
+T2 
+ANP04358 
+Cable 
+RG142 
+3/14/2016 
+3/14/2018 
+ 
+AN00969A 
+50uH LISN-Line 1 
+(L1) 
+3816/2NM 
+3/14/2017 
+3/14/2019 
+T3 
+AN00969A 
+50uH LISN-Line2 
+(L2) 
+3816/2NM 
+3/14/2017 
+3/14/2019 
+ 
+AN02672 
+Spectrum Analyzer 
+E4446A 
+3/2/2017 
+3/2/2019 
+T4 
+AN02610 
+High Pass Filter 
+HE9615-150K-
+50-720B 
+10/22/2015 
+10/22/2017 
+ 
+Measurement Data: 
+Reading listed by margin. 
+Test Lead: L2 
+# 
+Freq 
+Rdng 
+T1 
+T2 
+T3 
+T4 
+Dist 
+Corr  
+Spec 
+Margin 
+Polar 
+ 
+MHz 
+dBµV 
+dB 
+dB 
+dB 
+dB 
+Table 
+dBµV 
+dBµV 
+dB 
+Ant 
+  1   510.694k 
+    33.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  44.0 
+  46.0 
+   -2.0 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+  2   468.516k 
+    34.2 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  44.3 
+  46.5 
+   -2.2 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+  3   429.247k 
+    32.6 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  42.7 
+  47.3 
+   -4.6 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+  4   426.338k 
+    32.5 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  42.6 
+  47.3 
+   -4.7 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+  5   448.154k 
+    31.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  41.9 
+  46.9 
+   -5.0 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+  6   387.069k 
+    30.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  40.8 
+  48.1 
+   -7.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+  7   393.614k 
+    30.5 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  40.6 
+  48.0 
+   -7.4 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+  8   966.512k 
+    27.3 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  37.4 
+  46.0 
+   -8.6 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+  9     1.600M 
+    27.0 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  37.0 
+  46.0 
+   -9.0 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 10   531.055k 
+    26.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.9 
+  46.0 
+   -9.1 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 11   837.936k 
+    26.8 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.9 
+  46.0 
+   -9.1 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 12   822.665k 
+    26.6 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.7 
+  46.0 
+   -9.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 13   820.483k 
+    26.6 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.7 
+  46.0 
+   -9.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 14   525.965k 
+    26.6 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.7 
+  46.0 
+   -9.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 15     1.728M 
+    26.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  36.7 
+  46.0 
+   -9.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 16     1.660M 
+    26.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  36.7 
+  46.0 
+   -9.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 17     1.009M 
+    26.6 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.7 
+  46.0 
+   -9.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 18   831.392k 
+    26.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.5 
+  46.0 
+   -9.5 
+L2
+
+===== PAGE 15 =====
+Page 15 of 47
+Report No.: 99820-8
+ 19     1.098M 
+    26.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.5 
+  46.0 
+   -9.5 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 20     2.162M 
+    26.4 
+   +9.8 
+   +0.1 
+  +0.1 
+  +0.1   +0.0 
+  36.5 
+  46.0 
+   -9.5 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 21   824.847k 
+    26.2 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.3 
+  46.0 
+   -9.7 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 22   295.441k 
+    30.6 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  40.6 
+  50.4 
+   -9.8 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 23   536.873k 
+    26.0 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  36.1 
+  46.0 
+   -9.9 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 24     2.463M 
+    25.8 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  36.0 
+  46.0 
+  -10.0 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 25     2.264M 
+    25.7 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.9 
+  46.0 
+  -10.1 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 26   795.758k 
+    25.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  35.8 
+  46.0 
+  -10.2 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 27   544.145k 
+    25.7 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  35.8 
+  46.0 
+  -10.2 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 28     2.867M 
+    25.6 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.8 
+  46.0 
+  -10.2 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 29     2.298M 
+    25.6 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.8 
+  46.0 
+  -10.2 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 30   256.899k 
+    31.2 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  41.2 
+  51.5 
+  -10.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 31     2.493M 
+    25.5 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.7 
+  46.0 
+  -10.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 32     3.761M 
+    25.5 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.7 
+  46.0 
+  -10.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 33   330.347k 
+    28.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  39.0 
+  49.4 
+  -10.4 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 34     2.395M 
+    25.4 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.6 
+  46.0 
+  -10.4 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 35     2.429M 
+    25.4 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.6 
+  46.0 
+  -10.4 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 36   261.262k 
+    30.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  40.9 
+  51.4 
+  -10.5 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 37   528.874k 
+    25.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  35.5 
+  46.0 
+  -10.5 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 38     3.242M 
+    25.3 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.5 
+  46.0 
+  -10.5 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 39   307.076k 
+    29.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  39.4 
+  50.0 
+  -10.6 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 40     2.221M 
+    25.3 
+   +9.8 
+   +0.1 
+  +0.1 
+  +0.1   +0.0 
+  35.4 
+  46.0 
+  -10.6 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 41     3.182M 
+    25.1 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.3 
+  46.0 
+  -10.7 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 42     4.080M 
+    25.1 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.3 
+  46.0 
+  -10.7 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 43   305.622k 
+    29.3 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  39.3 
+  50.1 
+  -10.8 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 44   357.980k 
+    27.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  38.0 
+  48.8 
+  -10.8 
+L2
+
+===== PAGE 16 =====
+Page 16 of 47
+Report No.: 99820-8
+ 45     2.812M 
+    25.0 
+   +9.8 
+   +0.2 
+  +0.1 
+  +0.1   +0.0 
+  35.2 
+  46.0 
+  -10.8 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 46   279.442k 
+    29.9 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.1   +0.0 
+  39.9 
+  50.8 
+  -10.9 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 47   327.438k 
+    28.5 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  38.6 
+  49.5 
+  -10.9 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 48   328.892k 
+    28.5 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  38.6 
+  49.5 
+  -10.9 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+ 49   498.332k 
+    21.4 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  31.5 
+  46.0 
+  -14.5 
+L2    
+ 
+Ave 
+       
+ 
+ 
+      
+^   498.331k 
+    37.2 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  47.3 
+  46.0 
+   +1.3 
+L2    
+ 
+ 
+       
+ 
+ 
+      
+^   500.513k 
+    36.2 
+   +9.8 
+   +0.1 
+  +0.0 
+  +0.2   +0.0 
+  46.3 
+  46.0 
+   +0.3 
+L2
+
+===== PAGE 17 =====
+Page 17 of 47
+Report No.: 99820-8
+Test Setup Photos
+
+===== PAGE 18 =====
+Page 18 of 47
+Report No.: 99820-8
+Telecom Conducted Emissions 
+ 
+Test Notes: Conducted Disturbances at Mains Terminals, T-LISN method. 
+ 
+Test Setup/Conditions 
+Test Location: 
+NA 
+Test Engineer: 
+D. Nguyen 
+Test Method: 
+EN 301 489-1 
+Test Date(s): 
+NA 
+Test Level: 
+NA  
+Declarations: 
+The manufacturer declares the EUT does not have telecommunication ports. 
+Configuration: 
+NA 
+ 
+ 
+Radiated Emissions 
+ 
+Test Notes: Radiated disturbances emanating from enclosure. 
+ 
+Test Setup/Conditions 
+Test Location: 
+NA 
+Test Engineer: 
+D. Nguyen 
+Test Method: 
+EN 301 489-1 
+Test Date(s): 
+NA 
+Test Level: 
+NA  
+Declarations: 
+The manufacturer declares radiated emissions test is not applicable per EN 301 489-1 §8.2; 
+this equipment either does not have associated ancillary equipment or the radio in 
+combination with the ancillary equipment was tested under the relevant product standard 
+for the effective use of spectrum. 
+Configuration: 
+NA
+
+===== PAGE 19 =====
+Page 19 of 47
+Report No.: 99820-8
+Harmonic Emissions 
+ 
+Test Notes: Conducted disturbances of current harmonics emanating from equipment power supply to low-voltage 
+public power networks. 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea 
+Test Engineer: 
+D. Nguyen 
+Test Method: 
+EN 61000-3-2 
+Test Date(s): 
+5/18/2017 
+Test Level: 
+Harmonic Emissions 
+Declarations: 
+None 
+Configuration: 
+1 
+ 
+Test Equipment 
+Asset # 
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+02271 
+AC Power Source 
+California 
+Instruments 
+1251WP 
+5/13/2016 
+5/13/2018 
+2890 
+Flicker & 
+Harmonics Meter 
+EMC Partner AG 
+HAR1000-1P 
+5/29/2015 
+5/29/2017 
+ 
+Harmonics Emissions Results Table 
+Standard 
+Test 
+Pass/Fail 
+EN 61000-3-2 
+Harmonic Emissions 
+Pass
+
+===== PAGE 20 =====
+Page 20 of 47
+Report No.: 99820-8
+Test Data 
+Harmonic Emission - EN 61000-3-2  
+SMARTFIT Inc. WO. 99820 
+Operator         
+ 
+Don Nguyen 
+Unit             
+ 
+Configuration 1 
+Remarks :        
+ 
+Normal operation mode 
+ 
+ 
+   Full Bar  : Actual Values 
+   Empty Bar : Maximum Values 
+   Blue : Current , Green : Voltage , Red : Failed
+
+===== PAGE 21 =====
+Page 21 of 47
+Report No.: 99820-8
+Measurement 
+SMARTFIT Inc. WO. 99820                      
+Date : 5/18/2017 3:23:42 PM V4.21 
+ 
+Operator         
+ 
+Don Nguyen 
+Unit             
+ 
+Configuration 1 
+Remarks :        
+ 
+Normal operation mode 
+ 
+Urms =  230.1V Freq =  50.065 Range:  0.5 A 
+ 
+Irms =  0.041A Ipk  =  0.259A cf   =  6.310 
+ 
+P    =  3.411W S    =  9.438VA pf   =  0.361 
+ 
+THDi =  278 % 
+THDu =  0.10 % Class A  
+ 
+Test - Time : 5min 
+( 100 %) 
+ 
+Test completed, Result: PASSED 
+ 
+Order 
+Freq. 
+Iavg 
+Irms 
+Imax 
+Limit 
+Status  
+  
+[Hz] 
+[A] 
+[A] 
+[A] 
+[A] 
+  
+ 
+1 
+50 
+0.0148 0.0148 0.0149     
+     
+ 
+2 
+100 
+0.0000 0.0001 0.0001 1.0800      
+ 
+3 
+150 
+0.0125 0.0125 0.0126 2.3000      
+ 
+4 
+200 
+0.0000 0.0001 0.0001 0.4300      
+ 
+5 
+250 
+0.0124 0.0124 0.0125 1.1400      
+ 
+6 
+300 
+0.0000 0.0001 0.0001 0.3000      
+ 
+7 
+350 
+0.0123 0.0123 0.0123 0.7700      
+ 
+8 
+400 
+0.0000 0.0001 0.0002 0.2300      
+ 
+9 
+450 
+0.0120 0.0120 0.0121 0.4000      
+ 
+10 
+500 
+0.0000 0.0001 0.0002 0.1840      
+ 
+11 
+550 
+0.0117 0.0117 0.0118 0.3300      
+ 
+12 
+600 
+0.0000 0.0002 0.0002 0.1533      
+ 
+13 
+650 
+0.0114 0.0114 0.0114 0.2100      
+ 
+14 
+700 
+0.0000 0.0002 0.0002 0.1314      
+ 
+15 
+750 
+0.0110 0.0110 0.0110 0.1500      
+ 
+16 
+800 
+0.0000 0.0002 0.0002 0.1150      
+ 
+17 
+850 
+0.0105 0.0105 0.0106 0.1324      
+ 
+18 
+900 
+0.0000 0.0002 0.0002 0.1022      
+ 
+19 
+950 
+0.0100 0.0100 0.0100 0.1184      
+ 
+20 
+1000 
+0.0000 0.0002 0.0003 0.0920      
+ 
+21 
+1050 
+0.0095 0.0095 0.0095 0.1071      
+ 
+22 
+1100 
+0.0000 0.0002 0.0003 0.0836      
+ 
+23 
+1150 
+0.0089 0.0089 0.0089 0.0978      
+ 
+24 
+1200 
+0.0000 0.0002 0.0003 0.0767      
+ 
+25 
+1250 
+0.0083 0.0083 0.0084 0.0900      
+ 
+26 
+1300 
+0.0000 0.0003 0.0003 0.0708      
+ 
+27 
+1350 
+0.0077 0.0078 0.0078 0.0833      
+ 
+28 
+1400 
+0.0000 0.0003 0.0003 0.0657      
+ 
+29 
+1450 
+0.0071 0.0072 0.0072 0.0776      
+ 
+30 
+1500 
+0.0000 0.0003 0.0003 0.0613      
+ 
+31 
+1550 
+0.0065 0.0066 0.0066 0.0726      
+ 
+32 
+1600 
+0.0000 0.0003 0.0004 0.0575      
+ 
+33 
+1650 
+0.0059 0.0060 0.0060 0.0682      
+ 
+34 
+1700 
+0.0000 0.0003 0.0004 0.0541
+
+===== PAGE 22 =====
+Page 22 of 47
+Report No.: 99820-8
+35 
+1750 
+0.0053 0.0054 0.0054 0.0643      
+ 
+36 
+1800 
+0.0000 0.0003 0.0004 0.0511      
+ 
+37 
+1850 
+0.0000 0.0048 0.0048 0.0608      
+ 
+38 
+1900 
+0.0000 0.0003 0.0004 0.0484      
+ 
+39 
+1950 
+0.0000 0.0042 0.0042 0.0577      
+ 
+40 
+2000 
+0.0000 0.0003 0.0004 0.0460      
+ 
+ 
+ 
+ 
+ 
+ 
+Test Setup Photo
+
+===== PAGE 23 =====
+Page 23 of 47
+Report No.: 99820-8
+Voltage Fluctuation and Flicker Emissions 
+ 
+Test Notes: Conducted disturbances of voltage fluctuations and flicker emanating from equipment power supply to 
+low-voltage public power networks. 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea 
+Test Engineer: 
+D. Nguyen 
+Test Method: 
+EN 61000-3-3 
+Test Date(s): 
+5/18/2017 
+Test Level: 
+Flicker Emissions 
+Declarations: 
+None 
+Configuration: 
+1 
+ 
+Test Equipment 
+Asset # 
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+02271 
+AC Power Source 
+California 
+Instruments 
+1251WP 
+5/13/2016 
+5/13/2018 
+2890 
+Flicker & 
+Harmonics Meter 
+EMC Partner AG 
+HAR1000-1P 
+5/29/2015 
+5/29/2017 
+ 
+ 
+Voltage Fluctuation and Flicker Emissions Results Table 
+Standard 
+Test 
+Pass/Fail 
+EN 61000-3-3 
+Voltage Fluctuations and Flicker Emissions 
+Pass
+
+===== PAGE 24 =====
+Page 24 of 47
+Report No.: 99820-8
+Test Data 
+Flicker Emission EN 61000-3-3 
+SMARTFIT Inc. WO. 99820 
+Operator         
+ 
+Don Nguyen 
+Unit             
+ 
+Configuration 1 
+Remarks :        
+ 
+Normal operation mode 
+ 
+ 
+   Full Bar  : Actual Values 
+   Empty Bar : Maximum Values 
+   Circles   : Average Values 
+   Blue : Current , Green : Voltage , Red : Failed
+
+===== PAGE 25 =====
+Page 25 of 47
+Report No.: 99820-8
+Measurement 
+SMARTFIT Inc. WO. 99820                      
+Date : 5/18/2017 3:34:57 PM V4.21 
+ 
+Operator         
+ 
+Don Nguyen 
+Unit             
+ 
+Configuration 1 
+Remarks :        
+ 
+Normal operation mode 
+ 
+Urms =  230.1V Freq =  50.065 Range:  0.5 A 
+ 
+Irms =  0.039A Ipk  =  0.225A cf   =  5.842 
+ 
+P    =  3.399W S    =  8.876VA pf   =  0.383 
+ 
+ 
+Test - Time : 1 x 10min = 10min 
+( 100 %) 
+ 
+LIN (Line Impedance Network) :  L: 0.24ohm +j0.15ohm N: 0.16ohm +j0.10ohm 
+ 
+Limits : 
+Plt  : 0.65 
+Pst   : 1.00 
+ 
+ 
+ 
+dmax : 4.00 % dc    : 3.00 %  
+ 
+ 
+dtLim: 3.00 % dt>Lim: 500ms 
+ 
+ 
+Test completed, Result: PASSED 
+ 
+  
+dmax 
+ 
+  
+[%] 
+ 
+1 
+0.000 
+ 
+ 
+ 
+Test Setup Photo
+
+===== PAGE 26 =====
+Page 26 of 47
+Report No.: 99820-8
+Immunity  
+ 
+Immunity Performance Criteria Definitions  
+ 
+Designation 
+Definition 
+Standard / Mfg. 
+Standard Requirement / Manufacturer’s Declaration 
+A 
+During test:  
+Operate as intended 
+No loss of function 
+No unintentional responses 
+After test:  
+Operate as intended 
+No loss of function 
+No degradation of performance 
+No loss of stored data or user programmable functions 
+Performance criterion A applies for immunity tests with phenomena of a continuous nature. 
+B 
+During test:  
+May show loss of function 
+No unintentional responses 
+After test:  
+Operate as intended 
+Lost function(s) shall be self-recoverable 
+No degradation of performance 
+No loss of stored data or user programmable functions 
+Performance criterion B applies for immunity tests with phenomena of a transient nature. 
+Per Standard 
+For a voltage interruption the following performance criteria apply: 
+• in the case where the equipment is fitted with or connected to a battery back-up, the 
+performance criteria for transient phenomena for transmitters or for receivers shall apply (see 
+clause 6 of the relevant part of ETSI EN 301 489 series [i.13] dealing with the particular type of 
+radio equipment); 
+• in the case where the equipment is powered solely from the AC mains supply (without the 
+use of a parallel battery back-up) volatile user data may have been lost and if applicable the 
+communication link need not to be maintained and lost functions should be recoverable by 
+user or operator; 
+• no unintentional responses shall occur at the end of the test; 
+• in the event of loss of function(s) or in the event of loss of user stored data, this fact shall be 
+recorded in the test report; 
+• for ancillary equipment the pass/failure criteria supplied by the manufacturer (see clause 
+6.4) shall apply, unless the ancillary equipment is tested in connection with a receiver or 
+transmitter in which case the corresponding performance criteria above shall apply. 
+CT 
+Continuous [phenomena applied to] Transmitters 
+CR 
+Continuous [phenomena applied to] Receivers 
+TT 
+Transient [phenomena applied to] Transmitters 
+TR 
+Transient [phenomena applied to] Receivers
+
+===== PAGE 27 =====
+Page 27 of 47
+Report No.: 99820-8
+Immunity Setup and Monitoring  
+ 
+Equipment Setup: The EUT is placed on table top. The EUT is connected to 6Vdc adapter. The input voltage to 
+ACDC adapter is 230Vac/50Hz. A 3.7Vdc lithium battery is installed inside the EUT. 
+The EUT is tested in preferred orientation declared by the manufacturer.  
+ 
+TX mode: The EUT is paired with a support CPU Controller and exercise intended functionalities.   
+Operating frequency: 434MHz 
+Antenna gain: 0dBi 
+Software output power: <1mW 
+ 
+Standby mode: The EUT is set in standby mode. Probe antenna is placed next the EUT and connected to a 
+spectrum analyzer to monitor any unintended transmission.  
+ 
+Degradation Criteria: Loss of communication between the EUT and the support equipment or any abnormal 
+behavior is constituted as failure. 
+ 
+Monitoring: Visual inspection of LED activities and monitoring the sound from built-in speakers of the support CPU 
+Controller.
+
+===== PAGE 28 =====
+Page 28 of 47
+Report No.: 99820-8
+Electrostatic Discharge  
+ 
+Test Notes: Immunity threat to simulate static electrical charges directly from an operator or from adjacent 
+objects. 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab B 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 61000-4-2   
+Test Date(s): 
+5/24/2017 
+Test Level: 
+Contact: +/- 4kV 
+Air: +/- 2, +/-4 and +/-8kV 
+Declarations: 
+None 
+Configuration: 
+A 
+ 
+Environmental Conditions 
+Temperature (ºC) 
+22 
+Relative Humidity (%): 
+45 
+Atmospheric Pressure (kPa): 
+100 
+ 
+Test Equipment 
+Asset#  
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+01650 
+ESD Simulator 
+Keytek 
+MZ-15/ec 
+10/13/2016 
+10/13/2017
+
+===== PAGE 29 =====
+Page 29 of 47
+Report No.: 99820-8
+ESD Contact Discharge Results  
+Mode of operation: 
+Normal Operation 
+Surface Tested 
+Test Results 
+Test Observations 
+HCP 
+No degradation 
+ 
+VCP 
+No degradation 
+ 
+Front 
+No degradation 
+ 
+Back 
+No degradation 
+ 
+Left Side 
+No degradation 
+ 
+Right Side 
+No degradation 
+ 
+Top 
+No degradation 
+ 
+Bottom 
+No degradation 
+ 
+ESD Air Discharge Results  
+Mode of operation: 
+Normal Operation 
+Surface Tested 
+Test Results 
+Test Observations 
+Front 
+No degradation 
+ 
+Back 
+No degradation 
+ 
+Left Side 
+No degradation 
+ 
+Right Side 
+No degradation 
+ 
+Top 
+No degradation 
+ 
+Bottom 
+No degradation 
+ 
+ 
+ESD Contact Discharge Results  
+Mode of operation: 
+Standby 
+Surface Tested 
+Test Results 
+Test Observations 
+HCP 
+No degradation 
+No unintended transmission occurred.  
+VCP 
+No degradation 
+No unintended transmission occurred.  
+Front 
+No degradation 
+No unintended transmission occurred.  
+Back 
+No degradation 
+No unintended transmission occurred.  
+Left Side 
+No degradation 
+No unintended transmission occurred.  
+Right Side 
+No degradation 
+No unintended transmission occurred.  
+Top 
+No degradation 
+No unintended transmission occurred.  
+Bottom 
+No degradation 
+No unintended transmission occurred.  
+ESD Air Discharge Results  
+Mode of operation: 
+Standby 
+Surface Tested 
+Test Results 
+Test Observations 
+Front 
+No degradation 
+No unintended transmission occurred.  
+Back 
+No degradation 
+No unintended transmission occurred.  
+Left Side 
+No degradation 
+No unintended transmission occurred.  
+Right Side 
+No degradation 
+No unintended transmission occurred.  
+Top 
+No degradation 
+No unintended transmission occurred.  
+Bottom 
+No degradation 
+No unintended transmission occurred.  
+ 
+ 
+ESD Test Summary 
+Standard Minimum Performance Criteria: 
+TT/TR/B 
+ 
+For this test, the EUT met performance criteria: 
+TT/TR/A 
+Result:  Pass
+
+===== PAGE 30 =====
+Page 30 of 47
+Report No.: 99820-8
+Test Setup Photos 
+ 
+Red = Contact Discharge 
+Green = Air Discharge
+
+===== PAGE 31 =====
+Page 31 of 47
+Report No.: 99820-8
+
+===== PAGE 32 =====
+Page 32 of 47
+Report No.: 99820-8
+
+===== PAGE 33 =====
+Page 33 of 47
+Report No.: 99820-8
+Radiated Immunity  
+ 
+Test Notes: Immunity threat to simulate radiated electro-magnetic fields. 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab C 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 61000-4-3  
+Test Date(s): 
+5/19/2017 
+Test Level: 
+80MHz to 6000MHz (except exclusion band), 3V/m @ 80% AM 1kHz 
+Declarations: 
+None 
+Configuration: 
+A 
+ 
+Test Equipment 
+Asset# 
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+BC 61000-4-3 
+Chamber Cal 
+CKC 
+Brea Chamber 
+1/4/2017 
+1/4/2019 
+03354 
+Log Periodic Antenna 
+Amplifier Research 
+ATR80M6G 
+1/4/2017 
+1/4/2019 
+00627 
+Amplifier 
+AR 
+50W1000A 
+1/6/2017 
+1/6/2019 
+01612 
+Directional Coupler 
+Werlatone 
+C2630 
+7/6/2015 
+7/6/2017 
+02869 
+Spectrum Analyzer 
+Agilent 
+E4440A 
+7/8/2016 
+7/8/2017 
+00636 
+Field Monitor 
+AR 
+FM2000 
+10/22/2015 
+10/22/2017 
+00638 
+Field Probe 
+AR 
+FP2000 
+10/22/2015 
+10/22/2017 
+P05301 
+Directional Coupler 
+ATM 
+C223E-20 
+5/6/2016 
+5/6/2018 
+02688 
+Amplifier 
+Ophir 
+5161F 
+9/22/2016    
+9/22/2018 
+P07070 
+Cable 
+Andrew 
+LDF1-50-55 
+1/4/2017 
+1/4/2019 
+P07071 
+Cable 
+Andrew 
+LDF1-50-55 
+1/4/2017 
+1/4/2019 
+P07072 
+Cable 
+Andrew 
+LDF1-50-6 
+1/4/2017 
+1/4/2019 
+P06663 
+Cable 
+Huber & Suhner Inc. 
+Sucoflex 104A 
+4/5/2016 
+4/5/2018 
+03420 
+Signal Generator 
+Agilent 
+E4438C 
+7/8/2015  
+7/8/2017  
+P03363 
+Attenuator 
+ATM 
+CH225H-35 
+7/1/2015 
+7/1/2017 
+02551 
+RF Generator 
+HP 
+8673M 
+5/20/2015 
+5/20/2017 
+00838 
+Arbitrary Waveform 
+Generator 
+HP 
+33120A 
+1/25/2017 
+1/25/2019 
+03596 
+Amplifier 
+Amplifier Research 
+30S1G6 
+3/3/2017 
+3/3/2019
+
+===== PAGE 34 =====
+Page 34 of 47
+Report No.: 99820-8
+ 
+Radiated Immunity Results 
+Mode of operation: 
+Normal Operation 
+Surface Tested 
+Test Results 
+Test Observations 
+Front 
+No degradation 
+ 
+Back 
+No degradation 
+ 
+Left Side 
+No degradation 
+ 
+Right Side 
+No degradation 
+ 
+ 
+Radiated Immunity Results 
+Mode of operation: 
+Standby 
+Surface Tested 
+Test Results 
+Test Observations 
+Front 
+No degradation 
+ 
+Back 
+No degradation 
+ 
+Left Side 
+No degradation 
+ 
+Right Side 
+No degradation 
+ 
+ 
+Frequency Range 
+Test Distance (m) 
+80-6000MHz 
+1.75 
+ 
+ 
+ 
+ 
+Radiated Immunity Test Summary 
+Standard Minimum Performance Criteria: 
+CT/CR/A 
+ 
+For this test, the EUT met performance criteria: 
+CT/CR/A 
+Result:  Pass
+
+===== PAGE 35 =====
+Page 35 of 47
+Report No.: 99820-8
+Test Setup Photos
+
+===== PAGE 36 =====
+Page 36 of 47
+Report No.: 99820-8
+ 
+Electrical Fast Transients / Bursts – AC/DC Mains Power Lines  
+ 
+Test Notes: Immunity threat to simulate electrical fast transient signals and bursts. 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab B 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 61000-4-4   
+Test Date(s): 
+5/24/2017 
+Test Level: 
+AC Mains: 1kV, 5kHz PRF 
+DC Mains: NA 
+Declarations: 
+DC Mains: The manufacturer declares that the EUT does not operate from DC mains. 
+Configuration: 
+A 
+ 
+Environmental Conditions 
+Temperature (ºC) 
+22 
+Relative Humidity (%): 
+45 
+Atmospheric Pressure (kPa): 
+100 
+ 
+Test Equipment 
+Asset#  
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+00844 
+Simulator 
+ESD / Surge / EFT / 
+Voltage Dip 
+EM Test 
+USC 500M4 
+8/9/2016 
+8/9/2017 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EFT/B AC Mains Power Lines Results Table 
+Mode of operation: 
+Normal Operation 
+Coupling Mode 
+Test Results 
+Test Observations 
+Line to Ground 
+No degradation 
+ 
+Neutral to Ground 
+No degradation 
+ 
+Protective Earth to Ground 
+No degradation 
+ 
+Line/Neutral/Protective Earth to Ground. 
+No degradation 
+ 
+ 
+EFT/B AC Mains Power Lines Results Table 
+Mode of operation: 
+Standby 
+Coupling Mode 
+Test Results 
+Test Observations 
+Line to Ground 
+No degradation 
+No unintended transmission occurred.  
+Neutral to Ground 
+No degradation 
+No unintended transmission occurred.  
+Protective Earth to Ground 
+No degradation 
+No unintended transmission occurred.  
+Line/Neutral/Protective Earth to Ground. 
+No degradation 
+No unintended transmission occurred.  
+ 
+ 
+EFT/B Test Summary 
+Standard Minimum Performance Criteria: 
+TT/TR/B 
+ 
+For this test, the EUT met performance criteria: 
+TT/TR/A 
+Result:  Pass
+
+===== PAGE 37 =====
+Page 37 of 47
+Report No.: 99820-8
+Test Setup Photo 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Electrical Fast Transients / Bursts - IO Lines 
+ 
+Test Notes: Immunity threat to simulate electrical fast transient signals and bursts. 
+ 
+Test Setup/Conditions 
+Test Location: 
+NA 
+Test Engineer: 
+D. Nguyen 
+Test Method: 
+EN 61000-4-4 
+Test Date(s): 
+NA 
+Test Level: 
+NA 
+Declarations: 
+The manufacturer declares that the EUT has no IO port accessible to user. 
+Configuration: 
+NA
+
+===== PAGE 38 =====
+Page 38 of 47
+Report No.: 99820-8
+ 
+Surge  
+ 
+Test Notes: Immunity threat to simulate unidirectional surges caused by over voltages from switching and lightning 
+transients. 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab B 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 61000-4-5  
+Test Date(s): 
+5/24/2017 
+Test Level: 
+AC Mains: 1kV Line to Line , 2kV Line to Ground  
+Declarations: 
+None 
+Configuration: 
+A 
+ 
+Environmental Conditions 
+Temperature (ºC) 
+22 
+Relative Humidity (%): 
+45 
+Atmospheric Pressure (kPa): 
+100 
+ 
+Test Equipment 
+Asset#  
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+00844 
+Simulator 
+ESD / Surge / EFT / 
+Voltage Dip 
+EM Test 
+USC 500M4 
+8/9/2016 
+8/9/2017 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Surge AC Mains Results 
+Mode of operation: 
+Normal Operation 
+Coupling Mode 
+Test Results 
+Test Observations 
+Line-to-Line 
+No degradation 
+ 
+Line-to-Ground 
+No degradation 
+ 
+Neutral-to-Ground 
+No degradation 
+ 
+ 
+Surge AC Mains Results 
+Mode of operation: 
+Standby 
+Coupling Mode 
+Test Results 
+Test Observations 
+Line-to-Line 
+No degradation 
+No unintended transmission occurred.  
+Line-to-Ground 
+No degradation 
+No unintended transmission occurred.  
+Neutral-to-Ground 
+No degradation 
+No unintended transmission occurred.  
+ 
+ 
+Surge Test Summary 
+Standard Minimum Performance Criteria: 
+TT/TR/B 
+ 
+For this test, the EUT met performance criteria: 
+TT/TR/A 
+Result:  Pass
+
+===== PAGE 39 =====
+Page 39 of 47
+Report No.: 99820-8
+Test Setup Photo 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Surge IO Ports  
+ 
+Test Notes: Immunity threat to simulate unidirectional surges caused by over voltages from switching and lightning 
+transients. 
+ 
+Test Setup/Conditions 
+Test Location: 
+NA 
+Test Engineer: 
+D. Nguyen 
+Test Method: 
+NA 
+Test Date(s): 
+NA 
+Test Level: 
+NA 
+Declarations: 
+The manufacturer declares that the EUT has no IO port accessible to user. 
+Configuration: 
+ NA
+
+===== PAGE 40 =====
+Page 40 of 47
+Report No.: 99820-8
+Conducted Immunity  
+ 
+Test Notes: Immunity threat to simulate low frequency radiated electro-magnetic fields having at least one 
+conducting cable. 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab C 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 61000-4-6  
+Test Date(s): 
+5/22/2017 
+Test Level: 
+AC Mains:  150kHz to 80MHz (except exclusion band), 3 Vrms @ 80% AM 1kHz  
+DC Mains: NA 
+IO Lines: NA 
+Declarations: 
+DC Mains: The manufacturer declares that the EUT does not operate from DC mains. 
+IO Lines: The manufacturer declares that the EUT has no IO port accessible to user. 
+Configuration: 
+A 
+ 
+Test Equipment 
+Asset#  
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+03049 
+Coupling Decoupling 
+Network 
+FCC 
+FCC-801-M3-25 
+11/28/2016 
+11/28/2017 
+00628 
+Amplifier 
+AR 
+100A100 
+1/6/2017 
+1/6/2019 
+02869 
+Spectrum Analyzer 
+Agilent 
+E4440A 
+7/8/2016 
+7/8/2017 
+P04357 
+Coaxial Cable 
+Carolina Wire 
+RG142 
+4/4/2016 
+4/4/2018 
+03419 
+Signal Generator 
+Agilent 
+E4438C 
+7/8/2015  
+7/8/2017  
+ 
+Conducted Immunity AC Mains Results 
+Mode of operation: 
+Normal Operation 
+Port Tested 
+Test Results 
+Test Observations 
+AC Mains 
+No degradation 
+ 
+ 
+ 
+ 
+ 
+Conducted Immunity AC Mains Results 
+Mode of operation: 
+Standby 
+Port Tested 
+Test Results 
+Test Observations 
+AC Mains 
+No degradation 
+ 
+ 
+ 
+ 
+ 
+ 
+Conducted Immunity Test Summary 
+Standard Minimum Performance Criteria: 
+CT/CR/A 
+ 
+For this test, the EUT met performance criteria: 
+CT/CR/A 
+Result:  Pass
+
+===== PAGE 41 =====
+Page 41 of 47
+Report No.: 99820-8
+ 
+Test Setup Photo
+
+===== PAGE 42 =====
+Page 42 of 47
+Report No.: 99820-8
+Voltage Dips and Interrupts  
+ 
+Test Notes: Immunity threat to simulate low-voltage power supply network voltage dips and interruptions of long 
+duration. 
+ 
+Test Setup/Conditions 
+Test Location: 
+Brea Lab B 
+Test Engineer: 
+Don Nguyen 
+Test Method: 
+EN 61000-4-11 
+Test Date(s): 
+5/24/2017 
+Test Level: 
+0% residual for 0.5 cycle, 0% residual for 1 cycle, 70% residual for 25 cycles and 0% 
+residual for 250 cycles 
+Declarations: 
+None 
+Configuration: 
+A 
+ 
+Environmental Conditions 
+Temperature (ºC) 
+22 
+Relative Humidity (%): 
+45 
+Atmospheric Pressure (kPa): 
+100 
+ 
+Test Equipment 
+Asset#  
+Description 
+Manufacturer 
+Model 
+Cal Date 
+Cal Due 
+01379 
+Variac 
+Superior Electric 
+1256D   
+8/19/2016 
+8/19/2017 
+00844 
+Simulator 
+ESD / Surge / EFT 
+/ Voltage Dip 
+EM Test 
+USC 500M4 
+8/9/2016 
+8/9/2017
+
+===== PAGE 43 =====
+Page 43 of 47
+Report No.: 99820-8
+Voltage Dips and Interruptions Results 
+Mode of operation: 
+Normal Operation 
+Ux (%) 
+Duration 
+(ms) 
+Minimum 
+Criteria 
+Test Results 
+EUT Meets 
+Criteria 
+Test Observations 
+0 
+10 
+TT/TR/B 
+No degradation 
+TT/TR/A 
+ 
+0 
+20 
+TT/TR/B 
+No degradation 
+TT/TR/A 
+ 
+70 
+500 
+TT/TR/B 
+No degradation 
+TT/TR/A 
+ 
+0 
+5000 
+Per 
+Standard 
+No degradation 
+Per Standard 
+ 
+ 
+Voltage Dips and Interruptions Results 
+Mode of operation: 
+Standby 
+Ux (%) 
+Duration 
+(ms) 
+Minimum 
+Criteria 
+Test Results 
+EUT Meets 
+Criteria 
+Test Observations 
+0 
+10 
+TT/TR/B 
+No degradation 
+TT/TR/A 
+No unintended transmission 
+occurred 
+0 
+20 
+TT/TR/B 
+No degradation 
+TT/TR/A 
+No unintended transmission 
+occurred 
+70 
+500 
+TT/TR/B 
+No degradation 
+TT/TR/A 
+No unintended transmission 
+occurred 
+0 
+5000 
+Per 
+Standard 
+No degradation 
+Per 
+Standard 
+No unintended transmission 
+occurred 
+ 
+ 
+Voltage Dips and Interruptions Test Summary  
+With combination of criteria listed above, the resultant overall assessment is: 
+ Pass 
+ 
+ 
+Test Setup Photo
+
+===== PAGE 44 =====
+Page 44 of 47
+Report No.: 99820-8
+Transients and Surges in the Vehicle Environment – 12/24VDC 
+Supply  
+ 
+Test Setup/Conditions 
+Test Location: 
+NA 
+Test Engineer: 
+D. Nguyen 
+Test Method: 
+ISO 7637-2  
+Test Date(s): 
+NA 
+Test Level: 
+NA 
+Declarations: 
+The manufacturer declares that the EUT does not operate from 12 or 24 VDC vehicle 
+supply. 
+Configuration: 
+NA
+
+===== PAGE 45 =====
+Page 45 of 47
+Report No.: 99820-8
+SUPPLEMENTAL INFORMATION 
+ 
+Measurement Uncertainty 
+ 
+Uncertainty Value 
+Parameter 
+4.73 dB 
+Radiated Emissions 
+3.34 dB 
+Mains Conducted Emissions 
+3.30 dB 
+Disturbance Power 
+ 
+Uncertainties reported are worst case for all CKC Laboratories’ sites and represent expanded uncertainties 
+expressed at approximately the 95% confidence level using a coverage factor of k=2.   
+ 
+Emissions Test Details  
+ 
+TESTING PARAMETERS 
+Unless otherwise indicated, the following configuration parameters are used for equipment setup:  The cables 
+were routed consistent with the typical application by varying the configuration of the test sample.  Interface 
+cables were connected to the available ports of the test unit.  The effect of varying the position of the cables was 
+investigated to find the configuration that produced maximum emissions.  Cables were of the type and length 
+specified in the individual requirements.  The length of cable that produced maximum emissions was selected.  
+ 
+The equipment under test (EUT) was set up in a manner that represented its normal use, as shown in the setup 
+photographs.  Any special conditions required for the EUT to operate normally are identified in the comments that 
+accompany the emissions tables.   
+ 
+The emissions data was taken with a spectrum analyzer or receiver.  Incorporating the applicable correction factors 
+for distance, antenna, cable loss and amplifier gain, the data was reduced as shown in the table below.  The 
+corrected data was then compared to the applicable emission limits.  Preliminary and final measurements were 
+taken in order to ensure that all emissions from the EUT were found and maximized. 
+ 
+CORRECTION FACTORS 
+The basic spectrum analyzer reading was converted using correction factors as shown in the highest emissions 
+readings in the tables.  For radiated emissions in dBµV/m, the spectrum analyzer reading in dBµV was corrected by 
+using the following formula.  This reading was then compared to the applicable specification limit.  Individual 
+measurements were compared with the displayed limit value in the margin column. The margin was calculated 
+based on subtracting the limit value from the corrected measurement value; a positive margin represents a 
+measurement exceeding the limit, while a negative margin represents a measurement less than the limit. 
+ 
+SAMPLE CALCULATIONS 
+ 
+Meter reading 
+(dBµV) 
++ 
+Antenna Factor 
+(dB/m) 
++ 
+Cable Loss 
+(dB) 
+- 
+Distance Correction 
+(dB) 
+- 
+Preamplifier Gain 
+(dB) 
+= 
+Corrected Reading 
+(dBµV/m)
+
+===== PAGE 46 =====
+Page 46 of 47
+Report No.: 99820-8
+ 
+TEST INSTRUMENTATION AND ANALYZER SETTINGS 
+The test instrumentation and equipment listed were used to collect the emissions data. A spectrum analyzer or 
+receiver was used for all measurements.  Unless otherwise specified, the following table shows the measuring 
+equipment bandwidth settings that were used in designated frequency bands.  For testing emissions, an 
+appropriate reference level and a vertical scale size of 10 dB per division were used.  
+ 
+MEASURING EQUIPMENT BANDWIDTH SETTINGS PER FREQUENCY RANGE 
+TEST 
+BEGINNING FREQUENCY 
+ENDING FREQUENCY 
+BANDWIDTH SETTING 
+CONDUCTED EMISSIONS 
+150 kHz 
+30 MHz 
+9 kHz 
+RADIATED EMISSIONS 
+30 MHz 
+1000 MHz 
+120 kHz 
+RADIATED EMISSIONS 
+1000 MHz 
+>1 GHz 
+1 MHz 
+ 
+SPECTRUM ANALYZER/RECEIVER DETECTOR FUNCTIONS 
+The notes that accompany the measurements contained in the emissions tables indicate the type of detector function 
+used to obtain the given readings.  Unless otherwise noted, all readings were made in the "positive peak" detector mode.  
+Whenever a "quasi-peak" or "average" reading was recorded, the measurement was annotated with a "QP" or an "Ave" 
+on the appropriate rows of the data sheets.  In cases where quasi-peak or average limits were employed and data exists 
+for multiple measurement types for the same frequency then the peak measurement was retained in the report for 
+reference, however the numbering for the affected row was removed and an arrow or caret (“^”) was placed in the far 
+left-hand column indicating that the row above takes precedence for comparison to the limit.  The following paragraphs 
+describe in more detail the detector functions and when they were used to obtain the emissions data. 
+Peak 
+In this mode, the spectrum analyzer or receiver recorded all emissions at their peak value as the frequency band selected 
+was scanned.  By combining this function with another feature called "peak hold," the measurement device had the ability 
+to measure intermittent or low duty cycle transient emission peak levels.  In this mode the measuring device made a slow 
+scan across the frequency band selected and measured the peak emission value found at each frequency across the band.  
+Quasi-Peak 
+Quasi-peak measurements were taken using the quasi-peak detector when the true peak values exceeded or were 
+within 2 dB of a quasi-peak specification limit.  Additional QP measurements may have been taken at the 
+discretion of the operator.   
+Average 
+Average measurements were taken using the average detector when the true peak values exceeded or were 
+within 2 dB of an average specification limit.  Additional average measurements may have been taken at the 
+discretion of the operator.  If the specification or test procedure requires trace averaging, then the averaging was 
+performed using 100 samples or as required by the specification.  All other average measurements are performed 
+using video bandwidth averaging.  To make these measurements, the test engineer reduces the video bandwidth 
+on the measuring device until the modulation of the signal is filtered out.  At this point the measuring device is set 
+into the linear mode and the scan time is reduced.
+
+===== PAGE 47 =====
+Page 47 of 47
+Report No.: 99820-8
+ 
+Immunity Test Details 
+ 
+Radiated Immunity Field Intensity at 0.4m 
+ 
+Chamber 
+(80-1000) 
+1V/m 
+Testing 
+3V/m 
+Testing 
+10V/m 
+Testing 
+20V/m 
+Testing 
+30V/m 
+Testing 
+Fremont C1 
+1.5 
+5.2 
+11.0 
+NA 
+NA 
+Fremont C2 
+1.9 
+2.7 
+7.1 
+16.2 
+NA 
+Mariposa 
+1.0 
+3.3 
+9.9 
+NA 
+NA 
+Brea 
+0.6 
+2.2 
+12.4 
+NA 
+NA 
+Bothell C1 
+1.7 
+3.1 
+9.0 
+17.0 
+25.4 
+Bothell C2 
+0.6 
+1.9 
+6.8 
+NA 
+NA 
+NA = Not applicable because these levels are not performed in this chamber.

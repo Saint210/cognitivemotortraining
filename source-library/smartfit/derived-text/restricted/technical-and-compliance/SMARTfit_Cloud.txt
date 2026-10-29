@@ -1,0 +1,40 @@
+===== PAGE 1 =====
+4
+5
+3
+6
+1
+2
+1
+2
+4
+5
+3
+6
+SMARTﬁt Cloud Architecture on Microsoft Azure
+The SMARTﬁt iOS/Android mobile 
+application is conﬁgured to work with 
+our Azure App Service for authenticated 
+API calls. 
+Using Azure AD B2C for identity and 
+access management, the Azure App 
+Service receives an access token to 
+authorize requests made to the API.
+These requests perform operations 
+against the cloud SQL database as the 
+client (mobile application) makes these 
+requests once authenticated.
+Azure Storage is used to download 
+software update ﬁles, app videos, and 
+any other ﬁles that need to be used by 
+the mobile application.
+Predesigned content is pulled to the 
+local SQL database. User data is also 
+pulled from the cloud database to the 
+local database upon sign in and purged 
+upon sign out.
+The mobile app communicates with 
+the SMARTﬁt Controller via BLE for all 
+communcation, such as running 
+games, tests, system settings, and 
+software updates.

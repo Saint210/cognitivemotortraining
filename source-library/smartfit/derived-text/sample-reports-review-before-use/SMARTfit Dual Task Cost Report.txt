@@ -1,0 +1,139 @@
+===== PAGE 1 =====
+Dual Task Cost Report
+Name
+Leslie
+Age
+66
+Gender
+Female
+Date
+3/24/2021 2:18 PM
+Sit to Stand - 30 sec (Level 3)
+Physical Only Task (PO): Sit to Stand - 30 sec - PO
+Notes:
+Repetitions
+12
+Cognitive Only Task (CO): Sit to Stand - 30 sec - CO (Level 3)
+Notes:
+Score
+55
+Accuracy
+100%
+Reaction Time
+3.11 seconds
+Repetitions
+11
+Dual Task (DT): Sit to Stand - 30 sec - DT (Level 3)
+Notes:
+Score
+45
+Accuracy
+90%
+Reaction Time
+3.72 seconds
+Repetitions
+10
+Dual Task Cost Results
+((dual task performance - single task performance) / single task performance) × 100 = dual task cost
+-17%
+Physical
+(Repetitions)
+-10%
+Cognitive
+(Accuracy)
+-20%
+Cognitive
+(Reaction Time)
+-9%
+Cognitive
+(Repetitions)
+-18%
+Cognitive
+(Score)
+Concluding Notes:
+
+===== PAGE 2 =====
+Growth Analysis
+(against average of selected tests from 3/24/21 - 3/24/21, excluding this test)
+Physical Only Task Analysis
+0%
+Repetitions
+(PO)
+Cognitive Only Task Analysis
++18%
+Accuracy
+(CO)
+-8%
+Reaction Time
+(CO)
+-15%
+Repetitions
+(CO)
+0%
+Score
+(CO)
+Dual Task Analysis
++1%
+Accuracy
+(DT)
++8%
+Reaction Time
+(DT)
++11%
+Repetitions
+(DT)
++12%
+Score
+(DT)
+Dual Task Cost Analysis
++33%
+Physical
+(Repetitions)
++312%
+Cognitive
+(Accuracy)
++52%
+Cognitive
+(Reaction Time)
++70%
+Cognitive
+(Repetitions)
++33%
+Cognitive
+(Score)
+
+===== PAGE 3 =====
+Session Analysis
+(selected tests from 3/24/21 - 3/24/21, including this test)
+Physical Only Task Analysis
+Cognitive Only Task Analysis
+Dual Task Analysis
+Dual Task Cost Analysis
+
+===== PAGE 4 =====
+These are the recommended predesigned programs for this dual task cost test. They 
+can be found on the Play tab in the folder locations shown below. These programs 
+should be utilized for roughly 6 – 12 weeks before retesting against your previous test 
+results. We suggest two separate folders to focus on a physical domain and a cognitive 
+domain throughout your training.
+Sit to Stand - 30 Seconds (Level 3)
+SMART
+®
+Your Brain Matters
+RECOMMENDED
+PREDESIGNED
+PROGRAMS
+2
+1
+Brain Health Fitness
+for Older Adults
+Independent
+Physical 
+Strength
+Predesigned Programs
+Brain Health Fitness
+for Older Adults
+Independent
+Cognitive
+Attention
+Predesigned Programs

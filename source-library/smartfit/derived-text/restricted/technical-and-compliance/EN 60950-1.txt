@@ -1,0 +1,2504 @@
+===== PAGE 1 =====
+P a g e 1 | 38 
+ 
+REPORT FOR EN 60950-1 
+ 
+SMARTfit, Inc 
+3977 Camino Ranchero 
+Camarillo, CA 93012 
+USA 
+ 
+This report is for the SMARTfit product Movable adjustable Mini and 5 
+PODS, SMARTfit part number 1-30101-X, X is just a color reference. This is 
+the most complex version of the product line, all other products are a sub-set 
+of this product. 
+ 
+ 
+ 
+ 
+Test item particulars...................................................: 
+Equipment mobility.....................................................: [x] movable [] hand-held 
+[] transportable 
+[] stationary [] for building-in [] direct plug-in 
+Connection to the mains ............................................: [] pluggable equipment [] type A [] type B 
+[] permanent connection 
+[] detachable power supply cord 
+[] non-detachable power supply cord 
+[X] not directly connected to the mains 
+Operating condition....................................................: [X] continuous 
+[] rated operating / resting time: 
+Access location .........................................................: [] operator accessible 
+[] restricted access location 
+Over voltage category (OVC) ....................................: [] OVC I 
+[] OVC II 
+[] OVC III 
+[] OVC IV 
+[X] other: not directly connected to the mains 
+Mains supply tolerance (%) or absolute mains supply 
+values ........................................................................: N/A 
+Tested for IT power systems  ....................................: [] Yes 
+[X] No 
+IT testing, phase-phase voltage (V) ..........................: N/A 
+Class of equipment ...................................................:  [] Class I 
+[] Class II 
+[X] Class III 
+[] Not classified 
+Considered current rating of protective device as part 
+of the building installation (A) ....................................: N/A 
+Pollution degree (PD) ................................................:  [] PD 1 
+[X] PD 2 
+[] PD 3 
+IP protection class .....................................................: IPX0 
+Altitude during operation (m) .....................................: Up to 2000m 
+Altitude of test laboratory (m) ....................................: Less than 2000m 
+Mass of equipment (kg) ............................................: About than 374Kg
+
+===== PAGE 2 =====
+P a g e 2 | 38 
+ 
+Possible test case verdicts: 
+- test case does not apply to the test object ................. : N/A 
+- test object does meet the requirement....................... : P (Pass) 
+- test object does not meet the requirement................. : F (Fail)
+
+===== PAGE 3 =====
+P a g e 3 | 38 
+ 
+ 
+Manufacturer’s Declaration per sub-clause 6.2.5 of IECEE 02: 
+The application for obtaining a CB Test Certificate 
+Yes 
+includes more than one factory location and a 
+Not applicable 
+declaration from the Manufacturer stating that the 
+sample(s) submitted for evaluation is (are) 
+representative of the products from each factory has 
+been provided.................................................................: 
+When differences exist; they shall be identified in the General product information section. 
+Name and address of factory (ies) .......................... : SMARTfit, Inc 
+3977 Camino Ranchero 
+Camarillo, CA 93012 USA 
+General product information: 
+Product Description 
+Exercise equipment 
+Abbreviations used in the report: 
+- normal conditions 
+N.C. 
+- single fault conditions 
+S.F.C 
+- functional insulation 
+OP 
+- basic insulation 
+BI 
+- double insulation 
+DI 
+- supplementary insulation 
+SI 
+- between parts of opposite 
+polarity 
+BOP 
+- reinforced insulation 
+RI 
+Indicate used abbreviations (if any)
+
+===== PAGE 4 =====
+P a g e 4 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+1 
+GENERAL 
+P 
+ 
+1.5 
+Components 
+P 
+1.5.1 
+General 
+See below. 
+P 
+Comply with IEC 60950-1 or relevant component 
+standard 
+See appended table 1.5.1. 
+P 
+1.5.2 
+Evaluation and testing of components 
+P 
+1.5.3 
+Thermal controls 
+N/A 
+1.5.4 
+Transformers 
+N/A 
+1.5.5 
+Interconnecting cables 
+N/A 
+1.5.6 
+Capacitors bridging insulation 
+N/A 
+1.5.7 
+Resistors bridging insulation 
+N/A 
+1.5.7.1 
+Resistors bridging functional, basic or 
+supplementary insulation 
+N/A 
+1.5.7.2 
+Resistors bridging double or reinforced insulation 
+between a.c. mains and other circuits 
+N/A 
+1.5.7.3 
+Resistors bridging double or reinforced insulation 
+between a.c. mains and antenna or coaxial cable 
+N/A 
+1.5.8 
+Components in equipment for IT power systems 
+N/A 
+1.5.9 
+Surge suppressors 
+N/A 
+1.5.9.1 
+General 
+UL listed power supply 
+N/A 
+1.5.9.2 
+Protection of VDRs 
+N/A 
+1.5.9.3 
+Bridging of functional insulation by a VDR 
+N/A 
+1.5.9.4 
+Bridging of basic insulation by a VDR 
+N/A 
+1.5.9.5 
+Bridging of supplementary, double or reinforced 
+insulation by a VDR 
+N/A 
+ 
+1.6 
+Power interface 
+N/A 
+1.6.1 
+AC power distribution systems 
+N/A 
+1.6.2 
+Input current 
+N/A 
+1.6.3 
+Voltage limit of hand-held equipment 
+N/A 
+1.6.4 
+Neutral conductor 
+N/A 
+ 
+1.7 
+Marking and instructions 
+P 
+1.7.1 
+Power rating and identification markings 
+P 
+1.7.1.1 
+Power rating marking 
+N/A 
+Multiple mains supply connections..........................: 
+N/A
+
+===== PAGE 5 =====
+P a g e 5 | 38 
+ 
+Rated voltage(s) or voltage range(s) (V) ............... : 
+N/A
+
+===== PAGE 6 =====
+P a g e 6 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+Symbol for nature of supply, for d.c. only ............... : 
+N/A 
+Rated frequency or rated frequency range (Hz) .... : 
+N/A 
+Rated current (mA or A) ........................................ : 
+N/A 
+1.7.1.2 
+Identification markings 
+See below 
+P 
+Manufacturer’s name or trade-mark or identification 
+mark ...................................................................... : 
+See labels. 
+P 
+Model identification or type reference ................... : See labels. 
+P 
+Symbol for Class II equipment only ....................... : 
+N/A 
+Other markings and symbols ................................ : Other symbols do not give 
+rise to misunderstanding. 
+P 
+1.7.2 
+Safety instructions and marking 
+See below. 
+P 
+1.7.2.1 
+General 
+Specification is available. 
+P 
+1.7.2.2 
+Disconnect devices 
+N/A 
+1.7.2.3 
+Overcurrent protective device 
+7.5A fuse 
+P 
+1.7.2.4 
+IT power distribution systems 
+N/A 
+1.7.2.5 
+Operator access with a tool 
+N/A 
+1.7.2.6 
+Ozone 
+N/A 
+1.7.3 
+Short duty cycles 
+N/A 
+1.7.4 
+Supply voltage adjustment ................................... : 
+N/A 
+Methods and means of adjustment; reference to 
+installation instructions ......................................... : 
+N/A 
+1.7.5 
+Power outlets on the equipment ........................... : 
+N/A 
+1.7.6 
+Fuse identification (marking, special fusing 
+characteristics, cross-reference) .......................... : 
+7.5DCA automotive fuse 
+P 
+1.7.7 
+Wiring terminals 
+N/A 
+1.7.7.1 
+Protective earthing and bonding terminals ........... : 
+N/A 
+1.7.7.2 
+Terminals for a.c. mains supply conductors 
+N/A 
+1.7.7.3 
+Terminals for d.c. mains supply conductors 
+N/A 
+1.7.8 
+Controls and indicators 
+N/A 
+1.7.8.1 
+Identification, location and marking ...................... : 
+N/A 
+1.7.8.2 
+Colors ................................................................ : 
+N/A 
+1.7.8.3 
+Symbols according to IEC 60417 ......................... : 
+N/A 
+1.7.8.4 
+Markings using figures ....................................... : 
+N/A 
+1.7.9 
+Isolation of multiple power sources ..................... : 
+N/A 
+1.7.10 
+Thermostats and other regulating devices .......... : 
+N/A 
+1.7.11 
+Durability 
+P
+
+===== PAGE 7 =====
+P a g e 7 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+1.7.12 
+Removable parts 
+N/A 
+1.7.13 
+Replaceable batteries .......................................... : Li battery 
+P 
+Language(s) ........................................................ : 
+⎯ 
+1.7.14 
+Equipment for restricted access locations............ : 
+N/A 
+ 
+2 
+PROTECTION FROM HAZARDS 
+P 
+2.1 
+Protection from electric shock and energy hazards 
+P 
+2.1.1 
+Protection in operator access areas 
+Labels for pinch points. Labels 
+for the need for weights on the 
+back side of the unit. 
+P 
+2.1.1.1 
+Access to energized parts 
+No access 
+P 
+Test by inspection ................................................. : 
+P 
+Test with test finger (Figure 2A) ............................ : 
+N/A 
+Test with test pin (Figure 2B) ................................ : 
+N/A 
+Test with test probe (Figure 2C) ........................... : 
+N/A 
+2.1.1.2 
+Battery compartments 
+P 
+2.1.1.3 
+Access to ELV wiring 
+N/A 
+Working voltage (Vpeak or Vrms); minimum 
+distance through insulation (mm) 
+⎯ 
+2.1.1.4 
+Access to hazardous voltage circuit wiring 
+N/A 
+2.1.1.5 
+Energy hazards ..................................................... : 
+N/A 
+2.1.1.6 
+Manual controls 
+N/A 
+2.1.1.7 
+Discharge of capacitors in equipment 
+N/A 
+Measured voltage (V); time-constant (s)................ : 
+⎯ 
+2.1.1.8 
+Energy hazards – d.c. mains supply 
+N/A 
+a) Capacitor connected to the d.c. mains supply .. : 
+N/A 
+b) Internal battery connected to the d.c. mains 
+supply .................................................................... : 
+N/A 
+2.1.1.9 
+Audio amplifiers .................................................... : 
+N/A 
+2.1.2 
+Protection in service access areas 
+N/A 
+2.1.3 
+Protection in restricted access locations 
+N/A 
+ 
+2.2 
+SELV circuits 
+P 
+2.2.1 
+General requirements 
+ 
+P 
+2.2.2 
+Voltages under normal conditions (V) ................... : 12VDC 
+P 
+2.2.3 
+Voltages under fault conditions (V) ....................... : 0 to 12VDC 
+P 
+2.2.4 
+Connection of SELV circuits to other circuits ...... : 
+4 conductor cable to connect 
+P
+
+===== PAGE 8 =====
+P a g e 8 | 38 
+ 
+CPU to Panels.
+
+===== PAGE 9 =====
+P a g e 9 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+ 
+2.3 
+TNV circuits 
+N/A 
+2.3.1 
+Limits 
+N/A 
+Type of TNV circuits............................................... : 
+⎯ 
+2.3.2 
+Separation from other circuits and from accessible 
+parts 
+N/A 
+2.3.2.1 
+General requirements 
+N/A 
+2.3.2.2 
+Protection by basic insulation 
+N/A 
+2.3.2.3 
+Protection by earthing 
+N/A 
+2.3.2.4 
+Protection by other constructions .......................... : 
+N/A 
+2.3.3 
+Separation from hazardous voltages 
+N/A 
+Insulation employed ............................................... : 
+⎯ 
+2.3.4 
+Connection of TNV circuits to other circuits 
+N/A 
+Insulation employed ............................................... : 
+⎯ 
+2.3.5 
+Test for operating voltages generated externally 
+N/A 
+ 
+2.4 
+Limited current circuits 
+N/A 
+2.4.1 
+General requirements 
+N/A 
+2.4.2 
+Limit values 
+N/A 
+Frequency (Hz) ...................................................... : 
+⎯ 
+Measured current (mA).......................................... : 
+⎯ 
+Measured voltage (V)............................................. : 
+⎯ 
+Measured circuit capacitance (nF or µF) ............... : 
+⎯ 
+2.4.3 
+Connection of limited current circuits to other 
+circuits 
+N/A 
+ 
+2.5 
+Limited power sources 
+N/A 
+a) Inherently limited output 
+N/A 
+b) Impedance limited output 
+N/A 
+c) Regulating network limited output under normal 
+operating and single fault condition 
+N/A 
+d) Overcurrent protective device limited output 
+N/A 
+Max. output voltage (V), max. output current (A), 
+max. apparent power (VA) ..................................... : 
+⎯ 
+Current rating of overcurrent protective device (A) .: 
+⎯ 
+Use of integrated circuit (IC) current limiters
+
+===== PAGE 10 =====
+P a g e 10 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+ 
+2.6 
+Provisions for earthing and bonding 
+N/A 
+2.6.1 
+Protective earthing 
+N/A 
+2.6.2 
+Functional earthing 
+N/A 
+2.6.3 
+Protective earthing and protective bonding 
+conductors 
+N/A 
+2.6.3.1 
+General 
+N/A 
+2.6.3.2 
+Size of protective earthing conductors 
+N/A 
+Rated current (A), cross-sectional area (mm2), 
+AWG ...................................................................... : 
+⎯ 
+2.6.3.3 
+Size of protective bonding conductors 
+N/A 
+Rated current (A), cross-sectional area (mm2), 
+AWG ...................................................................... : 
+⎯ 
+Protective current rating (A), cross-sectional area 
+(mm2), AWG .......................................................... : 
+2.6.3.4 
+Resistance of earthing conductors and their 
+terminations; resistance (), voltage drop (V), test 
+current (A), duration (min)...................................... : 
+N/A 
+2.6.3.5 
+Colour of insulation ................................................ : 
+N/A 
+2.6.4 
+Terminals 
+N/A 
+2.6.4.1 
+General 
+N/A 
+2.6.4.2 
+Protective earthing and bonding terminals 
+N/A 
+Rated current (A), type, nominal thread diameter 
+(mm)....................................................................... : 
+⎯ 
+2.6.4.3 
+Separation of the protective earthing conductor from 
+protective bonding conductors 
+N/A 
+2.6.5 
+Integrity of protective earthing 
+N/A 
+2.6.5.1 
+Interconnection of equipment 
+N/A 
+2.6.5.2 
+Components in protective earthing conductors and 
+protective bonding conductors 
+N/A 
+2.6.5.3 
+Disconnection of protective earth 
+N/A 
+2.6.5.4 
+Parts that can be removed by an operator 
+N/A 
+2.6.5.5 
+Parts removed during servicing 
+N/A 
+2.6.5.6 
+Corrosion resistance 
+N/A 
+2.6.5.7 
+Screws for protective bonding 
+N/A 
+2.6.5.8 
+Reliance on telecommunication network or cable 
+distribution system 
+N/A 
+ 
+2.7 
+Overcurrent and earth fault protection in primary circuits 
+N/A
+
+===== PAGE 11 =====
+P a g e 11 | 38 
+ 
+2.7.1 
+Basic requirements 
+N/A
+
+===== PAGE 12 =====
+P a g e 12 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+Instructions when protection relies on building 
+installation 
+N/A 
+2.7.2 
+Faults not simulated in 5.3.7 
+N/A 
+2.7.3 
+Short-circuit backup protection 
+N/A 
+2.7.4 
+Number and location of protective devices ........... : 
+N/A 
+2.7.5 
+Protection by several devices 
+N/A 
+2.7.6 
+Warning to service personnel ................................ : 
+N/A 
+ 
+2.8 
+Safety interlocks 
+N/A 
+2.8.1 
+General principles 
+N/A 
+2.8.2 
+Protection requirements 
+N/A 
+2.8.3 
+Inadvertent reactivation 
+N/A 
+2.8.4 
+Fail-safe operation 
+N/A 
+Protection against extreme hazard 
+N/A 
+2.8.5 
+Moving parts 
+N/A 
+2.8.6 
+Overriding 
+N/A 
+2.8.7 
+Switches, relays and their related circuits 
+N/A 
+2.8.7.1 
+Separation distances for contact gaps and their 
+related circuits (mm) .............................................. : 
+N/A 
+2.8.7.2 
+Overload test 
+N/A 
+2.8.7.3 
+Endurance test 
+N/A 
+2.8.7.4 
+Electric strength test 
+N/A 
+2.8.8 
+Mechanical actuators 
+N/A 
+ 
+2.9 
+Electrical insulation 
+P 
+2.9.1 
+Properties of insulating materials 
+P 
+2.9.2 
+Humidity conditioning 
+N/A 
+Relative humidity (%), temperature (°C) ............... : 
+⎯ 
+2.9.3 
+Grade of insulation 
+P 
+2.9.4 
+Separation from hazardous voltages 
+N/A 
+Method(s) used ..................................................... : 
+⎯ 
+ 
+2.10 
+Clearances, creepage distances and distances through insulation 
+P 
+2.10.1 
+General 
+Functional insulation only. 
+P 
+2.10.1.1 
+Frequency ............................................................. : 
+N/A 
+2.10.1.2 
+Pollution degrees ................................................... : 2 
+P
+
+===== PAGE 13 =====
+P a g e 13 | 38 
+ 
+2.10.1.3 
+Reduced values for functional insulation 
+See 5.3.4. 
+P
+
+===== PAGE 14 =====
+P a g e 14 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+2.10.1.4 
+Intervening unconnected conductive parts 
+N/A 
+2.10.1.5 
+Insulation with varying dimensions 
+N/A 
+2.10.1.6 
+Special separation requirements 
+N/A 
+2.10.1.7 
+Insulation in circuits generating starting pulses 
+N/A 
+2.10.2 
+Determination of working voltage 
+N/A 
+2.10.2.1 
+General 
+N/A 
+2.10.2.2 
+RMS working voltage 
+N/A 
+2.10.2.3 
+Peak working voltage 
+N/A 
+2.10.3 
+Clearances 
+N/A 
+2.10.3.1 
+General 
+N/A 
+2.10.3.2 
+Mains transient voltages 
+N/A 
+a) AC mains supply ............................................... : 
+N/A 
+b) Earthed d.c. mains supplies .............................. : 
+N/A 
+c) Unearthed d.c. mains supplies .......................... : 
+N/A 
+d) Battery operation ............................................... : 
+N/A 
+2.10.3.3 
+Clearances in primary circuits 
+N/A 
+2.10.3.4 
+Clearances in secondary circuits 
+N/A 
+2.10.3.5 
+Clearances in circuits having starting pulses 
+N/A 
+2.10.3.6 
+Transients from a.c. mains supply ........................ : 
+N/A 
+2.10.3.7 
+Transients from d.c. mains supply ........................ : 
+N/A 
+2.10.3.8 
+Transients from telecommunication networks and 
+cable distribution systems ..................................... : 
+N/A 
+2.10.3.9 
+Measurement of transient voltage levels 
+N/A 
+a) Transients from a mains supply 
+N/A 
+For an a.c. mains supply ....................................... : 
+N/A 
+For a d.c. mains supply ......................................... : 
+N/A 
+b) Transients from a telecommunication network : 
+N/A 
+2.10.4 
+Creepage distances 
+N/A 
+2.10.4.1 
+General 
+N/A 
+2.10.4.2 
+Material group and comparative tracking index 
+N/A 
+CTI tests................................................................. : 
+⎯ 
+2.10.4.3 
+Minimum creepage distances 
+N/A 
+2.10.5 
+Solid insulation 
+N/A 
+2.10.5.1 
+General 
+N/A 
+2.10.5.2 
+Distances through insulation 
+N/A 
+2.10.5.3 
+Insulating compound as solid insulation 
+N/A
+
+===== PAGE 15 =====
+P a g e 15 | 38 
+ 
+2.10.5.4 
+Semiconductor devices 
+N/A
+
+===== PAGE 16 =====
+P a g e 16 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+2.10.5.5. 
+Cemented joints 
+N/A 
+2.10.5.6 
+Thin sheet material – General 
+N/A 
+2.10.5.7 
+Separable thin sheet material 
+N/A 
+Number of layers (pcs)........................................... : 
+⎯ 
+2.10.5.8 
+Non-separable thin sheet material 
+N/A 
+2.10.5.9 
+Thin sheet material – standard test procedure 
+N/A 
+Electric strength test 
+⎯ 
+2.10.5.10 
+Thin sheet material – alternative test procedure 
+N/A 
+Electric strength test 
+⎯ 
+2.10.5.11 
+Insulation in wound components 
+N/A 
+2.10.5.12 
+Wire in wound components 
+N/A 
+Working voltage .................................................... : 
+N/A 
+a) Basic insulation not under stress ...................... : 
+N/A 
+b) Basic, supplementary, reinforced insulation ..... : 
+N/A 
+c) Compliance with Annex U ................................. : 
+N/A 
+Two wires in contact inside wound component; 
+angle between 45 and 90 ................................... : 
+N/A 
+2.10.5.13 
+Wire with solvent-based enamel in wound 
+components 
+N/A 
+Electric strength test 
+⎯ 
+Routine test 
+N/A 
+2.10.5.14 
+Additional insulation in wound components 
+N/A 
+Working voltage .................................................... : 
+N/A 
+- Basic insulation not under stress ........................ : 
+N/A 
+- Supplementary, reinforced insulation .................. : 
+N/A 
+2.10.6 
+Construction of printed boards 
+N/A 
+2.10.6.1 
+Uncoated printed boards 
+N/A 
+2.10.6.2 
+Coated printed boards 
+N/A 
+2.10.6.3 
+Insulation between conductors on the same inner 
+surface of a printed board 
+N/A 
+2.10.6.4 
+Insulation between conductors on different layers of 
+a printed board 
+N/A 
+Distance through insulation 
+N/A 
+Number of insulation layers (pcs)........................... : 
+N/A 
+2.10.7 
+Component external terminations 
+N/A 
+2.10.8 
+Tests on coated printed boards and coated 
+components 
+N/A
+
+===== PAGE 17 =====
+P a g e 17 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+2.10.8.1 
+Sample preparation and preliminary inspection 
+N/A 
+2.10.8.2 
+Thermal conditioning 
+N/A 
+2.10.8.3 
+Electric strength test 
+N/A 
+2.10.8.4 
+Abrasion resistance test 
+N/A 
+2.10.9 
+Thermal cycling 
+N/A 
+2.10.10 
+Test for Pollution Degree 1 environment and 
+insulating compound 
+N/A 
+2.10.11 
+Tests for semiconductor devices and cemented 
+joints 
+N/A 
+2.10.12 
+Enclosed and sealed parts 
+N/A 
+ 
+3 
+WIRING, CONNECTIONS AND SUPPLY 
+P 
+3.1 
+General 
+P 
+3.1.1 
+Current rating and overcurrent protection 
+Power supply is an 8ADC supply 
+with our system having a 7.5A fuse. 
+P 
+3.1.2 
+Protection against mechanical damage 
+Wires chosen with thick insulation 
+and installation instructions about 
+layout. 
+P 
+3.1.3 
+Securing of internal wiring 
+N/A 
+3.1.4 
+Insulation of conductors 
+N/A 
+3.1.5 
+Beads and ceramic insulators 
+N/A 
+3.1.6 
+Screws for electrical contact pressure 
+N/A 
+3.1.7 
+Insulating materials in electrical connections 
+N/A 
+3.1.8 
+Self-tapping and spaced thread screws 
+N/A 
+3.1.9 
+Termination of conductors 
+N/A 
+10 N pull test 
+N/A 
+3.1.10 
+Sleeving on wiring 
+N/A 
+ 
+3.2 
+Connection to a mains supply 
+N/A 
+3.2.1 
+Means of connection 
+N/A 
+3.2.1.1 
+Connection to an a.c. mains supply 
+N/A 
+3.2.1.2 
+Connection to a d.c. mains supply 
+N/A 
+3.2.2 
+Multiple supply connections 
+N/A 
+3.2.3 
+Permanently connected equipment 
+N/A 
+Number of conductors, diameter of cable and 
+conduits (mm) ....................................................... : 
+⎯ 
+3.2.4 
+Appliance inlets 
+N/A 
+3.2.5 
+Power supply cords 
+N/A
+
+===== PAGE 18 =====
+P a g e 18 | 38 
+ 
+3.2.5.1 
+AC power supply cords 
+N/A 
+Type ...................................................................... : 
+⎯
+
+===== PAGE 19 =====
+P a g e 19 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+Rated current (A), cross-sectional area (mm2), 
+AWG ..................................................................... : 
+7.5ADC 
+⎯ 
+3.2.5.2 
+DC power supply cords 
+Rated 10 amp 
+P 
+3.2.6 
+Cord anchorages and strain relief 
+Sufficient 
+P 
+Mass of equipment (kg), pull (N) .......................... : 
+⎯ 
+Longitudinal displacement (mm) ........................... : 
+⎯ 
+3.2.7 
+Protection against mechanical damage 
+N/A 
+3.2.8 
+Cord guards 
+N/A 
+Diameter or minor dimension D (mm); test mass (g) 
+............................................................................... : 
+⎯ 
+Radius of curvature of cord (mm) .......................... : 
+⎯ 
+3.2.9 
+Supply wiring space 
+N/A 
+ 
+3.3 
+Wiring terminals for connection of external conductors 
+N/A 
+3.3.1 
+Wiring terminals 
+N/A 
+3.3.2 
+Connection of non-detachable power supply cords 
+N/A 
+3.3.3 
+Screw terminals 
+N/A 
+3.3.4 
+Conductor sizes to be connected 
+N/A 
+Rated current (A), cord/cable type, cross-sectional 
+area (mm2)............................................................. : 
+⎯ 
+3.3.5 
+Wiring terminal sizes 
+N/A 
+Rated current (A), type, nominal thread diameter 
+(mm) ..................................................................... : 
+⎯ 
+3.3.6 
+Wiring terminal design 
+N/A 
+3.3.7 
+Grouping of wiring terminals 
+N/A 
+3.3.8 
+Stranded wire 
+N/A 
+ 
+3.4 
+Disconnection from the mains supply 
+N/A 
+3.4.1 
+General requirement 
+N/A 
+3.4.2 
+Disconnect devices 
+N/A 
+3.4.3 
+Permanently connected equipment 
+N/A 
+3.4.4 
+Parts which remain energized 
+N/A 
+3.4.5 
+Switches in flexible cords 
+N/A 
+3.4.6 
+Number of poles - single-phase and d.c. equipment 
+N/A 
+3.4.7 
+Number of poles - three-phase equipment 
+N/A 
+3.4.8 
+Switches as disconnect devices 
+N/A 
+3.4.9 
+Plugs as disconnect devices 
+N/A
+
+===== PAGE 20 =====
+P a g e 20 | 38 
+ 
+3.4.10 
+Interconnected equipment 
+N/A
+
+===== PAGE 21 =====
+P a g e 21 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+3.4.11 
+Multiple power sources 
+N/A 
+ 
+3.5 
+Interconnection of equipment 
+P 
+3.5.1 
+General requirements 
+P 
+3.5.2 
+Types of interconnection circuits ........................... : Interconnection circuits of 
+SELV through the connectors. 
+P 
+3.5.3 
+ELV circuits as interconnection circuits 
+N/A 
+3.5.4 
+Data ports for additional equipment 
+N/A 
+ 
+4 
+PHYSICAL REQUIREMENTS 
+P 
+4.1 
+Stability 
+N/A 
+Angle of 10 
+N/A 
+Test force (N) ........................................................ : 
+N/A 
+ 
+4.2 
+Mechanical strength 
+N/A 
+4.2.1 
+General 
+N/A 
+Rack-mounted equipment. 
+N/A 
+4.2.2 
+Steady force test, 10 N 
+N/A 
+4.2.3 
+Steady force test, 30 N 
+N/A 
+4.2.4 
+Steady force test, 250 N 
+N/A 
+4.2.5 
+Impact test 
+N/A 
+Fall test 
+N/A 
+Swing test 
+N/A 
+4.2.6 
+Drop test; height (mm) .......................................... : 
+N/A 
+4.2.7 
+Stress relief test 
+N/A 
+4.2.8 
+Cathode ray tubes 
+N/A 
+Picture tube separately certified ............................ : 
+N/A 
+4.2.9 
+High pressure lamps 
+N/A 
+4.2.10 
+Wall or ceiling mounted equipment; force (N) ....... : 
+N/A 
+ 
+4.3 
+Design and construction 
+N/A 
+4.3.1 
+Edges and corners 
+rounded 
+P 
+4.3.2 
+Handles and manual controls; force (N) .............: 
+N/A 
+4.3.3 
+Adjustable controls 
+N/A 
+4.3.4 
+Securing of parts 
+Tie downs 
+P 
+4.3.5 
+Connection by plugs and sockets 
+N/A
+
+===== PAGE 22 =====
+P a g e 22 | 38 
+ 
+4.3.6 
+Direct plug-in equipment 
+N/A
+
+===== PAGE 23 =====
+P a g e 23 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+Torque .................................................................. : 
+⎯ 
+Compliance with the relevant mains plug standard 
+..............................................................................    : 
+N/A 
+4.3.7 
+Heating elements in earthed equipment 
+N/A 
+4.3.8 
+Batteries 
+N/A 
+- Overcharging of a rechargeable battery 
+N/A 
+- Unintentional charging of a non-rechargeable 
+battery 
+N/A 
+- Reverse charging of a rechargeable battery 
+N/A 
+- Excessive discharging rate for any battery 
+N/A 
+4.3.9 
+Oil and grease 
+N/A 
+4.3.10 
+Dust, powders, liquids and gases 
+N/A 
+4.3.11 
+Containers for liquids or gases 
+N/A 
+4.3.12 
+Flammable liquids ................................................ : 
+N/A 
+Quantity of liquid (l) .............................................. : 
+N/A 
+Flash point (C) .................................................... : 
+N/A 
+4.3.13 
+Radiation 
+N/A 
+4.3.13.1 
+General 
+N/A 
+4.3.13.2 
+Ionizing radiation 
+N/A 
+Measured radiation (pA/kg) .................................. : 
+⎯ 
+Measured high-voltage (kV) ................................. : 
+⎯ 
+Measured focus voltage (kV) ............................... : 
+⎯ 
+CRT markings ...................................................... : 
+⎯ 
+4.3.13.3 
+Effect of ultraviolet (UV) radiation on materials 
+N/A 
+Part, property, retention after test, flammability 
+classification ......................................................... : 
+N/A 
+4.3.13.4 
+Human exposure to ultraviolet (UV) radiation ...... : 
+N/A 
+4.3.13.5 
+Lasers (including laser diodes) and LEDs 
+N/A 
+4.3.13.5.1 
+Lasers (including laser diodes) 
+N/A 
+Laser class ........................................................... : 
+⎯ 
+4.3.13.5.2 
+Light emitting diodes (LEDs) 
+N/A 
+4.3.13.6 
+Other types ........................................................... : 
+N/A 
+ 
+4.4 
+Protection against hazardous moving parts 
+N/A 
+4.4.1 
+General 
+N/A 
+4.4.2 
+Protection in operator access areas ..................... : 
+N/A
+
+===== PAGE 24 =====
+P a g e 24 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+Household and home/office document/media 
+shredders 
+N/A 
+4.4.3 
+Protection in restricted access locations .............. : 
+N/A 
+4.4.4 
+Protection in service access areas 
+N/A 
+4.4.5 
+Protection against moving fan blades 
+N/A 
+4.4.5.1 
+General 
+N/A 
+Not considered to cause pain or injury. a)………….: 
+N/A 
+Is considered to cause pain, not injury. b) …………: Pinch points, label indicators 
+P 
+Considered to cause injury. 
+c) …………: Topple over, weights provided for 
+stability, labeled. 
+P 
+4.4.5.2 
+Protection for users 
+N/A 
+Use of symbol or warning ……………………………: Labels for pinch points, weights 
+required for stability 
+P 
+4.4.5.3 
+Protection for service persons 
+N/A 
+Use of symbol or warning ……………………………: 
+N/A 
+ 
+4.5 
+Thermal requirements 
+N/A 
+4.5.1 
+General 
+ 
+N/A 
+4.5.2 
+Temperature tests 
+N/A 
+Normal load condition per Annex L ...................... : 
+⎯ 
+4.5.3 
+Temperature limits for materials 
+N/A 
+4.5.4 
+Touch temperature limits 
+N/A 
+4.5.5 
+Resistance to abnormal heat ............................... : 
+N/A 
+ 
+4.6 
+Openings in enclosures 
+N/A 
+4.6.1 
+Top and side openings 
+N/A 
+Dimensions (mm) ................................................. : 
+⎯ 
+4.6.2 
+Bottoms of fire enclosures 
+N/A 
+Construction of the bottom, dimensions (mm) .. : 
+⎯ 
+4.6.3 
+Doors or covers in fire enclosures 
+N/A 
+4.6.4 
+Openings in transportable equipment 
+N/A 
+4.6.4.1 
+Constructional design measures 
+N/A 
+Dimensions (mm) ................................................. : 
+⎯ 
+4.6.4.2 
+Evaluation measures for larger openings 
+N/A 
+4.6.4.3 
+Use of metallized parts 
+N/A 
+4.6.5 
+Adhesives for constructional purposes 
+N/A
+
+===== PAGE 25 =====
+P a g e 25 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+Conditioning temperature (C), time (weeks)........ : 
+⎯ 
+ 
+4.7 
+Resistance to fire 
+P 
+4.7.1 
+Reducing the risk of ignition and spread of flame 
+P 
+Method 1, selection and application of components 
+wiring and materials 
+Use of materials with the 
+required flammability classes. 
+P 
+Method 2, application of all of simulated fault 
+condition tests 
+N/A 
+4.7.2 
+Conditions for a fire enclosure 
+ 
+N/A 
+4.7.2.1 
+Parts requiring a fire enclosure 
+N/A 
+4.7.2.2 
+Parts not requiring a fire enclosure 
+N/A 
+4.7.3 
+Materials 
+P 
+4.7.3.1 
+General 
+P 
+4.7.3.2 
+Materials for fire enclosures 
+N/A 
+4.7.3.3 
+Materials for components and other parts outside 
+fire enclosures 
+N/A 
+4.7.3.4 
+Materials for components and other parts inside fire 
+enclosures 
+N/A 
+4.7.3.5 
+Materials for air filter assemblies 
+N/A 
+4.7.3.6 
+Materials used in high-voltage components 
+N/A 
+ 
+5 
+ELECTRICAL REQUIREMENTS AND SIMULATED ABNORMAL CONDITIONS 
+P 
+5.1 
+Touch current and protective conductor current 
+N/A 
+5.1.1 
+General 
+N/A 
+5.1.2 
+Configuration of equipment under test (EUT) 
+N/A 
+5.1.2.1 
+Single connection to an a.c. mains supply 
+N/A 
+5.1.2.2 
+Redundant multiple connections to an a.c. mains 
+supply 
+N/A 
+5.1.2.3 
+Simultaneous multiple connections to an a.c. mains 
+supply 
+N/A 
+5.1.3 
+Test circuit 
+N/A 
+5.1.4 
+Application of measuring instrument 
+N/A 
+5.1.5 
+Test procedure 
+N/A 
+5.1.6 
+Test measurements 
+N/A 
+Supply voltage (V) ................................................ : 
+⎯ 
+Measured touch current (mA) .............................. : 
+⎯
+
+===== PAGE 26 =====
+P a g e 26 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+Max. allowed touch current (mA) ......................... : 
+⎯ 
+Measured protective conductor current (mA) ....... : 
+⎯ 
+Max. allowed protective conductor current (mA)... : 
+⎯ 
+5.1.7 
+Equipment with touch current exceeding 3,5 mA 
+N/A 
+5.1.7.1 
+General ................................................................. : 
+N/A 
+5.1.7.2 
+Simultaneous multiple connections to the supply 
+N/A 
+5.1.8 
+Touch currents to telecommunication networks and 
+cable distribution systems and from 
+telecommunication networks 
+N/A 
+5.1.8.1 
+Limitation of the touch current to a 
+telecommunication network or to a cable 
+distribution system 
+N/A 
+Supply voltage (V) ................................................ : 
+⎯ 
+Measured touch current (mA) .............................. : 
+⎯ 
+Max. allowed touch current (mA) ......................... : 
+⎯ 
+5.1.8.2 
+Summation of touch currents from 
+telecommunication networks 
+N/A 
+a) EUT with earthed telecommunication ports ..... : 
+N/A 
+b) EUT whose telecommunication ports have no 
+reference to protective earth 
+N/A 
+ 
+5.2 
+Electric strength 
+N/A 
+5.2.1 
+General 
+N/A 
+5.2.2 
+Test procedure 
+N/A 
+ 
+5.3 
+Abnormal operating and fault conditions 
+P 
+5.3.1 
+Protection against overload and abnormal 
+operation 
+Fuse protected. 
+P 
+5.3.2 
+Motors 
+Pump, fused and thermal fuse 
+P 
+5.3.3 
+Transformers 
+N/A 
+5.3.4 
+Functional insulation.............................................. : Functional insulation complied 
+with the requirements c). 
+P 
+5.3.5 
+Electromechanical components 
+5.3.2 
+N/A 
+5.3.6 
+Audio amplifiers in ITE ......................................... : 
+N/A 
+5.3.7 
+Simulation of faults 
+N/A 
+5.3.8 
+Unattended equipment 
+N/A 
+5.3.9 
+Compliance criteria for abnormal operating and 
+fault conditions 
+N/A 
+5.3.9.1 
+During the tests 
+N/A
+
+===== PAGE 27 =====
+P a g e 27 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+5.3.9.2 
+After the tests 
+N/A 
+ 
+6 
+CONNECTION TO TELECOMMUNICATION NETWORKS 
+N/A 
+6.1 
+Protection of telecommunication network service persons, and users of other 
+equipment connected to the network, from hazards in the equipment 
+N/A 
+6.1.1 
+Protection from hazardous voltages 
+N/A 
+6.1.2 
+Separation of the telecommunication network from earth 
+N/A 
+6.1.2.1 
+Requirements 
+N/A 
+Supply voltage (V) ................................................ : 
+⎯ 
+Current in the test circuit (mA) ........................... : 
+⎯ 
+6.1.2.2 
+Exclusions ............................................................ : 
+N/A 
+ 
+6.2 
+Protection of equipment users from overvoltages on telecommunication 
+networks 
+N/A 
+6.2.1 
+Separation requirements 
+N/A 
+6.2.2 
+Electric strength test procedure 
+N/A 
+6.2.2.1 
+Impulse test 
+N/A 
+6.2.2.2 
+Steady-state test 
+N/A 
+6.2.2.3 
+Compliance criteria 
+N/A 
+ 
+6.3 
+Protection of the telecommunication wiring system from overheating 
+N/A 
+Max. output current (A) ........................................ : 
+⎯ 
+Current limiting method ........................................ : 
+⎯ 
+ 
+7 
+CONNECTION TO CABLE DISTRIBUTION SYSTEMS 
+N/A 
+7.1 
+General 
+N/A 
+7.2 
+Protection of cable distribution system service 
+persons, and users of other equipment connected 
+to the system, from hazardous voltages in the 
+equipment 
+N/A 
+7.3 
+Protection of equipment users from overvoltages 
+on the cable distribution system 
+N/A 
+7.4 
+Insulation between primary circuits and cable 
+distribution systems 
+N/A 
+7.4.1 
+General 
+N/A 
+7.4.2 
+Voltage surge test 
+N/A 
+7.4.3 
+Impulse test 
+N/A
+
+===== PAGE 28 =====
+P a g e 28 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+A 
+ANNEX A, TESTS FOR RESISTANCE TO HEAT AND FIRE 
+N/A 
+A.1 
+Flammability test for fire enclosures of movable 
+equipment having a total mass exceeding 18 kg, 
+and of stationary equipment (see 4.7.3.2) 
+N/A 
+A.1.1 
+Samples ................................................................ : 
+⎯ 
+Wall thickness (mm) ............................................. : 
+⎯ 
+A.1.2 
+Conditioning of samples; temperature (C) .......... : 
+N/A 
+A.1.3 
+Mounting of samples ............................................ : 
+N/A 
+A.1.4 
+Test flame (see IEC 60695-11-3) 
+N/A 
+Flame A, B, C or D ............................................... : 
+⎯ 
+A.1.5 
+Test procedure 
+N/A 
+A.1.6 
+Compliance criteria 
+N/A 
+Sample 1 burning time (s)..................................... : 
+⎯ 
+Sample 2 burning time (s)..................................... : 
+⎯ 
+Sample 3 burning time (s)..................................... : 
+⎯ 
+A.2 
+Flammability test for fire enclosures of movable equipment having a total mass not 
+exceeding 18 kg, and for material and components located inside fire enclosures 
+(see 4.7.3.2 and 4.7.3.4) 
+N/A 
+A.2.1 
+Samples, material ................................................. : 
+⎯ 
+Wall thickness (mm) ............................................. : 
+⎯ 
+A.2.2 
+Conditioning of samples; temperature (°C) .......... : 
+N/A 
+A.2.3 
+Mounting of samples ............................................ : 
+N/A 
+A.2.4 
+Test flame (see IEC 60695-11-4) 
+N/A 
+Flame A, B or C .................................................... : 
+⎯ 
+A.2.5 
+Test procedure 
+N/A 
+A.2.6 
+Compliance criteria 
+N/A 
+Sample 1 burning time (s)..................................... : 
+⎯ 
+Sample 2 burning time (s)..................................... : 
+⎯ 
+Sample 3 burning time (s)..................................... : 
+⎯ 
+A.2.7 
+Alternative test acc. to IEC 60695-11-5, cl. 5 and 9 
+N/A 
+Sample 1 burning time (s)..................................... : 
+⎯ 
+Sample 2 burning time (s)..................................... : 
+⎯ 
+Sample 3 burning time (s)..................................... : 
+⎯ 
+A.3 
+Hot flaming oil test (see 4.6.2) 
+N/A 
+A.3.1 
+Mounting of samples 
+N/A 
+A.3.2 
+Test procedure 
+N/A 
+A.3.3 
+Compliance criterion 
+N/A
+
+===== PAGE 29 =====
+P a g e 29 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+ 
+B 
+ANNEX B, MOTOR TESTS UNDER ABNORMAL CONDITIONS (see 4.7.2.2 and 
+5.3.2) 
+N/A 
+B.1 
+General requirements 
+N/A 
+Position ................................................................. : 
+⎯ 
+Manufacturer ........................................................ : 
+⎯ 
+Type ..................................................................... : 
+⎯ 
+Rated values ....................................................... : 
+⎯ 
+B.2 
+Test conditions 
+N/A 
+B.3 
+Maximum temperatures 
+N/A 
+B.4 
+Running overload test 
+N/A 
+B.5 
+Locked-rotor overload test 
+N/A 
+Test duration (days) ............................................. : 
+⎯ 
+Electric strength test: test voltage (V) .................. : 
+⎯ 
+B.6 
+Running overload test for d.c. motors in secondary 
+circuits 
+N/A 
+B.6.1 
+General 
+N/A 
+B.6.2 
+Test procedure 
+N/A 
+B.6.3 
+Alternative test procedure 
+N/A 
+B.6.4 
+Electric strength test; test voltage (V) .................. : 
+N/A 
+B.7 
+Locked-rotor overload test for d.c. motors in 
+secondary circuits 
+N/A 
+B.7.1 
+General 
+N/A 
+B.7.2 
+Test procedure 
+N/A 
+B.7.3 
+Alternative test procedure 
+N/A 
+B.7.4 
+Electric strength test; test voltage (V) ................. : 
+N/A 
+B.8 
+Test for motors with capacitors 
+N/A 
+B.9 
+Test for three-phase motors 
+N/A 
+B.10 
+Test for series motors 
+N/A 
+Operating voltage (V) ........................................... : 
+⎯ 
+ 
+C 
+ANNEX C, TRANSFORMERS (see 1.5.4 and 5.3.3) 
+N/A 
+Position ................................................................. : 
+⎯ 
+Manufacturer ........................................................ : 
+⎯ 
+Type ..................................................................... : 
+⎯ 
+Rated values ....................................................... : 
+⎯
+
+===== PAGE 30 =====
+P a g e 30 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+Method of protection ............................................. : 
+⎯ 
+C.1 
+Overload test 
+N/A 
+C.2 
+Insulation 
+N/A 
+Protection from displacement of windings ............ : 
+N/A 
+ 
+D 
+ANNEX D, MEASURING INSTRUMENTS FOR TOUCH-CURRENT TESTS 
+(see 5.1.4) 
+N/A 
+D.1 
+Measuring instrument 
+N/A 
+D.2 
+Alternative measuring instrument 
+N/A 
+ 
+E 
+ANNEX E, TEMPERATURE RISE OF A WINDING (see 1.4.13) 
+N/A 
+ 
+F 
+ANNEX F, MEASUREMENT OF CLEARANCES AND CREEPAGE DISTANCES 
+(see 2.10 and Annex G) 
+N/A 
+ 
+G 
+ANNEX G, ALTERNATIVE METHOD FOR DETERMINING MINIMUM 
+CLEARANCES 
+N/A 
+G.1 
+Clearances 
+N/A 
+G.1.1 
+General 
+N/A 
+G.1.2 
+Summary of the procedure for determining 
+minimum clearances 
+N/A 
+G.2 
+Determination of mains transient voltage (V) 
+N/A 
+G.2.1 
+AC mains supply .................................................. : 
+N/A 
+G.2.2 
+Earthed d.c. mains supplies ................................. : 
+N/A 
+G.2.3 
+Unearthed d.c. mains supplies ............................. : 
+N/A 
+G.2.4 
+Battery operation .................................................. : 
+N/A 
+G.3 
+Determination of telecommunication network 
+transient voltage (V) ............................................. : 
+N/A 
+G.4 
+Determination of required withstand voltage (V) 
+N/A 
+G.4.1 
+Mains transients and internal repetitive peaks ..... : 
+N/A 
+G.4.2 
+Transients from telecommunication networks ..... : 
+N/A 
+G.4.3 
+Combination of transients 
+N/A 
+G.4.4 
+Transients from cable distribution systems 
+N/A 
+G.5 
+Measurement of transient voltages (V) 
+N/A 
+a) Transients from a mains supply 
+N/A 
+For an a.c. mains supply 
+N/A 
+For a d.c. mains supply 
+N/A
+
+===== PAGE 31 =====
+P a g e 31 | 38 
+ 
+b) Transients from a telecommunication network 
+N/A
+
+===== PAGE 32 =====
+P a g e 32 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+G.6 
+Determination of minimum clearances ................ : 
+N/A 
+ 
+H 
+ANNEX H, IONIZING RADIATION (see 4.3.13) 
+N/A 
+ 
+J 
+ANNEX J, TABLE OF ELECTROCHEMICAL POTENTIALS (see 2.6.5.6) 
+N/A 
+Metal(s) used ....................................................... : 
+⎯ 
+ 
+K 
+ANNEX K, THERMAL CONTROLS (see 1.5.3 and 5.3.8) 
+N/A 
+K.1 
+Making and breaking capacity 
+N/A 
+K.2 
+Thermostat reliability; operating voltage (V) ......... : 
+N/A 
+K.3 
+Thermostat endurance test; operating voltage (V) 
+.............................................................................. : 
+N/A 
+K.4 
+Temperature limiter endurance; operating voltage 
+(V) ........................................................................ : 
+N/A 
+K.5 
+Thermal cut-out reliability 
+N/A 
+K.6 
+Stability of operation 
+N/A 
+ 
+L 
+ANNEX L, NORMAL LOAD CONDITIONS FOR SOME TYPES OF ELECTRICAL 
+BUSINESS EQUIPMENT (see 1.2.2.1 and 4.5.2) 
+P 
+L.1 
+Typewriters 
+N/A 
+L.2 
+Adding machines and cash registers 
+N/A 
+L.3 
+Erasers 
+N/A 
+L.4 
+Pencil sharpeners 
+N/A 
+L.5 
+Duplicators and copy machines 
+N/A 
+L.6 
+Motor-operated files 
+N/A 
+L.7 
+Other business equipment 
+See summary of testing. 
+P 
+ 
+M 
+ANNEX M, CRITERIA FOR TELEPHONE RINGING SIGNALS (see 2.3.1) 
+N/A 
+M.1 
+Introduction 
+N/A 
+M.2 
+Method A 
+N/A 
+M.3 
+Method B 
+N/A 
+M.3.1 
+Ringing signal 
+N/A 
+M.3.1.1 
+Frequency (Hz) ..................................................... : 
+⎯ 
+M.3.1.2 
+Voltage (V) ........................................................... : 
+⎯ 
+M.3.1.3 
+Cadence; time (s), voltage (V) ............................. : 
+⎯ 
+M.3.1.4 
+Single fault current (mA) ...................................... : 
+⎯ 
+M.3.2 
+Tripping device and monitoring voltage ............... : 
+N/A
+
+===== PAGE 33 =====
+P a g e 33 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+M.3.2.1 
+Conditions for use of a tripping device or a 
+monitoring voltage 
+N/A 
+M.3.2.2 
+Tripping device 
+N/A 
+M.3.2.3 
+Monitoring voltage (V) .......................................... : 
+N/A 
+ 
+N 
+ANNEX N, IMPULSE TEST GENERATORS (see 1.5.7.2, 1.5.7.3, 2.10.3.9, 6.2.2.1, 
+7.3.2, 7.4.3 and Clause G.5) 
+N/A 
+N.1 
+ITU-T impulse test generators 
+N/A 
+N.2 
+IEC 60065 impulse test generator 
+N/A 
+ 
+P 
+ANNEX P, NORMATIVE REFERENCES 
+⎯ 
+ 
+Q 
+ANNEX Q, Voltage dependent resistors (VDRs) (see 1.5.9.1) 
+N/A 
+a) Preferred climatic categories ........................... : 
+N/A 
+b) Maximum continuous voltage .......................... : 
+N/A 
+c) Pulse current .................................................... : 
+N/A 
+ 
+R 
+ANNEX R, EXAMPLES OF REQUIREMENTS FOR QUALITY CONTROL 
+PROGRAMMES 
+N/A 
+R.1 
+Minimum separation distances for unpopulated 
+coated printed boards (see 2.10.6.2) 
+N/A 
+R.2 
+Reduced clearances (see 2.10.3) 
+N/A 
+ 
+S 
+ANNEX S, PROCEDURE FOR IMPULSE TESTING (see 6.2.2.3) 
+N/A 
+S.1 
+Test equipment 
+N/A 
+S.2 
+Test procedure 
+N/A 
+S.3 
+Examples of waveforms during impulse testing 
+N/A 
+ 
+T 
+ANNEX T, GUIDANCE ON PROTECTION AGAINST INGRESS OF WATER 
+(see 1.1.2) 
+N/A 
+⎯ 
+ 
+U 
+ANNEX U, INSULATED WINDING WIRES FOR USE WITHOUT INTERLEAVED 
+INSULATION (see 2.10.5.4) 
+N/A 
+⎯ 
+ 
+V 
+ANNEX V, AC POWER DISTRIBUTION SYSTEMS (see 1.6.1) 
+N/A
+
+===== PAGE 34 =====
+P a g e 34 | 38 
+ 
+V.1 
+Introduction 
+N/A
+
+===== PAGE 35 =====
+P a g e 35 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+V.2 
+TN power distribution systems 
+N/A 
+ 
+W 
+ANNEX W, SUMMATION OF TOUCH CURRENTS 
+N/A 
+W.1 
+Touch current from electronic circuits 
+N/A 
+W.1.1 
+Floating circuits 
+N/A 
+W.1.2 
+Earthed circuits 
+N/A 
+W.2 
+Interconnection of several equipments 
+N/A 
+W.2.1 
+Isolation 
+N/A 
+W.2.2 
+Common return, isolated from earth 
+N/A 
+W.2.3 
+Common return, connected to protective earth 
+N/A 
+ 
+X 
+ANNEX X, MAXIMUM HEATING EFFECT IN TRANSFORMER TESTS 
+(see clause C.1) 
+N/A 
+X.1 
+Determination of maximum input current 
+N/A 
+X.2 
+Overload test procedure 
+N/A 
+ 
+Y 
+ANNEX Y, ULTRAVIOLET LIGHT CONDITIONING TEST (see 4.3.13.3) 
+N/A 
+Y.1 
+Test apparatus ..................................................... : 
+N/A 
+Y.2 
+Mounting of test samples ..................................... : 
+N/A 
+Y.3 
+Carbon-arc light-exposure apparatus ................... : 
+N/A 
+Y.4 
+Xenon-arc light exposure apparatus .................... : 
+N/A 
+ 
+Z 
+ANNEX Z, OVERVOLTAGE CATEGORIES (see 2.10.3.2 and Clause G.2) 
+N/A 
+ 
+AA 
+ANNEX AA, MANDREL TEST (see 2.10.5.8) 
+N/A 
+ 
+BB 
+ANNEX BB, CHANGES IN THE SECOND EDITION 
+⎯ 
+ 
+CC 
+ANNEX CC, Evaluation of integrated circuit (IC) current limiters 
+N/A 
+CC.1 
+General 
+N/A 
+CC.2 
+Test program 1……………………………………….: 
+N/A 
+CC.3 
+Test program 2……………………………………….: 
+N/A 
+ 
+DD 
+ANNEX DD, Requirements for the mounting means of rack-mounted 
+equipment 
+N/A 
+DD.1 
+General 
+N/A 
+DD.2 
+Mechanical strength test, variable N………………..: 
+N/A
+
+===== PAGE 36 =====
+P a g e 36 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+DD.3 
+Mechanical strength test, 250N, including end 
+stops……………………………………………………: 
+N/A 
+DD.4 
+Compliance……………………………………………: 
+N/A 
+ 
+EE 
+ANNEX EE, Household and home/office document/media shredders 
+N/A 
+EE.1 
+General 
+N/A 
+EE.2 
+Markings and instructions 
+N/A 
+Use of markings or symbols…………………………: 
+N/A 
+Information of user instructions, maintenance 
+and/or servicing instructions…………………………: 
+N/A 
+EE.3 
+Inadvertent reactivation test…………………………: 
+N/A 
+EE.4 
+Disconnection of power to hazardous moving parts: 
+N/A 
+Use of markings or symbols…………………………: 
+N/A 
+EE.5 
+Protection against hazardous moving parts 
+N/A 
+Test with test finger (Figure 2A) ……………………: 
+N/A 
+Test with wedge probe (Figure EE1 and EE2) ……: 
+N/A
+
+===== PAGE 37 =====
+P a g e 37 | 38 
+ 
+ 
+IEC 60950-1 
+Clause 
+Requirement + Test 
+Result - Remark 
+Verdict 
+ 
+ 
+1.5.1 
+TABLE: List of critical components 
+P 
+Object/part No. 
+Manufacturer/ 
+trademark 
+Type/model 
+Technical data 
+Standard 
+(Edition / year) 
+Mark(s) of 
+conformity 
+PCB 
+Interchangeable 
+Interchangeable 
+V-1 or better, 
+105°C 
+UL 796 
+UL 
+Supplementary information: 
+ 
+4.7 
+TABLE: Resistance to fire 
+P 
+Part 
+Manufacturer of 
+material 
+Type of material 
+Thickness 
+(mm) 
+Flammability 
+class 
+Evidence 
+PCB 
+-- 
+-- 
+-- 
+1 
+1
+.
+
+===== PAGE 38 =====
+

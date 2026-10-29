@@ -1,0 +1,1218 @@
+===== PAGE 1 =====
+“The brain is the conductor of
+ the orchestra.”
+Cathi Lamberti
+ Founder, SMARTfit Inc.
+Brain Health 
+The Next Concept in Human Performance Training
+A Guide to Understanding the Concept, the Business Model, and the Opportunity
+2025 Rev 1.3
+
+===== PAGE 2 =====
+© Copyright SMARTfit Inc.  5-28-25 
+2
+Dedicated to my mentors who, in the early days, taught and 
+encouraged me. Without them I would not have had the courage
+to stick it through.
+Billie Jean King
+John Donati
+Charles Liu
+Mary Rozina
+Thank You to Our 930 Customers, Dealers, and Distributors located in 23 Countries
+For helping SMARTfit to make our Brain Health Concept a reality by providing feedback during the 
+evolution process.
+Special Thanks to Our Clinical Experts who Provided the Clinical Backbone:
+Ryan Glatt
+Dr. Rob Winningham
+Dr. Mike Studer
+Dr. Beth Fisher
+Dr. Charles Liu
+Dr. Nik Satchidanand
+A Special Thanks to Jim Manley
+Our CTO who repeatedly defied the odds during his development of SMARTfit’s operating system, high 
+speed communications, gamification and product line. His work took 12 years, thousands of algorithms 
+(many over 1,000 lines long) and thousands of hours of uncertainty.
+Thank You to the SMARTfit Team
+For sticking together and getting the job done. You are an amazing group of lion-hearted individuals, 
+and I am incredibly grateful for what you have created.
+Julio Martinez, Fred Ranieri, TJ Fairchild, Isabel Hernandez, Eric Pommer, Frauke Wittmer-Grant,
+Tom West, Diego Magdaleno, Lillie Gonzalez, Marlene Fields, Mike Esperance, and Mario Batres
+Thank You to our Friends and Family of Shareholders
+ Who helped us bring SMARTfit into reality without investment from venture capital or investment 
+banks. Your belief and investment are what made it possible for a tiny team to create, prove, and 
+validate an entire technology platform that serves the rehab and Performance markets. A special 
+thanks to those who carried the Company after Covid hit. Thank you for making it possible to keep 
+going and get the job done without diluting the founders.
+Cathi Lamberti, Founder
+SMARTfit Inc.
+
+===== PAGE 3 =====
+© Copyright SMARTfit Inc.  5-28-25
+3
+Table of Contents
+Brain Health - The Next Concept in Human Performance Training ..........................................................5
+	
+A Guide to Understanding the Concept, the Business Model, and the Opportunity............................5
+	
+Market Overview...........................................................................................................................5
+	
+What is SMARTfit and What is its Role in Anchoring a Brain Health Program?.............................6
+	
+Keys to a successful Brain Health and Performance program delivered by SMARTfit.................6
+	
+The Concept is Already Proving Itself...........................................................................................7
+Getting Started with a Brain Health Program............................................................................................7
+Testimonials from Clinical Experts and Customers...................................................................................9
+Examples of Brain Health Solutions That Can Meet the Needs of Every Facility....................................11
+	
+Sports and Tactical Performance Training for Up to 30 Participants..........................................11
+	
+Group and Circuit Training For All Populations Up to 20 Participants........................................11
+	
+Group and Circuit Training for Independent Older Adults for up to 15 Participants...................12
+	
+Group Training and Play Center for Youth, and Youth Sports for up to 40 Participants.
+	
+Perfect for Multipurpose Rooms or Gyms..................................................................................12
+	
+Designed For Any Budget - Group Training and Play Center for all populations,
+	
+including active aging, youth, and sports for up to 10 Participants............................................13
+	
+Design Options for Senior Wellness to Address Every Resident,Memory Care,
+	
+Independent, Personal, and Group Training...............................................................................13
+	
+A Closer View of a Group Training Center Designed for Active Aging, Wellness and
+	
+55+ Populations..........................................................................................................................14
+	
+A Closer View of a Group Training Center Designed for Strength and Conditioning .................15
+SMARTfit CMDT (Cognitive-Motor Dual Task) Training Designed to Improve
+Executive Function Abilities.................................................................................................................. 16
+	
+SMARTfit Uses the Science-Based Adaptive Capacity Model to Deliver Training......................16
+	
+What is SMARTfit Used For?......................................................................................................17
+SMARTfit’s Propietary Operating System............................................................................................. 18
+	
+Provides the Capacity to Deliver a Wide Variety of Applications on a Wide Range
+	
+of Equipment..............................................................................................................................18
+	
+How SMARTfit Works.................................................................................................................18
+SMARTfit System Options.................................................................................................................... 19
+SMARTfit Product Line......................................................................................................................... 20
+Which System is Right for your Clients?.............................................................................................. 23
+SMARTfit Offers Extensive Programming............................................................................................. 24
+	
+Performance Applications...........................................................................................................24
+
+===== PAGE 4 =====
+© Copyright SMARTfit Inc.  5-28-25 
+4
+	
+Rehab Applications.....................................................................................................................24
+	
+Predesigned Programming.........................................................................................................24
+SMARTfit User Interface App Components.............................................................................................25
+SMARTfit Gamification Explained...........................................................................................................27
+	
+Game Categories:.......................................................................................................................27
+	
+Activities:....................................................................................................................................28
+	
+Programs:...................................................................................................................................28
+	
+Tests:...........................................................................................................................................28
+	
+Build Your Own:..........................................................................................................................29
+	
+Data:...........................................................................................................................................29
+	
+Multi-Site Data Management: Performance tracking and Reporting by Facility,
+	
+Therapist/Trainer and Patient......................................................................................................29
+SMALL Group and Large Group Training Programs................................................................................31
+	
+1. Group Training for the SMARTfit Mini, Single and Strike Pods...............................................31
+	
+2. Quick Groups for Group Training Feature Makes it Easy to get Started on All Systems
+	
+Including the SMARTfit ProTrainer and MultiTrainer...................................................................31
+	
+3. Group Training for the ProTrainer and MultiTrainer for Large Groups.....................................32
+	
+Access Options: Cloud or Local.................................................................................................34
+SMARTfit License Options Explained......................................................................................................35
+	
+License G: Games Only..............................................................................................................35
+	
+License P: Performance & Fitness..............................................................................................35
+	
+License R: Rehab, Wellness and Performance...........................................................................36
+	
+License RA: Rehab and Wellness with Assessments..................................................................36
+	
+License SP - Strike Pod Systems - Lifetime License Included...................................................37
+	
+License E: Education..................................................................................................................37
+	
+License EA Annual License: Education and Community Center Assessments...........................38
+What Post-Purchase Services Does SMARTfit offer?.............................................................................39
+	
+Quick Start Video and Web page links:.............................................................................................39
+	
+SMARTfit website links for quick access to information you will need:......................................39
+	
+Video Links.................................................................................................................................40
+
+===== PAGE 5 =====
+© Copyright SMARTfit Inc.  5-28-25
+5
+Brain Health
+The Next Concept in Human Performance Training
+“The brain is the conductor of the orchestra.” – Cathi Lamberti, Founder, SMARTfit Inc.
+A Guide to Understanding the Concept, the Business Model,
+and the Opportunity
+What is Brain Health and How Could it Impact You and Your Business?
+As science and technology have evolved and we have come to understand the power of the brain 
+to enhance both physical and cognitive performance, Brain Health is quickly emerging as the next 
+concept in human performance training. As it emerges, it is benefiting all populations, from early 
+childhood learning to high-level sports and tactical performance, to preventing falls and slowing 
+the progression of dementia and Parkinson’s for older adults. It’s a powerful and timely concept for 
+humanity, and it also represents a major business opportunity.
+Allow the brain to lead and it will elevate the health and performance of everyone. That’s the 
+fundamental premise behind Brain Health training. Everything we do in real life starts with the brain, 
+and almost all human activity requires doing a physical and cognitive task at the same time. It’s 
+not surprising that recent science has demonstrated that training the brain and body together, not 
+separately as we have traditionally done, transfers to improved real-life performance faster and more 
+effectively than physical or cognitive training alone. 
+There is reason for optimism that the brain is finally getting the respect it is due. 
+The 2025 World Economic Forum at Davos, Switzerland listed Brain Health (neurological health, mental 
+health, and cognitive performance) as one of their highest priorities in recognition of both its human 
+and economic impact. It also mentioned the importance of physical exercise.
+Industry professionals who’ve heard about dual-task cognitive-motor training and other brain-led 
+solutions are asking how to include Brain Health in their programming. Key markets where we’re seeing 
+accelerated growth include physical, occupational, speech, and neuro rehabilitation, YMCAs, senior 
+living including assisted living and memory care, longevity programs, community health & recreation 
+centers, medical wellness, military bases, athletic programs, fitness facilities, Boys and Girls Clubs,
+and education.
+Revolutionary new technologies are driving interest and success with unique and effective Brain Health 
+solutions, some of which can measure baselines and track progress. SMARTfit initiated this Guide and 
+is also actively collaborating with other suppliers featured later in the room designs. 
+It’s important, as you learn more about Brain Health to comprehend the distinction between “bottom-up” 
+and “top-down” cognitive processing. Bottom-up solutions challenge and train the brain and body to react 
+faster.  Top-down solutions engage users in more complex activities, uniquely challenging the executive 
+function domain of the brain to not only react faster, but to make quicker and better decisions, improve 
+working memory, enhance cognitive flexibility, and more. 
+All this happens while performing a variety of physical movements and tasks, which carry over to 
+performance in life. Studies have revealed that it is this combination of reaction and executive function 
+training that leads to greater transference to real-world results than simpler reaction or non-brain-led
+
+===== PAGE 6 =====
+© Copyright SMARTfit Inc.  5-28-25 
+6
+strength or cardio training. We are witnessing the birth of a revolutionary health and performance 
+concept. While long overdue, the timing is now.
+What is SMARTfit and What is its Role in Anchoring a Brain Health and Performance Program?
+SMARTfit has been developing technology and gamified programming for this moment for over a 
+decade. In so doing, it has positioned itself to take a leading role in the launch of the concept by 
+delivering some essential keys to success.  
+The partnerships it has created with other suppliers and organizations create additional value and 
+choices, ensure the effective rollout of a comprehensive concept, as opposed to a single new product 
+line. SMARTfit recognizes that it alone does not offer all of the solutions, and it is clear that everyone 
+will benefit from the collaboration of potential competitors who instead work together to deliver the 
+best solutions for each customer.
+As you’ll see later in this Guide, experts in every area of human health and performance have stated 
+that SMARTfit is unique and that the concept of brain-led training will become the “next big thing”, 
+one that will impact all of humankind in ways that no other brain health concept has in the past. It has 
+been said that SMARTfit will lead the way because no other solution delivers such a comprehensive 
+range of top-down and bottom-up programming that engages the brain and body together to improve 
+real-life performance for all ages and abilities.
+Keys to a successful Brain Health program delivered by SMARTfit include:
+•	
+SMARTfit approach to brain health involves brain-led physical peformance, since true 
+peformance in the world requires that both brain and body work efficiently together.
+•	
+Technology Driven Cognitive-Motor Dual-Task (CMDT) programming that trains the brain and 
+body together to deliver fast transference to real-life performance
+•	
+A comprehensive suite of six product lines that address every aspect of human performance 
+training including early childhood development, seniors, high performance athletes, tactical 
+warfighters, and individuals with physical and cognitive disabilities
+•	
+Gamified programming engages and motivates all participants
+•	
+Training that includes both top-down and bottom-up cognitive training
+•	
+Cognitive training that focuses on every domain of the brain: executive function, processing 
+speed, attention and memory
+•	
+Inclusion of the full spectrum of gross motor skills training combined with cognitive training
+•	
+Inclusion of strength, cardio, balance and power combined with cognitive training
+•	
+Evidence-based pre-designed programming for every member of society regardless of age or 
+ability, including rehab, personal training, small group training, and large group training 
+•	
+Programming supported by product – Partnerships with multiple clinical experts deliver 
+clinically valid programming to all sectors including rehab (PT, OT, Speech), assisted, 
+independent older adults, memory care, tactical, sports, strength and conditioning and youth 
+(sports, PE, early childhood and special needs)
+•	
+Collaborative partnerships with compatible technologies, creating a full spectrum business 
+model for clients seeking a turnkey solution
+•	
+Business model structured to deliver a variety of options that ensure a healthy ROI for operators
+•	
+SMARTfit Academy, able to reach every trainer in the world and to keep them current with 
+new programming and new releases
+
+===== PAGE 7 =====
+© Copyright SMARTfit Inc.  5-28-25
+7
+•	
+Predesigned and evolving programming that meets every training need, delivered via our 
+cloud platform, including over 3000 instructional videos
+•	
+Evidence-based data for every program, including baseline testing, progress reporting and 
+management reporting for multi-site organizations
+Customers Being Served:
+The concept is already proving itself:
+•	
+Customer sites: 950 early adopters located in 24 countries
+•	
+Registered accounts: 11,382 registered trainers and clients
+•	
+Games Played: 331,449 games played
+Getting Started with a Brain Health Program
+SMARTfit and our Brain Health program partners recognize that deciding on the right solutions to 
+meet your programming and budget needs, then implementing a new concept, requires much more 
+than implementing a new product. It must include education at all levels to improve the understanding
+
+===== PAGE 8 =====
+© Copyright SMARTfit Inc.  5-28-25 
+8
+of the concept and the business model. For that reason, we consult extensively with you and your 
+team to help you:
+•	
+Fully understand the science of Brain Health and Performance and the benefits it delivers
+•	
+Understand the populations it will serve at your facility and the most appropriate solutions for 
+those populations
+•	
+Determine which evidence-based programming meets the specific needs of participants 
+regardless of ability
+•	
+Plan your business model and concept roll-out, including space, budget, staff and user 
+education, marketing and ongoing refreshment of content to maintain retention
+•	
+Plan your ROI to ensure your new Brain Health program pays for itself in the form of added 
+revenue, fast transference/results, retention/attraction of participants, and differentiation
+from competitors
+SMARTfit works closely with our customers and partners to provide you with a variety of programming, 
+budget, and space options for a “Brain Health” program.  It also helps you introduce the concept to your 
+clients, members, and supporters and even offers donor/grant templates for non-profits and schools.
+While we are encouraged by some buyers’ visions to think big and embrace a total business solution 
+that will turn their programs into revenue generators, profit centers, and paths to differentiate 
+themselves from their competition,we also recognize that you may need to start small and grow 
+later. The important thing is to get started now to you don’t miss what many believe is the next major 
+concept in human performance training. 
+A serious financial commitment tied to these factors is benefiting the customer by producing programs 
+that generate high levels of engagement, positive results and retention. To access options that have 
+been tested and proven by Ryan Glatt of the Pacific Neuro Institute in Santa Monica, California, go to: 
+https://smartfitinc.com/research-papers/ - FitBrain Program (under white papers). Also, find ideas for 
+room designs in the next section of this document.
+SMARTfit believes that this collaboration of solutions is positioned to lead with its new, evidence-based 
+focus on training cognitive and motor performance together, while simultaneously training strength, 
+cardio, proprioception, power and flexibility. This takes human performance training to the next level to 
+maintain focus on training the whole person.
+SMARTfit’s broad product line is designed to fit any business model by providing programming that can 
+attract and retain participants from every demographic group regardless of ability. See further in this 
+Guide for details on specific SMARTfit solutions.
+In summary, to enhance human performance and rehabilitation, SMARTfit links the brain and body 
+through movement, creating and strengthening neural pathways so users can:
+•	
+Make quicker, smarter decisions while moving
+•	
+Execute physical and mental skills more efficiently
+•	
+Process visuals faster in order to react faster
+•	
+Train to enter the flow/zone quickly
+•	
+Improve focus, balance, coordination, and speed
+•	
+Build cognitive reserve to delay cognitive decline
+
+===== PAGE 9 =====
+© Copyright SMARTfit Inc.  5-28-25
+9
+Testimonials from Clinical Experts and Customers
+During SMARTfit’s development phase, the SMARTfit team worked with various universities and 
+industry recognized clinical experts who assisted with the development and refinement of the 
+programming.
+“SMARTfit can improve executive functioning better than physical exercise alone 
+or cognitive alone through dual tasking. The research supports that, and, if we can 
+improve executive functioning, that generalizes to things that have never been trained. 
+This includes the ability to create a new memory, ability to pay attention, ability to 
+inhibit behavior, problem solving and reasoning.”
+Dr. Rob Winningham, PhD. Neuroscience, Published Author, Western Oregon University
+“SMARTfit is the only technology that can scale cognitive demand while concurrently 
+executing a wide variety of physical movements and skills. Progressive increments in 
+cognitive demand while concurrently scaling physical demands ensures leveling and 
+prevents overwhelm or boredom. This allows the concept of demand and supply to 
+produce optimum results for neuroplasticity. This applies to new learning, recovery 
+and preventions.” Dr. Mike Studer, DPT, World-renowned expert in dual-tasking
+“We incorporated SMARTfit into our BRAIN Health Program to help build routines 
+that prevent delay or reduce cognitive decline and memory loss by training the 
+brain and body to work together more efficiently. Every participant in the BRAIN- 
+Health Program has shown improvements in cognitive processing and motor neuro 
+competence. SMARTfit tracks changes and improvements. This data is significant to 
+the trainer in selecting the appropriate activities to meet the participant’s needs.
+The SMARTfit System is also fun, further motivating participants to gain
+improvements in their cognitive and motor skills.”
+Lynn McCrory, PhD, The Bay County Council on Active Aging
+“At the Pacific Institute of Neuro Technology, we have found that SMARTfit can 
+provide a turnkey solution to deliver a variety of training activities such as strength, 
+balance, agility, mobility, and neuromotor all in one through a single technology. At 
+its core, SMARTfit’s multimodal training incorporates scalable cognitive load through 
+its turnkey programming for individuals at different stages of function offering both 
+physical and cognitive engagement in different types of activities and we are seeing 
+people have fun.” Ryan Glatt, MA, Neuroscience, Pacific Neuro Institute
+“Lifestyle recommendations, purposeful engagement, and graded challenges are 
+critical to the successful implementation of personalized brain health programming. 
+So thrilled to have SMARTfit technology AND the brains of Dr. Rob Winningham as 
+innovative partners.”
+Sue Paul, Senior Director of Wellness and Brain Health at Asbury Methodist Village
+“SMARTfit takes the focus of the player off the mechanics and moves it to the 
+external, forcing the brain to solve two problems at the same time. This solves the 
+big missing part in rehab because we want carryover onto the field. SMARTfit is a 
+great tool to test if this is happening before they return to play” Dr. Chris Powers, 
+PhD, PT, FACSM, USC Professor, Director, Biokinesiology Program, Co-Director, 
+Biomechanics Research Lab - Movement Performance Institute
+“Everything in Parkinson’s research points to the need for combining cognitive 
+challenges with physical activities – I cannot think of a better way to do that than
+with SMARTfit.”
+Dr. Beth Fisher, PhD, PT, FAPTA, Professor of Clinical Physical Therapy, USC
+
+===== PAGE 10 =====
+© Copyright SMARTfit Inc.  5-28-25 
+10
+“SMARTfit is an incredibly engineered machine that can basically mimic any kind of 
+neurocognitive test. It also brings in the capacity to do whole body movements in 
+exercise in conjunction with it. You can look at dual task performance how much this 
+alters cognitive ability while moving so it has real potential an assessment tool for 
+alterations for neurocognitive function. It has enormous potential as a treatment or 
+rehabilitation device in which you can combine exercise, attention, cognitive testing 
+and have fun while doing it which will work so much better than other alternatives.”
+Martin Teicher, MD, PhD, Associate Professor of Psychiatry, Harvard Medical 
+School
+“Rehabilitating the body during movement is one thing, but with SMARTfit we can 
+integrate cognitive, motor, and functional movements to stimulate neuroplasticity. 
+SMARTfit has created interactive games that bring together cognitive dual tasking 
+with functional balance and movement.” Jane Mead, PT. DPT, MS - FYZICAL Therapy 
+and Balance Centers - Glendale, CA
+“Using the various activities, our kids are able to work on a variety of skills. Their 
+reaction times and accuracy to hit the targets greatly improve over consecutive trials, 
+demonstrating motor learning and quickened moto responses. We are able to work 
+on static and dynamic postural responses, balance, and proximal stability crucial for 
+participation in playground games and Physical Education classes.”
+Kimberly Koretoff, OTD, OTR/L, SWC, CAS
+“SMARTfit is a smart choice! My patients love it and some refuse to leave without 
+working out on it. It is a great tool as it advances otherwise basic care plans and 
+makes it more engaging and motivating for patients. I use it for patients from all age 
+groups. My Youngest patient is 7 and my oldest is 70. It is so versatile and maximizes 
+my ability to treat in the short time.” Elizabeth McQueary, OT, Banner Sports 
+Medicine and Concussion Center - Phoenix, AZ
+“I see SMARTfit as a way for elite athletes to break through performance plateaus 
+and develop the vital underlying reaction and motor skills for sports. More 
+importantly, it helps to develop efficient on-the-spot mental processing which is great 
+for sports as well as all high-pressure professions such as business, military and 
+policing. This platform is limitless.” Lawrence Jackson, Former NFL Defensive End
+     
+“It’s not often that I’m excited about products but I’m excited about SMARTfit.
+I spent the better part of my career as a trainer and have been doing dual-task 
+training manually with clients for years. To find a system that provides the fun, is 
+engaging, gamified, and competitive, is just fantastic.”
+Kathy Fisher, CEO, West Morris Area YMCA
+“Twelve weeks ago, my friends dragged me to the YMCA. I did not want to carry that six-pound ball all 
+over the place or stand on one foot, looking like a fool. But halfway through the first class on SMARTfit, 
+I was too busy laughing, sweating, and playing with my friends to think about any of that. And now, 12 
+weeks later, I can stand on one foot without being afraid of falling, I can walk farther than I could five 
+years ago, and I have a new group of friends who laugh with me and support me.”
+YMCA MCI Study Participant, University of Buffalo
+
+===== PAGE 11 =====
+© Copyright SMARTfit Inc.  5-28-25
+11
+Examples of Brain Health and Performance Solutions 
+to Meet the Space, Programming, and Budget Needs 
+of Every Facility
+These room-design concepts, based on a 20’ x 40’ room (racquetball court conversion or other 
+available space) utilize SMARTfit along with other brain health solutions. These can be adapted to any 
+available space to meet the objectives of each customer.
+Athletic Training: High-performance Cognitive and Physical Skill Building
+Athletic and Tactical Performance Training for Up to 30 Participants
+Products: SMARTfit ProTrainer 4, SMARTfit High Impact Mini, SMARTfit Strike Pods,
+Matrix Rack System, Reax Treadmill, Reax Lift, Reax Board, ViPR Pro
+Chronic Diseases: Slow the onset of Parkinson’s, MCI, and Dementia
+Personal, Small Group Circuit Training For Wellness Classes Up to 10 Participants (based on a 20’x20’ space)
+Products: 
+Option 1: SMARTfit ProTrainer 2, SMARTfit High Impact Mini On-Wall, SMARTfit Strike Pods, 
+DividatSenso Option 2: SMARTfit High Impact Mini On-Wall and Dividat Senso
+
+===== PAGE 12 =====
+© Copyright SMARTfit Inc.  5-28-25 
+12
+Active Aging: Delay the Aging Process with Improved Physical and 
+Cognitive Skills
+Group and Circuit Training for Independent Older Adults for Up to 15 Participants
+Products: SMARTfit ProTrainer 3, SMARTfit High Impact Mini on-wall, SMARTfit Strike Pods,
+Cybercycle, Reax Run and HUR Multifunction 5X
+Youth Sports, School Age and Teens: Improve Fitness, Learning Skills, 
+and Social Emotional Learning
+Group Training and Play Center for Youth - Up to 40 Participants. Perfect for Multipurpose Rooms or Gyms 
+Engage Athletic and Non-athletic Youth (soccer, basketball, baseball, football, tennis, pickleball, hockey,
+and volleyball)
+Products: SMARTfit ProTrainer 4, SMARTfit Wired Strike Pods 9.
+
+===== PAGE 13 =====
+© Copyright SMARTfit Inc.  5-28-25
+13
+Designed For Any Budget - Group Training and Play Center for All 
+Populations, Including Active Aging, Youth, and Sports for
+Up to 10 Participants
+SMARTfit Wired Strike Pods 15, 9, and 7 options can be configured to suit available space
+Design Options for Senior Wellness to Address Every Resident,
+Memory Care, Independent, Personal, and Group Training
+
+===== PAGE 14 =====
+© Copyright SMARTfit Inc.  5-28-25 
+14
+A Closer View of a Group Training Center Designed for Active Aging, 
+Wellness and 55+ Populations
+Products: SMARTfit ProTrainer 3, SMARTfit High Impact Mini on-wall, SMARTfit Strike Pods,
+Cybercycle, Reax Run, and HUR Multifunction 5X
+
+===== PAGE 15 =====
+© Copyright SMARTfit Inc.  5-28-25
+15
+A Closer View of a Group Training Center Designed for Athletic Training, 
+Strength and Conditioning
+
+===== PAGE 16 =====
+© Copyright SMARTfit Inc.  5-28-25 
+16
+SMARTfit CMDT (Cognitive-Motor Dual Task) Training 
+Designed to Improve Executive Function Abilities
+“SMARTfit can improve executive functioning better than physical exercise alone or cognitive alone 
+through dual tasking. The research supports the idea that, and if we can improve executive functioning, 
+generalizes to things that have never been trained including activities of daily living that can maximize 
+independence and quality of life. This includes the ability to create a new memory, ability to pay 
+attention, ability to inhibit behavior, problem solving and reasoning.”
+Dr. Rob Winningham, Ph.D. Neuroscience, Published Author, Western Oregon University.
+SMARTfit Uses the Science-Based Adaptive Capacity Model to
+Deliver Training
+As hunter gatherers, humans had to use their brains and bodies together in order to survive and 
+advance. Thus, humans evolved by developing the ability to cognitively problem solve, plan, and make 
+decisions in order to finally act, using motor skills to achieve the goal. This interaction between brain 
+and body produced the human evolution of today and is deeply embedded in our DNA.
+
+===== PAGE 17 =====
+© Copyright SMARTfit Inc.  5-28-25
+17
+Since the start of the industrial revolution and more recently computerization, we have shifted to largely 
+inactive, desk-bound, and seated activity. As a result, humans are increasingly sedentary, resulting in a 
+myriad of physical and cognitive conditions which drive up health costs, damage quality of life and limit 
+our abilities in all walks of life.
+Up until now, the fitness, wellness and performance industries have yet to fully embrace this cognitive- 
+motor dual task (CMDT) function as a critical component of the solutions they provide. However, the 
+physical therapy industry has been using this technique for the past thirty years, producing extensive 
+evidence that training the brain and body together (dual tasking) provides faster results than training 
+either one alone. Recent studies specific to SMARTfit have confirmed this.
+What is SMARTfit Used For?
+1.	 Performance: Improve cognitive-motor, dual-task functional performance for all ages and abilities, 
+including, but not limited to, athletes, military tactical personnel, older adults, K-12 physical 
+education, early childhood education, mental health clients, and those with special needs including 
+those on the autism spectrum.
+2.	 Repair: Orthopedic & Chronic/Acute Neuro-rehab, Concussion, Vestibular Health
+3.	 Mitigation: Falls in Older Adults, Mild Cognitive Impairment (MCI), and Dementia
+4.	 Delaying: Loss of Activities of Daily Living (ADL’s), onset of Parkinson’s symptoms, MCI, Dementia
+
+===== PAGE 18 =====
+© Copyright SMARTfit Inc.  5-28-25 
+18
+SMARTfit’s Proprietary Operating System
+Provides the Capacity to Deliver a Wide Variety of Applications on a 
+Wide Range of Equipment
+SMARTfit’s Technology includes its own proprietary operating system that drives multiple product lines, 
+each designed to serve different application needs. As the illustration explains, the systems deliver content 
+from an iOS/Android tablet that is connected to the Cloud. Programming is delivered via 20 game suites 
+and 3,000 pre-designed activities that have been developed to serve every demographic group.
+How SMARTfit Works
+A high-speed controller receives instructions from the SMARTfit Android/iOS App user interface, 
+distributing gamified content to and from any number of computerized targets located in front of and 
+around the individual. Each target features a computerized display providing stimulus and an adjustable 
+touch sensor capturing responses, which trains the participant to manage their power appropriately.
+The purpose is to stimulate each participant’s physical and cognitive interaction in a way that simulates 
+real life. Progressive leveling enables participants of any age or ability to enhance their cognitive and 
+physical abilities at a pace appropriate to themselves.
+
+===== PAGE 19 =====
+© Copyright SMARTfit Inc.  5-28-25
+19
+SMARTfit System Options
+1.	 SMARTfit Mini – This system is available in 5 hardware configurations, each with three controller 
+software license options (rehab, performance, and games only). It has the option to add 1-15 
+wireless SMARTfit Strike Pods to create a 360-degree training experience. The Mini is the only 
+system used for implementation of the Cognitive and Dual Task Cost Tests.
+2.	 SMARTfit Trainer – This system is available in two configurations, each with two controller 
+software license options (performance and games only). It has the option of adding 1- 15 SMARTfit 
+Strike Targets to create a 360-degree training experience. It is available as an on-wall installation, or 
+free-standing on a frame. The Trainer is not upgradable to the MultiTrainer or ProTrainer because it 
+does not have an additional scoreboard.
+3.	 SMARTfit MultiTrainer Gen 2 – This system is available with the Education Controller Software 
+License. It is offered with 1-4 stations to accommodate large groups of between 1 and 10 
+participants per station. It is only available as an on-wall installation for gyms and multi-purpose 
+training rooms and is blue in color. Scores are tracked on each station, setting up competition with 
+an additional scoreboard that tracks the total score of all stations. Software now offers an extended 
+suite of games and pre-designed activities and programs including data tracking of individuals in a 
+large group setting.
+4.	 SMARTfit ProTrainer Gen 2 – This system differs from the MultiTrainer in that the panels/
+stations are joined together. The Performance Controller Software License (required) operates 
+in two settings: MultiTrainer setting scores are tracked on each station setting up competition. 
+In Performance setting all targets on all panels join together, simulating a backboard or goal to 
+track a single score. It is ideal for sports performance, individual or team training. It is offered 
+with 1-4 stations to accommodate large groups or teams. It is available as an on-frame or on-wall 
+installation for gyms and multi-purpose training rooms and is black in color. Software now offers 
+an extended suite of games and pre-designed activities and programs including data tracking of 
+individuals in a large group setting.
+5.	 SMARTfit Wireless Strike Pods Gen 2 – Now available in Gen 2 wireless configurations with 
+intelligent rapid charging and additional safety features which prevent over-charging of batteries. 
+Power banks are no longer used, making it easy to transport replacement batteries by air. These 
+systems are available in the following configurations: 3, 5, 7, and 9 strike pods, with the ability to 
+add more; maximum 15. In addition, wireless systems can be added to any of the SMARTfit Mini or 
+Trainer models. The SP Controller Software License is included.
+6.	 SMARTfit Wired Strike Pods – Now available in wired configurations, the following are available: 
+3, 5, 7, 9 and 15 strike pods. Color choices are recommended to support various programming 
+options with team play. The spacing between Strike Pods can vary; be sure to request wire length 
+at time of purchase. The SP Controller Software License is included.
+
+===== PAGE 20 =====
+© Copyright SMARTfit Inc.  5-28-25 
+20
+SMARTfit Product Line
+
+===== PAGE 21 =====
+© Copyright SMARTfit Inc.  5-28-25
+21
+
+===== PAGE 22 =====
+© Copyright SMARTfit Inc.  5-28-25 
+22
+
+===== PAGE 23 =====
+© Copyright SMARTfit Inc.  5-28-25
+23
+Which System is Right for your Clients?
+1.	 Rehab: SMARTfit High Impact or Low Impact Mini with or without SMARTfit Strike Pods. This 
+model offers a higher concentration of targets with Strike Pods adding a 360-degree playing area. 
+The SMARTfit portable Neuro Kit comes with everything needed to deliver neuro-rehab at
+multiple locations.
+2.	 Fitness and Performance Training: SMARTfit ProTrainer is our flagship high performance 
+sports and fitness team training solution. SMARTfit MultiTrainer is a great solution for school PE 
+and community centers offering after-school training. SMARTfit High Impact Mini: for functional 
+fitness for all ages. SMARTfit Trainer is best for ball sports and youth programs. Add Strike Pods 
+for a 360-degree playing environment. SMARTfit Low Impact Mini or Wired Strike Pods: for early 
+childhood education and special needs.
+3.	 Portable/Flexible 360-degree training for Rehab or Performance, indoors and outdoors: 
+SMARTfit wireless Strike Pods offer programming in all modes with the benefit of increasing the 
+playing area up to 100 feet with up to 15 Strike Pods.
+4.	 Small Group Training: Using the SMARTfit Mini or Single, for small groups (3-5 per system) in 
+round robin programming adds a fun, social element, or to use SMARTfit as the “cognitive and dual 
+task” station of a circuit training program. SMARTfit Strike Pods can also be placed over a large area.
+5.	 Large Group Training: For large groups of athletes, active agers or youth, the MultiTrainer or 
+ProTrainer options are best, offering between 2 and 4 stations for team training. Choose the 
+ProTrainer for team sports training or large fitness classes.
+
+===== PAGE 24 =====
+© Copyright SMARTfit Inc.  5-28-25 
+24
+SMARTfit Offers Extensive Programming
+Performance Applications
+1.	 High Performance Cognitive Training for Athletes.
+2.	 Cognitive Motor Dual Task Strength and Conditioning Training for Tactical Performance.
+3.	 Active Aging programs in community centers, fitness centers and retirement communities.
+4.	 Youth Programs: after school, sports, physical education.
+5.	 Early Childhood Development Programs.
+Rehab Applications
+1.	 Assisted individuals who use a wheelchair, walker, or cane for mobility. Programming focuses on 
+improving core strength, balance, mobility, and cognitive function, especially when doing a physical task.
+2.	 Independent Older adults focusing on delaying the onset of cognitive and physical decline.
+3.	 Acute Neuro-Rehab for ABI/TBI, including concussion, stroke, Parkinson’s, and other chronic 
+neurological conditions. 
+4.	 Chronic Neuro-Rehab for slowing or preventing Parkinson’s, MS, Vestibular challenges, Mild 
+Cognitive Impairment, and Dementia.
+5.	 Orthopedic Rehab for later stage upper and lower extremity rehab and return-to-play sports.
+The neuro-dynamics of dual task is not the same as cognitive stimulation alone. Therefore, dual tasks 
+are superior training for functional contexts (locomotion coupled with executive functions) when 
+compared to cognitive training, for the sheer reasons of task specificity and brain-location specificity. 
+1.	 Pilot Studies Using SMARTfit on specific populations:
+	
+a. Parkinson’s – University of Southern California, published in November 2021
+	
+b. MCI - University of Buffalo – published in January 2023
+	
+c. Brain Health – Miami University (Ohio) – published in 2024
+Predesigned Programming
+SMARTfit offers predesigned programming modules and data tracking for personal, small group and 
+large group training.
+
+===== PAGE 25 =====
+© Copyright SMARTfit Inc.  5-28-25
+25
+SMARTfit User Interface App Components
+  
+All SMARTfit Systems are now activated and managed via the SMARTfit User Interface App available 
+on the iOS or Android platforms and can provide programming updates via internet. This is a 
+key feature that ensures that all customers will always be able to access the latest software and 
+programming updates from anywhere in the world.
+For learning and demonstration purposes, all SMARTfit Sales Representatives should download the 
+SMARTfit app from Apple or Android app stores. Search for “SMARTfit, Seize the Now”.
+
+Sign in with Username: demo@smartfitinc.com and Password: SMARTfit20N!
+
+Below are screenshots of the five main tabs. “Test” is available only with the RA license:
+The following updates are regularly delivered:
+•	
+New Games
+•	
+New Activities
+•	
+New Programs for every demographic group
+•	
+New Quick Start programs to help customers get started
+SMARTfit’s internet-delivered programming updates take place via the iOS/Android SMARTfit app user 
+interface. All programs, client data, and progress tracking is stored on the HIPAA compliant cloud, thus 
+ensuring data is secure and that the systems will never be outdated.
+1.	 Four Modes: SMARTfit’s user interface comes in four modes which enables payment only for what 
+is needed: Rehab, Fitness, Education, and Games Only (explained in more detail later).
+2.	 Games:  Our games address all areas of the brain and form the foundation of the SMARTfit system. 
+When paired with a physical task they become activities, programs and tests. There are 17 game 
+categories, each focusing on integrating cognitive, neuro and physical abilities. Cognitive focus 
+is placed on improving processing speed, attention, executive function, memory, and language. 
+Physical training focuses on strength, balance, gait, and activities of daily living.
+
+===== PAGE 26 =====
+© Copyright SMARTfit Inc.  5-28-25 
+26
+SMARTfit game categories provide scalable training designed to address multiple brain domains while 
+igniting improvement in the brain and body connection.
+User settings within each game allow trainers to precisely control how their clients are challenged. Each 
+folder includes multiple variations of games, and each game can be tailored to match and challenge the 
+physical and cognitive capability of any participant. Challenges can be gradually increased by altering 
+the length of the games as well as by making incremental changes to the settings.
+Variations include:
+•	
+options for how many and which targets will be used
+•	
+the sequence 
+•	
+the level of sensitivity
+•	
+the images displayed
+•	
+the physical activity while interacting with the targets
+In this way, skill building takes place in a controlled and measured way to ensure the best balance 
+of challenge and safety and also match the level of participants’ ability. Note that the systems 
+communications can execute games at a speed faster than the fastest athlete while tracking 
+performance data in real time.
+
+===== PAGE 27 =====
+© Copyright SMARTfit Inc.  5-28-25
+27
+SMARTfit Gamification Explained
+SMARTfit’s power lies in its gamified delivery of programming that will continuously demand faster 
+and more accurate results from its participants without incurring overwhelm or boredom. This form 
+of gamified practice, delivering score under time pressure, triggers engagement, incentive and high 
+repetitions to create the practice required to develop and strengthen neural pathways. It is this 
+intensified motivation to improve game results that drives the demand on the brain and motor system to 
+develop new and more efficient neural pathways.
+The more individuals practice at a higher level than their comfort zone, the faster the entire neuro system 
+will respond to meet the increasing demand. Continued practice at ever-increasing levels of demand is 
+how accelerated results are achieved. Of significance, the SMARTfit problem-solving games serve to 
+achieve the dual task engagement, which is the key to accelerating cognitive-motor improvement. This is 
+how champions are developed in record time.
+Data provides evidence of a person’s present level of function and later proof of progress. SMARTfit’s 
+tests are quick and easy to administer, with progress reporting designed to reveal the effectiveness of 
+subsequent training as it applies to sports performance, activities of daily living, decreased fall risk, and 
+other performance indicators while also enhancing self-confidence and engagement.
+Game categories offered within the SMARTfit user interface app provide scalable training designed to 
+address multiple brain domains while igniting improved performance of the brain and body connection.
+User settings within each game allow trainers to precisely control how their clients are challenged and 
+trained. Each folder includes multiple variations of games, and each game can be tailored to match and 
+challenge the physical and cognitive capability of participants. Challenges can be gradually increased by 
+altering the length of the games as well making incremental changes to the settings. Variations include:
+•	
+options on how many and which targets will be used
+•	
+the sequence 
+•	
+the level of sensitivity
+•	
+the images that will be displayed
+•	
+the physical activity that will be done while interacting with the targets
+ 
+In this way, skill building takes place in a controlled and measured way, ensuring the best balance of 
+challenge and safety to match the level of ability of participants.
+Game Categories:
+1.	 Rally Wall: Skill – Ball Play – Ball Strike Within the Lit Region 3
+2.	 Knock the Lights Out: Option of Race or Timed – Brain Domain Focus – Processing Speed           
+3.	 Track: Strike Sequential Lit Target – Brain Domain Focus – Processing Speed/Executive Function
+4.	 Track Left, Right, Both: Sequential Lit Target/Decision Making – Brain Domain Focus – Processing 
+Speed/Executive Function
+5.	 Chase: Sequential Lit Target/Preset Time Interval – Brain Domain Focus – Processing Speed/Executive 
+Function
+6.	 Go No Go: Sequential Lit Target/Preset Time Interval (Interval/Avoid) – Brain Domain Focus – 
+Processing Speed/Executive Function
+7.	 Seek: Multiple Choice – Brain Domain Focus – Attention/Executive Function
+8.	 Metronome: Synchronize Taps with Tone – Brain Domain Focus – Memory/Attention
+
+===== PAGE 28 =====
+© Copyright SMARTfit Inc.  5-28-25 
+28
+9.	 Pattern Recognition: Tap Matching Targets – Brain Domain Focus – Memory/Attention
+10.	Stroop: Match Congruent/Incongruent Targets – Brain Domain Focus – Executive Function/Attention
+11.	Flanker: Tap Targets Prompted by Middle Arrow on Center Target – Brain Domain Focus – Executive 
+Function/Attention
+12.	Corsi Block: Tap Targets in Sequence with Increasing Complexity – Brain Domain Focus – Memory/
+Executive Function 
+13.	Trail Making: Multiple Choice/Completion Time – Brain Domain Focus – Attention/Executive Function 
+14.	Digit Span: Tap Targets in Sequence with Increasing Complexity – Brain Domain Focus – Memory/
+Executive Function
+15.	Serial 7’s: Multiple Choice Descending by 7’s (Completion Time) – Brain Domain Focus – Memory/
+Executive Function 
+16.	Memory Pairs: Match Identical Targets Until All are Found – Brain Domain Focus – Memory/
+Executive Function 
+17.	Pairing: Match Identical Targets/Refresh Each Time – Brain Domain Focus – Memory/
+Executive Function
+18.	Memory Sequence: Tap Each Sequential Target – Race (first target sets start) – Brain Domain Focus 
+– Memory/Executive Function 
+19.	Equations: Multiple Choice with Problem Solving – Brain Domain Focus – Executive Function/Attention
+20.	Spelling: Tap Correct Order of Letters – Brain Domain Focus – Executive Function/Attention
+21.	Time Clock and Timer: Provides a valuable tool when setting and monitoring non-SMARTfit group 
+activities
+Activities: 
+An activity is a game tied to a specific physical activity. Numerous client-specific folders are provided, 
+each offering an extensive variety of predesigned dual task (cognitive and motor) activities. With over 
+3,000 in total, each activity is supported with a how-to video designed to demonstrate progressive 
+increments to address each client’s ability.
+Programs: 
+A program consists of specifically chosen activities deployed in a sequence. Programs include desired 
+repetitions and length of time. Ready-to-go turnkey dual task programs allow for quick implementation 
+of scalable workouts that also deliver progress reporting. These programs are built from pre-designed 
+activities folders.
+Tests: 
+SMARTfit offers two kinds of tests available only in Rehab Mode on the SMARTfit Mini.
+a.    Cognitive Tests: a series of gold standard cognitive tests done using the entire body rather
+than the traditional use of a computer or pen and paper. These include Trail Making A, Trail Making A 
+and B, Symbol Comparison, Digit Span Forward, Digit Span Backwards, Corsi Block, Flanker, Serial 
+7’s, and Stroop.
+b.   Dual Task Cost Test: These are the only standardized dual task cost tests for independent and 
+assisted older adults being deployed on the cloud. They provide evidence of progress and transference 
+of all interventions provided by the trainer/therapist from an initial baseline test.
+
+===== PAGE 29 =====
+© Copyright SMARTfit Inc.  5-28-25
+29
+They capture the loss of performance when a person completes a cognitive and motor task together 
+as opposed to doing either of them separately. This “dual task cost” report provides a means to track 
+improvement in cognitive and/or physical function over time. Since activities of daily living (ADLs) are 
+all essentially dual task, this test, based on over 30 years of research, offers a powerful yet simple way 
+of tracking transference and the efficacy of functional skills in clients.
+Build Your Own: 
+The build tab offers some outstanding features including the ability to:
+•	
+create customized reports from data collected from any pre-designed or self-created program
+•	
+design specific target sequences with any game
+•	
+create specific levels within a game
+•	
+insert a new list into the spelling game
+Data: 
+SMARTfit captures data from its programs and tests which can be delivered on screen as a PDF report, 
+or electronically via Excel or API.
+Multi-Site Data Management: Performance tracking and Reporting by 
+Facility, Therapist/Trainer and Patient
+Standardized programming, testing and data tracking for multi-site organizations provides HQ with 
+a detailed dashboard showing the progress of each client or program at each location. This offers a 
+powerful marketing tool to increase the organization’s competitive advantage. SMARTfit now provides 
+evidence-based technology that automatically tracks data from rehab or wellness programs across the 
+entire organization – providing the ability to:
+•	
+Demonstrate efficacy at HQ
+•	
+Increase staff accountability
+•	
+Motivate participants by sharing assessment and training results with them, and
+market the overall results to attract more participants and differentiate your business!
+
+===== PAGE 30 =====
+© Copyright SMARTfit Inc.  5-28-25 
+30
+SMARTfit does all of the above and more, tracking key brain and body performance data by 
+participant, trainer/therapist, and location. Clients, residents, and members enjoy the experience. 
+The gamified, dual-task programming not only becomes faster with more effective results but also is 
+engaging and challenging for all ages and ability levels.
+YouTube: https://www.youtube.com/watch?v=cn0ltf-3ykQ&t=3s/
+
+===== PAGE 31 =====
+© Copyright SMARTfit Inc.  5-28-25
+31
+SMALL Group and Large Group Training Programs
+ 
+1. Group Training for the SMARTfit Mini, Single, and Strike Pods
+SMARTfit’s group training feature makes it easy for trainers to manage multiple clients at once while 
+tracking each person’s progress in real time. The addition of an on-wall airplay TV monitor above the 
+SMARTfit controller tracks each person’s position in the program by displaying the order of players and 
+the activities yet to be completed. This ensures that everyone stays engaged, knows what to do next, 
+views a video of each sequential task, and tracks scores.
+2. Quick Groups for Group Training Feature Makes it Easy to get  
+    Started on All Systems Including the SMARTfit ProTrainer, and  
+    MultiTrainer
+A powerful time-saver for trainers, teachers, and coaches, Quick Groups allows them to set up group 
+training sessions without the need to create individual profiles for each participant. This feature 
+makes it easier than ever to organize sessions efficiently and focus on delivering an engaging training 
+experience.
+Additional features are available in Group Training that offer various options for setting up group 
+training. These include:
+
+===== PAGE 32 =====
+© Copyright SMARTfit Inc.  5-28-25 
+32
+3. Group Training for the ProTrainer and MultiTrainer for Large Groups
+The SMARTfit ProTrainer and MultiTrainer now support group training in multi-station mode, making it 
+easier to engage large groups in a structured format. The video shows how easy it is to get started with 
+predesigned group training with data tracking of each individual. Watch the video here:
+https://www.youtube.com/watch?v=8wTI2GtugFc
+Note: Remember to get a set of SMARTfit wrist bands to assist players in tracking their place in play. 
+Load your group into a multi-station group training format:
+Your active group will be automatically loaded 
+across your stations evenly.
+You can drag and drop users into different 
+stations if you would like to make any 
+changes.
+You can also swipe left on a member to 
+remove them from their station if they are not 
+present for this group training session.
+These functions provide a flexible setup.
+
+===== PAGE 33 =====
+© Copyright SMARTfit Inc.  5-28-25
+33
+Choose Self-Select Mode or Fixed Order Mode to 
+determine the sequence of participation.
+Self-select will allow you to choose which member 
+with an available turn is up next at each station. 
+Fixed order will automatically select the next 
+member to be up at each station.
+Alternate users by each attempt, activity, or 
+program for dynamic training sessions.
+Stations are color-coded to match the 
+new SMARTfit wristbands (Blue, Red, 
+Yellow, and Green), streamlining user 
+identification and organization.
+AirPlay support allows you to cast the 
+Group Training Tracker to a second 
+screen when using iOS for real-time 
+progress tracking.
+
+===== PAGE 34 =====
+© Copyright SMARTfit Inc.  5-28-25 
+34
+Access Options: Cloud or Local
+SMARTfit offers extensive resources via its Cloud service, including the ability to have everyone’s 
+progress stored on the Cloud for any device. This delivers programming and access to regular software 
+updates. Because not everyone can enjoy the benefits of the Cloud, SMARTfit also offers Local Mode 
+in which the Android/iOS tablet used to operate the system is set to local mode and data is stored on 
+the tablet itself. When an update is needed, the tablet is taken to a location where the update can be 
+downloaded and can be implemented upon return to the system.
+
+===== PAGE 35 =====
+© Copyright SMARTfit Inc.  5-28-25
+35
+SMARTfit License Options Explained
+•	
+SMARTfit offers a variety of licenses designed to meet your programming and budgetary 
+needs. Ask your SMARTfit consultant to assist in determining which license is best for you.
+•	
+All SMARTfit systems except the SMARTfit Strike Pods require a choice of license for one 
+or more years. All licenses include periodic program updates. To receive a lifetime license, 
+purchase 5 years. Strike Pod systems automatically include a lifetime license.
+•	
+SMARTfit owners may opt out of the license when it expires. Opting out allows owners 
+continued access to basic games and data already collected while losing access to all 
+program updates except bug fixes. Customers may also switch to another license.
+•	
+Add wireless SMARTfit Strike Pod targets to any Individual SMARTfit panel system (no 
+additional license required) to create a 360-degree training experience.
+License G: Games Only
+Applications: Sports performance, rehab, fitness, wellness, tactical, physical education, special 
+education, adaptive programs, brain/body health, sensory integration, and home facilities and programs
+Populations: All ages and abilities
+•	
+20+ folders of games focusing on a suite of games that address specific domains of the brain. 
+New game suites are continually added. Examples: Track sequential targets; Seek (multiple 
+choice), Go-No-Go (impulse control), Memory (14 short-term memory games), Cognitive 
+training (Trail Making A/B, Stroop, Digit Span, Corsi Block, Flanker, Serial 7’s, Pattern 
+Recognition, etc.), Metronome, Equations, Spelling, and more.
+•	
+Game data tracking available
+•	
+Note that all client data activities and program tracking, tests, reporting, and data exporting 
+will require the purchase of either Model R or Model P controller
+License P: Performance & Fitness
+Applications: Sports performance, rehab, fitness, wellness, tactical, physical education, special 
+education, adaptive programs, brain/body health, sensory integration, and home facilities and programs
+Populations: All ages and abilities
+Includes: the following, plus everything in the Games Only License:
+•	
+1,000+ ready-to-use video supported activities and programs arranged in folders sorted by 
+demographic include personal training, active aging, tactical training, sports skills training, 
+and youth training
+•	
+Client Management: Managing and monitoring unlimited numbers of clients
+•	
+Easy customizable programming and reporting/exporting option
+•	
+Multi-site Monitoring: Deployment of programming across multiple sites monitors data of all 
+clients at all sites. Provides validation of success of all programs, not only SMARTfit.
+
+===== PAGE 36 =====
+© Copyright SMARTfit Inc.  5-28-25 
+36
+•	
+Group Training: Automatic data tracking using QR wristbands
+•	
+SMARTfit’s Leaderboards and Challenges are designed to drive engagement and 
+competitiveness with self and others, with leaderboards tracking the high scores in a set of 
+brain-body activities that are applicable to each demographic group
+•	
+SMARTfit tournaments are offered to enliven competition and boost engagement. They can 
+operate on the Cloud or privately at a single member site or across multiple sites if the multi-
+site subscription is used
+License R: Rehab, Wellness, and Performance
+Applications: Rehab – Orthopedic, Neuro, Motor, Pediatrics
+Older Adults – Active Aging, Senior Living, Assisted Living, Memory Care, Skilled Nursing
+Populations: Rehab – Stroke, ABI, TBI, Concussion, Workers’ Compensation, Return-to-Play Sports, 
+Return-to-Tactical-Duty
+Older Adults – Active Aging, Assisted, MCI, Dementia, Alzheimer’s, Parkinson’s
+Includes the following plus everything in the Games Only License
+•	
+Client Management: managing and monitoring programming and performance data for an 
+unlimited number of clients
+•	
+2,000+ pre-designed rehab activities and programs arranged in 6 folders of turnkey 
+programming with how-to videos ready to deploy. Includes: orthopedic, neuro, brain health 
+for independent adults, brain health for assisted adults, brain health based on MMSE scores
+•	
+1,000+ ready-to-use video supported performance activities and programs arranged in 
+folders sorted by demographic include personal training, active aging, tactical training, sports 
+skills training, youth training
+•	
+Easy customizable programming and reporting/exporting option
+•	
+The ability to create and build activities include selections and sequences of activated targets 
+and content to suit specific training needs
+•	
+Multi-site Monitoring: Deployment of programming across multiple sites monitors data of all 
+clients at all sites. Provides validation of success of all programs, not only SMARTfit.
+•	
+Group Training: Automatic data tracking using QR wristbands
+•	
+Leaderboards and Challenges: designed to drive engagement and competitiveness with self 
+and others, SMARTfit’s leaderboards track the high scores in a set of brain-body activities 
+that are applicable to each demographic group/gender
+License RA: Rehab and Wellness with Assessments
+Available Only with any SMARTfit Mini Model
+Applications: Rehab – Orthopedic, Neuro, Motor, Pediatrics
+Older Adults – Active Aging, Senior Living, Assisted Living, Memory Care, Skilled Nursing
+
+===== PAGE 37 =====
+© Copyright SMARTfit Inc.  5-28-25
+37
+Populations: Rehab – Stroke, ABI, TBI, Concussion, Workers’ Compensation, Return-to-Play Sports, 
+Return-to-Tactical-Duty
+Older Adults – Active Aging, Assisted, MCI, Dementia, Alzheimer’s, Parkinson’s
+Includes the following plus everything in the Rehab, Performance, and Fitness Licenses:
+•	
+SMARTfit Dual Task Cost, Physical Screening, and Cognitive Assessments
+•	
+Eight Neuropsychological Tests combined with a motor activity including: Trail Making A & B, 
+Digit Span Forward & Backwards, Corsi Block, Symbol Comparison A & B,
+Stroop A & B, Serial 7s
+•	
+Baseline and progress monitoring Dual Task Cost test measures and tracks transfer of all 
+interventions to activities of daily living (ADL’s), developed by renowned experts Drs. Mike 
+Studer and Rob Winningham. Addresses Lower Extremity x 9; Balance x 12; Gait x 12. For 
+Assisted level and independent level older adults
+License SP - Strike Pod Systems - Lifetime License Included
+Applications: Sports performance, rehab, fitness, wellness, tactical, physical education, special 
+education, adaptive programs, brain/body health, sensory integration, and home facilities and programs
+Populations:  All ages and abilities
+Includes the following:
+•	
+20 folders of gamified categories with variable difficulties and challenges including track, seek 
+(multiple choice), metronome, Go/No-Go, Memory, Spelling, Equations, and more
+•	
+107 activities with how-to videos covering transfers, reaching, power, fine motor/dexterity, 
+stepping, and balance in seated, assisted, and standing positions
+•	
+Turnkey Programming for all ages and abilities – sports performance, tactical performance, 
+older adults, PE, and special education
+•	
+Trainer-Client management capability: Multiple trainers managing and monitoring an unlimited 
+number of clients
+•	
+Easily customizable programming and reporting/exporting options
+License E: Education
+Applications: Kinesthetic learning, physical education, adaptive PE, special education, sports After-
+school programs at YMCAs, JCCs, Community Centers, Boys & Girls Clubs
+Populations: Youth of all ages and abilities
+Includes:
+•	
+Games Content
+•	
+Data Management: managing and monitoring unlimited number of students
+•	
+Easily customizable programming and reporting/exporting option
+•	
+Multi-site Monitoring: Deployment of programming across multiple sites monitors data of all 
+students at all sites.  Provides validation of success of all programs not only SMARTfit.
+•	
+Group Training: Automatic data tracking using QR wristbands
+
+===== PAGE 38 =====
+© Copyright SMARTfit Inc.  5-28-25 
+38
+•	
+Leaderboards and Challenges: designed to drive engagement and competitiveness with self 
+and others, SMARTfit’s leaderboards track the high scores in a set of brain-body activities 
+that are applicable to each demographic group/gender.
+License EA Annual License: Education and Community Center 
+Assessments
+Available Only with any SMARTfit Mini Model 
+Applications:  After-school and other programs at YMCAs, JCCs, Community Centers,
+Boys & Girls Clubs
+Populations:  Youth, active aging, adaptive
+Includes the following plus everything in the Education License
+•	
+SMARTfit Dual Task Cost, Physical Screening, and Cognitive Assessments License
+•	
+Eight Neuropsychological Tests combined with a motor activity including: Trail Making A & 
+B, Digit Span Forward & Backwards, Corsi Block, Symbol Comparison A & B, Stroop A & B, 
+Serial 7s
+•	
+Baseline and progress monitoring Dual Task Cost test measures and tracks transfer of all 
+interventions to activities of daily living (ADL’s) – developed by renowned experts Drs Mike 
+Studer and Rob Winningham: Lower Extremity x 9; Balance x 12; Gait x 12. For Assisted level 
+and independent level older adults
+SMARTfit’s API (for developers only) Sold Separately
+•	
+SMARTfit’s Application Programming Interface enables its software components to 
+communicate with 3rd party applications using a set of definitions and protocols. Call for 
+pricing and details
+
+===== PAGE 39 =====
+© Copyright SMARTfit Inc.  5-28-25
+39
+What Post-Purchase Services Does SMARTfit offer?
+1.	 Regular  firmware and App updates are delivered via the internet, ensuring your system never goes 
+out of date. License required.
+2.	 SMARTfit Academy offers an estimated 7-hour self-paced training covering all aspects of use and 
+application of the SMARTfit Mini in rehab mode. Inexperienced staff can quickly learn how to use 
+and enjoy SMARTfit. https://smartfitinc.com/courses/smartfit-academy-level-1-setup/
+3.	 Short Video training and support are offered through the HELP section of the SMARTfit App and on 
+the http://www.SMARTfitinc.com website under the customer support tab. This allows for a quick 
+review of features on an as-needed basis.
+4.	 Zoom Training – customers can pre-purchase one to ten hours of training.
+5.	 Option of on-site installation and in-person training In the rare circumstances where it is required, we 
+offer on-site installation, set-up and training for organizations wishing to train a large number of staff.
+Quick Start Video and Web page links:
+SMARTfit website links for quick access to information you will need:
+1.	 SMARTfit Website: https://smartfitinc.com/
+2.	 Customer Testimonials: https://smartfitinc.com/testimonials/
+3.	 Fitness Section: https://smartfitinc.com/fitness/
+4.	 Rehab Section: https://smartfitinc.com/rehab/
+5.	 Fitness Purchasing Guide: https://smartfitinc.com/fitness/purchasing-guide/
+6.	 Rehab Purchasing Guide: https://smartfitinc.com/purchasing-guide/
+7.	 Resellers Resources: https://smartfitinc.com/distributor-resources/ 
+(contact tom@smartfitinc.com for password)
+8.	 Customer Support Resources for Fitness: https://smartfitinc.com/fitness/customer-resources/
+9.	 Customer Support Resources for Rehab. Quick access to everything your customers need to set up and 
+get started quickly: https://smartfitinc.com/rehab/customer-resources/
+10.	Academy. Quickly learn all there is to know on our academy:
+https://smartfitinc.com/courses/smartfit-academy-level-1-setup/
+11.	SMARTfit on YouTube. Send video clips to help your customers understand how SMARTfit can address
+their needs: https://www.youtube.com/c/smartfitinc
+12.	SMARTfit Spec Sheets:
+Performance:  https://drive.google.com/drive/u/1/folders/1J7hgtYqNyEx3sRxw1a-zH7OHDWWMAx-o
+Rehab:  https://drive.google.com/drive/u/1/folders/13PLVkx74_8_O0fbDwkzfawBEZ1dLXtFx
+13.	SMARTfit Fitness App Videos: https://smartfitinc.com/fitness/smartfit-app/
+14.	SMARTfit Rehab App Videos: https://smartfitinc.com/rehab/smartfit-app/
+SMARTfit Customer Marketing Support Tools designed to help your customers inform their clients that
+they offer SMARTfit: https://drive.google.com/drive/folders/1Ro_bnFGa1lb3AtpXwILoB2wHMmk2XiuE/
+
+===== PAGE 40 =====
+© Copyright SMARTfit Inc.  5-28-25 
+40
+Video Links
+Below are some short video links about SMARTfit for different populations. They help paint a picture
+of what can be offered to a specific group of people. Most of these videos run for approximately
+4 minutes.
+Clinical Experts explain the benefits of SMARTfit in each of their areas of expertise:
+https://smartfitinc.com/comments-by-clinical-experts/
+Explanation of SMARTfit Unique Gamification Content:
+https://smartfitinc.com/smartfit-gamification-explained/
+Overview explanation of the SMARTfit Concept: https://smartfitinc.com/the-smartfit-difference/
+Product Summary: (take note of the verbiage you can use in your sales pitches): 
+https://www.youtube.com/watch?v=QRKiXSkIKMI 
+https://www.youtube.com/watch?v=INm_TC8LwxU&t=3s
+SMARTfit Explained (shows all products and explanation of games.):
+https://www.youtube.com/watch?v=P1pbgMXiXgc&t=1s 
+SMARTfit Mini Overview- how SMARTfit operates and works.
+Senior Population and Active Aging/Wellness:
+https://smartfitinc.com/fitness/brain-health-programs-for-55/
+SMARTfit Low Impact- Short Overview (Senior population):
+https://www.youtube.com/watch?v=YWocsFrn1ac
+Delaying the Onset of Dementia with Dr. Winningham – Captions; 
+https://www.youtube.com/watch?v=GbldJGoG-zw&t=54s
+SMARTfit Active Aging/Wellness/Fitness:
+https://www.youtube.com/watch?v=HOnvnRAW3iE&t=12s
+Pediatric/Youth: https://www.youtube.com/watch?v=gtXbTU961Bw
+Pediatrics At School:
+https://www.youtube.com/watch?v=SwGdy0XGYVM&list=PLS4ejH2vCb4lEQs7MXrTbA9OjQjlxgxcL 
+- Strike Pods 
+Pediatrics: https://www.youtube.com/watch?v=HgCL1vbCBtE&list=PLS4ejH2vCb4lEQs7MXrTbA9OjQjlxgxcL&index=2
+Strike Pods Pediatrics, https://smartfitinc.com/fitness/youth-home-page/ Youth variety of products for kids 
+with a variety of abilities.
+General Therapy Clinic/Wellness cash-based programs in therapy settings:
+https://www.youtube.com/watch?v=kiji8urFxLY
+SMARTfit Dual-Task Training | Covid-19 Brain Fog | Memory | Concussion | Parkinson’s 
+Tactical Training/ EMT/Police and Firefighters: https://www.youtube.com/watch?v=yyiC8gfXXqc
+Tactical Training (can be used by police and firefighters) Mini and Strike Pods - Note: Anything GSA funded -
+US Military and VA Hospitals are covered by an exclusive dealer.  
+Sports Performance Training: https://smartfitinc.com/fitness/sports-performance-training/
+Of interest to clinicians: It is important to learn about the Dual Task Cost Test by viewing this video:
+https://www.youtube.com/watch?v=uJT6lhjYhO0&t=5s
+
+===== PAGE 41 =====
+www.SMARTfitinc.com
+1-800-900-8542 Ext. 103
+
+===== PAGE 42 =====
+

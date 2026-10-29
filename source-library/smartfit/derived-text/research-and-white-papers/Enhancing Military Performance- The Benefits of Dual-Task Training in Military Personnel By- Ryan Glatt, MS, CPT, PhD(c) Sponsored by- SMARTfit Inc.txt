@@ -1,0 +1,264 @@
+===== PAGE 1 =====
+The Benefits of Dual-Task 
+Training in Military Personnel 
+By: Ryan Glatt, MS, CPT, PhD(c) 
+Sponsored by: SMARTfit Inc. 
+Dual-task training which involves the 
+simultaneous practice of a cognitive and 
+motor task, offers potential benefits for 
+military personnel by enhancing their ability 
+to perform in real-world multitasking 
+environments. This approach may 
+demonstrate improvements in cognitive-
+motor interference, postural stability, 
+operational readiness post-traumatic 
+brain injury (TBI), and performance under 
+stress. Moreover, it can enhance key 
+executive functions such as working 
+memory, cognitive flexibility, task 
+coordination, and attentional control, 
+possibly making it more effective than 
+single-task training. 
+Dual-task training can address cognitive-
+motor interference, a phenomenon where 
+performance declines when cognitive and 
+motor tasks are performed simultaneously. 
+This training can improve the ability to 
+manage interference, potentially leading to 
+enhanced performance in both domains. 
+Gattoni et al. (2023) demonstrated that 
+dual-task training may improve gait 
+stability and obstacle clearance while 
+performing cognitive tasks, highlighting its 
+relevance for multitasking military 
+operations. Postural stability is critical for 
+military personnel who often operate in 
+dynamic and unpredictable environments. 
+Dual-task training can improve balance and 
+coordination while performing cognitive 
+tasks, such as the Stroop test. Penko et al. 
+(2021) found significant improvements in 
+both cognitive and motor performance 
+under dual-task conditions, underscoring its 
+possible utility in physically demanding 
+scenarios. For military personnel recovering 
+from mild traumatic brain injury (mTBI), 
+dual-task training provides a critical means 
+of assessing and possibly improving 
+readiness to return to duty. Scherer et al. 
+(2013) emphasized that dual-task training 
+may address subtle cognitive and 
+sensorimotor deficits, which are often 
+missed in single-task assessments, 
+enhancing operational competence and 
+recovery outcomes. 
+Military operations often require individuals 
+to manage multiple tasks under high-stress 
+conditions. Dual-task training may 
+enhance stress resilience by improving the 
+capacity to perform cognitive tasks while 
+engaging in physically demanding activities. 
+Vine et al. (2024) noted that soldiers trained 
+under dual-task conditions demonstrated 
+superior task performance and decision-
+making under stress compared to those 
+trained in single-task environments. 
+Moreover, dual-task training can have a 
+significant impact on specific executive 
+functions. Improved working memory 
+performance is evidenced by better results 
+on tests like the 2-back test immediately 
+after dual-task interventions (Zhang et al., 
+2023). Additionally, dual-task training can 
+enhance coordination skills necessary for 
+managing cognitive-motor interference, a 
+benefit less evident in single-task training 
+(Schubert et al., 2017; Strobach et al., 
+2014). Enhanced attentional control and 
+inhibitory processes may enable soldiers 
+to better suppress irrelevant information and 
+focus on critical stimuli (Strobach, 2020). 
+Emerging evidence from neuroscience 
+highlights how neural efficiency, or the 
+ability to execute complex tasks with fewer 
+cognitive resources, can contribute to the
+
+===== PAGE 2 =====
+effectiveness of dual-task training. 
+Functional imaging studies reveal that 
+individuals who engage in dual-task 
+exercises may show improved activation in 
+areas such as the prefrontal cortex, which 
+is critical for anticipation, decision-
+making, and motor coordination (Yarrow 
+et al., 2009). These neural adaptations may 
+allow military personnel to maintain clarity 
+and precision in high-pressure situations, 
+optimizing their operational readiness and 
+resilience. 
+Additional findings suggest that dual-task 
+training protocols that incorporate rapid 
+decision-making under dynamic and 
+unpredictable conditions may improve 
+reaction time, situational awareness, and 
+response precision (Beurskens et al., 
+2021). These elements are particularly 
+critical for military personnel who must 
+adapt to evolving threats and environments. 
+Similarly, dual-task exercises that include 
+elements of spatial awareness and timing 
+may further support motor control and 
+tactical execution (Gattoni et al., 2023). 
+The potential benefits of dual-task training 
+can extend beyond the specific tasks 
+practiced. Worden and Vallis (2014) 
+demonstrated that dual-task training 
+protocols may improve performance in both 
+cognitive and motor domains more 
+effectively than single-task training, 
+suggesting that this approach prepares 
+personnel for the multitasking demands of 
+military operations. Reactive agility drills, 
+where participants respond to dynamic and 
+unpredictable stimuli while performing 
+physical tasks, serve as a prime example. 
+Such drills mimic real-world operational 
+scenarios, potentially enhancing reaction 
+time, situational awareness, and 
+decision-making under uncertainty 
+(Serpell et al., 2011). Training under 
+cognitive load or fatigue conditions, as 
+suggested by the Challenge Point 
+Framework, may further prepare personnel 
+to sustain high performance even under 
+extreme stress and physical exertion 
+(Guadagnoli & Lee, 2004). 
+Dual-task training interventions typically 
+involve the simultaneous practice of 
+cognitive and motor tasks, whereas 
+single-task interventions focus on one 
+domain at a time. Common dual-task 
+training methods include combining 
+cognitive tasks, such as serial subtractions 
+or visual search tasks, with motor tasks, 
+such as balance maintenance or obstacle 
+navigation (Beurskens et al., 2021). 
+Participants may be instructed to prioritize 
+either the cognitive or motor task during 
+practice, though improvements are typically 
+observed regardless of prioritization 
+(Beurskens et al., 2020). Another method 
+involves navigating dynamic obstacles 
+while responding to cognitive challenges, 
+training multitasking capabilities (Worden 
+& Vallis, 2014). 
+Dual-task training can be a valuable tool for 
+military personnel, potentially enhancing 
+cognitive-motor performance, postural 
+stability, recovery post-TBI, and 
+resilience under stress. By addressing the 
+multitasking requirements of military 
+operations and training executive 
+functions such as working memory, 
+cognitive flexibility, and attention, dual-
+task training may contribute to improved 
+readiness and operational competence. 
+References: 
+Beurskens, R., Brueckner, D., & 
+Muehlbauer, T. (2020). Effects of motor 
+versus cognitive task prioritization during 
+dual-task practice on dual-task performance
+
+===== PAGE 3 =====
+in young adults. Frontiers in Psychology, 11, 
+581225. 
+https://doi.org/10.3389/fpsyg.2020.581225 
+Beurskens, R., Brueckner, D., Voigt, H., & 
+Muehlbauer, T. (2021). Cognitive and motor 
+task performance under single- and dual-
+task conditions: Effects of consecutive 
+versus concurrent practice. Experimental 
+Brain Research, 239(8), 2529-2535. 
+https://doi.org/10.1007/s00221-021-06130-8 
+Frontiers in Psychology. (2021). Neural 
+adaptations in dual-task scenarios. Frontiers 
+in Psychology, 12, 604803. 
+https://doi.org/10.3389/fpsyg.2021.604803 
+Gattoni, C., Martinez-Gonzalez, B., Li, C., & 
+Marcora, S. M. (2023). Assessing cognitive-
+motor interference in military contexts: 
+Validity and reliability of two dual-tasking 
+tests. Military Medicine, 188(9-10), e2900-
+e2908. 
+https://doi.org/10.1093/milmed/usad048 
+Guadagnoli, M. A., & Lee, T. D. (2004). 
+Challenge point: A framework for 
+conceptualizing the effects of various 
+practice conditions in motor learning. 
+Journal of Motor Behavior, 36(2), 212-224. 
+https://doi.org/10.3200/JMBR.36.2.212-224 
+Penko, A. L., Linder, S. M., Miller Koop, M., 
+Dey, T., & Alberts, J. L. (2021). 
+Quantification of dual-task performance in 
+healthy young adults suitable for military 
+use. Military Medicine, 186(Suppl 1), 58-64. 
+https://doi.org/10.1093/milmed/usaa404 
+Scherer, M. R., Weightman, M. M., 
+Radomski, M. V., Davidson, L. F., & 
+McCulloch, K. L. (2013). Returning service 
+members to duty following mild traumatic 
+brain injury: Exploring the use of dual-task 
+and multitask assessment methods. 
+Physical Therapy, 93(9), 1254-1267. 
+https://doi.org/10.2522/ptj.20120143 
+Serpell, B. G., Young, W. B., & Ford, M. 
+(2011). Are the perceptual and decision-
+making components of agility trainable? A 
+preliminary investigation. Journal of 
+Strength and Conditioning Research, 25(5), 
+1240-1248. 
+https://doi.org/10.1519/JSC.0b013e3181cc2
+53d 
+Strobach, T. (2020). The dual-task practice 
+advantage: Empirical evidence and 
+cognitive mechanisms. Psychonomic 
+Bulletin & Review, 27(1), 3-14. 
+https://doi.org/10.3758/s13423-019-01619-4 
+Strobach, T., Salminen, T., Karbach, J., & 
+Schubert, T. (2014). Practice-related 
+optimization and transfer of executive 
+functions: A general review and a specific 
+realization of their mechanisms in dual 
+tasks. Psychological Research, 78(6), 836-
+851. https://doi.org/10.1007/s00426-014-
+0563-7 
+Vine, C. A. J., Runswick, O. R., Blacker, S. 
+D., et al. (2024). Cognitive, 
+psychophysiological, and perceptual 
+responses to a repeated military-specific 
+load carriage treadmill simulation. Human 
+Factors, 66(10), 2379-2392. 
+https://doi.org/10.1177/0018720823121421
+6 
+Worden, T. A., & Vallis, L. A. (2014). 
+Concurrent performance of a cognitive and 
+dynamic obstacle avoidance task: Influence 
+of dual-task training. Journal of Motor 
+Behavior, 46(5), 357-368. 
+https://doi.org/10.1080/00222895.2014.914
+887
+
+===== PAGE 4 =====
+Yarrow, K., Brown, P., & Krakauer, J. W. 
+(2009). Inside the brain of an elite athlete: 
+The neural processes that support high 
+achievement. Nature Reviews 
+Neuroscience, 10(8), 585-596. 
+https://doi.org/10.1038/nrn2672 
+Zhang, W., Liu, H., & Zhang, T. (2023). 
+Immediate and short-term effects of single-
+task and motor-cognitive dual-task on 
+executive function. PLOS One, 18(8), 
+e0290171. 
+https://doi.org/10.1371/journal.pone.029017
+1

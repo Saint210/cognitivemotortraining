@@ -1,0 +1,1391 @@
+===== PAGE 1 =====
+SMARTﬁt Dual-Task Exercise Improves Cognition and Physical
+Function in Older Adults With Mild Cognitive Impairment:
+Results of a Community-Based Pilot Study
+Sameer Jhaveri,1 Matthew Romanyk,1 Ryan Glatt,2 and Nikhil Satchidanand1
+1Department of Medicine, University at Buffalo, State University of New York, Buffalo, NY, USA; 2Paciﬁc Neuroscience Institute, Torrance, CA, USA
+Mild cognitive impairment is an intermediate state between the cognitive decline often experienced in normal aging and dementia
+that affects 15% of Americans over 65 years of age. Our communities have an opportunity to support the development and
+adoption of evidence-based programs to help older adults preserve cognition and physical function. In partnership with a local
+urban YMCA in an underserved, predominantly minority neighborhood, we tested the appeal and therapeutic beneﬁts of
+SMARTﬁt training among older adults with mild cognitive impairment. The participants reported a positive training experience.
+After 12 weeks of dual-task training, Trail-Making Test and Stroop Color–Word Interference Test scores improved, as did scores
+on the Short Physical Performance Battery. Results of our SMARTﬁt dual-task training intervention are encouraging. Larger
+randomized controlled trials must further investigate the development, implementation, and therapeutic impacts of SMARTﬁt
+dual-task training on cognitive and physical function in aging.
+Keywords: motor function, balance, walking, exergaming
+Mild cognitive impairment (MCI) is an intermediate state
+between the cognitive decline associated with normal aging and
+more severe dementia that affects 15% of American adults over age
+65 years (Anderson, 2019). MCI is also predictive of Alzheimer’s
+disease (AD) with a rate of conversion from MCI to AD of 15% per
+year in the United States (Petersen et al., 1999). Coping with MCI
+in aging can be of signiﬁcant burden as it is associated with
+increased fall risk, social isolation and anxiety, and poorer quality
+of life (Conrad et al., 2015; Hwang et al., 2022; Tyrovolas et al.,
+2016). With our rapidly aging society and increasing life expec-
+tancy, we are facing a public health crisis for which we are not fully
+prepared. To meet this challenge and help adults maintain their
+function and quality of life well into older age, we must support our
+communities with the resources needed to sustain appealing and
+impactful programs that preserve cognitive and physical function.
+The dual-task paradigm is an established methodology for
+studying cognitive performance under conditions wherein attention
+must be divided between two simultaneous tasks (Della Sala et al.,
+1995). Adults with MCI and AD often experience limitations in
+their ability to complete dual-task challenges (e.g., walking while
+counting backward; Makizako et al., 2013; Sobol et al., 2016).
+Furthermore, dual-task ability is essential to maintaining indepen-
+dence in aging. For instance, Brustio et al. (2018) found that among
+older adults, dual-task performance mediates the association
+between fear of falling and ability to complete activities of daily
+living. In addition, Muir-Hunter et al. (2016) found that deteriora-
+tion in gait quality during dual-task walking compared with single-
+task walking was associated withincreased fall risk in community-
+dwelling older adults. The evidence presented by Brustio et al. and
+Muir-Hunter et al. shows that dual-task ability is important to
+successfully meeting the challenges of daily life. Further investi-
+gation on the impacts of dual-task training (DTT) on cognitive and
+physical function is still needed to adapt and integrate effective
+therapies into communities in need.
+Increased focus has been placed on leveraging the dual-task
+paradigm not only to assess function but also to design therapeutic
+strategies aimed at preserving cognition and physical function for a
+host of aging-related challenges (Choi et al., 2015; Falbo et al.,
+2016; Li et al., 2020; Wollesen et al., 2017). This method facilitates
+cognitive testing and training using tasks that better replicate the
+complex activities of daily life that often require divided attention.
+Exergaming is an engaging and immersive method that can be used
+to deliver DTT (Delbroek et al., 2017; Gallou-Guyot et al., 2020;
+Ogawa et al., 2015). Exergaming capitalizes on physical movement
+and subsequently critical thinking and decision making, as a means
+of accomplishing a task presented in game.
+Evidence supports DTT as an effective therapy to help improve
+cognitive and physical function in older adults with MCI. In a recent
+systematic review and meta-analysis of the impacts of DTT, Ali et al.
+(2022) found among 21 studies, small to medium effect sizes
+(standardized mean differences) ranging from 0.19 to 0.56 for global
+cognition, memory, executive function, attention, gait speed, dual-
+task cost, and balance. For instance, Park et al. (2019) examined the
+impacts of aerobic exercise combined with simultaneous cognitive
+training (completion of word games, simple numerical calculations,
+and memory span games), a program the team coined as “Cogni-
+cise.” In response to once weekly “Cognicise” for 24 weeks,
+participants demonstrated improved global cognitive function,
+working memory, and executive function.
+In a randomized controlled trial (RCT), Liao et al. (2019)
+found that 12 weeks of virtual reality-based DTT in older adults
+with MCI improved performance on the Stroop Color–Word Test
+(Stroop), motor dual-task gait, cognitive-motor dual-task gait, and
+dual-task cost. The authors contend that these improvements show
+that DTT has the potential to enhance executive function in older
+Jhaveri
+https://orcid.org/0000-0002-4149-7469
+Satchidanand (ns1@buffalo.edu) is corresponding author,
+https://orcid.org/
+0000-0003-1843-6550
+1
+Journal of Aging and Physical Activity, (Ahead of Print)
+https://doi.org/10.1123/japa.2022-0040
+© 2023 Human Kinetics, Inc.
+ORIGINAL RESEARCH
+First Published Online: Jan. 30, 2023
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 2 =====
+adults with MCI. Overall, the current evidence supports DTT as an
+effective therapy to assist older adults with MCI maintain or even
+enhance cognitive and physical function. Furthermore, the nature
+of DTT interventions that bring people together increases social
+engagement and social support among participants, in turn, result-
+ing in a higher likelihood of their long-term investment and
+ongoing participation (Christensen et al., 2006; Chu et al., 2021;
+Resnick et al., 2002).
+While the underlying neurophysiological mechanisms of
+improved cognition in response to simultaneous exercise and
+cognitive training have not yet been fully characterized, exercise
+and cognitive training likely stimulate similar neurobiological
+processes and pathways which produce a synergistic therapeutic
+effect (Tait et al., 2017). Cognitive and motor training improve
+cerebral blood ﬂow in humans (Ide & Secher, 2000; Mozolic et al.,
+2010), and studies in rats show that they induce angiogenesis (Mu
+et al., 1999). Furthermore, evidence demonstrates that areas of the
+brain underlying executive control processes, such as the frontal
+and hippocampal regions, are malleable and adaptive even in older
+age (Voelcker-Rehage & Niemann, 2013), responding to both
+physical exertional training and cognitive stimulation, thus enhanc-
+ing neuroplasticity (Erickson et al., 2006; Maass et al., 2015) and
+preserving brain volume (Boyke et al., 2008). Moreover, physical
+activity and exercise increase release of brain-derived neurotrophic
+factor (BDNF), a member of the neurotrophin family of growth
+factors that promotes neuronal survival, neurite outgrowth, and
+synaptic plasticity in healthy older adults and those AD (Coelho
+et al., 2013; Coelho et al., 2014; Marinus et al., 2019). BDNF is
+essential to cognitive performance and adaptations in brain mor-
+phology (Cirulli et al., 2004; Mu et al., 1999). The underlying
+mechanisms by which cognition improves with exercise and
+cognitive training are complex and multidimensional and con-
+certed efforts must be made to better characterize this model. The
+objective of our study was to assess the appeal of SMARTﬁt DTT
+among key community stakeholders and to detect changes in
+cognitive and physical function 12 weeks of training in adults
+with 65 years or older, who screened positive for MCI.
+Our team sought to contribute to the DTT evidence base by
+exploring the participant training experience and therapeutic ben-
+eﬁts associated with DTT using the SMARTﬁt Cognitive-Motor
+Exercise System (SMARTﬁt). SMARTﬁt is an exergaming system
+that facilitates simultaneous cognitive and motor training using a
+series of touch-sensitive light-emitting diode (LED) arrays embed-
+ded in a high-strength panel that can be wall-mounted or attached to
+a ﬂoor stand. The LED arrays are programmable to deliver cogni-
+tive challenges such as memory, numerical calculations, or
+counting, while simultaneously executing a given physical task
+such as walking while carrying a medicine ball, stance-switching,
+or stepping in place. Participants can interact with the device by
+striking the individual targets using their hands or feet, or by
+throwing balls or other objects that require manipulation and
+movement (Figure 1).
+To test the appeal and impact of SMARTﬁt DTT, we partnered
+with a local YMCA in an underserved, urban neighborhood, with a
+membership that is predominantly African American. With direct
+stakeholder input, we have developed and conducted this pilot
+investigation. This project is important because it sought to address
+a pressing health issue that can profoundly impact function,
+independence, and quality of life in a community with a long
+history of health disparities and inequitable access to health-
+promoting resources.
+Methods
+Design
+This community-based study was conducted in partnership with a
+YMCA in the city of Buffalo, NY, and was divided into two phases.
+The development phase was designed to build the partnership
+between our university and this local YMCA, involving prelimi-
+nary appeal and enjoyability testing to characterize the participants’
+training experience using SMARTﬁt. Garnering direct input from
+community members was important to creating a positive training
+experience. The impact phase focused on conducting a small-scale
+pilot investigation to detect changes in cognitive and physical
+functional outcomes in response to 12 weeks of SMARTﬁt DTT
+among older adults with MCI.
+Participants and Recruitment
+For the development phase, adults aged 65 years or older were
+recruited from local senior centers, libraries, churches, and other
+community organizations using recruitment ﬂyers posted in high-
+trafﬁc areas. To enhance enrollment, two informational sessions
+were hosted at the YMCA. Those interested in participating in a
+user group to help assess the participant training experience were
+asked to telephone the research team to set up an appointment to
+provide written informed consent and screen for safety.
+Recruitment procedures for the impact phase were conducted in
+a manner similar to those of the development phase with recruitment
+ﬂyers placed prominently in churches, community centers, and senior
+centers. Potential participants interested in enrolling in the study were
+asked to telephone the research team to set up a consent and screening
+appointment. Screening for eligibility included: (a) cognitive assess-
+ment via the Montreal Cognitive Assessment (MoCA), score equal to
+23–26 points; (b) appropriateness for physical activity via the
+Physical Activity Readiness Questionnaire for Older Adults; and
+(c) capacity to consent to research procedures using the University’s
+of California Brief Assessment of Capacity to Consent. All partici-
+pants were provided with detailed information about the study and
+written informed consent was obtained. All research procedures in
+this protocol were approved by the University Institutional Review
+Board.
+Participants were included if they: (a) were ≥65 years of age;
+(b) had MCI, as screened using the MoCA (23–26 points for MCI);
+(c) had no contraindications to supervised exercise, as guided by the
+American College of Sports Medicine, speciﬁc to older adults; and
+(d) were able to speak, read, and write proﬁciently in English.
+Figure 1 — SMARTﬁt trainer.
+2
+JHAVERI ET AL.
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 3 =====
+Exclusion was based upon the following: (a) having any conditions
+that prevent safe participation in physical activity as screened using
+the Physical Activity Readiness Questionnaire for Older Adults,
+(b) severe neurological disease, (c) severe psychiatric illness,
+(d) likelihood of withdrawal from the study due to the presence of
+severe illness or a life expectancy < 6 months, (e) having any lower/
+upper limb amputation, (f) having greater than MCI (MoCA score <
+23 points), and (g) having less than MCI (MoCA score > 26 points).
+Study Phases
+Development and Participant Experience
+Assessment
+The development phase was designed to explore participants’
+experience using the SMARTﬁt system and to ascertain the appeal
+of training activities. A total of eight older adults completed this
+phase. Two 60-min user group sessions were conducted to intro-
+duce community members to the SMARTﬁt system, allowing
+small groups of participants to test several cognitively demanding
+activities (games) paired with physical tasks. A variety of physical
+tasks were tested including walking, stepping in place in different
+patterns, striking the SMARTﬁt targets with medicine balls, tennis
+balls, or by punching (with boxing gloves on) or kicking (lowest
+targets only). In addition to these physical tasks, games that
+required varying durations were tested, ranging from 30 s to
+2 min. This phase was critical to reaching a consensus in identify-
+ing the dual-task games that were then tested in the impact phase.
+Training activities identiﬁed as least appealing by the participants
+were not included in the follow-on impact phase. A sample training
+session used in the development phase is provided in Table 1.
+To explore participants’ training experience and the appeal and
+enjoyment associated with the training activities, we developed a
+10-item survey that was administered to each participant after
+completion of their introductory session (Table 2). In addition,
+in a brief exit interview, participants were asked to identify the most
+and least appealing training games that they completed. Partici-
+pants were also asked to brieﬂy discuss the reasons for liking or
+disliking speciﬁc training games. These perspectives directly
+informed the selection of training activities that were tested during
+the impact phase.
+Impact Assessment
+For the impact phase, a small pilot study was conducted to detect
+changes in cognitive and physical function with 12 weeks of
+Table 1
+Example Introductory Session for the Development Phase
+Time
+Intervention component
+0–15 min
+Warm-up: Light standing stretches, light stepping in place
+16–24 min
+Game 1 Trials 1–4: “Lights Out” race for speed and accuracy
+25–33 min
+Game 2 Trials 1–4: “Chase the Letter” with medicine ball carry
+34–42 min
+Game 3 Trials 1–4: “Memory” with stance alterations (wide, semitandem, tandem, one-leg)
+43–51 min
+Game 4 Trials 1–4: “Chase the Number” alternating one-leg stances
+Postsession
+Cooldown: Light standing stretches and focus on breathing
+Table 2
+Usability Survey Questions
+1. How enjoyable was your SMARTﬁt training session?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+2. How easy was it to select and set up the different games on SMARTﬁt?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+3. How enjoyable was the team-based, social aspect of SMARTﬁt?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+4. How easy to follow were the instructions for each SMARTﬁt game?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+5. How physically challenging were the SMARTﬁt games your group selected?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+6. How appropriate for your age and capabilities were the SMARTﬁt games?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+7. How mentally challenging were the SMARTﬁt games your group selected?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+8. How willing are you to participate in a weekly SMARTﬁt training program?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+9. How likely are you to recommend the SMARTﬁt program to others?
+Not at all
+A Little
+Neutral
+Very
+Extremely
+10. How does SMARTﬁt training compare to other group exercises you have done?
+Much Worse
+A Little Worse
+The Same
+Better
+Much Better
+SMARTﬁt IMPROVES FUNCTION IN MCI
+3
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 4 =====
+SMARTﬁt DTT. A total of 10 participants received one small-group-
+based, 60-min DTT session per week (Park et al., 2019) for 12 weeks
+(Figure 2). Each session was guided by a trained and experienced
+instructor with personal training certiﬁcation from the National
+Strength and Conditioning Association. The DTT program was
+created by the principal investigator and informed by the results of
+the preliminary development phase. Importantly, a total of four
+participants from the development phase took part in the impact phase.
+Description of the DTT Intervention
+In each 60-min training session, four to six individuals participated
+as a small group. Our training venue contains two SMARTﬁt
+systems, allowing for at least two participants to train simulta-
+neously, thus minimizing the volume of time each participant spent
+sedentary. Training sessions began with a 3-min group warm-up of
+walking back and forth (16-foot distance) between the SMARTﬁt
+board and a tape line on the ﬂoor in front of the board. Next, the
+group chose the order of training games from a daily menu
+provided by the instructor (Table 3: example daily menu), and
+all participants then completed the selected games in the same order
+for that session. Training games were individual, involving only
+one participant, or team-based, involving at least two participants
+working together. Games also map on to speciﬁc domains includ-
+ing balance, muscle strengthening, eye–hand coordination, proces-
+sing speed, memory, and attention. The ﬂexibility of the SMARTﬁt
+system allows the cognitive games to be paired with different
+physical movements, giving the instructor several options for both
+individual and team-based engagement. An array of physical
+movements was used to either vary how participants interacted
+with SMARTﬁt (e.g., tapping targets with a medicine ball or
+punching) or to add a simultaneous physical dimension to the
+cognitive training (e.g., stance changes, chair squats, or dribbling a
+soccer ball). The speciﬁc pairings are shown in Table 3. Each game
+was 2 min in duration and participants completed a total of three
+trials of each game in alternating order, for a total of 6 min in each
+game. The allotted timeframe for each session allowed for six to
+eight different games to be completed. It was estimated each
+participant spent a cumulative total of 8–10 min sedentary, while
+transitioning from one game to another. Each DTT session ended
+with a 5-min mindfulness session with focus on breathing.
+Participants were instructed to strive for speed while main-
+taining accuracy when completing the training games. In addition,
+they were instructed to refrain from helping one another while
+completing the cognitive portion of each game (e.g., symbol
+identiﬁcation, solving addition or subtraction, etc.) If needed,
+participants could take a brief break during their session at any
+time. Consistent and frequent encouragement was provided to each
+participant by the instructor. Participant safety was also monitored
+continuously.
+Impact Assessment
+To assess the therapeutic impact of SMARTﬁt DTT, changes over
+the 12-week intervention in attention, task-switching, working
+memory, and interference inhibition were assessed using the
+Trail-Making Test (TMT; Bowie & Harvey, 2006) and Stroop
+Color-Word Interference Test (Stroop) at baseline and end point.
+The Short Physical Performance Battery (SPPB; Cabrero-García
+et al., 2012) was used to assess physical function before and after the
+DTT intervention. All assessments were conducted at the YMCA in
+a private ofﬁce or aerobics room by the principal investigator.
+Table 3
+Example Menu of Training Games
+Name of game
+Focus areas
+Chase the symbol with stance changes
+Balance, attention
+Subtraction with drumstick tap
+Processing speed, eye–hand coordination
+Pattern replication with medicine ball tap
+Working memory, attention, strength
+Medicine ball tap (upper targets) with chair squat
+Strength, attention, processing speed
+Knock-out for speed with punching
+Eye–hand coordination, processing speed
+Kicking with one-leg stand (assisted or unassisted)
+Strength, attention
+Left, right, or both hands (alternating)
+Attention, processing speed, eye–hand coordination
+Addition with side-step (alternating)
+Balance, processing speed
+Chase the color with ball toss and catch (alternating)
+Eye–hand coordination, attention
+Counting with medicine ball carry (alternating)
+Attention, strength, processing speed
+Serial sevens with soccer ball dribble (alternating)
+Balance, processing speed
+Trail-making with ball bounce pass (alternating)
+Eye–hand coordination, attention, processing speed
+Figure 2 — Participant enrollment.
+4
+JHAVERI ET AL.
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 5 =====
+Trail-Making Test
+The TMT is a timed neuropsychological test of visual attention and
+task-switching. The TMT has two parts: the TMT-A (rote memory)
+and TMT-B (executive functioning). In each test the participant is
+asked to draw a line connecting 24 consecutive circles containing
+numbers and/or letters that are randomly arranged on a page. The
+TMT-A uses all numbers whereas the TMT-B alternates numbers
+and letters, requiring the examinee to switch between numbers and
+letters in consecutive, ascending order. The TMT is scored accord-
+ing to how long it takes to complete each section of the test (Bowie
+& Harvey, 2006).
+For this study, the TMT was administered individually by
+paper and pencil. For each participant, the TMT was administered
+once at baseline and once after the 12-week intervention according
+to standard procedures that included one sample trial (short ver-
+sion) followed by one test trial (Bowie & Harvey, 2006).
+Stroop
+The Stroop is a neuropsychological test used to assess ability to
+inhibit cognitive interference. This test requires the examinee to
+read aloud three different tables, one at a time, as quickly as
+possible. The ﬁrst two tables represent the “congruent condition”
+wherein the participant must read names of colors printed in black
+ink (word condition) and then name different color blocks (color
+condition). Conversely, the third condition, named “color–word,”
+otherwise known as the incongruent condition, contains color
+names printed in an inconsistent color ink (e.g., the word “red”
+would be printed in “green” ink). In this condition, the examinee
+must name the color ink rather than reading the word. Scoring for
+all three conditions is based on the number of correct answers in
+each condition provided in 45 s (Scarpina & Tagini, 2017).
+For this study, the Stroop test was administered individually, with
+the examinee presented with the three tables, one at a time, by the
+principal investigator. For each participant the Stroop was adminis-
+tered once at baseline and once after the 12-week intervention that
+included one sample trial (short version) followed by one test trial.
+Short Physical Performance Battery
+Change in physical function was assessed at baseline and end point
+using the SPPB (Cabrero-García et al., 2012). This test battery
+includes an assessment of balance (side-by-side stand, semitandem
+stand, and tandem stand), a gait-speed test (3- or 4-m walk), as well
+as a timed ﬁve chair-stand test to assess lower body strength.
+Scoring is out of a maximum of 12 points for the entire test with
+lower scores representing lower physical functioning (Treacy &
+Hassett, 2018).
+For this study, the SPPB was administered individually in an
+aerobics room by the principal investigator. The room was closed to
+others while testing procedures were conducted. The order of assess-
+ments followed the standard procedures as described here: (a) balance
+test: side-by-side stand, semitandem stand, tandem stand (timed for
+10 s each); (b) 4-m gait-speed test: two trials with 2-min rest between
+trials; and (c) chair-stand test: single chair stand followed by ﬁve
+repeated chair stands. A higher score on each measure and the total
+score indicates better performance. Participant safety was monitored
+throughout the test by the principal investigator.
+Statistical Methods
+Preliminarily, continuous variables were examined using measures
+of central tendency (mean, median, and mode), while categorical
+and survey data were explored using frequencies. To assess the
+participant experience with the SMARTﬁt DTT games, results per
+survey item were tabulated and presented as proportions of the total
+number of possible responses to each individual survey item.
+Immersion crystallization was used to identify common themes
+with regard to the individual SMARTﬁt training activities parti-
+cipants found most and least appealing and enjoyable (McLaughlin
+et al., 2013).
+Due to the small sample size and nonnormal distribution,
+median and interquartile range were calculated to assess changes
+between baseline and end-point performance on the TMT, Stroop,
+and SPPB. To assess these changes median performance on the
+TMT (A and B), Stroop (word, color, color–word), and SPPB
+(balance, walking, lower limb strength, and total; Bernabeu-Mora
+et al., 2017; Uehara et al., 2018) were compared using Wilcoxon
+signed-rank tests. In addition, for the Stroop test, the predicted
+color–word (Pcw) score was derived from scores on the two
+congruent conditions, color (C) and word (W) tests. The formula
+below demonstrates the direct impact of an individual’s C and W
+scores on Pcw scores:
+Pcw =
+45
+ðð45 × WÞ þ ð45 × CÞÞ=ðW × CÞ :
+From the Pcw, the Stroop interference score (IG) was then calcu-
+lated by subtracting the Pcw value from the actual number of items
+correctly named in the incongruous condition (color–word: CW;
+i.e., IG = CW −Pcw). Thus, a lower IG represents a greater difﬁ-
+culty in inhibiting interference (Ivnik et al., 1996). Pre- to post-
+intervention change in the IG was then determined using a
+Wilcoxon signed-rank test.
+Finally, we have identiﬁed a range of estimated effect sizes for
+the individual components of the TMT and Stroop tests, and the
+total SPPB that will inform sample size calculations for future
+larger RCTs. For change in TMT from baseline to end point, we
+found a range of effect sizes between 0.62 and 0.63 (medium). For
+change in Stroop from baseline to end point, our estimated range
+was 0.57–0.64 (medium). For the total SPPB score, the effect size
+range was 0.50–0.62 (medium). To achieve a desired statistical
+power equal to 0.80, we require a total of 60–78 participants per
+group (intervention vs. attention control).
+Results
+Sample Characteristics
+In all, eight older adults completed the development phase. The
+sample consisted of six females and two males, with a mean age of
+69.00 ± 4.21 years. In addition, all eight participants self-identiﬁed
+as African American. A total of seven participants reported com-
+pleting high school, and one participant reported having an under-
+graduate degree. Regarding employment status, six participants
+reported being retired while the two remaining participants re-
+ported being employed part time.
+For the impact phase, a total of 16 participants were screened
+for eligibility with three excluded for not meeting inclusion criteria
+for age (≥65 years). Among the 13 who were eligible, 10 were
+enrolled. “Fear of injury,” “conﬂicting home responsibilities,” and
+“lack of interest” were the reasons given for nonparticipation
+among the three who chose not to enroll. Among those enrolled,
+there were seven females and three males, and the mean age
+equaled 73 ± 4.64 years. All 10 participants self-identiﬁed as
+African American. In addition, eight participants reported having
+SMARTﬁt IMPROVES FUNCTION IN MCI
+5
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 6 =====
+completed high school and two participants reported having an
+undergraduate degree. All participants reported being retired. Upon
+completion of the intervention, all 10 participants who enrolled
+completed at least 11 out of 12 (92%) exercise sessions and eight
+out of 10 participants completed all 12 exercise sessions.
+Participant Experience Outcomes
+Our survey results indicate that overall the appeal and enjoyment
+associated with training on the SMARTﬁt system were very high,
+with 100% of participants rating their session as at least “very
+enjoyable,” with seven participants indicating their experience was
+“extremely enjoyable.” When asked how enjoyable the group
+training experience was, 100% of participants reported their expe-
+rience was “extremely enjoyable.” Furthermore, when asked about
+the ease of use of the SMARTﬁt system and the ease of participa-
+tion, again 100% of participants reported that interacting with
+SMARTﬁt was at least “very easy,” with ﬁve participants rating
+their introductory experience as “extremely easy.” In addition,
+when asked whether the DTT games were appropriate for age, and
+physically and intellectually challenging, seven participants indi-
+cated that the training activities were appropriate for their age, and
+all participants reported that the activities were both physically and
+intellectually “very challenging.” The one participant who re-
+sponded negatively when exploring the appropriateness of the
+training activities stated that “elderly people should not have to
+exercise” and that “exercise is too dangerous for people over
+70 years old.” Finally, when we explored individuals’ willingness
+to participate in a future program, how the SMARTﬁt training
+compared to other group-based exercises, and whether they would
+recommend SMARTﬁt to others, seven participants reported they
+would participate in a future program, rating SMARTﬁt as “much
+better” than other group exercise experiences. These included
+“Zumba,” low-impact aerobics, and other dance-based activities.
+These participants also reported they would recommend the
+SMARTﬁt class to others.
+Key themes emerged that informed delivery of the impact
+study in selecting speciﬁc training games. All participants reported
+that their least favorite game was “Memory.” This game involves
+identifying and matching pairs of common symbols within each
+LED array of the SMARTﬁt system (similar to the card game that
+young children often play), while altering stance (two feet, semi-
+tandem, tandem, one foot) for a duration of 1 min. The memory
+component of the game proved “very frustrating and too slow” for
+several participants. In contrast, the favorite game identiﬁed was
+“Knock-out and Chase three Targets with hand-switching” for a
+duration of 2 min. This game involves standing in front of the
+SMARTﬁt board with all LED targets illuminated. Participants
+then must knock out all the targets as quickly as possible and then
+chase three targets all over the board, while following constant
+hand-switching cues randomly called out by the instructor (left
+hand, right hand, or both hands). Participants reported that they
+enjoyed the “fast-paced, unpredictable” nature of this game. In
+addition, they reported that having to follow constant instructions
+made them feel “connected” to the instructor and more motivated.
+Participants also indicated that they appreciated games that
+involved walking or stepping in place. For example, when the
+“Chase the Letter of the Alphabet Game (with simultaneous animal
+naming)” was combined with walking to and from the SMARTﬁt
+board while carrying a 4 lb. medicine ball (16-ft distance), ﬁve
+participants indicated that it was “very challenging,” but they felt
+“stronger and more capable” after the game ended. Furthermore,
+several participants perceived that training on that game would be
+beneﬁcial to their “balance, walking, and heart health.” Finally, we
+learned that duration of each training game was an important factor
+to address. Overall, participants preferred 2-min over shorter
+duration games. All participants reported that they felt 30-s games
+did not give them sufﬁcient time to adjust to the game, before it
+ended, despite having time to practice. Three participants stated
+that they felt “rushed” by the 30-s timer and were not satisﬁed with
+their performance because they felt “anxious” during the game.
+Performance Outcomes
+Cognition
+For baseline screening, the MoCA was administered before the
+intervention. For both the TMT and Stroop cognitive outcomes,
+scores are reported as median (interquartile range). When we
+compared scores on the TMT-A, we found median time to com-
+plete TMT-A improved from 45 (4.00) to 40.00 (4.00) s, p = .005
+(Table 4). Similarly, performance on the TMT-B improved from a
+median of 140.00 (7.00) to 135.00 (2.00) s, p = .004 (Table 4).
+When we examined change in performance on the Stroop test,
+we found that with 12 weeks of SMARTﬁt DTT, scores on the
+“color” and “color–word” conditions improved. The median base-
+line score on the “color” condition equaled 72.00 (4.00) correct
+responses, and the end-point score equaled 74.00 (2.00) correct
+responses, p = .035 (Table 4). The score on the “color–word”
+condition also improved from a median of 34.00 (3.00) to 36.00
+(2.00) correct responses, p = .001 (Table 4). In addition, the Stroop
+interference score improved signiﬁcantly from baseline to end point
+with training. The median baseline interference score equaled −3.24
+(1.50), and the end-point score was −1.25 (2.50), p = .007.
+Physical Function
+Performance on the SPPB was assessed at baseline and end point to
+explore changes in balance, walking ability, and lower limb
+strength (Table 4). Results are presented as median (interquartile
+range) for all the SPPB domains and total. The balance subscore of
+the SPPB improved with training, with a median baseline of 3.50
+(1.00) points versus an end-point score of 4.00 (1.00) points,
+p = .025. In addition, lower limb strength as measured by the
+chair-stand test improved after DTT. The median baseline chair-
+stand (strength) score was 3.00 (1.00) versus 4.00 (1.00) points,
+p = .004 after DTT. In addition, the overall score on the SPPB
+improved from a median of 10.00 (2.00) versus 12.00 (1.00) points
+after training, p = .004 (Table 4). Results also indicate that walking
+ability did not change as assessed using the 4-m walk test compo-
+nent of the SPPB. The median value of 4.00 did not change baseline
+to end point, p = .126.
+Discussion
+Participant Experience Outcomes
+Our novel SMARTﬁt intervention has demonstrated that a small
+community–university partnership can develop an appealing and
+enjoyable community-based, group DTT program using the
+SMARTﬁt Cognitive-Motor Exercise System. The development
+process allowed us to structure the impact phase around partici-
+pants’ feedback and preferences regarding which training activities
+they found most appealing. This is an important and novel com-
+ponent of our impact assessment and will inform development of
+larger RCTs to follow. We found that participants who attended
+6
+JHAVERI ET AL.
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 7 =====
+each training session were able to complete the entire session
+without the need for a break. Also, four out of the eight initial
+participants in the development phase also completed the impact
+phase. These participants had a direct inﬂuence on the character-
+istics of the follow-on intervention. Our results reveal that when
+older adult community members were oriented to the SMARTﬁt
+system to evaluate the training activities, they were able to provide
+valuable information allowing our team to develop an appealing
+and enjoyable training experience.
+Cognitive Function
+We discovered favorable changes in the TMT-A and -B scores as
+well as in the color and color–word conditions of the Stroop. Effect
+sizes ranged from 0.57 to 0.64 based on the results of the Wilcoxon
+signed-rank tests. Scores on executive functions including atten-
+tion, working memory, task-switching, and interference inhibition
+improved. Executive functions are widely deﬁned as mental pro-
+cesses that are responsible for our ability to concentrate, mentally
+process new information, and quickly adapt to different contexts
+(Diamond, 2013; Miyake et al., 2000). In everyday life, these
+functions allow us to plan, make decisions, and carryout other
+activities necessary to maintaining independence (Barberger-
+Gateau & Fabrigoule, 2003). Declining executive function is
+commonly seen in aging (MacPherson et al., 2002). The Stroop
+test is used to measure our ability to inhibit cognitive interference
+or distractions and to enable selective attention.
+While direct scores on the Stroop, including color, word, and
+color–word, are widely accepted and have been reported to mea-
+sure executive functions such as cognitive ﬂexibility and working
+memory, the literature regarding indirect scores has yielded mixed
+opinions (Jensen & Rohwer, 1966; Periá˜nez et al., 2020). Many
+studies using the Stroop choose not to include indirect scores,
+whereas those that do have been able to associate interference
+scores directly with cognitive functions like response inhibition,
+working memory, and conﬂict monitoring (Cox et al., 1997; Kluttz
+& Golden, 2016; Periá˜nez et al., 2020). Among studies that have
+reported interference scores since 2017, most have utilized the
+equation derived from Golden (1978). One systematic review
+comparing studies choosing to evaluate indirect scores from the
+Stroop found that of 27 studies, 16 used Golden’s standardized
+equation (Scarpina & Tagini, 2017). Studies choosing to report the
+interference score but that did not use Golden’s standardized
+equation used novel formulas based on a decrease in the time
+interval from 45 s (Barbarotto et al., 2004; Brugnolo et al., 2016;
+Valgimigli et al., 2010). Furthermore, 17 of 21 studies reviewed by
+Scarpina and Tagini used an equation measuring correct answers
+within the 45 s time interval, 16 of which relied on Golden’s
+standardized formula. Given the ubiquity of Golden’s scoring
+method in the existing literature, we too selected it, understanding
+that a consensus has not been reached regarding how best to derive
+the interference score. Further study of this aspect of the Stroop is
+needed to identify which is the optimal method to derive an
+interference score.
+In our study, we found that while the interference score did
+improve after DTT, it was still negative postintervention, improv-
+ing from −3.24 to −1.25, indicating an impairment in interference
+inhibition may have persisted after DTT. Previous studies have
+shown that, with regard to the Stroop test in particular, those with
+MCI perform worse than healthy controls, especially in the incon-
+gruent condition (Bélanger et al., 2010; Traykov et al., 2007).
+Morrow et al. (2013) found that among cognitively healthy older
+adults, the mean score on the incongruent condition was equal to
+45.4 (10.4). We reported a median equal to 34.00 (3.00) on the
+incongruent condition among our participants with MCI. In previ-
+ous studies, adjusting for individual differences in processing speed
+and baseline performance resulted in no differences in interference
+inhibition between healthy controls and those with MCI (Borella
+Table 4
+Changes From Baseline to End Point in Cognitive and Physical Functional Outcomes
+Outcome
+Median score (IQR)
+Wilcoxon W
+z score
+p
+Effect size (r)
+Trail-Making Test A*
+Baseline: 45 (4.00)
+End point: 40 (4.00)
+0.00
+2.83
+.005
+.63
+Trail-Making Test B*
+Baseline: 140.00 (7.00)
+End point: 135.00 (2.00)
+8.00
+2.81
+.004
+.62
+Stroop color*
+Baseline: 72.00 (4.00)
+End point: 74.00 (2.00)
+9.50
+2.11
+.035
+.41
+Stroop word*
+Baseline: 74.00 (4.00)
+End point: 75.00 (4.00)
+12.50
+1.84
+.066
+.36
+Stroop color–word
+Baseline: 34.00 (3.00)
+End point: 36.00 (2.00)
+0.00
+3.28
+.001
+.64
+Stroop interference*
+Baseline: −3.24 (1.50)
+End point: −1.25 (2.50)
+1.00
+2.70
+.007
+.60
+SPPB balance score*
+Baseline: 3.50 (1.00)
+End point: 4.00 (1.00)
+0.00
+2.24
+.025
+.50
+SPPB walk score
+Baseline: 4.00 (1.00)
+End point: 4.00 (1.00)
+0.00
+2.00
+.126
+.39
+SPPB strength score*
+Baseline: 3.00 (1.00)
+End point: 4.00 (1.00)
+0.00
+2.88
+.004
+.65
+SPPB total score*
+Baseline: 10.00 (2.00)
+End point: 12.00 (1.00)
+0.00
+2.70
+.004
+.62
+Note. For Trail-Making Test A and B performance assessed by number of seconds required to complete the task. For Stroop test performance assessed by number of correct
+responses provided in 45 s. Results are presented as median score (IQR). IQR = interquartile range; SPPB = Short Physical Performance Battery.
+*Outcome is signiﬁcant at the p < .05 level.
+SMARTﬁt IMPROVES FUNCTION IN MCI
+7
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 8 =====
+et al., 2017; Zhang et al., 2008). Our ﬁnding that the interference
+score remained negative at end point is reasonable given the short
+duration and relatively low training volume. A longer duration
+study with a larger sample size may yield different results. In
+addition, our small study did not allow us to develop a more
+comprehensive model that adjusted for relevant participant-level
+covariates. Future studies will include an attention-control group
+design and an adequate sample size to explore these associations in
+greater depth.
+The TMT reﬂects a wide variety of cognitive processes,
+including attention, visual search and scanning, sequencing, and
+shifting, psychomotor speed, abstraction, ﬂexibility, ability to
+execute and modify a plan of action, and ability to maintain two
+trains of thought simultaneously (Periá˜nez et al., 2020; Salthouse
+et al., 1995). These are functions that are essential for coping with
+everyday challenges older adults must face. Results of the impact
+phase revealed favorable changes in both Stroop assessments and
+both TMT assessments perhaps showing that participants improved
+in their ability to carry out executive functions.
+Physical Function
+In addition to cognitive improvements, participants of the impact
+phase showed improved balance and lower limb strength, both of
+which are predictors of fall risk in older adults (Rapport et al., 1998;
+Tinetti et al., 1988). Approximately 28%–35% of people aged 65 and
+over fall each year, increasing to 32%–42% for those over age 70.
+Previous studies demonstrate that individuals with MCI are at greater
+risk of falls compared with those without MCI (Liu-Ambrose et al.,
+2008). Promising changes in balance performance and repeated chair
+stand show that our intervention has the potential to decrease risk of
+falling in older individuals with MCI. Future studies should be
+implemented to understand the utility of SMARTﬁt as a fall-preven-
+tative option for at-risk cognitively impaired adults. By the end of the
+12 weeks, participants in the study did not improve in their 4-m walk
+times. This might in part reﬂect the limitations of the assessment of
+walking that we utilized. It may be that the 4-m walk test was not
+sufﬁcient to detect changes in walking performance as it only allows
+for measurement of walking speed over a relatively short distance. We
+did not assess parameters of gait quality that may have been impacted
+by the DTT program (König et al., 2017). In addition, it may be that
+the duration of the intervention was not long enough to elicit
+improvements in walking speed.
+Current evidence suggests that at present there is no consensus
+on the optimal intervention duration that will produce favorable
+changes in walking ability (Varela-Vásquez et al., 2020). More high-
+quality studies are clearly needed to provide deeper insights on the
+impact of DTT on walking ability in the context of aging and MCI.
+Furthermore, the exact dose of exergaming on the SMARTﬁt system
+that enhances walking ability in older adults has not yet been
+elucidated. Our approach to delivering simultaneous dual-task
+cognitive-motor training on the SMARTﬁt system is unique and
+has not been used previously among older adults with MCI. Without
+diminishing the cognitive focus of the intervention, gait-speciﬁc
+training could easily be integrated to allow for more opportunities to
+improve walking ability while still training cognition. This reﬂects
+the ﬂexibility and potential to personalize SMARTﬁt training based
+on the needs of individual participants. Further research is needed
+regarding the ideal intervention length, exercise selection, and
+training progression methodology to utilize that will yield optimal
+cognitive and physical outcomes in this population.
+Limitations
+Although both the implementation and outcomes of the SMARTﬁt
+Intervention were encouraging, there are some limitations that must
+be discussed to inform future larger scale RCTs. The small sample
+size and prepost design did not allow for development of a more
+comprehensive statistical model to examine change over time or
+adjust for relevant covariates including baseline performance. In
+addition, the pilot nature and one-group design prevented inference
+of causation and limits generalizability. In addition, due to the
+community-based recreational nature of the study, we did not
+collect more comprehensive participant-level anthropometric/clin-
+ical data, such as body mass, body composition, or blood pressure,
+and therefore could not explore their associations with SMARTﬁt
+training. Another limitation we must acknowledge is that we did
+not estimate exercise intensity during the training sessions using
+heart rate or rating of perceived exertion. Our future trial that is
+currently in development is being designed to assess exercise
+intensity during SMARTﬁt training via both accelerometry and
+rating of perceived exertion.
+As we touched on previously, in examining changes in the
+Stroop interference score, we must acknowledge that while the
+interference score did improve after 12 weeks of DTT, we cannot
+be certain this improvement reﬂects an enhanced ability to inhibit
+interference. The derivation of the interference score suggested by
+Golden (Ivnik et al., 1996) is impacted by both the color and word
+scores. Therefore, improvements in the color or word condition
+will also drive the interference score higher. In our study, we did
+observe improvements in the color–word (incongruent condition)
+score, and we are encouraged that SMARTﬁt DTT will enhance
+interference inhibition. We must also state that while small im-
+provements in physical function were observed, it is likely given
+the study population’s relatively high functional capacity, there
+was a ceiling effect with regard to scores on the SPPB, wherein our
+participants demonstrated high performance at baseline and there-
+fore could not experience substantial improvements postinterven-
+tion. Our future studies will integrate physical assessments that
+better capture changes appropriate in older adults with MCI
+(Puthoff, 2008).
+The intent of this study was to demonstrate that a university–
+community partnership can be established, can enroll older adults,
+and implement an engaging, appealing DTT program in an under-
+served community. Our current efforts are focused on expanding
+this SMARTﬁt MCI program to other community organizations, to
+broaden our reach and test this form of DTT in a more diverse
+group of older adults with varying needs and resources. Our future
+studies are being designed with attention-control groups to com-
+pare cognitive performance between SMARTﬁt-trained and
+untrained individuals and to develop more comprehensive analysis
+of covariance models that better characterize the association
+between DTT and cognitive and physical functioning in the context
+of MCI. Finally, we recognize that the SMARTﬁt system is a
+specialized piece of technology to which not all community
+organizations have access with a current cost of approximately
+$20,000. This is an important consideration for future studies and
+for the dissemination of this technology. However, our partnership
+received a grant from a local health foundation to purchase the
+system to be left to the YMCA after completion of the initial pilot.
+Fortunately, this community organization has sustained the
+SMARTﬁt training as part their regular programming provided
+each week. This highlights the very real possibility that in an
+underserved neighborhood setting, we can successfully engage
+8
+JHAVERI ET AL.
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 9 =====
+community and university stakeholders to invest in the health and
+longevity of our community members. We have shown that we can
+aid in mobilizing key resources and bring awareness to the need for
+additional support. Our future studies will seek to expand into other
+communities in need by ﬁrst identifying key stakeholders and
+opportunities to invest in these important communities.
+Conclusions
+Existing literature that highlights the feasibility and efﬁcacy of
+DTT in diverse and real-world community settings is limited.
+Studies similar to this have compared the efﬁcacy of combining
+physical-cognitive interventions to a physical-alone or a cognitive-
+alone therapy (Anderson-Hanley et al., 2012; Basak & Qin, 2018;
+Hagovska & Nagyova, 2017). The debate remains whether inter-
+ventions that deliver cognitive and physical exercise simulta-
+neously yield superior cognitive outcomes than interventions
+conducted sequentially (Combourieu Donnezan et al., 2018). A
+recent meta-analysis of studies that included both cognitively
+impaired as well as healthy participants found that implementing
+simultaneous cognitive-motor training yielded larger improve-
+ments in cognitive functioning (Gheysen et al., 2018). However,
+there is a paucity of studies comparing simultaneous to sequential
+intervention in MCI patients in real-world community settings with
+varying needs and resources. Having demonstrated favorable
+changes in our key outcomes, our results will ultimately contribute
+to the growing body of evidence that supports simultaneous
+physical and cognitive training for older adults seeking a proactive
+strategy to maintain or even improve their function, independence,
+and quality of life. Our team is positioned to build upon these
+results with larger scale RCTs that robustly explore the impacts and
+implementation of DTT on cognition and physical function in older
+adults.
+This is the ﬁrst study to utilize the SMARTﬁt Cognitive-Motor
+Exercise System to deliver DTT in the context of MCI. In addition,
+there are few studies in this area that have utilized a distinct
+development phase to enable shared decision making and direct
+participant feedback regarding the appeal of intervention activities.
+Both the social support built into the intervention and the opportu-
+nity for shared decision making may have contributed to the high
+satisfaction scores reported by participants. A previous study that
+utilized a similar shared decision-making approach in addition to
+prioritizing a social component found that the high satisfaction
+scores were the strongest indicator of long-term adherence. (Bae
+et al., 2019). Long-term adherence to our program could prove
+instrumental in improving function and quality of life for partici-
+pants. Follow-up RCTs are required to determine the efﬁcacy of
+SMARTﬁt DTT on enhancing cognitive and physical function and
+whether long-term adherence can slow MCI or AD progression in
+older adults.
+Acknowledgments
+The authors want to sincerely thank the dedicated staff members of the
+William-Emslie YMCA for their support of this project. In addition, the
+authors want to thank members of the SMARTﬁt team for providing much
+needed programmatic and technical support, ensuring our intervention was
+conducted in an efﬁcient and effective manner. The authors look forward to
+our continued collaborations. Research reported in this publication was
+supported by the National Center for Advancing Translational Sciences of
+the
+National
+Institutes
+of
+Health
+(NIH)
+under
+award
+number
+KL2TR001413 to the University at Buffalo. The content is solely the
+responsibility of the authors and does not necessarily represent the ofﬁcial
+views of the NIH. Additional funding support was provided through a
+grant from the Health Foundation for Western and Central New York.
+Jhaveri contributed to data analysis and manuscript preparation. Romanyk
+contributed to study design and manuscript preparation. Glatt contributed
+to manuscript preparation. Satchidanand contributed to study design, data
+analysis, and manuscript preparation.
+References
+Ali, N., Tian, H., Thabane, L., Ma, J., Wu, H., Zhong, Q., Gao, Y., Sun, C.,
+Zhu, Y., & Wang, T. (2022). The effects of dual-task training on
+cognitive and physical functions in older adults with cognitive
+impairment; a systematic review and meta-analysis. The Journal of
+Prevention of Alzheimer's Disease, 9(2), 359–370. https://doi.org/10.
+14283/jpad.2022.16
+Anderson, N.D. (2019). State of the science on mild cognitive impairment
+(MCI). CNS Spectrums, 24(1), 78–87. https://doi.org/10.1017/S1092
+852918001347
+Anderson-Hanley, C., Arciero, P.J., Brickman, A.M., Nimon, J.P., Okuma,
+N., Westen, S.C., Merz, M.E., Pence, B.D., Woods, J.A., Kramer,
+A.F., & Zimmerman, E.A. (2012). Exergaming and older adult
+cognition: A cluster randomized clinical trial. American Journal of
+Preventive Medicine, 42(2), 109–119. https://doi.org/10.1016/j.
+amepre.2011.10.016
+Bae, S., Lee, S., Lee, S., Jung, S., Makino, K., Harada, K., Harada, K.,
+Shinkai, Y., Chiba, I., & Shimada, H. (2019). The effect of a
+multicomponent intervention to promote community activity on
+cognitive function in older adults with mild cognitive impairment:
+A randomized controlled trial. Complementary Therapies in Medi-
+cine, 42, 164–169. https://doi.org/10.1016/j.ctim.2018.11.011
+Barbarotto, R., Laiacona, M., Frosio, R., Vecchio, M.D., Farinato, A., &
+Capitani, E. (2004). A normative study on visual reaction times and
+two Stroop colour–word tests. The Italian Journal of Neurological
+Sciences, 19, 161–170. https://doi.org/10.1007/BF00831566
+Barberger-Gateau, P., & Fabrigoule, C. (2003). Re: Bell-McGinty et al
+standard measures of executive function in predicting instrumental
+activities of daily living in older adults. International Journal of
+Geriatric Psychiatry, 18(5), 459–460. https://doi.org/10.1002/gps.825
+Basak, C., & Qin, S. (2018). 9—Virtual cognitive training in healthy aging
+and mild cognitive impairment. In R. Pak & A.C. McLaughlin (Eds.),
+Aging, technology and health (pp. 215–235). Academic Press. https://
+doi.org/10.1016/B978-0-12-811272-4.00009-9
+Bélanger, S., Belleville, S., & Gauthier, S. (2010). Inhibition impairments in
+Alzheimer’s disease, mild cognitive impairment and healthy aging: Effect
+of congruency proportion in a Stroop task. Neuropsychologia, 48(2),
+581–590. https://doi.org/10.1016/j.neuropsychologia.2009.10.021
+Bernabeu-Mora, R., Giménez-Giménez, L.M., Montilla-Herrador, J.,
+García-Guillamo´n, G., García-Vidal, J.A., & Medina-Mirapeix, F.
+(2017). Determinants of each domain of the short physical perfor-
+mance battery in COPD. International Journal of Chronic Obstruc-
+tive Pulmonary Disease, 12, 2539–2544. https://doi.org/10.2147/
+copd.S138402
+Borella, E., Carretti, B., Mitolo, M., Zavagnin, M., Caffarra, P., Mammar-
+ella, N., Fairﬁeld, B., Gamboz, N., & Piras, F. (2017). Characterizing
+cognitive inhibitory deﬁcits in mild cognitive impairment. Psychiatry
+Research, 251, 342–348. https://doi.org/10.1016/j.psychres.2016.
+12.037
+Bowie, C.R., & Harvey, P.D. (2006). Administration and interpretation of
+the Trail Making Test. Nature Protocols, 1(5), 2277–2281. https://
+doi.org/10.1038/nprot.2006.390
+SMARTﬁt IMPROVES FUNCTION IN MCI
+9
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 10 =====
+Boyke, J., Driemeyer, J., Gaser, C., Büchel, C., & May, A. (2008).
+Training-induced brain structure changes in the elderly. The Journal
+of
+Neuroscience,
+28(28),
+7031–7035.
+https://doi.org/10.1523/
+jneurosci.0742-08.2008
+Brugnolo, A., De Carli, F., Accardo, J., Amore, M., Bosia, L.E., Bruzza-
+niti, C., Cappa, S.F., Cocito, L., Colazzo, G., Ferrara, M., Ghio, L.,
+Magi, E., Mancardi, G.L., Nobili, F., Pardini, M., Rissotto, R., Serrati,
+C., & Girtler, N. (2016). An updated Italian normative dataset for the
+Stroop Color Word Test (SCWT). Neurological Sciences, 37(3),
+365–372. https://doi.org/10.1007/s10072-015-2428-2
+Brustio, P.R., Magistro, D., Zecca, M., Liubicich, M.E., & Rabaglietti, E.
+(2018). Fear of falling and activities of daily living function: media-
+tion effect of dual-task ability. Aging and Mental Health, 22(6), 856–
+861. https://doi.org/10.1080/13607863.2017.1318257
+Cabrero-García, J., Mu˜noz-Mendoza, C.L., Caba˜nero-Martínez, M.J.,
+González-Llopís, L., Ramos-Pichardo, J.D., & Reig-Ferrer, A.
+(2012). Short physical performance battery reference values for
+patients 70 years-old and over in primary health care. Atencion
+Primaria,
+44(9),
+540–548.
+https://doi.org/10.1016/j.aprim.2012.
+02.007
+Choi, J.H., Kim, B.R., Han, E.Y., & Kim, S.M. (2015). The effect of dual-
+task training on balance and cognition in patients with subacute post-
+stroke. Annals of Rehabilitation Medicine, 39(1), 81–90. https://doi.
+org/10.5535/arm.2015.39.1.81
+Christensen, U., Schmidt, L., Budtz-Jørgensen, E., & Avlund, K. (2006).
+Group cohesion and social support in exercise classes: Results from a
+Danish intervention study. Health Education & Behavior, 33(5),
+677–689. https://doi.org/10.1177/1090198105277397
+Chu, C.H., Biss, R.K., Cooper, L., Quan, A.M.L., & Matulis, H. (2021).
+Exergaming platform for older adults residing in long-term care
+homes: User-centered design, development, and usability study.
+JMIR Serious Games, 9(1), Article e22370. https://doi.org/10.
+2196/22370
+Cirulli, F., Berry, A., Chiarotti, F., & Alleva, E. (2004). Intrahippocampal
+administration of BDNF in adult rats affects short-term behavioral
+plasticity in the Morris water maze and performance in the elevated
+plus-maze. Hippocampus, 14(7), 802–807. https://doi.org/10.1002/
+hipo.10220
+Coelho, F.G., Gobbi, S., Andreatto, C.A., Corazza, D.I., Pedroso, R.V., &
+Santos-Galduro´z, R.F. (2013). Physical exercise modulates periph-
+eral levels of brain-derived neurotrophic factor (BDNF): A systematic
+review of experimental studies in the elderly. Archives of Gerontol-
+ogy and Geriatrics, 56(1), 10–15. https://doi.org/10.1016/j.archger.
+2012.06.003
+Coelho, F.G., Vital, T.M., Stein, A.M., Arantes, F.J., Rueda, A.V.,
+Camarini, R., Teodorov, E., & Santos-Galduro´z, R.F. (2014). Acute
+aerobic exercise increases brain-derived neurotrophic factor levels in
+elderly with Alzheimer’s disease. Journal of Alzheimer’s Disease, 39,
+401–408. https://doi.org/10.3233/JAD-131073
+Combourieu Donnezan, L., Perrot, A., Belleville, S., Bloch, F., & Ke-
+moun, G. (2018). Effects of simultaneous aerobic and cognitive
+training on executive functions, cardiovascular ﬁtness and functional
+abilities in older adults with mild cognitive impairment. Mental
+Health and Physical Activity, 15, 78–87. https://doi.org/10.1016/j.
+mhpa.2018.06.001
+Conrad, I., Uhle, C., Matschinger, H., Kilian, R., & Riedel-Heller, S.G.
+(2015). Quality of life of individuals with mild cognitive impairment.
+Psychiatrische Praxis, 42(3), 152–157. https://doi.org/10.1055/s-
+0034-1369831
+Cox, C.S., Chee, E., Chase, G.A., Baumgardner, T.L., Schuerholz, L.J.,
+Reader, M.J., Mohr, J., & Denckla, M.B. (1997). Reading proﬁciency
+affects the construct validity of the stroop test interference score. The
+Clinical Neuropsychologist, 11(2), 105–110. https://doi.org/10.1080/
+13854049708407039
+Delbroek, T., Vermeylen, W., & Spildooren, J. (2017). The effect of
+cognitive-motor dual task training with the biorescue force platform
+on cognition, balance and dual task performance in institutionalized
+older adults: A randomized controlled trial. Journal of Physical Therapy
+Science, 29(7), 1137–1143. https://doi.org/10.1589/jpts.29.1137
+Della Sala, S., Baddeley, A., Papagno, C., & Spinnler, H. (1995). Dual-
+task paradigm: A means to examine the central executive. Annals of
+the New York Academy Science, 769, 161–171. https://doi.org/10.
+1111/j.1749-6632.1995.tb38137.x
+Diamond, A. (2013). Executive functions. Annual Review of Psychology,
+64, 135–168. https://doi.org/10.1146/annurev-psych-113011-143750
+Erickson, K.I., Colcombe, S.J., Wadhwa, R., Bherer, L., Peterson, M.S.,
+Scalf, P.E., Kim, J.S., Alvarado, M., & Kramer, A.F. (2006). Train-
+ing-induced functional activation changes in dual-task processing: An
+fMRI study. Cerebral Cortex, 17(1), 192–204. https://doi.org/10.
+1093/cercor/bhj137
+Falbo, S., Condello, G., Capranica, L., Forte, R., & Pesce, C. (2016).
+Effects of physical-cognitive dual task training on executive function
+and gait performance in older adults: A randomized controlled trial.
+BioMed Research International, 2016, Article 5812092. https://doi.
+org/10.1155/2016/5812092
+Gallou-Guyot, M., Mandigout, S., Bherer, L., & Perrochon, A. (2020).
+Effects of exergames and cognitive-motor dual-task training on
+cognitive, physical and dual-task functions in cognitively healthy
+older adults: An overview. Ageing Research Reviews, 63, Article
+101135. https://doi.org/10.1016/j.arr.2020.101135
+Gheysen, F., Poppe, L., DeSmet, A., Swinnen, S., Cardon, G., De
+Bourdeaudhuij, I., Chastin, S., & Fias, W. (2018). Physical activity
+to improve cognition in older adults: Can physical activity programs
+enriched with cognitive challenges enhance the effects? A systematic
+review and meta-analysis. The International Journal of Behavioral
+Nutrition and Physical Activity, 15(1), Article 63. https://doi.org/10.
+1186/s12966-018-0697-x
+Golden, C.J. (1978). Stroop color and word test: A manual for clinical and
+experimental uses. Stoelting Company.
+Hagovska, M., & Nagyova, I. (2017). The transfer of skills from cognitive
+and physical training to activities of daily living: A randomised
+controlled study. European Journal of Ageing, 14(2), 133–142.
+Retrieved June 6, 2017 from https://europepmc.org/abstract/MED/
+28804398
+Hwang, Y., Massimo, L., Aryal, S., & Hodgson, N.A. (2022). The
+relationship between social isolation and anxiety in people with
+cognitive impairment in the United States. International Journal
+of Geriatric Psychiatry, 37(2). https://doi.org/10.1002/gps.5679
+Ide, K., & Secher, N.H. (2000). Cerebral blood ﬂow and metabolism
+during exercise. Progress in Neurobiology, 61(4), 397–414. https://
+doi.org/10.1016/S0301-0082(99)00057-X
+Ivnik, R.J., Malec, J.F., Smith, G.E., Tangalos, E.G., & Petersen, R.C.
+(1996). Neuropsychological tests’ norms above age 55: COWAT,
+BNT, MAE token, WRAT-R reading, AMNART, STROOP, TMT,
+and JLO. The Clinical Neuropsychologist, 10(3), 262–278. https://
+doi.org/10.1080/13854049608406689
+Jensen, A.R., & Rohwer, W.D. (1966). The Stroop Color-Word Test: A
+review. Acta Psychologica, 25, 36–93. https://doi.org/10.1016/0001-
+6918(66)90004-7
+Kluttz, A., & Golden, C. (2016). Assessing executive function measures—
+The predictors of stroop interference T-scores. The Clinical Neuro-
+psychologist, 30, 781–782.
+König, A., Klaming, L., Pijl, M., Demeurraux, A., David, R., & Robert, P.
+(2017). Objective measurement of gait parameters in healthy and
+10
+JHAVERI ET AL.
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 11 =====
+cognitively impaired elderly using the dual-task paradigm. Aging
+Clinical and Experimental Research, 29(6), 1181–1189. https://doi.
+org/10.1007/s40520-016-0703-6
+Li, Z., Wang, T., Liu, H., Jiang, Y., Wang, Z., & Zhuang, J. (2020). Dual-
+task training on gait, motor symptoms, and balance in patients with
+Parkinson’s disease: A systematic review and meta-analysis. Clinical
+Rehabilitation, 34(11), 1355–1367. https://doi.org/10.1177/026921
+5520941142
+Liao, Y.-Y., Chen, I.-H., Lin, Y.-J., Chen, Y., & Hsu, W.-C. (2019).
+Effects of virtual reality-based physical and cognitive training on
+executive function and dual-task gait performance in older adults with
+mild cognitive impairment: A randomized control trial [Clinical
+Trial]. Frontiers in Aging Neuroscience, 11, Article 162. https://
+doi.org/10.3389/fnagi.2019.00162
+Liu-Ambrose, T.Y., Ashe, M.C., Graf, P., Beattie, B.L., & Khan, K.M.
+(2008). Increased risk of falling in older community-dwelling women
+with mild cognitive impairment. Physical Therapy, 88(12), 1482–
+1491. https://doi.org/10.2522/ptj.20080117
+Maass, A., Düzel, S., Goerke, M., Becke, A., Sobieray, U., Neumann,
+K., Lövden, M., Lindenberger, U., Bäckman, L., Braun-Dullaeus,
+R., Ahrens, D., Heinze, H.J., Müller, N.G., & Düzel, E. (2015). Vascular
+hippocampal plasticity after aerobic exercise in older adults. Molecular
+Psychiatry, 20(5), 585–593. https://doi.org/10.1038/mp.2014.114
+MacPherson, S.E., Phillips, L.H., & Della Sala, S. (2002). Age,
+executive function, and social decision making: A dorsolateral prefrontal
+theory of cognitive aging. Psychology and Aging, 17(4), 598–609.
+Makizako, H., Doi, T., Shimada, H., Yoshida, D., Takayama, Y., &
+Suzuki, T. (2013). Relationship between dual-task performance
+and neurocognitive measures in older adults with mild cognitive
+impairment. Geriatrics & Gerontology International, 13(2), 314–
+321. https://doi.org/10.1111/j.1447-0594.2012.00898.x
+Marinus, N., Hansen, D., Feys, P., Meesen, R., Timmermans, A., &
+Spildooren, J. (2019). The impact of different types of exercise
+training on peripheral blood brain-derived neurotrophic factor con-
+centrations in older adults: A meta-analysis. Sports Medicine, 49(10),
+1529–1546. https://doi.org/10.1007/s40279-019-01148-z
+McLaughlin, A.C., Bryant, M.R., Sprufera, J.F., Allaire, J.C., & Gandy,
+M. (2013). Usability an important goal for the design of therapeutic
+games for older adults. Engineering Psychology and Cognitive
+Ergonomics. Applications and Services.
+Miyake, A., Friedman, N.P., Emerson, M.J., Witzki, A.H., Howerter, A.,
+& Wager, T.D. (2000). The unity and diversity of executive functions
+and their contributions to complex “Frontal Lobe” tasks: A latent
+variable analysis. Cognitive Psychology, 41(1), 49–100. https://doi.
+org/10.1006/cogp.1999.0734
+Morrow, S.A. (2013). Normative data for the Stroop color word test for a
+North American population. Canadian Journal of Neurological
+Sciences, 40(6), 842–847. https://doi.org/10.1017/s031716710001
+5997
+Mozolic, J., Hayaska, S., & Laurienti, P. (2010). A cognitive training
+intervention increases resting cerebral blood ﬂow in healthy older
+adults [Original Research]. Frontiers in Human Neuroscience, 4,
+Article 16. https://doi.org/10.3389/neuro.09.016.2010
+Mu, J.S., Li, W.P., Yao, Z.B., & Zhou, X.F. (1999). Deprivation of
+endogenous brain-derived neurotrophic factor results in impairment
+of spatial learning and memory in adult rats. Brain Research, 835(2),
+259–265. https://doi.org/10.1016/s0006-8993(99)01592-9
+Muir-Hunter, S.W., & Wittwer, J.E. (2016). Dual-task testing to predict falls
+in community-dwelling older adults: a systematic review. Physiother-
+apy, 102(1), 29–40. https://doi.org/10.1016/j.physio.2015.04.011
+Ogawa, E., You, T., & Leveille, S. (2015). Potential beneﬁts of exergam-
+ing for cognition and dual task function in older adults: A systematic
+review. Journal of Aging and Physical Activity, 24(2), 332–336.
+https://doi.org/10.1123/japa.2014-0267
+Park, H., Park, J.H., Na, H.R., Hiroyuki, S., Kim, G.M., Jung, M.K., Kim,
+W.K., & Park, K.W. (2019). Combined intervention of physical
+activity, aerobic exercise, and cognitive exercise intervention to
+prevent
+cognitive
+decline
+for
+patients
+with
+mild
+cognitive
+impairment: A randomized controlled clinical study. Journal of
+Clinical
+Medicine,
+8(7),
+Article
+940.
+https://doi.org/10.3390/
+jcm8070940
+Periá˜nez, J.A., Lubrini, G., García-Gutiérrez, A., & Ríos-Lago, M. (2020).
+Construct validity of the Stroop Color–Word Test: Inﬂuence of speed of
+visual search, verbal ﬂuency, working memory, cognitive ﬂexibility, and
+conﬂict monitoring. Archives of Clinical Neuropsychology, 36(1), 99–
+111. https://doi.org/10.1093/arclin/acaa034
+Petersen, R.C., Smith, G.E., Waring, S.C., Ivnik, R.J., Tangalos, E.G., &
+Kokmen, E. (1999). Mild cognitive impairment: Clinical characteri-
+zation and outcome. Archives of Neurology, 56(3), 303–308. https://
+doi.org/10.1001/archneur.56.3.303
+Puthoff, M.L. (2008). Outcome measures in cardiopulmonary physical
+therapy: Short physical performance battery. Cardiopulmonary Phys-
+ical Therapy Journal, 19(1), 17–22. https://pubmed.ncbi.nlm.nih.
+gov/20467494
+Rapport, L.J., Hanks, R.A., Millis, S.R., & Deshpande, S.A. (1998).
+Executive functioning and predictors of falls in the rehabilitation
+setting. Archives of Physical Medicine and Rehabilitation, 79(6),
+629–633. https://doi.org/10.1016/S0003-9993(98)90035-1
+Resnick, B., Orwig, D., Magaziner, J., & Wynne, C. (2002). The effect of
+social support on exercise behavior in older adults. Clinical Nursing
+Research,
+11(1),
+52–70.
+https://doi.org/10.1177/10547738020
+1100105
+Salthouse, T.A., Fristoe, N.M., Lineweaver, T.T., & Coon, V.E. (1995).
+Aging of attention: Does the ability to divide decline? Memory &
+Cognition, 23(1), 59–71. https://doi.org/10.3758/bf03210557
+Scarpina, F., & Tagini, S. (2017). The Stroop Color and Word Test.
+Frontiers in Psychology, 8, Article 557. https://doi.org/10.3389/
+fpsyg.2017.00557
+Sobol, N.A., Hoffmann, K., Vogel, A., Lolk, A., Gottrup, H., Høgh, P.,
+Hasselbalch, S.G., & Beyer, N. (2016). Associations between physical
+function, dual-task performance and cognition in patients with mild
+Alzheimer’s disease. Aging & Mental Health, 20(11), 1139–1146.
+https://doi.org/10.1080/13607863.2015.1063108
+Tait, J.L., Duckham, R.L., Milte, C.M., Main, L.C., & Daly, R.M. (2017).
+Inﬂuence of sequential vs. simultaneous dual-task exercise training on
+cognitive function in older adults. Frontiers in Aging Neuroscience,
+9, Article 368. https://doi.org/10.3389/fnagi.2017.00368
+Tinetti, M.E., Speechley, M., & Ginter, S.F. (1988). Risk factors for falls
+among elderly persons living in the community. New England
+Journal of Medicine, 319(26), 1701–1707. https://doi.org/10.1056/
+nejm198812293192604
+Traykov, L., Raoux, N., Latour, F., Gallo, L., Hanon, O., Baudic, S., Bayle,
+C., Wenisch, E., Remy, P., & Rigaud, A.-S. (2007). Executive
+functions deﬁcit in mild cognitive impairment. Cognitive and Behav-
+ioral Neurology, 20(4), 219–224. https://doi.org/10.1097/WNN.
+0b013e31815e6254
+Treacy, D., & Hassett, L. (2018). The short physical performance battery.
+Journal of Physiotherapy, 64(1), Article 61. https://doi.org/10.1016/j.
+jphys.2017.04.002
+Tyrovolas, S., Koyanagi, A., Lara, E., Ivan Santini, Z., & Haro, J.M. (2016,
+2016/03/01/). Mild cognitive impairment is associated with falls
+among older adults: Findings from the Irish Longitudinal Study on
+Ageing (TILDA). Experimental Gerontology, 75, 42–47. https://doi.
+org/10.1016/j.exger.2015.12.008
+SMARTﬁt IMPROVES FUNCTION IN MCI
+11
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
+
+===== PAGE 12 =====
+Uehara, A., Obata, H., Watanabe, H., Izumi, Y., Suzuki, Y., & Izumi, T.
+(2018). The baseline speed of 10-m gait predicts ambulatory dis-
+charge for hospitalized frail elderly after DOPPO rehabilitation.
+International Journal of Rehabilitation Research, 41(4), 331–336.
+https://doi.org/10.1097/mrr.0000000000000308
+Valgimigli, S., Padovani, R., Budriesi, C., Leone, M., Lugli, D., &
+Nichelli, P.F. (2010). The Stroop test: A normative Italian study
+on a paper version for clinical use. Giornale Italiano di Psicologia,
+37, 945–956. https://doi.org/10.1421/33435
+Varela-Vásquez, L.A., Minobes-Molina, E., & Jerez-Roig, J. (2020). Dual-
+task exercises in older adults: A structured review of current literature.
+Journal of Frailty, Sarcopenia and Falls, 5(2), 31–37. https://doi.org/
+10.22540/jfsf-05-031
+Voelcker-Rehage, C., & Niemann, C. (2013). Structural and func-
+tional brain changes related to different types of physical activity
+across the life span. Neuroscience & Biobehavioral Reviews,
+37(9),
+2268–2295.
+https://doi.org/10.1016/j.neubiorev.2013.
+01.028
+Wollesen, B., Schulz, S., Seydell, L., & Delbaere, K. (2017). Does dual
+task training improve walking performance of older adults with
+concern of falling? BMC Geriatrics, 17(1), Article 213. https://doi.
+org/10.1186/s12877-017-0610-5
+Zhang, Y., Chen, Y., Bressler, S.L., & Ding, M. (2008). Response
+preparation and inhibition: The role of the cortical sensorimotor
+beta rhythm. Neuroscience, 156(1), 238–246. https://doi.org/10.
+1016/j.neuroscience.2008.06.061
+12
+JHAVERI ET AL.
+(Ahead of Print)
+Unauthenticated | Downloaded 02/02/23 02:27 AM UTC
