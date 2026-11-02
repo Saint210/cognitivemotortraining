@@ -1,0 +1,5 @@
+# TODO: Update domain when approved
+User-agent: *
+Allow: /
+
+Sitemap: https://example.com/sitemap-index.xml

@@ -1,0 +1,66 @@
+# Sveltia CMS config — local-only scaffolding for now.
+#
+# This runs in Sveltia's local-repository mode (File System Access API),
+# not against a live Git host: https://sveltiacms.app/en/docs/workflows/local
+# When prompted in the CMS, click "Work with Local Repository" and select the
+# repository ROOT (C:\repos\cognitivemotortraining, the folder containing
+# .git) — not this site/ folder — because folder paths below are relative to
+# the repo root. No OAuth app or real `repo:` value is needed for local use.
+#
+# Wiring a real Git-backed `backend` (GitHub/GitLab/Gitea) for remote editing
+# is deferred until hosting is chosen — see the site build plan.
+backend:
+  name: github
+  repo: placeholder/not-used-in-local-mode
+
+media_folder: site/public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: site/src/content/pages
+    create: false
+    delete: false
+    identifier_field: title
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Route
+        name: route
+        widget: string
+        hint: "Structural — matches an existing route under site/src/pages/. Changing this does not move the page."
+
+      - label: Primary audience
+        name: audience
+        widget: string
+
+      - label: Page job
+        name: pageJob
+        widget: text
+
+      - label: Visitor question
+        name: visitorQuestion
+        widget: text
+
+      - label: Primary CTA label
+        name: primaryCta
+        widget: string
+
+      - label: Review guardrail
+        name: reviewGuardrail
+        widget: text
+        hint: "What to avoid claiming on this page — keep aligned with strategy/content-governance.md."
+
+      - label: Claim IDs
+        name: claimIds
+        widget: list
+        default: []
+        hint: "Only IDs with approved-for-publication status in source-library/smartfit/claim-register.csv. Leave empty until that workflow is wired up."
+
+      - label: Body
+        name: body
+        widget: markdown

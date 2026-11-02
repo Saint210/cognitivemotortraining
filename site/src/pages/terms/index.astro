@@ -1,0 +1,8 @@
+---
+import StubPage from '../../layouts/StubPage.astro';
+import { getEntry } from 'astro:content';
+const entry = await getEntry('pages', 'terms');
+if (!entry) throw new Error('Missing content entry: pages/terms');
+---
+
+<StubPage entry={entry} />

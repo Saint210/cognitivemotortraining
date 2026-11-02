@@ -1,0 +1,66 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'pages'>;
+}
+const { entry } = Astro.props;
+const { title, audience, pageJob, visitorQuestion, primaryCta, reviewGuardrail } = entry.data;
+const { Content } = await render(entry);
+---
+
+<BaseLayout title={title}>
+  <section class="wrap stub">
+    <p class="stub-tag">Placeholder page — scaffolding only, not approved public copy</p>
+    <h1>{title}</h1>
+    <dl>
+      <dt>Primary audience</dt>
+      <dd>{audience}</dd>
+      <dt>Page job</dt>
+      <dd>{pageJob}</dd>
+      <dt>Visitor question this page should answer</dt>
+      <dd>{visitorQuestion}</dd>
+      <dt>Review guardrail</dt>
+      <dd>{reviewGuardrail}</dd>
+    </dl>
+    <div class="stub-body">
+      <Content />
+    </div>
+    <a class="cta-button" href="/request-demo/">{primaryCta}</a>
+  </section>
+
+  <style>
+    .stub {
+      padding-top: 2.5rem;
+      padding-bottom: 3rem;
+      max-width: 40rem;
+    }
+    .stub-tag {
+      display: inline-block;
+      background: var(--color-highlight);
+      color: var(--color-accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.3rem 0.6rem;
+      border-radius: 0.3rem;
+      margin-bottom: 1rem;
+    }
+    dl {
+      margin: 1.5rem 0;
+    }
+    dt {
+      font-weight: 600;
+      margin-top: 0.75rem;
+    }
+    dd {
+      margin: 0.15rem 0 0;
+      color: var(--color-muted);
+    }
+    .stub-body {
+      margin: 1.5rem 0;
+      color: var(--color-muted);
+    }
+  </style>
+</BaseLayout>

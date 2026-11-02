@@ -1,0 +1,8 @@
+---
+import StubPage from '../../layouts/StubPage.astro';
+import { getEntry } from 'astro:content';
+const entry = await getEntry('pages', 'applications');
+if (!entry) throw new Error('Missing content entry: pages/applications');
+---
+
+<StubPage entry={entry} />
