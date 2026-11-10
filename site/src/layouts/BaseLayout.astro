@@ -12,13 +12,12 @@ const {
 } = Astro.props;
 
 const navLinks = [
-  { href: '/systems/', label: 'Systems' },
-  { href: '/evaluation-framework/', label: 'Framework' },
-  { href: '/reviews/', label: 'Audits' },
+  { href: '/reviews/', label: 'Equipment' },
+  { href: '/compare/', label: 'Comparisons' },
   { href: '/applications/', label: 'Applications' },
-  { href: '/compare/', label: 'Compare' },
-  { href: '/how-it-works/', label: 'The Science' },
   { href: '/game-library/', label: 'Game Library' },
+  { href: '/how-it-works/', label: 'The Science' },
+  { href: '/photo-fit-review/', label: 'Facility Planning' },
   { href: '/about/', label: 'About' },
 ];
 ---
@@ -161,16 +160,16 @@ const navLinks = [
             </div>
           </div>
 
-          <!-- Col 2: Framework & Reviews -->
+          <!-- Col 2: Equipment & Comparisons -->
           <div class="footer-col">
-            <h3 class="footer-heading">Audits &amp; Framework</h3>
+            <h3 class="footer-heading">Equipment &amp; Comparisons</h3>
             <ul class="footer-links">
+              <li><a href="/reviews/">Technology Audits &amp; Scoring</a></li>
               <li><a href="/evaluation-framework/">The 5-Dimension Framework</a></li>
               <li><a href="/systems/">SMARTfit Systems Directory</a></li>
-              <li><a href="/reviews/smartfit/">SMARTfit Flagship Audit</a></li>
-              <li><a href="/compare/smartfit-vs-dynavision/">SMARTfit vs. Dynavision D2</a></li>
-              <li><a href="/compare/smartfit-vs-dividat-senso/">SMARTfit vs. Dividat Senso</a></li>
-              <li><a href="/compare/smartfit-vs-blazepod/">SMARTfit vs. BlazePod</a></li>
+              <li><a href="/compare/">Head-to-Head Comparisons</a></li>
+              <li><a href="/compare/">SMARTfit vs. Dynavision D2</a></li>
+              <li><a href="/compare/">SMARTfit vs. Dividat Senso</a></li>
               <li><a href="/photo-fit-review/">Request Photo Fit Review</a></li>
             </ul>
           </div>
@@ -205,7 +204,7 @@ const navLinks = [
 
         <div class="footer-compliance">
           <p class="compliance-note">
-            <strong>Independent Consultancy &amp; Regulatory Disclaimer:</strong> CMT Systems is an independent clinical technology consultancy and equipment auditor. Equipment evaluated on this website consists of commercial exercise, assessment, and training systems and does not constitute FDA-cleared medical devices. System evaluations and scientific citations refer to published research on dual-task motor-cognitive training and neuroplasticity. Use of equipment does not constitute medical diagnosis, treatment, or guaranteed clinical cure, fall prevention, or insurance reimbursement. CPT codes 97530 and 97112 describe therapeutic activities delivered and billed under the discretion of licensed clinicians. Equipment pricing and commercial arrangements are confidential and subject to private consultation.
+            <strong>Independent Consultancy &amp; Regulatory Disclaimer:</strong> CMT Systems is an independent clinical technology consultancy and equipment auditor. Equipment evaluated on this website consists of commercial exercise, assessment, and training systems and does not constitute FDA-cleared medical devices. System evaluations and scientific citations refer to published research on dual-task motor-cognitive training and neuroplasticity. Use of equipment does not constitute medical diagnosis, treatment, or guaranteed clinical cure, fall prevention, or insurance reimbursement. Applicable CPT codes (including 97112, 97530, 97110, 97116, 97150, 97129, 97130, 97750, 96125) describe clinician-delivered modalities and assessments provided under the discretion of licensed professionals, and do not constitute a guarantee of third-party reimbursement. Equipment pricing and commercial arrangements are confidential and subject to private consultation.
           </p>
         </div>
 
