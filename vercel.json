@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build --prefix site",
+  "outputDirectory": "site/.vercel/output/static",
+  "framework": "astro"
+}
