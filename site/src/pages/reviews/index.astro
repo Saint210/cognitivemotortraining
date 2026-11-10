@@ -6,7 +6,12 @@ const audits = [
     name: 'SMARTfit® Dual-Task Systems',
     tagline: 'High-Impact Multi-User Dual-Task Training System',
     category: 'Full-Body Dual-Task System',
-    overallScore: '4.8',
+    operationalTier: 'Tier 1 — High-Impact Gross Kinetic / 10+ Multi-User',
+    evidenceGrade: 'C',
+    evidenceLabel: 'Emerging Evidence',
+    evidenceSummary: 'Independent device-specific RCTs are limited. Clinical support draws from broad dual-task neuroscience literature. Manufacturer outcome claims require independent verification.',
+    regulatoryStatus: 'Commercial Exercise & Assessment Equipment (Not FDA-Cleared)',
+    gameCount: 19,
     status: 'Top Recommendation',
     highlight: true,
     image: '/images/products/smartfit-protrainer-high-impact-wall-mount.jpg',
@@ -36,7 +41,12 @@ const audits = [
     name: 'Dynavision D2',
     tagline: 'Light-Array Visuomotor Diagnostic & Rehabilitation Board',
     category: 'Visuomotor Diagnostic Board',
-    overallScore: '3.4',
+    operationalTier: 'Tier 3 — Upper-Body Reach / Single User',
+    evidenceGrade: 'C',
+    evidenceLabel: 'Emerging Evidence',
+    evidenceSummary: 'Decades of clinical practice in vision therapy and driver rehabilitation, primarily supported by small, uncontrolled studies and observational evidence.',
+    regulatoryStatus: 'FDA 510(k) Cleared — Visuomotor Diagnostic & Rehabilitation',
+    gameCount: null,
     status: 'Specialized Evaluated System',
     highlight: false,
     image: '/images/competitors/dynavision-d2-light-board.png',
@@ -66,7 +76,12 @@ const audits = [
     name: 'Dividat Senso',
     tagline: 'Force-Plate Stepping Exergame for Fall Prevention',
     category: 'Stepping Balance Plate',
-    overallScore: '3.6',
+    operationalTier: 'Tier 3 — Lower-Body Stepping / Single User',
+    evidenceGrade: 'B',
+    evidenceLabel: 'Moderate Evidence',
+    evidenceSummary: 'Multiple Swiss and European RCTs support dual-task stepping for older adult fall prevention, stroke, and Parkinson\'s disease rehabilitation. Strongest independent evidence in this comparison set.',
+    regulatoryStatus: 'CE Medical Device — Class IIa (European Union)',
+    gameCount: null,
     status: 'Specialized Evaluated System',
     highlight: false,
     image: '/images/competitors/dividat-senso-stepping-platform.jpg',
@@ -96,7 +111,12 @@ const audits = [
     name: 'Bioness BITS®',
     tagline: 'Standardized Touchscreen Neuro-Occupational Therapy Board',
     category: 'Touchscreen Therapy Board',
-    overallScore: '3.5',
+    operationalTier: 'Tier 4 — Zero-Impact Seated / Single User',
+    evidenceGrade: 'B',
+    evidenceLabel: 'Moderate Evidence',
+    evidenceSummary: 'Clinical studies support use in concussion management, TBI, stroke, and balance rehabilitation. Some industry-funded research; independent replication ongoing.',
+    regulatoryStatus: 'FDA Class II Medical Device — CE Marked',
+    gameCount: null,
     status: 'Specialized Evaluated System',
     highlight: false,
     image: '/images/competitors/bioness-bits-touchscreen.jpg',
@@ -123,40 +143,11 @@ const audits = [
     compareLink: '/compare/',
   },
 ];
-
-const podAudit = {
-  name: 'BlazePod & Consumer Agility Lights',
-  tagline: 'App-Controlled Reaction Pucks vs. Clinical Sensory Pods',
-  category: 'Consumer / S&C Agility Tool',
-  overallScore: '2.4',
-  image: '/images/competitors/blazepod-trainer-kit.webp',
-  imageAlt: 'BlazePod portable flashing reaction training pods in charger dock and case',
-  dimensions: {
-    cognitive: 1,
-    stimulus: 2,
-    response: 2,
-    physical: 3,
-    data: 2,
-  },
-  pros: [
-    'Ultra-portable, battery-powered pods fit inside a gym duffel bag for mobile trainers',
-    'Flexible mounting: suction cups for windows, cone adapters, strap ties, or floor layout',
-    'Low barrier to entry ($300–$900) accessible to high school coaches and private trainers',
-  ],
-  cons: [
-    'Single RGB color-flash only; cannot display alphanumeric characters, Stroop words, or math problems',
-    'Tap-only contact sensors; easily dislodged or damaged under full-velocity medicine ball throws',
-    'No clinical Dual-Task Cost (DTC) latency tracking or EMR-exportable insurance documentation',
-  ],
-  bestFit: 'Mobile personal trainers, team warmup agility drills, and youth sports reaction games.',
-  concession: 'Unmatched field portability and low equipment cost for trainers who travel between turf fields and local gyms without clinical documentation requirements.',
-  strikePodLink: '/systems/#strike-pods',
-};
 ---
 
 <BaseLayout
   title="Independent Cognitive-Motor Technology Audits"
-  description="Objective clinical technology audits and 5-dimension equipment reviews for SMARTfit, Dynavision D2, Dividat Senso, Bioness BITS, and BlazePod."
+  description="Independent clinical technology audits for cognitive-motor training systems including SMARTfit, Dynavision D2, Dividat Senso, and Bioness BITS. Objective 5-Dimension operational evaluation with academic evidence grading."
 >
   <!-- HERO (BRIGHT, AIRY, INSTITUTIONAL) -->
   <section class="audits-hero">
@@ -180,7 +171,7 @@ const podAudit = {
         <span class="section-badge">VERIFIED EQUIPMENT PROFILES</span>
         <h2 class="section-title">Audited Systems &amp; Performance Scores</h2>
         <p class="section-desc">
-          Scores are rated 1 (Limited) to 5 (Extensive) according to our published 5-Dimension rubric. Commercial relationships do not influence clinical scores.
+          The 5-Dimension pip scores measure operational hardware capabilities only. Each system also carries an independent Academic Evidence Grade (A–D) based on the quality and volume of published peer-reviewed research. These are separate evaluations.
         </p>
       </div>
 
@@ -211,11 +202,33 @@ const podAudit = {
                 </div>
               </div>
               <div class="card-header-score">
-                <div class="score-circle">
-                  <span class="score-num">{item.overallScore}</span>
-                  <span class="score-scale">/ 5.0</span>
+                <div class={`evidence-grade grade-${item.evidenceGrade}`}>
+                  <span class="grade-letter">{item.evidenceGrade}</span>
                 </div>
-                <span class="score-label">CMT Composite</span>
+                <span class="score-label">Evidence Grade</span>
+                <span class="grade-sublabel">{item.evidenceLabel}</span>
+              </div>
+            </div>
+
+            <!-- EVIDENCE & REGULATORY STATUS ROW -->
+            <div class="evidence-row">
+              <div class="evidence-item">
+                <span class="evidence-heading">Regulatory Status</span>
+                <span class="evidence-value">{item.regulatoryStatus}</span>
+              </div>
+              <div class="evidence-item">
+                <span class="evidence-heading">Operational Tier</span>
+                <span class="evidence-value">{item.operationalTier}</span>
+              </div>
+              {item.gameCount && (
+                <div class="evidence-item">
+                  <span class="evidence-heading">Game Library</span>
+                  <span class="evidence-value">{item.gameCount} Documented Protocols</span>
+                </div>
+              )}
+              <div class="evidence-item evidence-item--wide">
+                <span class="evidence-heading">Evidence Summary</span>
+                <span class="evidence-value">{item.evidenceSummary}</span>
               </div>
             </div>
 
@@ -301,83 +314,6 @@ const podAudit = {
             </div>
           </article>
         ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- SEPARATE SUB-CATEGORY SECTION: CONSUMER AGILITY PUSH PODS -->
-  <section class="pod-audit-sub-section">
-    <div class="wrap">
-      <div class="sub-audit-card">
-        <div class="sub-audit-top">
-          <div class="sub-audit-header-main">
-            <div class="audit-hardware-thumb">
-              <img 
-                src={podAudit.image} 
-                alt={podAudit.imageAlt} 
-                loading="lazy" 
-                width="160" 
-                height="120" 
-                class="hardware-img"
-              />
-            </div>
-            <div>
-              <div class="pill-row">
-                <span class="status-pill status-pill--utility">Sub-Category Hardware Profile</span>
-                <span class="category-pill">{podAudit.category}</span>
-              </div>
-              <h2 class="audit-name">{podAudit.name}</h2>
-              <p class="audit-tagline">{podAudit.tagline}</p>
-            </div>
-          </div>
-          <div class="card-header-score">
-            <div class="score-circle score-circle--neutral">
-              <span class="score-num">{podAudit.overallScore}</span>
-              <span class="score-scale">/ 5.0</span>
-            </div>
-            <span class="score-label">CMT Composite</span>
-          </div>
-        </div>
-
-        <div class="sub-audit-notice">
-          <strong>Auditor Categorization Note:</strong> Consumer-tier flash pods like BlazePod ($300–$900) compete in the portable fitness agility category alongside cone drills and stopwatch timing. They are not direct alternatives to multi-station clinical kiosks (SMARTfit Mini, Dynavision D2, Bioness BITS). For clinical settings evaluating mobile pods, compare directly against <a href="/compare/">SMARTfit Wireless Strike Pods</a>.
-        </div>
-
-        <div class="card-body-grid">
-          <div class="pros-cons-col">
-            <div class="sub-block">
-              <h3 class="block-title text-green">Strengths &amp; Field Advantages</h3>
-              <ul class="check-list">
-                {podAudit.pros.map((pro) => (
-                  <li>{pro}</li>
-                ))}
-              </ul>
-            </div>
-            <div class="sub-block">
-              <h3 class="block-title text-orange">Clinical &amp; Hardware Boundaries</h3>
-              <ul class="cross-list">
-                {podAudit.cons.map((con) => (
-                  <li>{con}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <div class="verdict-col">
-            <div class="verdict-block">
-              <h3 class="block-title">Best Operational Fit</h3>
-              <p class="verdict-text">{podAudit.bestFit}</p>
-            </div>
-            <div class="concession-block">
-              <h3 class="block-title-concession">Auditor's Concession</h3>
-              <p class="concession-text">{podAudit.concession}</p>
-            </div>
-            <div class="card-actions">
-              <a class="cta-secondary text-sm" href="/compare/#sub-pods">Compare vs Strike Pods &rarr;</a>
-              <a class="cta-button text-sm" href="/photo-fit-review/">Audit Field Kit Fit &rarr;</a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -897,4 +833,37 @@ const podAudit = {
       padding: 2rem;
     }
   }
+
+  /* EVIDENCE GRADE BADGE */
+  .evidence-grade {
+    width: 56px; height: 56px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 1.5rem;
+    color: white;
+  }
+  .grade-A { background: #10B981; }
+  .grade-B { background: #3B82F6; }
+  .grade-C { background: #F59E0B; }
+  .grade-D { background: #EF4444; }
+  .grade-sublabel { font-size: 0.7rem; color: var(--color-text-muted); text-align: center; margin-top: 2px; }
+
+  /* EVIDENCE ROW */
+  .evidence-row {
+    display: flex; flex-wrap: wrap; gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: #F8FAFC;
+    border-top: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .evidence-item {
+    display: flex; flex-direction: column; gap: 2px;
+    flex: 1; min-width: 160px;
+  }
+  .evidence-item--wide { flex: 2; min-width: 280px; }
+  .evidence-heading {
+    font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--color-text-muted);
+  }
+  .evidence-value { font-size: 0.82rem; color: #334155; font-weight: 500; line-height: 1.4; }
 </style>

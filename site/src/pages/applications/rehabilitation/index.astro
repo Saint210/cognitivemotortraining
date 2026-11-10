@@ -1,0 +1,1268 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const cptCodes = [
+  {
+    code: '97112',
+    procedure: 'Neuromuscular Re-education',
+    discipline: 'PT / OT',
+    description: 'Movement, balance, coordination, kinesthetic sense, posture, and proprioception. Applies when dual-task protocols challenge the neuromuscular system in an open-skill, unpredictable environment.',
+  },
+  {
+    code: '97530',
+    procedure: 'Therapeutic Activities',
+    discipline: 'PT / OT',
+    description: 'Dynamic functional activities to improve real-world function. Applies when gamified dual-task drills simulate daily-living demands: reaching, weight-shifting, locomotion with concurrent cognition.',
+  },
+  {
+    code: '97110',
+    procedure: 'Therapeutic Exercise',
+    discipline: 'PT / OT',
+    description: 'Strengthening, endurance, range of motion, and flexibility. Applicable when training protocols combine targeted physical exercise output with cognitive-motor engagement.',
+  },
+  {
+    code: '97116',
+    procedure: 'Gait Training',
+    discipline: 'PT / OT',
+    description: 'Ambulation activities including assistive devices, orthotics, and prosthetics. Applicable when cognitive-motor protocols integrate walking, stepping, or locomotion challenges.',
+  },
+  {
+    code: '97150',
+    procedure: 'Therapeutic Exercise — Group',
+    discipline: 'PT / OT / SLP',
+    description: 'Therapeutic group exercises performed by two or more patients simultaneously. Supports supervised group brain health programs in senior living and clinic group programming.',
+  },
+  {
+    code: '97129',
+    procedure: 'Therapeutic Interventions — Cognitive Function (First 15 min)',
+    discipline: 'SLP / OT',
+    description: 'Direct therapeutic intervention to improve cognitive function including attention, memory, reasoning, problem-solving, and executive function. The primary SLP and OT cognitive billing code.',
+  },
+  {
+    code: '97130',
+    procedure: 'Therapeutic Interventions — Cognitive Function (Add-on, each 15 min)',
+    discipline: 'SLP / OT',
+    description: 'Reported in addition to 97129 for each additional 15-minute block of continued cognitive function intervention. Extends direct cognitive therapy session billing.',
+  },
+  {
+    code: '97750',
+    procedure: 'Physical Performance Test or Measurement',
+    discipline: 'PT / OT',
+    description: 'Standardized physical performance testing with written report. Applicable when objective dual-task assessment data (latency, accuracy, Dual-Task Cost) is used to establish or document functional baseline.',
+  },
+  {
+    code: '96125',
+    procedure: 'Standardized Cognitive Performance Testing',
+    discipline: 'SLP / OT / PT',
+    description: 'Standardized cognitive performance testing by physician or qualified health professional, per hour. Applicable when structured cognitive assessment protocols generate normative comparison data and a written interpretation.',
+  },
+];
+
+const testimonials = [
+  {
+    quote: 'SMARTfit is a new, exciting, state-of-the-art management tool that we offer at the clinic. We\'ve been using it to work with our patients on mobility, strength, endurance and proprioception while challenging the patient\'s cardiovascular abilities. We use it for sports injuries and orthopedic related issues; our geriatrics with cognitive and balance disorders; our neuro population because it challenges cognition, balance and memory all at the same time. The patients absolutely love it. It\'s engaging and it\'s fun.',
+    name: 'Bernadine Thomas, PT, DPT, OCS',
+    org: 'Newbury Park Physical Therapy — Owner',
+    discipline: 'Physical Therapy'
+  },
+  {
+    quote: 'SMARTfit takes the focus of the player off the mechanics and moves it to the external, forcing the brain to solve two problems at the same time. This solves the big missing part in rehab because we want carryover onto the field. SMARTfit is a great tool to test if this is happening before they return to play.',
+    name: 'Dr. Chris Powers, PhD, PT, FACSM',
+    org: 'USC — Director, Biokinesiology Program & Co-Director, Biomechanics Research Lab',
+    discipline: 'Sports Rehabilitation'
+  },
+  {
+    quote: 'SMARTfit is the only technology that can scale cognitive demand while concurrently executing a wide variety of physical movements and skills. Progressive increments in cognitive demand while concurrently scaling physical demands ensures leveling and prevents overwhelm or boredom. This allows the concept of demand and supply to produce optimum results for neuroplasticity. This applies to new learning, recovery and preventions.',
+    name: 'Dr. Mike Studer, DPT',
+    org: 'World-renowned expert in dual-task neuroplasticity',
+    discipline: 'Neuroplasticity & Dual-Task Research'
+  },
+  {
+    quote: 'SMARTfit has added a dimension to rehab we didn\'t have before — the ability to quantify cognitive-motor performance and progress it systematically. For our neuro and ortho patients, that objective documentation changes the clinical conversation entirely.',
+    name: 'Ruth Kurihara, PT',
+    org: 'Atlantis Physical Therapy',
+    discipline: 'Orthopedic & Neurological Rehab'
+  },
+  {
+    quote: 'For our occupational therapy patients — especially pediatric and hand rehab clients — the ability to layer a cognitive demand on top of a motor task while keeping it engaging and game-like is clinically meaningful. Patients stay in the session. They stay motivated.',
+    name: 'Kimberly Koretoff, OTD, OTR/L',
+    org: 'Occupational Therapy — Pediatrics',
+    discipline: 'Occupational Therapy'
+  },
+  {
+    quote: 'From a concussion and sports medicine standpoint, return-to-play decisions need objective data, not just clinical impression. Equipment that tests dual-task performance under cognitive load while generating latency metrics gives our physicians something concrete.',
+    name: 'Elizabeth McQueary',
+    org: 'Banner Sports Medicine & Concussion Center',
+    discipline: 'Sports Medicine & Concussion'
+  },
+];
+
+const subverticals = [
+  {
+    id: 'pediatrics',
+    icon: '🧒',
+    title: 'Pediatrics',
+    tag: 'Developmental & Neurological Conditions',
+    description: 'Gamified dual-task activities encourage the high-repetition movements essential for recovery in children with neurological, orthopedic, and developmental conditions. The game-based presentation maintains motivation across extended sessions — a persistent challenge in traditional pediatric therapy.',
+    disciplines: ['OT', 'PT', 'Speech-Language Pathology'],
+    clinicalFocus: 'Developmental coordination disorder, autism spectrum, TBI, orthopedic pediatrics, ADHD',
+    metric: 'Repetition count, target accuracy, session duration',
+  },
+  {
+    id: 'sports-rehab',
+    icon: '⚽',
+    title: 'Sports Rehabilitation & Return-to-Play',
+    tag: 'Orthopaedic & Concussion Recovery',
+    description: 'Return-to-play decisions require more than pain resolution. Dual-task assessment under physical load tests whether the brain is ready to process and respond under game-speed conditions. External attentional focus — engaging the player with a cognitive stimulus rather than body mechanics — promotes carryover onto the field.',
+    disciplines: ['PT', 'OT', 'Sports Medicine'],
+    clinicalFocus: 'ACL recovery, concussion return-to-play, ankle sprain, shoulder rehabilitation',
+    metric: 'Dual-Task Cost latency under cardiovascular load, decision accuracy',
+  },
+  {
+    id: 'acute-neuro',
+    icon: '🧠',
+    title: 'Acute Neurological Rehabilitation',
+    tag: 'Stroke, TBI & Neurological Conditions',
+    description: 'Open-skill dual-task protocols engage cortical recruitment by requiring real-time motor decisions in unpredictable environments. This is fundamentally different from closed-skill repetitive motor drills. For stroke, TBI, and neurodegenerative presentations, stimulating neural-muscular coupling — the bidirectional brain-muscle-sensory feedback loop — is the core mechanism.',
+    disciplines: ['PT', 'OT', 'SLP'],
+    clinicalFocus: 'CVA / stroke, TBI, Parkinson\'s, MS, vestibular disorders, gait impairment',
+    metric: 'Latency improvement, session-to-session DTC trend, gait stability correlation',
+  },
+  {
+    id: 'chronic-conditions',
+    icon: '♻️',
+    title: 'Chronic Condition Brain Health Programs',
+    tag: 'Cognitive Reserve & Aging',
+    description: 'Published literature demonstrates that simultaneous cognitive-motor dual-task training stimulates neuroplasticity, recruits the prefrontal cortex, and strengthens cognitive reserve and gait stability in older adults and individuals managing chronic neurodegenerative symptoms. Gamified programming supports long-term participation — the key variable in sustained brain health intervention.',
+    disciplines: ['PT', 'OT', 'SLP'],
+    clinicalFocus: 'Mild cognitive impairment (MCI), Parkinson\'s disease, vestibular disorders, fall prevention',
+    metric: 'Participation consistency, session attendance, clinician-scored functional ratings',
+  },
+];
+---
+
+<BaseLayout
+  title="PT, OT & SLP Rehabilitation Applications | CMT Systems"
+  description="Evidence-informed cognitive-motor dual-task technology for Physical Therapy, Occupational Therapy, and Speech-Language Pathology. CPT billing matrix, clinical testimonials, and open-skill neuroscience overview."
+>
+
+  <!-- HERO -->
+  <section class="rehab-hero">
+    <div class="wrap">
+      <div class="hero-eyebrow">
+        <a href="/applications/" class="breadcrumb-link">Applications</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>Rehabilitation</span>
+      </div>
+      <div class="hero-badge">CLINICAL REHABILITATION TECHNOLOGY</div>
+      <h1 class="hero-title">Physical Therapy, Occupational Therapy &amp; Speech-Language Pathology Applications</h1>
+      <p class="hero-lead">
+        Cognitive-motor dual-task training intersects PT, OT, and SLP disciplines — each with distinct documentation requirements, billing pathways, and patient populations. This guide maps how gamified dual-task technology fits into each clinical context.
+      </p>
+      <div class="hero-actions">
+        <a class="cta-button" href="/photo-fit-review/">Request a Facility Photo Fit Review &rarr;</a>
+        <a class="cta-secondary" href="/game-library/">Explore the Game Library &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPEN-SKILL vs. CLOSED-SKILL -->
+  <section class="science-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">NEUROPLASTICITY FOUNDATION</span>
+        <h2 class="section-title">Open-Skill vs. Closed-Skill Training: Why It Matters Clinically</h2>
+        <p class="section-desc">
+          Not all motor training produces the same degree of cognitive engagement — or the same neuroplastic adaptation.
+        </p>
+      </div>
+
+      <div class="skill-compare-grid">
+        <div class="skill-card skill-card--closed">
+          <div class="skill-icon">🔁</div>
+          <h3 class="skill-title">Closed-Skill Training</h3>
+          <p class="skill-desc">
+            Activities performed in predictable, controlled environments where the stimulus sequence is fixed or repeated. Examples: stationary cycling, seated resistance machines, structured balance drills on a fixed surface.
+          </p>
+          <div class="skill-outcome">
+            <span class="outcome-label">Cognitive Demand:</span>
+            <span class="outcome-value outcome-low">Low — Automaticity reduces cortical recruitment over time</span>
+          </div>
+          <div class="skill-outcome">
+            <span class="outcome-label">Neuroplastic Stimulus:</span>
+            <span class="outcome-value outcome-low">Diminishing — Plateau common with habituation</span>
+          </div>
+        </div>
+
+        <div class="skill-card skill-card--open">
+          <div class="skill-icon">⚡</div>
+          <h3 class="skill-title">Open-Skill Training</h3>
+          <p class="skill-desc">
+            Activities that require constant environmental adaptation — responding to unpredictable stimuli, suppressing incorrect responses (inhibitory control), and executing motor actions concurrently with cognitive tasks.
+          </p>
+          <div class="skill-outcome">
+            <span class="outcome-label">Cognitive Demand:</span>
+            <span class="outcome-value outcome-high">High — Prefrontal cortex actively recruited every trial</span>
+          </div>
+          <div class="skill-outcome">
+            <span class="outcome-label">Neuroplastic Stimulus:</span>
+            <span class="outcome-value outcome-high">Sustained — Variable challenge maintains cortical engagement</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="neural-coupling-block">
+        <h3 class="coupling-title">Neural-Muscular Coupling</h3>
+        <p class="coupling-desc">
+          The bidirectional communication pathway where the brain directs muscle movement and sensory feedback simultaneously returns to the brain. Dual-task training strengthens this loop by forcing the nervous system to manage competing cognitive and motor demands in real time — the core mechanism underlying functional neuroplasticity in clinical populations.
+        </p>
+        <div class="coupling-flow">
+          <div class="flow-node">Brain Initiates Motor Command</div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node">Muscles Execute Movement</div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node">Sensory Feedback Returns</div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node flow-node--highlight">Concurrent Cognitive Task Prevents Automaticity</div>
+        </div>
+        <p class="coupling-note">
+          <a href="/research/" class="inline-link">Review the supporting literature →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCIPLINE SUB-VERTICALS -->
+  <section class="subverticals-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">CLINICAL APPLICATIONS</span>
+        <h2 class="section-title">Application by Clinical Setting &amp; Condition</h2>
+        <p class="section-desc">
+          Dual-task cognitive-motor equipment serves meaningfully different clinical functions across rehabilitation subspecialties.
+        </p>
+      </div>
+
+      <div class="subverticals-grid">
+        {subverticals.map((sv) => (
+          <div class="sv-card" id={sv.id}>
+            <div class="sv-header">
+              <div class="sv-icon">{sv.icon}</div>
+              <div class="sv-meta">
+                <span class="sv-tag">{sv.tag}</span>
+                <h3 class="sv-title">{sv.title}</h3>
+              </div>
+            </div>
+            <p class="sv-desc">{sv.description}</p>
+            <div class="sv-details">
+              <div class="sv-detail-row">
+                <span class="sv-detail-label">Disciplines:</span>
+                <div class="sv-discipline-pills">
+                  {sv.disciplines.map(d => <span class="discipline-pill">{d}</span>)}
+                </div>
+              </div>
+              <div class="sv-detail-row">
+                <span class="sv-detail-label">Clinical Focus:</span>
+                <span class="sv-detail-value">{sv.clinicalFocus}</span>
+              </div>
+              <div class="sv-detail-row">
+                <span class="sv-detail-label">Key Metric:</span>
+                <span class="sv-detail-value sv-metric">{sv.metric}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CPT BILLING MATRIX -->
+  <section class="cpt-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">BILLING REFERENCE</span>
+        <h2 class="section-title">CPT Procedure Code Reference Matrix</h2>
+        <p class="section-desc">
+          Nine CPT codes are relevant to clinician-delivered cognitive-motor dual-task rehabilitation programs. The applicable code(s) depend on documented clinical intent, the treating discipline, and payer-specific coverage policies.
+        </p>
+      </div>
+
+      <div class="cpt-disclaimer-box">
+        <div class="disclaimer-icon">⚠️</div>
+        <div class="disclaimer-text">
+          <strong>Billing Compliance Disclaimer:</strong> CPT codes describe clinician-delivered therapeutic procedures and are not a guarantee of reimbursement. Billing eligibility depends entirely on skilled clinician delivery, documented medical necessity, and individual payer policies. CMT Systems does not provide billing advice. Consult your compliance officer, billing specialist, or payer directly before coding any service.
+        </div>
+      </div>
+
+      <div class="cpt-table-wrapper">
+        <table class="cpt-table">
+          <thead>
+            <tr>
+              <th class="col-code">CPT Code</th>
+              <th class="col-procedure">Procedure Name</th>
+              <th class="col-discipline">Primary Discipline</th>
+              <th class="col-desc">Clinical Application Context</th>
+            </tr>
+          </thead>
+          <tbody>
+            {cptCodes.map((row, i) => (
+              <tr class={i % 2 === 0 ? 'row-even' : 'row-odd'}>
+                <td class="cpt-code-cell">
+                  <span class="cpt-badge">{row.code}</span>
+                </td>
+                <td class="cpt-proc-cell">{row.procedure}</td>
+                <td class="cpt-disc-cell">
+                  <div class="disc-pills">
+                    {row.discipline.split(' / ').map(d => (
+                      <span class={`disc-pill disc-${d.replace('/', '').trim().toLowerCase()}`}>{d.trim()}</span>
+                    ))}
+                  </div>
+                </td>
+                <td class="cpt-desc-cell">{row.description}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="cpt-footer-note">
+        <p>
+          <strong>Note on 97129 / 97130:</strong> These codes require a qualified health professional (SLP, OT, or physician) to deliver skilled cognitive intervention. Equipment alone does not meet the threshold for billing — documented skilled clinician delivery is required by payers. 
+          <a href="/evaluation-framework/" class="inline-link">Learn how to evaluate technology for your clinical workflow →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLINICAL TESTIMONIALS -->
+  <section class="testimonials-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">CLINICIAN PERSPECTIVES</span>
+        <h2 class="section-title">What Clinicians Say About Dual-Task Technology</h2>
+        <p class="section-desc">
+          The following statements are from documented SMARTfit system adopters — clinicians who have integrated cognitive-motor dual-task equipment into active clinical programs. Quotes are attributed to named individuals and their reported institutional affiliations.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        {testimonials.map((t) => (
+          <blockquote class="testimonial-card">
+            <div class="quote-mark">"</div>
+            <p class="quote-text">{t.quote}</p>
+            <footer class="quote-footer">
+              <div class="quote-name">{t.name}</div>
+              <div class="quote-org">{t.org}</div>
+              <span class="quote-discipline-pill">{t.discipline}</span>
+            </footer>
+          </blockquote>
+        ))}
+      </div>
+
+      <div class="testimonial-disclosure">
+        <p>
+          Testimonials above are sourced from SMARTfit manufacturer-published materials and represent adopter opinions, not independently verified clinical outcomes. CMT Systems does not endorse specific clinical claims made in testimonials.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW CMT EVALUATES FOR YOUR CLINIC -->
+  <section class="advisory-section">
+    <div class="wrap">
+      <div class="advisory-grid">
+        <div class="advisory-col">
+          <span class="section-badge">ADVISORY PROCESS</span>
+          <h2 class="advisory-title">How CMT Systems Evaluates Technology for Your Rehabilitation Setting</h2>
+          <p class="advisory-desc">
+            Clinical equipment decisions in rehabilitation are consequential. CMT Systems evaluates cognitive-motor technology against five dimensions — not manufacturer marketing.
+          </p>
+          <ul class="advisory-list">
+            <li><strong>Clinical Validity:</strong> Does published literature support the mechanism of action for your patient population?</li>
+            <li><strong>Documentation Capability:</strong> Can the system produce objective, exportable data that supports skilled-care documentation?</li>
+            <li><strong>Space &amp; Workflow Fit:</strong> Does the hardware configuration match your treatment bay dimensions and patient throughput?</li>
+            <li><strong>Discipline Coverage:</strong> Which CPT code pathways does the clinical workflow realistically support?</li>
+            <li><strong>Total Cost of Ownership:</strong> Hardware, subscription, training, and long-term upgrade trajectory.</li>
+          </ul>
+          <div class="advisory-cta-row">
+            <a href="/photo-fit-review/" class="cta-button">Request a Photo Fit Review &rarr;</a>
+            <a href="/evaluation-framework/" class="cta-secondary">View the Evaluation Framework &rarr;</a>
+          </div>
+        </div>
+        <div class="advisory-col advisory-col--links">
+          <div class="resource-links-box">
+            <h3 class="resource-links-title">Related Resources</h3>
+            <ul class="resource-links-list">
+              <li>
+                <a href="/game-library/" class="resource-link">
+                  <span class="rl-icon">🎮</span>
+                  <div class="rl-text">
+                    <span class="rl-title">Game Library — 19 Clinical Protocols</span>
+                    <span class="rl-desc">Bottom-up reactive and top-down executive protocols with clinical applications</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/research/" class="resource-link">
+                  <span class="rl-icon">🔬</span>
+                  <div class="rl-text">
+                    <span class="rl-title">The Science of Dual-Task Training</span>
+                    <span class="rl-desc">Evidence base, neuroplasticity mechanisms, and research limitations</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/reviews/" class="resource-link">
+                  <span class="rl-icon">📊</span>
+                  <div class="rl-text">
+                    <span class="rl-title">Technology Audits &amp; Comparisons</span>
+                    <span class="rl-desc">Independent hardware scoring: SMARTfit, Dynavision, Dividat, Bioness</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/compare/" class="resource-link">
+                  <span class="rl-icon">⚖️</span>
+                  <div class="rl-text">
+                    <span class="rl-title">Head-to-Head Comparisons</span>
+                    <span class="rl-desc">Clinical differentiation across four competing technology platforms</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM CTA -->
+  <section class="rehab-cta-strip">
+    <div class="wrap text-center">
+      <h2>Ready to Evaluate Cognitive-Motor Technology for Your Clinic?</h2>
+      <p class="cta-lead">
+        CMT Systems offers complimentary facility Photo Fit Reviews for qualified rehabilitation programs. Send photos of your treatment space and describe your patient volume — Robert Aguilar will personally assess which configuration fits your setting.
+      </p>
+      <div class="cta-actions">
+        <a class="cta-button" href="/photo-fit-review/">Get Your Free Photo Fit Review &rarr;</a>
+      </div>
+      <p class="cta-phone">Or call us directly: <a href="tel:+12106390800" class="phone-link">(210) 639-0800</a></p>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* ─── HERO ─── */
+  .rehab-hero {
+    padding: 5rem 0 4.5rem;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .hero-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.82rem;
+    color: #64748B;
+    margin-bottom: 1.5rem;
+  }
+
+  .breadcrumb-link {
+    color: #0284C7;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .breadcrumb-link:hover {
+    text-decoration: underline;
+  }
+
+  .breadcrumb-sep {
+    color: #CBD5E1;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #0284C7;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.25);
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 900;
+    color: #0c2044;
+    line-height: 1.15;
+    margin: 0 0 1.25rem;
+    max-width: 54rem;
+  }
+
+  .hero-lead {
+    font-size: 1.15rem;
+    color: #475569;
+    max-width: 52rem;
+    line-height: 1.65;
+    margin: 0 0 2.25rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 1.75rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0c2044;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .cta-secondary:hover {
+    background: #F8FAFC;
+    border-color: #0c2044;
+  }
+
+  /* ─── SECTION SHARED ─── */
+  .section-intro {
+    max-width: 48rem;
+    margin: 0 auto 3.5rem;
+  }
+
+  .text-center { text-align: center; }
+
+  .section-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #FF6500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.75rem;
+    line-height: 1.2;
+  }
+
+  .section-desc {
+    font-size: 1.05rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .inline-link {
+    color: #0284C7;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .inline-link:hover { text-decoration: underline; }
+
+  /* ─── OPEN-SKILL SCIENCE ─── */
+  .science-section {
+    padding: 5.5rem 0 6rem;
+    background: #0c2044;
+    color: #fff;
+  }
+
+  .science-section .section-title {
+    color: #FFFFFF;
+  }
+
+  .science-section .section-desc {
+    color: #CBD5E1;
+  }
+
+  .skill-compare-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .skill-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px;
+    padding: 2.25rem;
+  }
+
+  .skill-card--open {
+    border-color: rgba(255, 101, 0, 0.5);
+    background: rgba(255, 101, 0, 0.06);
+  }
+
+  .skill-icon {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .skill-title {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 0.85rem;
+  }
+
+  .skill-desc {
+    font-size: 0.98rem;
+    color: #CBD5E1;
+    line-height: 1.65;
+    margin: 0 0 1.5rem;
+  }
+
+  .skill-outcome {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .outcome-label {
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #94A3B8;
+  }
+
+  .outcome-value {
+    font-size: 0.92rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .outcome-low { color: #94A3B8; }
+  .outcome-high { color: #FB923C; }
+
+  /* Neural Coupling */
+  .neural-coupling-block {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 14px;
+    padding: 2.5rem;
+    max-width: 54rem;
+    margin: 0 auto;
+  }
+
+  .coupling-title {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 0.85rem;
+  }
+
+  .coupling-desc {
+    font-size: 1rem;
+    color: #CBD5E1;
+    line-height: 1.7;
+    margin: 0 0 2rem;
+  }
+
+  .coupling-flow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .flow-node {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #E2E8F0;
+    text-align: center;
+  }
+
+  .flow-node--highlight {
+    background: rgba(255,101,0,0.15);
+    border-color: rgba(255,101,0,0.4);
+    color: #FB923C;
+  }
+
+  .flow-arrow {
+    font-size: 1.2rem;
+    color: #64748B;
+  }
+
+  .coupling-note {
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .coupling-note .inline-link {
+    color: #60A5FA;
+  }
+
+  /* ─── SUBVERTICALS ─── */
+  .subverticals-section {
+    padding: 5.5rem 0 6rem;
+    background: #F8FAFC;
+  }
+
+  .subverticals-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .sv-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 2.25rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  }
+
+  .sv-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .sv-icon {
+    font-size: 2.25rem;
+    flex-shrink: 0;
+    width: 54px;
+    height: 54px;
+    background: #F1F5F9;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sv-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .sv-tag {
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #FF6500;
+  }
+
+  .sv-title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0;
+    line-height: 1.25;
+  }
+
+  .sv-desc {
+    font-size: 0.97rem;
+    color: #475569;
+    line-height: 1.7;
+    margin: 0 0 1.5rem;
+  }
+
+  .sv-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .sv-detail-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .sv-detail-label {
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #94A3B8;
+  }
+
+  .sv-detail-value {
+    font-size: 0.9rem;
+    color: #475569;
+    line-height: 1.5;
+  }
+
+  .sv-metric {
+    color: #0284C7;
+    font-weight: 600;
+  }
+
+  .sv-discipline-pills {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .discipline-pill {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+    background: #EFF6FF;
+    color: #1D4ED8;
+    border: 1px solid #BFDBFE;
+  }
+
+  /* ─── CPT TABLE ─── */
+  .cpt-section {
+    padding: 5.5rem 0 6rem;
+    background: #FFFFFF;
+  }
+
+  .cpt-disclaimer-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background: #FEF3C7;
+    border: 1px solid #FCD34D;
+    border-radius: 10px;
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 2.75rem;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .disclaimer-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+
+  .disclaimer-text {
+    font-size: 0.93rem;
+    color: #78350F;
+    line-height: 1.65;
+  }
+
+  .disclaimer-text strong {
+    color: #92400E;
+  }
+
+  .cpt-table-wrapper {
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  }
+
+  .cpt-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.93rem;
+  }
+
+  .cpt-table thead tr {
+    background: #0c2044;
+  }
+
+  .cpt-table th {
+    padding: 1rem 1.25rem;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #CBD5E1;
+    white-space: nowrap;
+  }
+
+  .col-code { width: 100px; }
+  .col-procedure { width: 220px; }
+  .col-discipline { width: 140px; }
+
+  .row-even { background: #FFFFFF; }
+  .row-odd { background: #F8FAFC; }
+
+  .cpt-table td {
+    padding: 1rem 1.25rem;
+    vertical-align: top;
+    border-bottom: 1px solid #E2E8F0;
+    color: #334155;
+    line-height: 1.6;
+  }
+
+  .cpt-code-cell { text-align: center; }
+
+  .cpt-badge {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 800;
+    font-family: monospace;
+    color: #FFFFFF;
+    background: #0c2044;
+    padding: 0.3rem 0.65rem;
+    border-radius: 6px;
+    letter-spacing: 0.03em;
+  }
+
+  .cpt-proc-cell {
+    font-weight: 700;
+    color: #0c2044;
+  }
+
+  .disc-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .disc-pill {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.2rem 0.5rem;
+    border-radius: 9999px;
+  }
+
+  .disc-pt { background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; }
+  .disc-ot { background: #F0FDF4; color: #166534; border: 1px solid #BBF7D0; }
+  .disc-slp { background: #FDF4FF; color: #7E22CE; border: 1px solid #E9D5FF; }
+
+  .cpt-footer-note {
+    margin-top: 2rem;
+    padding: 1.25rem 1.5rem;
+    background: #F1F5F9;
+    border-radius: 10px;
+    font-size: 0.92rem;
+    color: #475569;
+    line-height: 1.65;
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cpt-footer-note strong {
+    color: #0c2044;
+  }
+
+  /* ─── TESTIMONIALS ─── */
+  .testimonials-section {
+    padding: 5.5rem 0 6rem;
+    background: #F8FAFC;
+  }
+
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 2rem 2.25rem;
+    margin: 0;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  }
+
+  .quote-mark {
+    font-size: 4rem;
+    line-height: 1;
+    color: #FF6500;
+    opacity: 0.3;
+    font-family: Georgia, serif;
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+  }
+
+  .quote-text {
+    font-size: 0.97rem;
+    color: #334155;
+    line-height: 1.72;
+    margin: 2rem 0 1.5rem;
+    font-style: italic;
+  }
+
+  .quote-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid #E2E8F0;
+  }
+
+  .quote-name {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0c2044;
+  }
+
+  .quote-org {
+    font-size: 0.85rem;
+    color: #64748B;
+    line-height: 1.4;
+  }
+
+  .quote-discipline-pill {
+    display: inline-block;
+    margin-top: 0.4rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.2rem 0.65rem;
+    border-radius: 9999px;
+    background: rgba(255, 101, 0, 0.08);
+    color: #C2410C;
+    border: 1px solid rgba(255, 101, 0, 0.2);
+    width: fit-content;
+  }
+
+  .testimonial-disclosure {
+    max-width: 54rem;
+    margin: 1.5rem auto 0;
+    padding: 1rem 1.5rem;
+    background: #F1F5F9;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    color: #64748B;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  /* ─── ADVISORY / RESOURCES ─── */
+  .advisory-section {
+    padding: 5.5rem 0 6rem;
+    background: #FFFFFF;
+  }
+
+  .advisory-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .advisory-col > .section-badge {
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .advisory-title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 1.25rem;
+    line-height: 1.2;
+  }
+
+  .advisory-desc {
+    font-size: 1.05rem;
+    color: #475569;
+    line-height: 1.7;
+    margin: 0 0 1.75rem;
+  }
+
+  .advisory-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .advisory-list li {
+    font-size: 0.97rem;
+    color: #475569;
+    line-height: 1.65;
+    padding-left: 1.25rem;
+    position: relative;
+  }
+
+  .advisory-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #FF6500;
+    font-weight: 700;
+  }
+
+  .advisory-list li strong {
+    color: #0c2044;
+  }
+
+  .advisory-cta-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  /* Resource Links */
+  .resource-links-box {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 2rem;
+  }
+
+  .resource-links-title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 1.5rem;
+  }
+
+  .resource-links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .resource-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .resource-link:hover {
+    border-color: #0284C7;
+    box-shadow: 0 2px 10px rgba(2,132,199,0.1);
+  }
+
+  .rl-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .rl-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .rl-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #0c2044;
+  }
+
+  .rl-desc {
+    font-size: 0.8rem;
+    color: #64748B;
+    line-height: 1.4;
+  }
+
+  /* ─── BOTTOM CTA ─── */
+  .rehab-cta-strip {
+    padding: 5.5rem 0;
+    background: #0c2044;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .rehab-cta-strip h2 {
+    font-family: var(--font-display);
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 1rem;
+    max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-lead {
+    font-size: 1.1rem;
+    color: #CBD5E1;
+    max-width: 44rem;
+    margin: 0 auto 2.25rem;
+    line-height: 1.65;
+  }
+
+  .cta-actions {
+    margin-bottom: 1.25rem;
+  }
+
+  .cta-phone {
+    font-size: 0.95rem;
+    color: #94A3B8;
+    margin: 0;
+  }
+
+  .phone-link {
+    color: #60A5FA;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .phone-link:hover { text-decoration: underline; }
+
+  /* ─── RESPONSIVE ─── */
+  @media (max-width: 1024px) {
+    .advisory-grid {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+  }
+
+  @media (max-width: 860px) {
+    .skill-compare-grid {
+      grid-template-columns: 1fr;
+    }
+    .subverticals-grid {
+      grid-template-columns: 1fr;
+    }
+    .testimonials-grid {
+      grid-template-columns: 1fr;
+    }
+    .cpt-table {
+      font-size: 0.85rem;
+    }
+  }
+</style>

@@ -1,0 +1,859 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pageTitle = "SMARTfit Game Library: 19 Cognitive-Motor Training Protocols";
+const pageDescription = "Complete reference guide to all 19 SMARTfit training protocols. Organized by cognitive demand level — from reactive processing-speed games to advanced executive function protocols for rehabilitation, sports, and senior wellness.";
+
+const bottomUpGames = [
+  {
+    id: 'rally-wall',
+    name: 'Rally Wall',
+    cognitiveLevel: 'Bottom-Up Reactive',
+    icon: '🎯',
+    primaryDemands: ['Processing Speed', 'Visual-Perceptual Skills', 'Open-Ended Decision Making'],
+    description: 'Clinician sensitizes or specifies an active area on the target station. Works especially well for ball play — the participant strikes any illuminated target as it appears. The open-ended nature of the drill trains reactive motor decision-making without strict sequential rules.',
+    variables: 'Adjust target zone size, ball weight, response time window, or add cognitive rules (hit only red targets).',
+    clinicalUse: 'Early-stage neuro-rehab, sports warm-up, senior reaction time baseline.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer'],
+  },
+  {
+    id: 'knock-the-lights-out',
+    name: 'Knock the Lights Out',
+    cognitiveLevel: 'Bottom-Up Reactive',
+    icon: '💡',
+    primaryDemands: ['Processing Speed', 'Visual Search', 'Unpredictable Target Acquisition'],
+    description: 'Multiple targets illuminate simultaneously. The participant must extinguish all illuminated targets as quickly as possible. The unpredictable spread across the target grid demands fast visual scanning and reactive movement in multiple directions.',
+    variables: 'Number of simultaneous targets, session duration, target illumination time, impact mode (tap vs. ball strike).',
+    clinicalUse: 'Fall prevention (multi-directional reactive stepping), sports visual scanning, group circuit training.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer'],
+  },
+  {
+    id: 'track',
+    name: 'Track',
+    cognitiveLevel: 'Bottom-Up Reactive',
+    icon: '👁️',
+    primaryDemands: ['Sustained Attention', 'Sequential Target Tracking', 'Response Time'],
+    description: 'A single target illuminates at a time, lighting sequentially across the grid. The participant tracks and strikes each target as it activates. The predictable single-target format trains sustained attention and consistent response time without requiring executive decision-making.',
+    variables: 'Target display speed, grid layout, session duration, impact type.',
+    clinicalUse: 'Acute neuro-rehab, early TBI recovery, pediatric attention training, baseline reaction time assessment.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer', 'Strike Pods'],
+  },
+  {
+    id: 'chase',
+    name: 'Chase',
+    cognitiveLevel: 'Bottom-Up Reactive',
+    icon: '⚡',
+    primaryDemands: ['Processing Speed', 'Response Time', 'Selective Attention', 'Inhibitory Control'],
+    description: 'A single illuminated target must be touched or struck within a set time window. If missed, the target moves to a new location. Variations layer selective attention (hit specific colors only) and inhibitory control (avoid distractor targets), transforming a simple reaction task into a decision-making challenge.',
+    variables: 'Time window, target movement speed, distractor frequency, color/symbol rules.',
+    clinicalUse: 'Concussion return-to-play baseline, senior fall prevention, athletic decision speed under time pressure.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer', 'Strike Pods'],
+  },
+  {
+    id: 'go-no-go',
+    name: 'Go / No-Go',
+    cognitiveLevel: 'Bottom-Up Reactive',
+    icon: '🚦',
+    primaryDemands: ['Selective Attention', 'Inhibitory Control', 'Decision Making'],
+    description: 'Target displays contain a mix of "hit" targets and "avoid" distractors. The participant must accurately discriminate between them and suppress responses to distractors. This paradigm is one of the most evidence-supported paradigms for measuring inhibitory control in clinical and research contexts.',
+    variables: 'Ratio of go vs. no-go targets, stimulus type (color, letter, symbol), response speed, motor demand level.',
+    clinicalUse: 'ADHD attention training, Parkinson\'s disease executive control, TBI inhibitory rehabilitation, sports reaction decision-making.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer', 'Strike Pods'],
+  },
+  {
+    id: 'track-the-panel',
+    name: 'Track the Panel',
+    cognitiveLevel: 'Bottom-Up Reactive',
+    icon: '🏃',
+    primaryDemands: ['Processing Speed', 'Whole-Panel Visual Tracking', 'High-Velocity Response'],
+    description: 'A ProTrainer-exclusive protocol. The active tracking zone shifts rapidly across the full multi-station panel, requiring the participant to follow and strike targets at high velocity with fast whole-body directional movement. Can be paired with additional cognitive rules to escalate to executive demand.',
+    variables: 'Panel transition speed, zone size, impact mode, added cognitive rules.',
+    clinicalUse: 'Elite sports performance, athletic combine assessment, high-intensity S&C conditioning.',
+    hardware: ['ProTrainer only'],
+  },
+];
+
+const topDownGames = [
+  {
+    id: 'seek',
+    name: 'Seek',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '🔍',
+    primaryDemands: ['Selective Attention', 'Visual Search Speed', 'Decision Making', 'Inhibitory Control'],
+    description: 'Multiple-choice options appear across the target grid simultaneously. The participant must identify and strike only the correct target based on a displayed rule (e.g., "find the number 7", "hit only blue letters"). Demands accurate visual discrimination under simultaneous distractor interference.',
+    variables: 'Number of distractors, stimulus complexity (letters vs. words vs. equations), response time window, motor demand.',
+    clinicalUse: 'Stroke visual neglect, TBI attention rehabilitation, sports tactical recognition, occupational therapy assessment.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer', 'Strike Pods'],
+  },
+  {
+    id: 'track-left-right',
+    name: 'Track Left-Right-Both',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '↔️',
+    primaryDemands: ['Decision Making', 'Processing Speed', 'Executive Function', 'Rule Maintenance'],
+    description: 'A variation of Track that constrains or alternates which hand or body side must respond. The participant must maintain and apply laterality rules (left hand only, right hand only, or alternating) while tracking sequentially illuminating targets. Bilateral coordination and rule maintenance are key demands.',
+    variables: 'Laterality rule complexity, target speed, alternation pattern, upper vs. lower extremity response.',
+    clinicalUse: 'Stroke hemiplegia lateralization training, bilateral coordination rehabilitation, sports cross-body agility.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer'],
+  },
+  {
+    id: 'metronome',
+    name: 'Metronome',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '🎵',
+    primaryDemands: ['Timing', 'Attention', 'Auditory-Motor Synchronization', 'Response Consistency'],
+    description: 'Target responses must synchronize with an audible metronome tone. The participant strikes targets in rhythm with the beat — not faster, not slower. This demands sustained attention, timing precision, and inhibitory control to prevent early or late responses.',
+    variables: 'BPM (beats per minute), rhythm pattern complexity, target layout, motor demand level.',
+    clinicalUse: 'Parkinson\'s disease rhythmic gait training, TBI motor timing rehabilitation, sports performance timing drills.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer'],
+  },
+  {
+    id: 'pattern-recognition',
+    name: 'Pattern Recognition',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '🧩',
+    primaryDemands: ['Visual Memory', 'Decision Making', 'Pattern Discrimination', 'Visuospatial Working Memory'],
+    description: 'All targets illuminate simultaneously in a specific pattern. The participant must observe, retain, and then identify or replicate the matching pattern across a scrambled display. This directly taxes visuospatial short-term memory and visual discrimination under physical demand.',
+    variables: 'Pattern complexity, number of elements, display duration, response time, motor demand.',
+    clinicalUse: 'Memory care cognitive stimulation, stroke visuospatial rehabilitation, athlete play-recognition training.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer'],
+  },
+  {
+    id: 'stroop',
+    name: 'Stroop',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '🧠',
+    primaryDemands: ['Inhibitory Control', 'Selective Attention', 'Interference Suppression'],
+    description: 'The classic Stroop paradigm applied to physical movement. Targets display color words printed in incongruent ink colors (e.g., the word RED printed in blue ink). The participant must respond to the ink color — not the word — requiring active suppression of the automatic reading response. One of the strongest published tests of prefrontal inhibitory control.',
+    variables: 'Congruent vs. incongruent stimulus ratio, response speed, word complexity, motor intensity.',
+    clinicalUse: 'TBI executive function rehabilitation, Parkinson\'s disease cognitive training, sports cognitive fatigue testing, ADHD inhibitory control.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer', 'Strike Pods'],
+  },
+  {
+    id: 'flanker',
+    name: 'Flanker',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '➡️',
+    primaryDemands: ['Selective Attention', 'Inhibitory Control', 'Processing Speed', 'Directional Discrimination'],
+    description: 'A center target displays an arrow surrounded by flanking arrows pointing in congruent or incongruent directions. The participant identifies and responds to the central arrow direction while suppressing interference from surrounding distractors. Classic cognitive neuroscience paradigm for measuring conflict monitoring.',
+    variables: 'Congruent vs. incongruent flanker ratio, arrow vs. letter stimulus variants, motor speed, cardiovascular load.',
+    clinicalUse: 'TBI attention rehabilitation, sports reaction-to-conflict training, ADHD diagnostic assessment, senior executive function maintenance.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer', 'Strike Pods'],
+  },
+  {
+    id: 'corsi-block',
+    name: 'Corsi Block',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '📦',
+    primaryDemands: ['Visuospatial Working Memory', 'Attention', 'Sequential Memory', 'Executive Function'],
+    description: 'The digital implementation of the classic Corsi Block Tapping Test. A sequence of targets illuminates one at a time, then goes dark. The participant must replicate the exact spatial sequence from memory by striking the targets in order. Span increases as performance improves, directly measuring visuospatial memory capacity.',
+    variables: 'Sequence length (memory span), display speed, forward vs. backward recall, motor demand.',
+    clinicalUse: 'Neuropsychological baseline assessment, stroke working memory rehabilitation, TBI memory span monitoring, Alzheimer\'s disease early detection.',
+    hardware: ['Mini Kiosk', 'ProTrainer'],
+  },
+  {
+    id: 'trail-making',
+    name: 'Trail Making',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '🗺️',
+    primaryDemands: ['Processing Speed', 'Visual Search', 'Cognitive Flexibility', 'Executive Function'],
+    description: 'Digital implementation of the Trail Making Test (TMT). Trail A: targets are numbered 1–24; participant strikes them in ascending order. Trail B: targets alternate between numbers and letters (1, A, 2, B... L); participant must task-switch between number and letter sequences. Trail B is a validated clinical measure of cognitive flexibility and frontal lobe function.',
+    variables: 'Trails A vs. B, number of targets, display arrangement, motor demand level.',
+    clinicalUse: 'Neuropsychological assessment, TBI cognitive flexibility evaluation, Parkinson\'s disease executive monitoring, return-to-work cognitive screening.',
+    hardware: ['Mini Kiosk', 'ProTrainer'],
+  },
+  {
+    id: 'digit-span',
+    name: 'Digit Span',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '🔢',
+    primaryDemands: ['Working Memory', 'Attention', 'Verbal Memory Span', 'Executive Function'],
+    description: 'A sequence of digits is displayed on the target screens. The participant must replicate the sequence in forward or backward order. Backward digit span is a particularly sensitive measure of active working memory — requiring mental manipulation, not just passive recall.',
+    variables: 'Sequence length, forward vs. backward recall, presentation speed, digit vs. letter variants, motor demand.',
+    clinicalUse: 'Cognitive baseline assessment, TBI working memory rehabilitation, stroke neuropsychological monitoring, educational ADHD support.',
+    hardware: ['Mini Kiosk', 'ProTrainer'],
+  },
+  {
+    id: 'serial-7s',
+    name: "Serial 7's",
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '➖',
+    primaryDemands: ['Working Memory', 'Attention', 'Mathematical Processing', 'Continuous Executive Load'],
+    description: 'Continuous mental subtraction by 7, starting from 100 (100 → 93 → 86...). The participant selects the correct answer from multiple targets displayed across the grid. This classic clinical task taxes working memory and sustained arithmetic attention, made significantly harder by the concurrent physical movement demand.',
+    variables: 'Starting number, subtraction interval, response time window, motor intensity.',
+    clinicalUse: 'Cognitive status assessment, TBI dual-task documentation, dementia screening, sports cognitive fatigue monitoring.',
+    hardware: ['Mini Kiosk', 'ProTrainer'],
+  },
+  {
+    id: 'memory',
+    name: 'Memory (Pairs & Sequence)',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '🃏',
+    primaryDemands: ['Working Memory', 'Visuospatial Memory', 'Visual Memory', 'Short-Term Memory'],
+    description: 'Multiple formats: Memory Pairs (match identical targets from briefly displayed pairs), Memory Sequence (observe and replicate a sequence of illuminations in order), and Memory Pairing (associate two related targets). Each format taxes a distinct dimension of memory function while the participant simultaneously manages physical movement demands.',
+    variables: 'Memory format, number of pairs/elements, display duration, sequence complexity, motor demand.',
+    clinicalUse: 'Memory care stimulation programs, stroke visuospatial rehabilitation, TBI memory rehabilitation, senior cognitive maintenance.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer'],
+  },
+  {
+    id: 'equations',
+    name: 'Equations',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '➕',
+    primaryDemands: ['Processing Speed', 'Working Memory', 'Mathematical Decision-Making', 'Divided Attention'],
+    description: 'Arithmetic equations appear on the target display with multiple-choice answers across the grid. The participant selects the correct answer while executing a simultaneous physical movement task. Mathematical processing under kinetic exertion significantly taxes the prefrontal cortex due to the high dual-task interference load.',
+    variables: 'Arithmetic complexity (addition → multiplication → multi-step), response time, motor intensity.',
+    clinicalUse: 'Occupational therapy (return-to-work math demands), TBI functional math rehabilitation, sports cognitive fatigue under exertion, senior executive maintenance.',
+    hardware: ['Mini Kiosk', 'ProTrainer', 'MultiTrainer', 'Strike Pods'],
+  },
+  {
+    id: 'spelling',
+    name: 'Spelling',
+    cognitiveLevel: 'Top-Down Executive',
+    icon: '🔤',
+    primaryDemands: ['Language Skills', 'Verbal Short-Term Memory', 'Processing Speed', 'Orthographic Motor Planning'],
+    description: 'A word appears on the center target screen with multiple letter choices across the target grid. The participant must select the correct next letter or complete the word by striking the appropriate targets in sequence. Demands language retrieval and verbal working memory under concurrent motor exertion.',
+    variables: 'Word complexity, letter options, response time, motor demand.',
+    clinicalUse: 'Aphasia rehabilitation, speech-language pathology support, pediatric reading and language programs, senior literacy maintenance.',
+    hardware: ['Mini Kiosk', 'ProTrainer'],
+  },
+];
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <!-- SCHEMA JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "SMARTfit Game Library: 19 Cognitive-Motor Training Protocols",
+      "description": "Complete reference guide to all 19 SMARTfit training protocols organized by cognitive demand level.",
+      "author": {
+        "@type": "Organization",
+        "name": "CMT Systems"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CMT Systems"
+      }
+    }
+  </script>
+
+  <div class="game-library-page">
+    <!-- 1. HERO SECTION -->
+    <section class="gl-hero">
+      <div class="wrap">
+        <div class="gl-badge">SMARTFIT® PROTOCOL DIRECTORY · CLINICAL REFERENCE</div>
+        <h1 class="gl-title">19 Cognitive-Motor Protocols: The Complete SMARTfit Game Library</h1>
+        <p class="gl-lead">
+          Every SMARTfit training session is built from these 19 documented protocols. Organized by cognitive demand level — from bottom-up reactive processing to top-down executive function — this reference helps clinicians, coaches, and wellness directors match the right protocol to the right patient or athlete.
+        </p>
+
+        <!-- STAT STRIP -->
+        <div class="gl-stats-strip">
+          <div class="gl-stat-item">
+            <span class="gl-stat-num">19</span>
+            <span class="gl-stat-lbl">Documented Protocols</span>
+          </div>
+          <div class="gl-stat-sep">/</div>
+          <div class="gl-stat-item">
+            <span class="gl-stat-num">6</span>
+            <span class="gl-stat-lbl">Bottom-Up Reactive</span>
+          </div>
+          <div class="gl-stat-sep">/</div>
+          <div class="gl-stat-item">
+            <span class="gl-stat-num">13</span>
+            <span class="gl-stat-lbl">Top-Down Executive</span>
+          </div>
+          <div class="gl-stat-sep">/</div>
+          <div class="gl-stat-item">
+            <span class="gl-stat-num">5</span>
+            <span class="gl-stat-lbl">Cognitive Domains</span>
+          </div>
+        </div>
+
+        <div class="gl-hero-actions">
+          <a class="cta-button" href="/evaluation-framework/">Explore The 5-Dimension Framework &rarr;</a>
+          <a class="cta-secondary" href="/photo-fit-review/">Request A Photo Fit Review &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. CLINICAL METHODOLOGY SECTION -->
+    <section class="gl-method-section">
+      <div class="wrap">
+        <div class="section-intro text-center">
+          <span class="section-badge">METHODOLOGY &amp; PROGRESSION</span>
+          <h2 class="section-title">Why Protocol Selection Matters: Adjust One Variable at a Time</h2>
+          <p class="section-desc">
+            In cognitive-motor rehabilitation and athletic conditioning, progression must be systematic. Here is how clinicians isolate challenges to drive neurological adaptation.
+          </p>
+        </div>
+
+        <div class="method-grid">
+          <div class="method-card">
+            <div class="method-icon">🎯</div>
+            <h3 class="method-title">The "Sweet Spot" Progression Principle</h3>
+            <p class="method-text">
+              Dual-task training is most effective when the participant is working hard enough to adapt physically and cognitively, but succeeding often enough to stay engaged. By selecting the appropriate protocol and adjusting only one variable at a time, clinicians isolate what drives adaptation:
+            </p>
+            <ul class="method-list">
+              <li><strong>Bottom-Up Formats:</strong> Establish motor speed, visual search, and reaction latency before introducing heavy cognitive loads.</li>
+              <li><strong>Top-Down Formats:</strong> Layer working memory, Stroop conflict, and N-back sequencing onto established kinetic drills.</li>
+              <li><strong>Objective Data:</strong> Most protocols log sub-millisecond response time, hit accuracy, and completion scores for clinical notes.</li>
+            </ul>
+          </div>
+
+          <div class="method-card">
+            <div class="method-icon">⚙️</div>
+            <h3 class="method-title">The 5 Adjustable Variables</h3>
+            <p class="method-text">
+              Every SMARTfit protocol allows clinicians to modulate task difficulty across five standardized parameters without changing equipment:
+            </p>
+            <div class="variable-pills">
+              <div class="var-item">
+                <span class="var-tag">01. Timing</span>
+                <span class="var-desc">Activity duration and target display window speeds.</span>
+              </div>
+              <div class="var-item">
+                <span class="var-tag">02. Stimulus Setup</span>
+                <span class="var-desc">Number of active targets and spatial layout distribution.</span>
+              </div>
+              <div class="var-item">
+                <span class="var-tag">03. Stimulus Type</span>
+                <span class="var-desc">Colors, shapes, alphanumeric symbols, equations, and Stroop words.</span>
+              </div>
+              <div class="var-item">
+                <span class="var-tag">04. Response Demands</span>
+                <span class="var-desc">Hit vs. avoid, choice discrimination, and laterality constraints.</span>
+              </div>
+              <div class="var-item">
+                <span class="var-tag">05. Movement Demands</span>
+                <span class="var-desc">Balance boards, resistance, medicine balls, and locomotor distance.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="attribution-note">
+          <p>
+            <strong>Editorial &amp; Advisory Notice:</strong> Protocol specifications and game rules are synthesized from published SMARTfit technical manuals and clinical training resources. CMT Systems provides independent equipment audits and facility space reviews; this directory serves as an educational reference for institutional buyers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. BOTTOM-UP GAMES SECTION -->
+    <section class="gl-games-section gl-games-section--bottom-up">
+      <div class="wrap">
+        <div class="section-intro">
+          <div class="tier-badge tier-badge--bottom-up">TIER 1 PROTOCOLS · REACTIVE PROCESSING</div>
+          <h2 class="section-title">6 Bottom-Up Protocols: Speed, Visual Search &amp; Reactive Latency</h2>
+          <p class="section-desc">
+            Bottom-up protocols emphasize sensory perception and rapid motor execution. They target visual scanning, target tracking, and reactive decision-making — ideal for early neuro-rehab, geriatric fall prevention baselines, and athletic reactive agility.
+          </p>
+        </div>
+
+        <div class="games-grid">
+          {bottomUpGames.map((game) => (
+            <article class="game-card" id={game.id}>
+              <div class="game-card-header">
+                <div class="game-icon-circle game-icon-circle--blue">
+                  <span>{game.icon}</span>
+                </div>
+                <div class="game-meta">
+                  <span class="game-level-tag game-level-tag--blue">{game.cognitiveLevel}</span>
+                  <h3 class="game-name">{game.name}</h3>
+                </div>
+              </div>
+
+              <div class="demands-wrap">
+                {game.primaryDemands.map((demand) => (
+                  <span class="demand-pill">{demand}</span>
+                ))}
+              </div>
+
+              <p class="game-desc">{game.description}</p>
+
+              <div class="game-specs">
+                <div class="spec-row">
+                  <span class="spec-label">Clinical Progression:</span>
+                  <span class="spec-val">{game.variables}</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">Clinical Applications:</span>
+                  <span class="spec-val">{game.clinicalUse}</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">Compatible Hardware:</span>
+                  <span class="spec-val hardware-tags">
+                    {game.hardware.map((hw) => (
+                      <span class="hw-badge">{hw}</span>
+                    ))}
+                  </span>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. TOP-DOWN GAMES SECTION -->
+    <section class="gl-games-section gl-games-section--top-down">
+      <div class="wrap">
+        <div class="section-intro">
+          <div class="tier-badge tier-badge--top-down">TIER 2 PROTOCOLS · EXECUTIVE FUNCTION</div>
+          <h2 class="section-title">13 Top-Down Protocols: Working Memory, Inhibition &amp; Task Switching</h2>
+          <p class="section-desc">
+            Top-down protocols demand active executive brain function while moving. Participants must see, hold rules in working memory, suppress distractions, or calculate answers before striking. These protocols recruit the prefrontal cortex and drive neuroplastic adaptations.
+          </p>
+        </div>
+
+        <div class="games-grid">
+          {topDownGames.map((game) => (
+            <article class="game-card" id={game.id}>
+              <div class="game-card-header">
+                <div class="game-icon-circle game-icon-circle--accent">
+                  <span>{game.icon}</span>
+                </div>
+                <div class="game-meta">
+                  <span class="game-level-tag game-level-tag--accent">{game.cognitiveLevel}</span>
+                  <h3 class="game-name">{game.name}</h3>
+                </div>
+              </div>
+
+              <div class="demands-wrap">
+                {game.primaryDemands.map((demand) => (
+                  <span class="demand-pill">{demand}</span>
+                ))}
+              </div>
+
+              <p class="game-desc">{game.description}</p>
+
+              <div class="game-specs">
+                <div class="spec-row">
+                  <span class="spec-label">Clinical Progression:</span>
+                  <span class="spec-val">{game.variables}</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">Clinical Applications:</span>
+                  <span class="spec-val">{game.clinicalUse}</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-label">Compatible Hardware:</span>
+                  <span class="spec-val hardware-tags">
+                    {game.hardware.map((hw) => (
+                      <span class="hw-badge">{hw}</span>
+                    ))}
+                  </span>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. BOTTOM CTA SECTION -->
+    <section class="gl-cta-section">
+      <div class="wrap text-center">
+        <span class="gl-badge">FACILITY AUDIT &amp; EQUIPMENT MATCHING</span>
+        <h2 class="gl-cta-title">Match the Right Protocol Suite to Your Facility's Space</h2>
+        <p class="gl-cta-lead">
+          Different clinical populations require different mounting configurations, impact ratings, and protocol suites. CMT Systems evaluates your space footprint, ceiling clearances, and patient populations before you make a capital investment.
+        </p>
+        <div class="gl-cta-actions">
+          <a class="cta-button" href="/photo-fit-review/">Request a Facility Photo Fit Review &rarr;</a>
+          <a class="cta-secondary" href="/applications/">Explore Sector Applications &rarr;</a>
+        </div>
+        <p class="gl-cta-sub">
+          Independent guidance &bull; Texas regional headquarters &bull; Direct consultation desk: <a href="tel:18004317788">1-800-431-7788</a>
+        </p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .game-library-page {
+    background: #FFFFFF;
+    color: #1E293B;
+  }
+
+  /* 1. HERO */
+  .gl-hero {
+    background: #0A1128;
+    color: #FFFFFF;
+    padding: 4.5rem 0 3.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .gl-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #FF6500;
+    text-transform: uppercase;
+    background: rgba(255, 101, 0, 0.12);
+    border: 1px solid rgba(255, 101, 0, 0.25);
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 1.25rem;
+  }
+  .gl-title {
+    font-family: var(--font-display, 'Plus Jakarta Sans', sans-serif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.25rem;
+    max-width: 900px;
+  }
+  .gl-lead {
+    font-size: 1.1rem;
+    line-height: 1.65;
+    color: #94A3B8;
+    max-width: 820px;
+    margin-bottom: 2rem;
+  }
+  .gl-stats-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.25rem 1.75rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    margin-bottom: 2.25rem;
+    max-width: 860px;
+  }
+  .gl-stat-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+  .gl-stat-num {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #FF6500;
+    font-family: var(--font-display, sans-serif);
+  }
+  .gl-stat-lbl {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #CBD5E1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .gl-stat-sep {
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: 300;
+  }
+  .gl-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  /* 2. METHODOLOGY */
+  .gl-method-section {
+    padding: 4.5rem 0;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .section-intro {
+    max-width: 780px;
+    margin-bottom: 3rem;
+  }
+  .section-intro.text-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-badge {
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF6500;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .section-title {
+    font-family: var(--font-display, sans-serif);
+    font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+    font-weight: 800;
+    color: #0A1128;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+  .section-desc {
+    font-size: 1rem;
+    color: #64748B;
+    line-height: 1.6;
+  }
+  .method-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .method-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  .method-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .method-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0A1128;
+    margin-bottom: 0.75rem;
+  }
+  .method-text {
+    font-size: 0.92rem;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  .method-list {
+    list-style: disc;
+    padding-left: 1.25rem;
+    font-size: 0.88rem;
+    color: #334155;
+    line-height: 1.65;
+  }
+  .method-list li { margin-bottom: 0.5rem; }
+  .variable-pills {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .var-item {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    padding: 0.6rem 0.85rem;
+  }
+  .var-tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #FF6500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .var-desc {
+    font-size: 0.85rem;
+    color: #475569;
+  }
+  .attribution-note {
+    background: #FFFBEB;
+    border-left: 4px solid #F59E0B;
+    border-radius: 0 6px 6px 0;
+    padding: 1rem 1.25rem;
+    font-size: 0.82rem;
+    color: #92400E;
+    line-height: 1.5;
+  }
+
+  /* 3 & 4. GAMES SECTIONS */
+  .gl-games-section {
+    padding: 4.5rem 0;
+  }
+  .gl-games-section--bottom-up {
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .gl-games-section--top-down {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .tier-badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+  }
+  .tier-badge--bottom-up {
+    background: #E0F2FE;
+    color: #0369A1;
+    border: 1px solid #BAE6FD;
+  }
+  .tier-badge--top-down {
+    background: #FFF7ED;
+    color: #C2410C;
+    border: 1px solid #FFEDD5;
+  }
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.75rem;
+  }
+  .game-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 1.75rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .gl-games-section--top-down .game-card {
+    background: #FAFBFD;
+    border-top: 3px solid #FF6500;
+  }
+  .gl-games-section--bottom-up .game-card {
+    background: #FFFFFF;
+    border-top: 3px solid #0284C7;
+  }
+  .game-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  }
+  .game-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .game-icon-circle {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+  .game-icon-circle--blue {
+    background: #E0F2FE;
+  }
+  .game-icon-circle--accent {
+    background: #FFF7ED;
+  }
+  .game-level-tag {
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .game-level-tag--blue { color: #0284C7; }
+  .game-level-tag--accent { color: #EA580C; }
+  .game-name {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #0A1128;
+    margin: 0;
+  }
+  .demands-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  .demand-pill {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #475569;
+    background: #F1F5F9;
+    border: 1px solid #E2E8F0;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .game-desc {
+    font-size: 0.88rem;
+    color: #334155;
+    line-height: 1.55;
+    margin-bottom: 1.25rem;
+    flex-grow: 1;
+  }
+  .game-specs {
+    border-top: 1px solid #F1F5F9;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 0.8rem;
+  }
+  .spec-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .spec-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748B;
+  }
+  .spec-val {
+    color: #1E293B;
+    line-height: 1.4;
+  }
+  .hardware-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 2px;
+  }
+  .hw-badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #0F172A;
+    background: #E2E8F0;
+    padding: 1px 6px;
+    border-radius: 3px;
+  }
+
+  /* 5. BOTTOM CTA */
+  .gl-cta-section {
+    background: #0A1128;
+    color: #FFFFFF;
+    padding: 5rem 0;
+  }
+  .gl-cta-title {
+    font-family: var(--font-display, sans-serif);
+    font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  .gl-cta-lead {
+    font-size: 1.05rem;
+    color: #94A3B8;
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+  }
+  .gl-cta-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .gl-cta-sub {
+    font-size: 0.85rem;
+    color: #64748B;
+  }
+  .gl-cta-sub a {
+    color: #FF6500;
+    text-decoration: none;
+    font-weight: 600;
+  }
+</style>

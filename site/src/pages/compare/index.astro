@@ -60,6 +60,7 @@ const competitors = [
   },
 ];
 
+// NOTE: Strike Pods vs BlazePod comparison — rendered as a secondary note, not a primary system audit
 const podComparison = {
   title: 'SMARTfit® Wireless Strike Pods vs. BlazePod / FITLIGHT',
   subtitle: 'Sub-Category Audit: Clinical Wireless Pods vs. Consumer Agility Pucks',
@@ -173,7 +174,7 @@ const faqs = [
 
 <BaseLayout
   title="Cognitive-Motor Technology Comparison Matrix & Head-to-Head Audits"
-  description="Objective comparisons of SMARTfit vs. Dynavision D2, Dividat Senso, Bioness BITS, and BlazePod. Compare cognitive depth, kinetic movement, FDA status, and space requirements."
+  description="Independent head-to-head comparison of cognitive-motor training platforms: SMARTfit vs. Dynavision D2, Dividat Senso, and Bioness BITS. Objective operational and evidence-grade evaluation."
 >
   <!-- SCHEMA: FAQPage -->
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -384,9 +385,13 @@ const faqs = [
     </div>
   </section>
 
-  <!-- DEDICATED SUB-CATEGORY AUDIT: WIRELESS AGILITY PODS -->
-  <section class="pod-audit-section">
+  <!-- STRIKE PODS SUB-COMPARISON — Context: SMARTfit Pods vs Consumer Flash Pucks Only -->
+  <section class="strike-pods-context-section">
     <div class="wrap">
+      <div class="context-banner">
+        <span class="context-label">STRIKE PODS CONTEXT</span>
+        <p class="context-note">The following comparison applies specifically to <strong>SMARTfit® Wireless Strike Pods</strong> evaluated against consumer agility flash-light tools. This is not a primary clinical competitor comparison.</p>
+      </div>
       <div class="pod-audit-card">
         <div class="pod-audit-header">
           <span class="pod-badge">SUB-CATEGORY HARDWARE AUDIT</span>
@@ -908,6 +913,42 @@ const faqs = [
     padding: 6rem 0;
     background: #F8FAFC;
     border-bottom: 1px solid #E2E8F0;
+  }
+
+  /* STRIKE PODS CONTEXT SECTION */
+  .strike-pods-context-section {
+    background: #F8FAFC;
+    border-top: 2px dashed #CBD5E1;
+    padding: 3rem 0;
+    margin-top: 2rem;
+  }
+  .context-banner {
+    background: #FEF9C3;
+    border: 1px solid #FDE047;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .context-label {
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #92400E;
+    background: #FDE68A;
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+  .context-note {
+    font-size: 0.85rem;
+    color: #78350F;
+    margin: 0;
+    line-height: 1.5;
   }
 
   .pod-audit-card {
