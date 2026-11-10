@@ -1,6 +1,6 @@
 {
   "buildCommand": "cd site && npm install && npm run build",
-  "outputDirectory": "site/.vercel/output",
-  "framework": "astro"
+  "outputDirectory": "site/.vercel/output/static",
+  "installCommand": "echo 'skip root install'"
 }
 
