@@ -1,5 +1,6 @@
 {
-  "buildCommand": "npm run build --prefix site",
-  "outputDirectory": "site/.vercel/output/static",
+  "buildCommand": "cd site && npm install && npm run build",
+  "outputDirectory": "site/.vercel/output",
   "framework": "astro"
 }
+
