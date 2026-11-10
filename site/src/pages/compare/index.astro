@@ -1,8 +1,1179 @@
 ---
-import StubPage from '../../layouts/StubPage.astro';
-import { getEntry } from 'astro:content';
-const entry = await getEntry('pages', 'compare');
-if (!entry) throw new Error('Missing content entry: pages/compare');
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const competitors = [
+  {
+    name: 'SMARTfit®',
+    category: 'Full-Body Dual-Task System',
+    cognitive: 'Extensive (Stroop, Flanker, Memory, Math, N-Back)',
+    physical: 'Extensive (Whole-body, hands, feet, balls, medicine balls)',
+    impact: 'High-Impact (Engineered for heavy ball strikes)',
+    multiUser: 'Up to 10+ participants simultaneously',
+    fda: 'Commercial Exercise & Assessment Equipment',
+    data: 'Sub-millisecond Dual-Task Cost (DTC) latency & EMR export',
+    bestFit: 'Physical therapy, neuro-rehab, sports, and senior living',
+    highlight: true,
+    image: '/images/products/Mini-Low-Impact-45.png',
+    imageAlt: 'SMARTfit Mini single-station cognitive-motor kiosk 3D cutout',
+  },
+  {
+    name: 'Dynavision D2',
+    category: 'Visuomotor Diagnostic Board',
+    cognitive: 'Moderate (T-scope visual search & peripheral awareness)',
+    physical: 'Basic (Upper-extremity reaching & tapping only)',
+    impact: 'Low-Impact (Finger/hand touch buttons only)',
+    multiUser: '1 participant at a time',
+    fda: 'FDA 510(k) Cleared Diagnostic/Therapy',
+    data: 'Visual reaction times, quadrant speed, split times',
+    bestFit: 'Driver rehabilitation & neuro-optometric vision therapy',
+    highlight: false,
+    image: '/images/competitors/dynavision-d2-light-board.png',
+    imageAlt: 'Dynavision D2 light-array visuomotor board with concentric rings of LED push buttons',
+  },
+  {
+    name: 'Dividat Senso',
+    category: 'Stepping Balance Plate',
+    cognitive: 'Moderate (Choice reaction games & stepping mazes)',
+    physical: 'Moderate (Lower-body stepping on calibrated force plate)',
+    impact: 'Low-Impact (Stepping on force-plate sensors only)',
+    multiUser: '1 participant at a time',
+    fda: 'Commercial / CE Medical (European Union)',
+    data: 'Center-of-pressure, step reaction time, postural sway',
+    bestFit: 'Geriatric fall prevention & lower-extremity stepping research',
+    highlight: false,
+    image: '/images/competitors/dividat-senso-stepping-platform.jpg',
+    imageAlt: 'Dividat Senso stepping balance plate with integrated force sensors and front visual display',
+  },
+  {
+    name: 'Bioness BITS®',
+    category: 'Touchscreen Therapy Board',
+    cognitive: 'Advanced (Standardized OT cognitive batteries)',
+    physical: 'Minimal (Finger tapping on flat touchscreen panel)',
+    impact: 'Zero-Impact (Fragile glass touchscreen)',
+    multiUser: '1 participant at a time',
+    fda: 'Class I Medical Device',
+    data: 'Standardized OT assessment norms & visual scan logs',
+    bestFit: 'Inpatient acute stroke OT & seated bedside therapy',
+    highlight: false,
+    image: '/images/competitors/bioness-bits-touchscreen.jpg',
+    imageAlt: 'Bioness BITS touchscreen therapy system mounted on an adjustable mobile clinical stand',
+  },
+];
+
+const podComparison = {
+  title: 'SMARTfit® Wireless Strike Pods vs. BlazePod / FITLIGHT',
+  subtitle: 'Sub-Category Audit: Clinical Wireless Pods vs. Consumer Agility Pucks',
+  tag: 'Clinical Alphanumeric Sensory Pods vs. Consumer Flash Lights',
+  imageSmartfit: '/images/products/smartfit-strike-pods-portable-cognitive-training-kit.jpg',
+  imageSmartfitAlt: 'SMARTfit Wireless Strike Pods portable cognitive training kit with stands and heavy-duty duffel bag',
+  imageBlaze: '/images/competitors/blazepod-trainer-kit.webp',
+  imageBlazeAlt: 'BlazePod consumer agility light pods in charger cradle',
+  overview: 'While both systems use wireless, battery-powered pods for agility and reaction training, they target fundamentally different equipment tiers and clinical validation levels. BlazePod operates as a consumer sports agility light; SMARTfit Strike Pods operate as institutional dual-task sensory units.',
+  table: [
+    {
+      feature: 'Primary Target Market',
+      smartfit: 'Physical Therapy Clinics, Neuro-Rehab, Military Tactical Labs, University Combines',
+      blazepod: 'Personal Trainers, Youth Sports Coaches, Boutique Fitness Studios'
+    },
+    {
+      feature: 'Stimulus Display Capability',
+      smartfit: 'High-contrast alphanumeric LED display (letters, numbers, colors, directional symbols, Stroop interference)',
+      blazepod: 'Single RGB color flash only (no numbers, letters, math, or words)'
+    },
+    {
+      feature: 'Cognitive Testing Depth',
+      smartfit: 'Standardized Dual-Task Cost (DTC), N-back, Flanker, memory recall, and arithmetic processing',
+      blazepod: 'Basic visual reaction time latency (flash-to-tap milliseconds)'
+    },
+    {
+      feature: 'Impact Rating & Durability',
+      smartfit: 'Engineered for medicine balls, soccer kicks, bats, hands, and feet with shock-absorbing housing',
+      blazepod: 'Tap-only sensor pucks; easily dislodged or damaged under full-velocity medicine ball impacts'
+    },
+    {
+      feature: 'Mounting & Elevation Options',
+      smartfit: 'Heavy 8 lb steel base 48" telescoping stands, ratcheting squat rack brackets, wall mounts',
+      blazepod: 'Suction cups, cone adapters, strap ties, flat floor placement'
+    },
+    {
+      feature: 'Clinical Documentation & EMR',
+      smartfit: 'Automated clinical reports, Dual-Task Cost calculations, baseline vs re-test progress graphs (CPT 97530 / 97112)',
+      blazepod: 'Consumer smartphone app leaderboard, CSV workout logs'
+    },
+    {
+      feature: 'Equipment Tier & Cost Scale',
+      smartfit: 'Professional institutional capital equipment kit ($5,000–$12,000+ with CPU controller & stands)',
+      blazepod: 'Consumer/coach accessory kit ($300–$900 with ongoing app subscription)'
+    }
+  ],
+  concession: 'BlazePods cost a fraction of institutional equipment, run on simple USB rechargeable batteries, and fit inside a personal backpack. For traveling athletic trainers, personal fitness trainers, or mobile coaches who only need simple color-tap agility drills without alphanumeric cognitive processing or insurance documentation, BlazePod offers unmatched portability and price accessibility.'
+};
+
+const breakdowns = [
+  {
+    title: 'SMARTfit® vs. Dynavision D2',
+    tag: 'Full-Body Dual-Task vs. Visuomotor Board',
+    smartfitImage: '/images/products/smartfit-protrainer-wall-mounted-cognitive-motor-system.jpg',
+    smartfitName: 'SMARTfit® ProTrainer',
+    smartfitType: 'High-Impact Multi-Station Wall System',
+    competitorImage: '/images/competitors/dynavision-d2-light-board.png',
+    competitorName: 'Dynavision D2',
+    competitorType: 'Visuomotor Light Array Board',
+    tradeoff1: 'Dynavision D2 is a legendary light-array board designed primarily for visual field scanning, reaction speed, and driver rehabilitation. However, participants are restricted to standing or seated in front of a flat board tapping small light buttons with their hands.',
+    tradeoff2: 'SMARTfit expands this into true whole-body dual-task training. Participants strike large target panels using hands, feet, medicine balls, or soccer balls while resolving complex Stroop, math, and working-memory challenges across a 10-foot movement zone.',
+    concession: 'Dynavision D2 holds FDA 510(k) clearance and possesses decades of published normative data specifically validated for driver rehabilitation and visual neglect in occupational therapy. If your clinic’s primary charter is driver return-to-readiness screening without gross kinetic demands, Dynavision is the superior clinical choice.'
+  },
+  {
+    title: 'SMARTfit® vs. Dividat Senso',
+    tag: 'Full-Body Kinetic vs. Stepping Force Plate',
+    smartfitImage: '/images/products/smartfit-mini-high-impact-wall-mounted.png',
+    smartfitName: 'SMARTfit® Mini',
+    smartfitType: '9-Target Interactive Kiosk',
+    competitorImage: '/images/competitors/dividat-senso-stepping-platform.jpg',
+    competitorName: 'Dividat Senso',
+    competitorType: 'Force-Plate Balance Stepping Plate',
+    tradeoff1: 'Dividat Senso focuses on lower-extremity stepping reactions. The patient stands on a calibrated 20-sensor force plate and steps forward, backward, left, or right in response to games displayed on an eye-level TV screen.',
+    tradeoff2: 'While Dividat provides excellent postural sway and step latency metrics for frail seniors, it offers zero upper-extremity movement, no ball impact capability, and can only serve one patient at a time. SMARTfit delivers simultaneous upper- and lower-body training and accommodates group sessions of up to 10+ residents.',
+    concession: 'Dividat Senso offers precise center-of-pressure and step-reaction metrics backed by dedicated Swiss research for geriatric fall risk. For facilities focused exclusively on frail, non-athletic seniors where stepping balance is the sole objective, Dividat provides a controlled, small-footprint solution.'
+  },
+  {
+    title: 'SMARTfit® vs. Bioness BITS®',
+    tag: 'Kinetic Impact System vs. Standardized OT Touchscreen',
+    smartfitImage: '/images/products/smartfit-mini-portable-frame-high-impact.jpg',
+    smartfitName: 'SMARTfit® Mini Portable',
+    smartfitType: 'Rolling Mobile Frame Kiosk',
+    competitorImage: '/images/competitors/bioness-bits-touchscreen.jpg',
+    competitorName: 'Bioness BITS®',
+    competitorType: 'Occupational Therapy Touchscreen',
+    tradeoff1: 'BITS is an oversized commercial touchscreen interface designed for occupational therapy. It features digitized standard OT tests (such as Trail Making, visual search, and cognitive memory tasks).',
+    tradeoff2: 'However, BITS is a delicate glass touchscreen. It cannot withstand medicine balls, athletic strikes, or foot contact, and provides almost zero cardiovascular or kinetic demand. SMARTfit turns cognitive training into an active kinetic workout capable of withstanding heavy medicine ball impact.',
+    concession: 'BITS offers standardized, normed occupational therapy evaluation batteries and hospital EMR integration designed for acute inpatient rehabilitation. For bed-bound or severely impaired acute patients who cannot yet bear weight or engage in kinetic movement, BITS provides standardized clinical utility.'
+  }
+];
+
+const faqs = [
+  {
+    q: 'Why does CMT Systems evaluate other systems if you recommend SMARTfit?',
+    a: 'We believe institutional buyers deserve objective facts. Every platform has genuine strengths. By publishing rigorous comparisons with narrow concessions, we ensure clinics and facilities make informed purchases that fit their clinical goals and physical footprint.',
+  },
+  {
+    q: 'Is SMARTfit an FDA-cleared medical device like Dynavision D2?',
+    a: 'No. SMARTfit is commercial exercise, fitness, and assessment equipment. Dynavision D2 holds FDA 510(k) clearance specifically for visuomotor diagnostics and driver rehabilitation. If your institution strictly requires FDA-cleared diagnostic equipment for driver readiness testing, Dynavision is the appropriate choice.',
+  },
+  {
+    q: 'Can cognitive-motor equipment be billed under Medicare or CPT codes?',
+    a: 'Equipment itself is never billed directly. Licensed physical and occupational therapists frequently use cognitive-motor systems to deliver therapeutic activities (CPT 97530) or neuromuscular re-education (CPT 97112). Billing depends entirely on clinician delivery and medical necessity, never on the equipment manufacturer.',
+  },
+  {
+    q: 'How much floor and wall space is required for these systems?',
+    a: 'Dynavision and BITS require flat wall space with standing room for one user. Dividat requires approximately 6x6 feet of floor clearance. SMARTfit Mini mounts flat against wall studs and requires a 10x10 foot active movement zone. We evaluate your exact space during our Photo Fit Review.',
+  },
+];
 ---
 
-<StubPage entry={entry} />
+<BaseLayout
+  title="Cognitive-Motor Technology Comparison Matrix & Head-to-Head Audits"
+  description="Objective comparisons of SMARTfit vs. Dynavision D2, Dividat Senso, Bioness BITS, and BlazePod. Compare cognitive depth, kinetic movement, FDA status, and space requirements."
+>
+  <!-- SCHEMA: FAQPage -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": f.a
+      }
+    }))
+  })} />
+
+  <!-- HERO (CLEAN, AIRY, CRISP) -->
+  <section class="compare-hero">
+    <div class="wrap">
+      <div class="hero-badge">OBJECTIVE COMPARISON MATRIX · 2026 EDITION</div>
+      <h1 class="hero-title">Head-to-Head Technology Audits &amp; Tradeoff Analysis</h1>
+      <p class="hero-lead">
+        We compare the market's leading cognitive-motor systems across physical movement, executive-function depth, FDA status, and multi-user capacity. No marketing spin—every comparison includes our mandatory auditor concessions.
+      </p>
+      <div class="hero-actions">
+        <a class="cta-button" href="#matrix">View Full Comparison Table &darr;</a>
+        <a class="cta-secondary" href="/photo-fit-review/">Request A Photo Fit Review &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MASTER COMPARISON MATRIX (LIGHT SLATE WITH SPACIOUS WHITE TABLE) -->
+  <section id="matrix" class="matrix-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">SOURCED SPECIFICATION TABLE</span>
+        <h2 class="section-title">The Market Landscape: Feature-by-Feature</h2>
+        <p class="section-desc">
+          Compare specifications side-by-side. Notice how platform architecture dictates clinical throughput, movement possibilities, and cognitive depth.
+        </p>
+      </div>
+
+      <div class="matrix-table-wrap">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th class="th-feature">Platform &amp; Criteria</th>
+              {competitors.map((c) => (
+                <th class={c.highlight ? 'th-highlight' : ''}>
+                  <div class="th-content">
+                    {c.image && (
+                      <div class="th-img-box">
+                        <img 
+                          src={c.image} 
+                          alt={c.imageAlt} 
+                          class="th-img" 
+                          width="110" 
+                          height="75" 
+                          loading="lazy" 
+                        />
+                      </div>
+                    )}
+                    <span class="th-name">{c.name}</span>
+                    <span class="th-badge">{c.highlight ? 'Top Recommendation' : 'Evaluated System'}</span>
+                  </div>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-feature">Primary Category</td>
+              {competitors.map((c) => (
+                <td class={c.highlight ? 'td-highlight' : ''}>{c.category}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="td-feature">Cognitive Depth</td>
+              {competitors.map((c) => (
+                <td class={c.highlight ? 'td-highlight' : ''}>{c.cognitive}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="td-feature">Physical Movement</td>
+              {competitors.map((c) => (
+                <td class={c.highlight ? 'td-highlight' : ''}>{c.physical}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="td-feature">Impact Resistance</td>
+              {competitors.map((c) => (
+                <td class={c.highlight ? 'td-highlight' : ''}>{c.impact}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="td-feature">Multi-User Capacity</td>
+              {competitors.map((c) => (
+                <td class={c.highlight ? 'td-highlight' : ''}>{c.multiUser}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="td-feature">FDA Regulatory Status</td>
+              {competitors.map((c) => (
+                <td class={c.highlight ? 'td-highlight' : ''}>{c.fda}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="td-feature">Performance Metrics</td>
+              {competitors.map((c) => (
+                <td class={c.highlight ? 'td-highlight' : ''}>{c.data}</td>
+              ))}
+            </tr>
+            <tr>
+              <td class="td-feature">Best Institutional Fit</td>
+              {competitors.map((c) => (
+                <td class={c.highlight ? 'td-highlight' : ''}>{c.bestFit}</td>
+              ))}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-sub-callout">
+        <div class="callout-content">
+          <span class="callout-icon">📐</span>
+          <div>
+            <strong>Need detailed physical dimensions, wall backing, or ceiling clearance specs?</strong>
+            <span> Review mounting options and footprint profiles in the <a href="/systems/">SMARTfit Systems Hardware Directory &rarr;</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEEP-DIVE COMPARISONS & CONCESSIONS (CRISP WHITE SECTION) -->
+  <section class="breakdowns-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">DEEP-DIVE AUDITS WITH NARROW CONCESSIONS</span>
+        <h2 class="section-title">Head-to-Head Teardowns</h2>
+        <p class="section-desc">
+          Honest assessments of where each system excels and where its hardware reaches operational boundaries.
+        </p>
+      </div>
+
+      <div class="breakdowns-grid">
+        {breakdowns.map((b) => (
+          <article class="breakdown-card">
+            <div class="breakdown-header">
+              <h3>{b.title}</h3>
+              <span class="versus-tag">{b.tag}</span>
+            </div>
+
+            <div class="teardown-vs-visual">
+              <div class="teardown-product">
+                <div class="teardown-img-box teardown-img-box--smartfit">
+                  <img 
+                    src={b.smartfitImage} 
+                    alt={`${b.smartfitName} hardware profile`} 
+                    width="220" 
+                    height="150" 
+                    loading="lazy" 
+                    class="teardown-img" 
+                  />
+                </div>
+                <div class="teardown-meta">
+                  <span class="teardown-name">{b.smartfitName}</span>
+                  <span class="teardown-type">{b.smartfitType}</span>
+                </div>
+              </div>
+
+              <div class="teardown-vs-pill">VS</div>
+
+              <div class="teardown-product">
+                <div class="teardown-img-box">
+                  <img 
+                    src={b.competitorImage} 
+                    alt={`${b.competitorName} hardware profile`} 
+                    width="220" 
+                    height="150" 
+                    loading="lazy" 
+                    class="teardown-img" 
+                  />
+                </div>
+                <div class="teardown-meta">
+                  <span class="teardown-name">{b.competitorName}</span>
+                  <span class="teardown-type">{b.competitorType}</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="breakdown-body">
+              <p>
+                <strong>The Tradeoff:</strong> {b.tradeoff1}
+              </p>
+              <p>
+                {b.tradeoff2}
+              </p>
+              <div class="concession-box">
+                <span class="concession-label">MANDATORY AUDITOR CONCESSION:</span>
+                <p>
+                  {b.concession}
+                </p>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- DEDICATED SUB-CATEGORY AUDIT: WIRELESS AGILITY PODS -->
+  <section class="pod-audit-section">
+    <div class="wrap">
+      <div class="pod-audit-card">
+        <div class="pod-audit-header">
+          <span class="pod-badge">SUB-CATEGORY HARDWARE AUDIT</span>
+          <h2 class="pod-heading">{podComparison.title}</h2>
+          <p class="pod-subheading">{podComparison.subtitle}</p>
+          <p class="pod-overview">{podComparison.overview}</p>
+        </div>
+
+        <div class="pod-visual-comparison">
+          <div class="pod-visual-item">
+            <div class="pod-img-wrap">
+              <img 
+                src={podComparison.imageSmartfit} 
+                alt={podComparison.imageSmartfitAlt} 
+                width="360" 
+                height="220" 
+                loading="lazy" 
+                class="pod-img"
+              />
+            </div>
+            <div class="pod-visual-caption">
+              <strong>SMARTfit® Strike Pods</strong>
+              <span>Clinical Alphanumeric Sensory Units</span>
+            </div>
+          </div>
+          <div class="pod-vs-divider">VS</div>
+          <div class="pod-visual-item">
+            <div class="pod-img-wrap">
+              <img 
+                src={podComparison.imageBlaze} 
+                alt={podComparison.imageBlazeAlt} 
+                width="360" 
+                height="220" 
+                loading="lazy" 
+                class="pod-img"
+              />
+            </div>
+            <div class="pod-visual-caption">
+              <strong>BlazePod Trainer Kit</strong>
+              <span>Consumer Color-Flash Agility Pucks</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pod-table-wrap">
+          <table class="pod-table">
+            <thead>
+              <tr>
+                <th class="pod-th-feature">Comparison Dimension</th>
+                <th class="pod-th-smartfit">SMARTfit® Strike Pods</th>
+                <th class="pod-th-blaze">BlazePod / FITLIGHT</th>
+              </tr>
+            </thead>
+            <tbody>
+              {podComparison.table.map((row) => (
+                <tr>
+                  <td class="pod-td-feature">{row.feature}</td>
+                  <td class="pod-td-smartfit">{row.smartfit}</td>
+                  <td class="pod-td-blaze">{row.blazepod}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="pod-concession-box">
+          <span class="concession-label">MANDATORY AUDITOR CONCESSION:</span>
+          <p>{podComparison.concession}</p>
+        </div>
+
+        <div class="pod-action-row text-center">
+          <a href="/photo-fit-review/" class="cta-button">Audit Portable Pod Layout For Your Facility &rarr;</a>
+          <a href="/systems/" class="cta-secondary">View Strike Pod Configurations &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQS SECTION (LIGHT SLATE BACKGROUND) -->
+  <section class="faqs-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">FREQUENTLY ASKED QUESTIONS</span>
+        <h2 class="section-title">Buyer Decision Intelligence</h2>
+      </div>
+
+      <div class="faqs-grid">
+        {faqs.map((faq) => (
+          <div class="faq-card">
+            <h3 class="faq-question">{faq.q}</h3>
+            <p class="faq-answer">{faq.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM CTA (ANCHOR NAVY) -->
+  <section class="compare-cta-strip">
+    <div class="wrap text-center">
+      <h2>Need Help Selecting The Right System For Your Budget &amp; Space?</h2>
+      <p class="cta-lead">
+        Send us photos of your room, your patient population, and your clinical goals. We will perform a free, vendor-agnostic technology audit.
+      </p>
+      <a class="cta-button" href="/photo-fit-review/">Request A Photo Fit Review &rarr;</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* HERO (CRISP WHITE, CLEAN, SPACIOUS) */
+  .compare-hero {
+    padding: 5.5rem 0 4.5rem;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #FF6500;
+    background: rgba(255, 101, 0, 0.08);
+    border: 1px solid rgba(255, 101, 0, 0.25);
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.25rem, 4.5vw, 3.25rem);
+    font-weight: 900;
+    color: #0c2044;
+    line-height: 1.15;
+    margin: 0 0 1.25rem;
+    max-width: 54rem;
+  }
+
+  .hero-lead {
+    font-size: 1.2rem;
+    color: #475569;
+    max-width: 52rem;
+    line-height: 1.65;
+    margin: 0 0 2.25rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 1.75rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0c2044;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .cta-secondary:hover {
+    background: #F8FAFC;
+    border-color: #0c2044;
+  }
+
+  /* MATRIX TABLE SECTION (LIGHT SLATE WITH SPACIOUS WHITE TABLE) */
+  .matrix-section {
+    padding: 5.5rem 0 6rem;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .section-intro {
+    max-width: 48rem;
+    margin: 0 auto 3.5rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .section-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #0284C7;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.75rem;
+    line-height: 1.2;
+  }
+
+  .section-desc {
+    font-size: 1.05rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .matrix-table-wrap {
+    overflow-x: auto;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+
+  .matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    text-align: left;
+    min-width: 880px;
+  }
+
+  .matrix-table th, .matrix-table td {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #E2E8F0;
+    vertical-align: top;
+    line-height: 1.6;
+    color: #334155;
+  }
+
+  .matrix-table thead th {
+    background: #F1F5F9;
+    color: #0c2044;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.05rem;
+  }
+
+  .th-feature {
+    width: 200px;
+    color: #64748B;
+    font-size: 0.82rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .th-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .th-img-box {
+    margin-bottom: 0.5rem;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 0.35rem;
+    border: 1px solid rgba(255, 101, 0, 0.2);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  }
+
+  .th-img {
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+    border-radius: 4px;
+  }
+
+  .th-name {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #0c2044;
+  }
+
+  .th-badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #94A3B8;
+  }
+
+  .th-highlight .th-name {
+    color: #FF6500;
+  }
+
+  .th-highlight .th-badge {
+    color: #FF6500;
+  }
+
+  .th-highlight, .td-highlight {
+    background: rgba(255, 101, 0, 0.03);
+    border-left: 2px solid rgba(255, 101, 0, 0.3);
+    border-right: 2px solid rgba(255, 101, 0, 0.3);
+  }
+
+  .td-feature {
+    font-weight: 800;
+    color: #0c2044;
+    background: #F8FAFC;
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+  }
+
+  .matrix-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* TABLE SUB-CALLOUT */
+  .table-sub-callout {
+    margin-top: 1.5rem;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-left: 4px solid #0284C7;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  }
+
+  .callout-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.92rem;
+    color: #334155;
+    line-height: 1.5;
+  }
+
+  .callout-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+  }
+
+  .callout-content a {
+    color: #0284C7;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .callout-content a:hover {
+    color: #0369A1;
+  }
+
+  /* BREAKDOWNS (CRISP WHITE SECTION) */
+  .breakdowns-section {
+    padding: 6rem 0;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .breakdowns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    gap: 2.5rem;
+  }
+
+  .breakdown-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.2s ease;
+  }
+
+  .breakdown-card:hover {
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+  }
+
+  .breakdown-header {
+    border-bottom: 1px solid #E2E8F0;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .breakdown-header h3 {
+    font-family: var(--font-display);
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.35rem;
+  }
+
+  .versus-tag {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #0284C7;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .teardown-vs-visual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.25rem 1rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .teardown-product {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .teardown-img-box {
+    width: 100%;
+    height: 130px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.6rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  }
+
+  .teardown-img-box--smartfit {
+    border-color: rgba(255, 101, 0, 0.25);
+    background: #FFFDFB;
+  }
+
+  .teardown-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .teardown-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .teardown-name {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0C2044;
+  }
+
+  .teardown-type {
+    font-size: 0.72rem;
+    color: #64748B;
+    font-weight: 600;
+  }
+
+  .teardown-vs-pill {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    font-weight: 900;
+    color: #94A3B8;
+    background: #E2E8F0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .breakdown-body p {
+    font-size: 0.98rem;
+    color: #475569;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+  }
+
+  .concession-box {
+    background: #F0F9FF;
+    border: 1px solid #BAE6FD;
+    border-left: 4px solid #0284C7;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .concession-label {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    color: #0284C7;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.4rem;
+  }
+
+  .concession-box p {
+    font-size: 0.92rem;
+    color: #0369A1;
+    line-height: 1.6;
+    margin: 0;
+    font-style: italic;
+  }
+
+  /* SUB-CATEGORY POD AUDIT SECTION */
+  .pod-audit-section {
+    padding: 6rem 0;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .pod-audit-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 3.5rem;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.04);
+  }
+
+  .pod-audit-header {
+    max-width: 48rem;
+    margin: 0 auto 3rem;
+    text-align: center;
+  }
+
+  .pod-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #0284C7;
+    background: #E0F2FE;
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  .pod-heading {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.5rem;
+    line-height: 1.25;
+  }
+
+  .pod-subheading {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #FF6500;
+    margin: 0 0 1rem;
+  }
+
+  .pod-overview {
+    font-size: 1rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .pod-visual-comparison {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .pod-visual-item {
+    text-align: center;
+    flex: 1;
+    min-width: 260px;
+    max-width: 380px;
+  }
+
+  .pod-img-wrap {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.85rem;
+  }
+
+  .pod-img {
+    max-width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+  }
+
+  .pod-visual-caption strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #0C2044;
+    margin-bottom: 0.2rem;
+  }
+
+  .pod-visual-caption span {
+    font-size: 0.82rem;
+    color: #64748B;
+  }
+
+  .pod-vs-divider {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #94A3B8;
+    background: #F1F5F9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .pod-table-wrap {
+    overflow-x: auto;
+    margin-bottom: 2.5rem;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+  }
+
+  .pod-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  .pod-table th, .pod-table td {
+    padding: 1.1rem 1.4rem;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .pod-th-feature {
+    width: 25%;
+    background: #F8FAFC;
+    font-weight: 800;
+    color: #0C2044;
+  }
+
+  .pod-th-smartfit {
+    width: 40%;
+    background: rgba(255, 101, 0, 0.04);
+    color: #FF6500;
+    font-weight: 800;
+    font-size: 1.05rem;
+    border-left: 2px solid rgba(255, 101, 0, 0.3);
+    border-right: 2px solid rgba(255, 101, 0, 0.3);
+  }
+
+  .pod-th-blaze {
+    width: 35%;
+    background: #F8FAFC;
+    color: #475569;
+    font-weight: 800;
+  }
+
+  .pod-td-feature {
+    font-weight: 700;
+    color: #0C2044;
+    background: #F8FAFC;
+  }
+
+  .pod-td-smartfit {
+    background: rgba(255, 101, 0, 0.02);
+    border-left: 2px solid rgba(255, 101, 0, 0.3);
+    border-right: 2px solid rgba(255, 101, 0, 0.3);
+    color: #0C2044;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .pod-td-blaze {
+    color: #475569;
+    line-height: 1.5;
+  }
+
+  .pod-concession-box {
+    background: #F0F9FF;
+    border: 1px solid #BAE6FD;
+    border-left: 4px solid #0284C7;
+    border-radius: 8px;
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .pod-concession-box p {
+    font-size: 0.95rem;
+    color: #0369A1;
+    line-height: 1.6;
+    margin: 0;
+    font-style: italic;
+  }
+
+  .pod-action-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  /* FAQS (LIGHT SLATE) */
+  .faqs-section {
+    padding: 5.5rem 0 6.5rem;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .faqs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .faq-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 2.25rem 2rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+  }
+
+  .faq-question {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.85rem;
+    line-height: 1.35;
+  }
+
+  .faq-answer {
+    font-size: 0.98rem;
+    color: #475569;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* CTA */
+  .compare-cta-strip {
+    padding: 5.5rem 0;
+    background: #0c2044;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .compare-cta-strip h2 {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 1rem;
+  }
+
+  .cta-lead {
+    font-size: 1.15rem;
+    color: #CBD5E1;
+    max-width: 44rem;
+    margin: 0 auto 2.25rem;
+    line-height: 1.65;
+  }
+
+  @media (max-width: 768px) {
+    .breakdowns-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

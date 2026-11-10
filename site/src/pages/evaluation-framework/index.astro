@@ -1,0 +1,493 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getEntry, render } from 'astro:content';
+
+const frameworkEntry = await getEntry('pages', 'evaluation-framework');
+if (!frameworkEntry) {
+  throw new Error('Missing content entry: pages/evaluation-framework');
+}
+
+const { Content } = await render(frameworkEntry);
+
+const dimensionsOverview = [
+  {
+    num: '01',
+    name: 'Cognitive Complexity',
+    desc: 'Executive function depth (Stroop, Flanker, Working Memory, N-back, Math) vs. simple light stimulus-response.',
+    icon: '🧠',
+  },
+  {
+    num: '02',
+    name: 'Stimulus Flexibility',
+    desc: 'Variety and customization of sensory triggers across visual, auditory, spatial, and alphanumeric modalities.',
+    icon: '⚡',
+  },
+  {
+    num: '03',
+    name: 'Response Flexibility',
+    desc: 'Diversity of motor response patterns: multi-directional targets, choice discrimination, and unpredictable sequencing.',
+    icon: '🎯',
+  },
+  {
+    num: '04',
+    name: 'Physical Movement',
+    desc: 'Full-body kinetic impact (hands, feet, balls, medicine balls) vs. delicate tap-only panels or seated screens.',
+    icon: '🏃',
+  },
+  {
+    num: '05',
+    name: 'Performance Data',
+    desc: 'Sub-millisecond Dual-Task Cost (DTC) latency tracking, EMR-exportable metrics, and clinical documentation for 97530.',
+    icon: '📊',
+  },
+];
+---
+
+<BaseLayout 
+  title="Cognitive-Motor Technology Evaluation Framework"
+  description="CMT Systems' 5-Dimension Framework for evaluating and auditing cognitive-motor training technologies. Objective, evidence-informed equipment procurement."
+>
+  <!-- PAGE HERO (CLEAN, BRIGHT, SPACIOUS) -->
+  <section class="framework-hero">
+    <div class="wrap">
+      <div class="hero-badge">PROPRIETARY AUDIT METHODOLOGY · VERSION 1.0</div>
+      <h1 class="hero-title">The 5-Dimension Technology Evaluation Framework</h1>
+      <p class="hero-lead">
+        A systematic, vendor-agnostic methodology for institutional buyers to evaluate cognitive-motor training equipment based on task complexity, kinetic movement, and objective clinical data—not manufacturer marketing brochures.
+      </p>
+      <div class="hero-actions">
+        <a class="cta-button" href="/resources/evaluation-worksheet.md" download>
+          Download Evaluation Worksheet (.md) &darr;
+        </a>
+        <a class="cta-secondary" href="/photo-fit-review/">
+          Request Facility Photo Fit Review &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 DIMENSIONS VISUAL GRID (CRISP WHITE WITH AIRY SPACING) -->
+  <section class="dimensions-summary-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">CORE EVALUATION CRITERIA</span>
+        <h2 class="section-title">The Five Core Evaluation Dimensions</h2>
+        <p class="section-sub">
+          Every platform on the market is audited and scored from 1 (Limited) to 5 (Extensive) across these five foundational capabilities:
+        </p>
+      </div>
+
+      <div class="dimensions-grid">
+        {dimensionsOverview.map((dim) => (
+          <div class="dimension-card">
+            <div class="dimension-header">
+              <span class="dim-num">{dim.num}</span>
+              <span class="dim-icon">{dim.icon}</span>
+            </div>
+            <h3 class="dim-name">{dim.name}</h3>
+            <p class="dim-desc">{dim.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- DEEP-DIVE DOCUMENTATION CONTENT (LIGHT SLATE WITH AMPLE WHITE SPACE) -->
+  <section class="framework-content-section">
+    <div class="wrap framework-content-grid">
+      <article class="prose-content-card">
+        <Content />
+      </article>
+
+      <!-- AUDITOR SIDEBAR -->
+      <aside class="framework-sidebar">
+        <div class="sidebar-card">
+          <div class="sidebar-badge">AUDITOR PERSPECTIVE</div>
+          <h3>Why We Audit the Market</h3>
+          <p>
+            Most facilities spend $15,000 to $50,000 based on slick trade-show demos. They discover six months later that their equipment only supports tap-drills or doesn't withstand medicine ball impact.
+          </p>
+          <div class="auditor-quote">
+            "We grade the hardware, software, and clinical utility based on hundreds of hours of hands-on installation and training experience."
+          </div>
+          <div class="auditor-sig">
+            <strong>Robert Aguilar</strong>
+            <span>Lead Technology Auditor & Certified Trainer</span>
+          </div>
+        </div>
+
+        <div class="sidebar-card sidebar-card--cta">
+          <div class="sidebar-badge-accent">FACILITY SPACE AUDIT</div>
+          <h3>Apply This Framework To Your Room</h3>
+          <p>
+            Send us photos of your room dimensions, ceiling height, and wall studs. We will run your facility through the 5-Dimension Framework and provide an objective equipment recommendation at zero cost.
+          </p>
+          <a class="cta-button w-full" href="/photo-fit-review/">Get Photo Fit Review &rarr;</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* HERO (BRIGHT, EXPANSIVE, CRISP) */
+  .framework-hero {
+    padding: 5.5rem 0 4.5rem;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #FF6500;
+    background: rgba(255, 101, 0, 0.08);
+    border: 1px solid rgba(255, 101, 0, 0.25);
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.25rem, 4.5vw, 3.25rem);
+    font-weight: 900;
+    color: #0c2044;
+    line-height: 1.15;
+    margin: 0 0 1.25rem;
+    max-width: 54rem;
+  }
+
+  .hero-lead {
+    font-size: 1.2rem;
+    color: #475569;
+    max-width: 52rem;
+    line-height: 1.65;
+    margin: 0 0 2.25rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 1.75rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0c2044;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .cta-secondary:hover {
+    background: #F8FAFC;
+    border-color: #0c2044;
+  }
+
+  /* DIMENSIONS SUMMARY (CRISP WHITE BACKGROUND) */
+  .dimensions-summary-section {
+    padding: 5rem 0 5.5rem;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .section-intro {
+    max-width: 48rem;
+    margin: 0 auto 3.5rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .section-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #FF6500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.75rem;
+    line-height: 1.2;
+  }
+
+  .section-sub {
+    font-size: 1.05rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .dimensions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .dimension-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dimension-card:hover {
+    transform: translateY(-4px);
+    border-color: #FF6500;
+    box-shadow: 0 12px 28px rgba(255, 101, 0, 0.08);
+  }
+
+  .dimension-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+  }
+
+  .dim-num {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #FF6500;
+  }
+
+  .dim-icon {
+    font-size: 1.75rem;
+  }
+
+  .dim-name {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.75rem;
+    line-height: 1.3;
+  }
+
+  .dim-desc {
+    font-size: 0.92rem;
+    color: #64748B;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  /* CONTENT & SIDEBAR (BRIGHT WITH SUBSTANTIAL PADDING) */
+  .framework-content-section {
+    padding: 5.5rem 0 7rem;
+    background: #FFFFFF;
+  }
+
+  .framework-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .prose-content-card {
+    background: #FFFFFF;
+    color: #334155;
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+
+  .prose-content-card :global(h1) {
+    display: none; /* In hero */
+  }
+
+  .prose-content-card :global(h2) {
+    font-family: var(--font-display);
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 2px solid #F1F5F9;
+    padding-bottom: 0.6rem;
+  }
+
+  .prose-content-card :global(h3) {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin-top: 2.25rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .prose-content-card :global(p) {
+    margin-bottom: 1.4rem;
+    color: #475569;
+  }
+
+  .prose-content-card :global(ul) {
+    list-style: disc;
+    padding-left: 1.75rem;
+    margin-bottom: 1.75rem;
+    color: #475569;
+  }
+
+  .prose-content-card :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .prose-content-card :global(strong) {
+    color: #0c2044;
+    font-weight: 700;
+  }
+
+  .prose-content-card :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2.5rem 0;
+    font-size: 0.95rem;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .prose-content-card :global(th) {
+    background: #F8FAFC;
+    color: #0c2044;
+    text-align: left;
+    padding: 1rem 1.25rem;
+    border-bottom: 2px solid #E2E8F0;
+    font-weight: 800;
+    font-family: var(--font-display);
+  }
+
+  .prose-content-card :global(td) {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid #E2E8F0;
+    color: #475569;
+  }
+
+  .prose-content-card :global(tr:nth-child(even)) {
+    background: #FAFAFA;
+  }
+
+  .prose-content-card :global(tr:last-child td) {
+    border-bottom: none;
+  }
+
+  /* SIDEBAR */
+  .framework-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: sticky;
+    top: 5.5rem;
+  }
+
+  .sidebar-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 2.25rem 1.75rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.02);
+  }
+
+  .sidebar-card--cta {
+    background: #FFFDFB;
+    border: 2px solid #FF6500;
+    box-shadow: 0 8px 24px rgba(255, 101, 0, 0.08);
+  }
+
+  .sidebar-badge {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #0284C7;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .sidebar-badge-accent {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #FF6500;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .sidebar-card h3 {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.85rem;
+  }
+
+  .sidebar-card p {
+    font-size: 0.95rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin: 0 0 1.25rem;
+  }
+
+  .auditor-quote {
+    font-style: italic;
+    color: #1E293B;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-left: 3px solid #FF6500;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin: 1.25rem 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .auditor-sig {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.88rem;
+    margin-top: 0.5rem;
+  }
+
+  .auditor-sig strong {
+    color: #0c2044;
+  }
+
+  .auditor-sig span {
+    color: #94A3B8;
+  }
+
+  .w-full {
+    width: 100%;
+    text-align: center;
+  }
+
+  @media (max-width: 960px) {
+    .framework-content-grid {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+    .framework-sidebar {
+      position: static;
+    }
+  }
+</style>

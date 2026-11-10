@@ -12,55 +12,139 @@ const { Content } = await render(entry);
 ---
 
 <BaseLayout title={title}>
-  <section class="wrap stub">
-    <p class="stub-tag">Placeholder page — scaffolding only, not approved public copy</p>
-    <h1>{title}</h1>
-    <dl>
-      <dt>Primary audience</dt>
-      <dd>{audience}</dd>
-      <dt>Page job</dt>
-      <dd>{pageJob}</dd>
-      <dt>Visitor question this page should answer</dt>
-      <dd>{visitorQuestion}</dd>
-      <dt>Review guardrail</dt>
-      <dd>{reviewGuardrail}</dd>
-    </dl>
-    <div class="stub-body">
-      <Content />
-    </div>
-    <a class="cta-button" href="/request-demo/">{primaryCta}</a>
-  </section>
+  <div class="stub-wrapper">
+    <div class="wrap">
+      <div class="stub-card">
+        <span class="stub-badge">EDITORIAL DEVELOPMENT</span>
+        <h1 class="stub-title">{title}</h1>
+        
+        <div class="stub-meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Primary Audience</span>
+            <span class="meta-val">{audience}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Page Objective</span>
+            <span class="meta-val">{pageJob}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Visitor Query Addressed</span>
+            <span class="meta-val">{visitorQuestion}</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Clinical Review Guardrail</span>
+            <span class="meta-val">{reviewGuardrail}</span>
+          </div>
+        </div>
 
-  <style>
-    .stub {
-      padding-top: 2.5rem;
-      padding-bottom: 3rem;
-      max-width: 40rem;
-    }
-    .stub-tag {
-      display: inline-block;
-      background: var(--color-highlight);
-      color: var(--color-accent);
-      font-size: 0.85rem;
-      font-weight: 600;
-      padding: 0.3rem 0.6rem;
-      border-radius: 0.3rem;
-      margin-bottom: 1rem;
-    }
-    dl {
-      margin: 1.5rem 0;
-    }
-    dt {
-      font-weight: 600;
-      margin-top: 0.75rem;
-    }
-    dd {
-      margin: 0.15rem 0 0;
-      color: var(--color-muted);
-    }
-    .stub-body {
-      margin: 1.5rem 0;
-      color: var(--color-muted);
-    }
-  </style>
+        <div class="stub-body">
+          <Content />
+        </div>
+
+        <div class="stub-action">
+          <a class="stub-cta" href="/photo-fit-review/">{primaryCta || "Request Facility Consultation"} &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </BaseLayout>
+
+<style>
+  .stub-wrapper {
+    background: #F8FAFC;
+    padding: 6rem 0;
+    min-height: 70vh;
+  }
+  .stub-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 3.5rem;
+    max-width: 52rem;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+  .stub-badge {
+    display: inline-block;
+    background: rgba(255, 101, 0, 0.08);
+    color: #FF6500;
+    border: 1px solid rgba(255, 101, 0, 0.2);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    margin-bottom: 1.25rem;
+  }
+  .stub-title {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #0c2044;
+    line-height: 1.2;
+    margin: 0 0 2rem;
+  }
+  .stub-meta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .meta-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748B;
+  }
+  .meta-val {
+    font-size: 0.95rem;
+    color: #0c2044;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .stub-body {
+    color: #475569;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+  }
+  .stub-action {
+    display: flex;
+  }
+  .stub-cta {
+    display: inline-flex;
+    align-items: center;
+    background: #FF6500;
+    color: #FFFFFF;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.85rem 1.75rem;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(255, 101, 0, 0.3);
+    transition: background 0.2s, transform 0.2s;
+  }
+  .stub-cta:hover {
+    background: #E55B00;
+    transform: translateY(-1px);
+  }
+  @media (max-width: 768px) {
+    .stub-card {
+      padding: 2rem 1.5rem;
+    }
+    .stub-meta-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

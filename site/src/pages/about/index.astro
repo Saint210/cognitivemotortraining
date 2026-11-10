@@ -1,8 +1,797 @@
 ---
-import StubPage from '../../layouts/StubPage.astro';
-import { getEntry } from 'astro:content';
-const entry = await getEntry('pages', 'about');
-if (!entry) throw new Error('Missing content entry: pages/about');
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pageTitle = "About Robert Aguilar & CMT Systems | Equipment Advisory & Facility Planning";
+const pageDescription = "Learn about CMT Systems, founded by former certified installer Robert Aguilar. Hands-on equipment selection, space planning, and turnkey deployment for cognitive-motor systems.";
+
+const manifestoPillars = [
+  {
+    num: "01",
+    title: "Objective Specification Analysis Over Vendor Slogans",
+    desc: "We evaluate systems using our 5-Dimension Framework (Cognitive, Stimulus, Response, Physical, Data) against published manufacturer documentation. When other systems excel in specific niches—such as Dynavision's FDA clearance for driver rehab or Dividat's dedicated stepping plate—we acknowledge it directly."
+  },
+  {
+    num: "02",
+    title: "Hands-On Hardware & Installation Truth",
+    desc: "Most equipment advice comes from sales reps who have never unboxed a system. CMT Systems was built on the reality of bolting heavy steel frames to commercial wall studs, running electrical conduits, configuring wireless controllers, and testing real-world clearance."
+  },
+  {
+    num: "03",
+    title: "Strict Evidence Guardrails & Ethics",
+    desc: "Academic literature demonstrates profound neuroplastic benefits from dual-task training. However, commercial exercise equipment does not cure Parkinson's disease, eliminate stroke deficits, or guarantee fall prevention. We separate genuine science from marketing hype."
+  },
+  {
+    num: "04",
+    title: "Facility First & Direct Onboarding",
+    desc: "Commercial cognitive-motor systems require planned facility budgeting, structural backing, and software configuration. We conduct zero-cost Photo Fit Reviews before any capital is committed and coordinate directly with SMARTfit for turnkey delivery and clinical staff training."
+  }
+];
+
+const credentials = [
+  {
+    metric: "3",
+    label: "Systems Personally Owned",
+    detail: "Direct daily operation and stress testing across multiple hardware configurations."
+  },
+  {
+    metric: "Hands-On",
+    label: "Field Installation Experience",
+    detail: "Unboxing, wall-mounting, rolling frames, and hardware configuration."
+  },
+  {
+    metric: "Texas",
+    label: "Regional Hub",
+    detail: "Serving San Antonio, Houston TMC, DFW, and Austin with nationwide advisory reach."
+  },
+  {
+    metric: "5",
+    label: "Evaluation Dimensions",
+    detail: "Standardized framework scoring cognitive load, stimulus, response, physics, and data."
+  }
+];
 ---
 
-<StubPage entry={entry} />
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="about-page">
+    <!-- ========================================================================= -->
+    <!-- 1. HERO SECTION (CRISP WHITE, MASSIVE BREATHING ROOM, CLINICAL GRADE)     -->
+    <!-- ========================================================================= -->
+    <section class="about-hero">
+      <div class="wrap">
+        <div class="hero-badge-wrap">
+          <span class="hero-badge">EQUIPMENT ADVISORY &amp; FACILITY PLANNING</span>
+        </div>
+        <h1 class="hero-title">
+          Practical Hardware Guidance Grounded in Real Installation Experience.
+        </h1>
+        <p class="hero-lead">
+          CMT Systems was founded by <strong>Robert Aguilar</strong> to provide healthcare directors, clinic owners, senior living operators, and athletic facilities with practical, clear guidance through cognitive-motor equipment selection, space planning, and staff adoption.
+        </p>
+
+        <!-- CREDENTIAL CARDS -->
+        <div class="credentials-grid">
+          {credentials.map((c) => (
+            <div class="credential-card">
+              <span class="cred-metric">{c.metric}</span>
+              <h3 class="cred-label">{c.label}</h3>
+              <p class="cred-detail">{c.detail}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 2. FOUNDER STORY & HARDWARE REALITY (LIGHT SLATE #F8FAFC)                 -->
+    <!-- ========================================================================= -->
+    <section class="story-section">
+      <div class="wrap">
+        <div class="story-grid">
+          <div class="story-content">
+            <span class="section-badge">THE CMT ORIGIN</span>
+            <h2 class="section-title">
+              Bridging the Gap Between Factory Marketing and Room-Fit Reality
+            </h2>
+            <p class="story-p">
+              For years, the commercial neuro-rehabilitation and cognitive fitness markets have suffered from a recurring problem: equipment manufacturers sell through broad distribution channels, promising transformative outcomes while glossing over physical installation constraints, software learning curves, and real-world floor space bottlenecks.
+            </p>
+            <p class="story-p">
+              As a former certified SMARTfit installer and trainer, Robert Aguilar spent years on the front lines of equipment deployment—measuring wall backing, anchoring heavy steel framework into commercial studs, configuring controller networks, and instructing staff across schools, community centers, and specialty recovery facilities on live software operation.
+            </p>
+            <p class="story-p">
+              Having personally purchased and operated three distinct SMARTfit systems, Robert understands firsthand the kinetic advantages of full-body dual-task training—as well as the exact physical clearance and workflow questions buyers must resolve before signing a purchase order.
+            </p>
+            <p class="story-p">
+              To ensure buyers receive complete clinical and billing expertise, CMT Systems coordinates directly with SMARTfit's clinical education team, providing formal clinical onboarding and protocol training for licensed therapy staff.
+            </p>
+            <div class="story-highlight">
+              <p class="quote-text">
+                "A five-figure capital expenditure should never be decided from a brochure. We help you evaluate the hardware options, verify your physical room fit, and make sure your team has direct manufacturer training so the system gets used from day one."
+              </p>
+              <span class="quote-author">— Robert Aguilar, Founder &amp; Equipment Specialist</span>
+            </div>
+          </div>
+
+          <!-- SIDE CARD: BUSINESS ROLE & TRANSPARENCY -->
+          <div class="story-sidebar">
+            <div class="advisor-card">
+              <div class="advisor-header">
+                <div class="advisor-avatar">RA</div>
+                <div>
+                  <h3 class="advisor-name">Robert Aguilar</h3>
+                  <span class="advisor-role">Equipment Specialist &amp; Facility Planner</span>
+                </div>
+              </div>
+              <ul class="advisor-points">
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span><strong>Former Certified Installer:</strong> Deep hands-on knowledge of hardware tolerances, wall anchoring, rolling frames, and controller configuration.</span>
+                </li>
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span><strong>Owner of Three Systems:</strong> Continuous direct experience operating, maintaining, and testing hardware configurations.</span>
+                </li>
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span><strong>5-Dimension Benchmark:</strong> Evaluates published specs across cognitive load, kinetic movement, and data tracking to help you compare options.</span>
+                </li>
+                <li>
+                  <span class="check-icon">✓</span>
+                  <span><strong>Turnkey Clinical Training:</strong> Coordinates directly with SMARTfit's clinical education team for accredited clinical staff onboarding.</span>
+                </li>
+              </ul>
+
+              <div class="advisor-action">
+                <a class="advisor-btn" href="/photo-fit-review/">
+                  Request Facility Review With Robert &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 3. THE CMT INDEPENDENCE MANIFESTO (CRISP WHITE #FFFFFF)                   -->
+    <!-- ========================================================================= -->
+    <section class="manifesto-section">
+      <div class="wrap">
+        <div class="section-intro text-center">
+          <span class="section-badge">CORE OPERATING ETHICS</span>
+          <h2 class="section-title">The CMT Independence Manifesto</h2>
+          <p class="section-desc">
+            We hold ourselves to four non-negotiable principles designed to protect institutional buyers from vendor hype, unproven claims, and costly procurement mistakes.
+          </p>
+        </div>
+
+        <div class="manifesto-grid">
+          {manifestoPillars.map((pillar) => (
+            <div class="manifesto-card">
+              <span class="pillar-num">{pillar.num}</span>
+              <h3 class="pillar-title">{pillar.title}</h3>
+              <p class="pillar-desc">{pillar.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        <!-- MANDATORY COMMERCIAL DISCLOSURE CALLOUT -->
+        <div class="disclosure-card">
+          <div class="disclosure-icon">⚖️</div>
+          <div class="disclosure-body">
+            <h4 class="disclosure-title">Mandatory Commercial Transparency Disclosure</h4>
+            <p class="disclosure-text">
+              CMT Systems operates as an independent consultancy and technology auditor. When an institution procures equipment through our advisory process, we may receive referral compensation from the manufacturer. <strong>Commercial relationships do not establish clinical superiority.</strong> We evaluate all equipment objectively based on physical specifications, mechanical build quality, and published academic literature. We do not claim exclusive distributorship, authorized dealer status, or manufacturer ownership.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 4. REGIONAL TERRITORY & FUTURE VISION (LIGHT SLATE #F8FAFC)               -->
+    <!-- ========================================================================= -->
+    <section class="territory-section">
+      <div class="wrap">
+        <div class="territory-grid">
+          <div class="territory-card">
+            <span class="territory-tag">REGIONAL PRESENCE</span>
+            <h3 class="territory-heading">Texas Regional Hub &amp; On-Site In-Services</h3>
+            <p class="territory-p">
+              Based in Texas, CMT Systems provides hands-on facility space assessments, executive demonstrations, and staff clinical in-services across the state's major medical and athletic corridors:
+            </p>
+            <ul class="city-list">
+              <li><strong>San Antonio:</strong> Military medicine, VA polytrauma, and private sports rehabilitation clinics.</li>
+              <li><strong>Houston Medical Center (TMC):</strong> World-class neurology, neuro-optometry, and institutional wellness programs.</li>
+              <li><strong>Dallas–Fort Worth Metroplex:</strong> Elite private training academies, collegiate athletics, and senior living networks.</li>
+              <li><strong>Austin &amp; Central Texas:</strong> Functional neurology, post-concussion recovery, and adaptive physical education.</li>
+            </ul>
+          </div>
+
+          <div class="territory-card">
+            <span class="territory-tag">STRATEGIC HORIZON</span>
+            <h3 class="territory-heading">Nationwide Advisory &amp; Future Demo Facility</h3>
+            <p class="territory-p">
+              Beyond Texas, CMT Systems provides comprehensive remote space planning, CAD footprint analysis, and vendor-neutral procurement audits for institutions across all 50 states.
+            </p>
+            <p class="territory-p">
+              <strong>Long-Term Strategic Vision:</strong> CMT Systems is actively planning an integrated demonstration and cognitive-motor training facility in or near San Antonio, Texas. This future location is designed to allow clinical directors and athletic coaches to test multi-system configurations in person before procurement.
+            </p>
+            <div class="vision-note">
+              <em>Note: The San Antonio demonstration facility is a strategic development initiative and is not currently open for retail or clinical walk-in services.</em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 5. FINAL CONSULTATION CTA (CRISP WHITE / DARK ACCENT)                     -->
+    <!-- ========================================================================= -->
+    <section class="about-cta-section">
+      <div class="wrap">
+        <div class="cta-banner">
+          <div class="cta-content">
+            <span class="eyebrow-accent">DIRECT LEAD AUDITOR ACCESS</span>
+            <h2 class="cta-title">Planning a Cognitive-Motor Installation?</h2>
+            <p class="cta-desc">
+              Send a photo of your therapy wall, ceiling clearance, and floor layout. We'll analyze structural backing, patient workflow, and equipment fit within 24–48 hours.
+            </p>
+            <div class="cta-button-group">
+              <a class="cta-button-primary" href="/photo-fit-review/">
+                Request A Photo Fit Review &rarr;
+              </a>
+              <a class="cta-button-phone" href="tel:18004317788">
+                Direct Desk: <strong>1-800-431-7788</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .about-page {
+    background: #FFFFFF;
+    color: #1E293B;
+  }
+
+  /* 1. HERO */
+  .about-hero {
+    background: #FFFFFF;
+    padding: 5.5rem 0 4.5rem;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .hero-badge-wrap {
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #0284C7;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.25);
+    padding: 0.4rem 0.9rem;
+    border-radius: 9999px;
+  }
+
+  .hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.25rem, 4.5vw, 3.25rem);
+    font-weight: 900;
+    color: #0c2044;
+    line-height: 1.15;
+    margin: 0 0 1.5rem;
+    max-width: 56rem;
+  }
+
+  .hero-lead {
+    font-size: 1.25rem;
+    color: #475569;
+    max-width: 52rem;
+    line-height: 1.65;
+    margin: 0 0 3.5rem;
+  }
+
+  .hero-lead strong {
+    color: #0c2044;
+    font-weight: 700;
+  }
+
+  .credentials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .credential-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 2rem 1.75rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .credential-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    border-color: #CBD5E1;
+  }
+
+  .cred-metric {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #FF6500;
+    line-height: 1;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .cred-label {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.5rem;
+  }
+
+  .cred-detail {
+    font-size: 0.88rem;
+    color: #64748B;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* 2. STORY SECTION */
+  .story-section {
+    padding: 6rem 0;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .story-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .section-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #FF6500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 1.5rem;
+    line-height: 1.2;
+  }
+
+  .story-p {
+    font-size: 1.05rem;
+    color: #475569;
+    line-height: 1.7;
+    margin: 0 0 1.25rem;
+  }
+
+  .story-highlight {
+    background: #FFFFFF;
+    border-left: 4px solid #FF6500;
+    border-radius: 0 12px 12px 0;
+    padding: 1.75rem 2rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    margin-top: 2rem;
+  }
+
+  .quote-text {
+    font-size: 1.05rem;
+    font-style: italic;
+    color: #0c2044;
+    line-height: 1.6;
+    margin: 0 0 0.75rem;
+  }
+
+  .quote-author {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #FF6500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* ADVISOR CARD */
+  .advisor-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  .advisor-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #E2E8F0;
+    margin-bottom: 1.5rem;
+  }
+
+  .advisor-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1C64F2 0%, #0c2044 100%);
+    color: #FFFFFF;
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(28, 100, 242, 0.3);
+    flex-shrink: 0;
+  }
+
+  .advisor-name {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.25rem;
+  }
+
+  .advisor-role {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #FF6500;
+  }
+
+  .advisor-points {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .advisor-points li {
+    display: flex;
+    gap: 0.85rem;
+    align-items: flex-start;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: #475569;
+  }
+
+  .check-icon {
+    color: #10B981;
+    font-weight: 900;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    margin-top: -0.1rem;
+  }
+
+  .advisor-btn {
+    display: block;
+    text-align: center;
+    background: #0c2044;
+    color: #FFFFFF;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.9rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+  }
+
+  .advisor-btn:hover {
+    background: #1C64F2;
+    transform: translateY(-1px);
+  }
+
+  /* 3. MANIFESTO */
+  .manifesto-section {
+    padding: 6rem 0;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .section-intro {
+    max-width: 48rem;
+    margin: 0 auto 4rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .section-desc {
+    font-size: 1.1rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .manifesto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .manifesto-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .manifesto-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+    border-color: #CBD5E1;
+  }
+
+  .pillar-num {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FF6500;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .pillar-title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.85rem;
+    line-height: 1.3;
+  }
+
+  .pillar-desc {
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* DISCLOSURE CARD */
+  .disclosure-card {
+    background: #F0F9FF;
+    border: 1px solid #BAE6FD;
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .disclosure-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+
+  .disclosure-title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #0369A1;
+    margin: 0 0 0.5rem;
+  }
+
+  .disclosure-text {
+    font-size: 0.9rem;
+    color: #0C4A6E;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* 4. TERRITORY */
+  .territory-section {
+    padding: 6rem 0;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .territory-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+
+  .territory-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+
+  .territory-tag {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #FF6500;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .territory-heading {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 1.25rem;
+  }
+
+  .territory-p {
+    font-size: 0.98rem;
+    color: #475569;
+    line-height: 1.65;
+    margin: 0 0 1.25rem;
+  }
+
+  .city-list {
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .city-list li {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: #334155;
+    padding-left: 1.25rem;
+    position: relative;
+  }
+
+  .city-list li::before {
+    content: "•";
+    color: #FF6500;
+    position: absolute;
+    left: 0;
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  .vision-note {
+    background: #F1F5F9;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    font-size: 0.85rem;
+    color: #64748B;
+    line-height: 1.5;
+  }
+
+  /* 5. CTA */
+  .about-cta-section {
+    padding: 6rem 0;
+    background: #FFFFFF;
+  }
+
+  .cta-banner {
+    background: linear-gradient(135deg, #0c2044 0%, #162a52 100%);
+    border-radius: 20px;
+    padding: 4.5rem 3.5rem;
+    color: #FFFFFF;
+    box-shadow: 0 20px 40px rgba(12, 32, 68, 0.2);
+    text-align: center;
+  }
+
+  .cta-content {
+    max-width: 44rem;
+    margin: 0 auto;
+  }
+
+  .eyebrow-accent {
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #FF6500;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .cta-title {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 1rem;
+    line-height: 1.2;
+  }
+
+  .cta-desc {
+    font-size: 1.1rem;
+    color: #94A3B8;
+    line-height: 1.6;
+    margin: 0 0 2.5rem;
+  }
+
+  .cta-button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-button-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.95rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #FF6500;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(255, 101, 0, 0.4);
+    transition: all 0.2s ease;
+  }
+
+  .cta-button-primary:hover {
+    background: #E55B00;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 101, 0, 0.5);
+  }
+
+  .cta-button-phone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.95rem 1.75rem;
+    font-size: 0.95rem;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .cta-button-phone:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  @media (max-width: 900px) {
+    .story-grid, .territory-grid {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+    .cta-banner {
+      padding: 3rem 1.5rem;
+    }
+  }
+</style>

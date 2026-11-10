@@ -1,8 +1,944 @@
 ---
-import StubPage from '../../layouts/StubPage.astro';
-import { getEntry } from 'astro:content';
-const entry = await getEntry('pages', 'how-it-works');
-if (!entry) throw new Error('Missing content entry: pages/how-it-works');
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const sciencePillars = [
+  {
+    num: '01',
+    title: 'Dual-Task Cost (DTC) Measurement',
+    desc: 'When an individual performs a motor task (like walking or balancing) and a cognitive task (like counting backward or naming objects) simultaneously, performance in one or both tasks typically declines. This deficit is known as Dual-Task Cost. Systems that measure DTC provide objective latency baselines in milliseconds.',
+  },
+  {
+    num: '02',
+    title: 'Cognitive-Motor Interference',
+    desc: 'In traditional rehabilitation, patients often practice balance on stable surfaces while remaining mentally quiet. However, real-world falls happen when someone is distracted, navigating a crowded room, or processing sudden sensory changes. Dual-task training intentionally introduces cognitive interference to build neural resilience.',
+  },
+  {
+    num: '03',
+    title: 'Executive Function & Neuroplasticity',
+    desc: 'Simultaneous motor and cognitive exertion recruits prefrontal cortex networks and stimulates brain-derived neurotrophic factor (BDNF). By combining gross-motor kinetics with Stroop interference, N-back working memory, and visual-spatial target acquisition, participants reinforce transferable motor-planning pathways.',
+  },
+];
+
+const clinicalPrinciples = [
+  {
+    title: 'Exercise Equipment vs. Medical Devices',
+    text: 'SMARTfit and similar platforms are commercial exercise, fitness, and functional training systems. They are not FDA-cleared diagnostic or medical treatment devices.',
+  },
+  {
+    title: 'Separation of Science from Product Marketing',
+    text: 'Published academic research validates the broad efficacy of dual-task motor-cognitive training for neuroplasticity. That research must not be conflated with a commercial guarantee that any specific machine cures or reverses clinical disease.',
+  },
+  {
+    title: 'CPT Coding Context (97530 & 97112)',
+    text: 'Physical and occupational therapists utilize cognitive-motor equipment to deliver skilled therapeutic activities (CPT 97530) or neuromuscular re-education (CPT 97112). Billing eligibility depends entirely on skilled clinician delivery and documented medical necessity.',
+  },
+];
 ---
 
-<StubPage entry={entry} />
+<BaseLayout
+  title="The Science of Cognitive-Motor Dual-Task Training"
+  description="Understanding Dual-Task Cost (DTC), motor-cognitive interference, and the neuroplastic principles of combined physical-cognitive training."
+>
+  <!-- HERO (BRIGHT, AIRY, INSTITUTIONAL) -->
+  <section class="science-hero">
+    <div class="wrap">
+      <div class="hero-badge">CLINICAL &amp; NEUROLOGICAL PRINCIPLES</div>
+      <h1 class="hero-title">The Science Behind Cognitive-Motor Dual-Task Training</h1>
+      <p class="hero-lead">
+        The brain and musculoskeletal system do not operate in silos. In the real world, walking, athletic decision-making, and balance require constant neurological multitasking. Here is how simultaneous cognitive-motor training drives adaptation.
+      </p>
+      <div class="hero-actions">
+        <a class="cta-button" href="/evaluation-framework/">Explore The 5-Dimension Framework &rarr;</a>
+        <a class="cta-secondary" href="/photo-fit-review/">Request A Photo Fit Review &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE PILLARS (LIGHT SLATE WITH SPACIOUS WHITE CARDS) -->
+  <section class="pillars-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">NEUROLOGICAL MECHANISMS</span>
+        <h2 class="section-title">The Three Pillars of Dual-Task Training</h2>
+        <p class="section-desc">
+          How combining executive-function demands with gross kinetic movement produces measurable neurological and functional change.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        {sciencePillars.map((p) => (
+          <div class="pillar-card">
+            <span class="pillar-num">{p.num}</span>
+            <h3 class="pillar-title">{p.title}</h3>
+            <p class="pillar-desc">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE PILLARS (LIGHT SLATE WITH SPACIOUS WHITE CARDS) -->
+  <section class="pillars-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">NEUROLOGICAL MECHANISMS</span>
+        <h2 class="section-title">The Three Pillars of Dual-Task Training</h2>
+        <p class="section-desc">
+          How combining executive-function demands with gross kinetic movement produces measurable neurological and functional change.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        {sciencePillars.map((p) => (
+          <div class="pillar-card">
+            <span class="pillar-num">{p.num}</span>
+            <h3 class="pillar-title">{p.title}</h3>
+            <p class="pillar-desc">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE DUAL-TASK VISUALIZATIONS -->
+  <section class="visuals-section">
+    <div class="wrap">
+      <div class="visuals-intro text-center">
+        <span class="section-badge">COGNITIVE DOMAINS IN MOTION</span>
+        <h2 class="section-title">How Dual-Task Stimuli Drive Neuroplasticity</h2>
+        <p class="section-desc">
+          Unlike static brain games or passive physical exercise, true dual-task training forces the central nervous system to coordinate executive processing and kinetic reaction in milliseconds.
+        </p>
+      </div>
+
+      <div class="visuals-split-grid">
+        <div class="visual-card">
+          <div class="visual-media">
+            <img 
+              src="/images/how-it-works/smartfit-six-pillars-athletic-performance-dual-task.gif" 
+              alt="Animated diagram showing SMARTfit Six Pillars of Performance and cognitive motor dual-task domains"
+              width="500" 
+              height="350" 
+              loading="lazy" 
+              class="visual-img"
+            />
+          </div>
+          <div class="visual-body">
+            <span class="visual-tag">Kinetic &amp; Cognitive Architecture</span>
+            <h3 class="visual-heading">The 6 Pillars of Performance &amp; Rehab</h3>
+            <p class="visual-text">
+              Integrates visual processing, decision speed, fine/gross motor coordination, spatial memory, and cardiovascular demand into a synchronized feedback loop.
+            </p>
+          </div>
+        </div>
+
+        <div class="visual-card">
+          <div class="visual-media">
+            <img 
+              src="/images/how-it-works/smartfit-executive-function-all-ages-cognitive-motor.gif" 
+              alt="Animated demonstration of executive function stimulus-response loops across all ages and abilities"
+              width="500" 
+              height="350" 
+              loading="lazy" 
+              class="visual-img"
+            />
+          </div>
+          <div class="visual-body">
+            <span class="visual-tag">Executive Function Loops</span>
+            <h3 class="visual-heading">Working Memory &amp; Inhibitory Control</h3>
+            <p class="visual-text">
+              Visual triggers challenge Stroop interference, N-back recall, and directional task-switching under cardiovascular load, building neural resilience across all ages.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOFTWARE & GAMIFICATION ARCHITECTURE -->
+  <section class="platform-section">
+    <div class="wrap">
+      <div class="platform-container">
+        <div class="platform-content">
+          <span class="section-badge">SOFTWARE &amp; CLINICAL TELEMETRY</span>
+          <h2 class="section-title">Controller Architecture &amp; Sub-Millisecond DTC Tracking</h2>
+          <p class="platform-lead">
+            Dual-task assessments require precise timing. SMARTfit wireless and wired target matrices communicate directly with the clinician tablet at sub-millisecond speeds, calculating Dual-Task Cost (DTC) baselines instantly.
+          </p>
+
+          <div class="platform-features">
+            <div class="p-feat">
+              <span class="p-feat-num">01</span>
+              <div>
+                <h4 class="p-feat-title">Objective Dual-Task Cost (DTC) Baseline</h4>
+                <p class="p-feat-text">Quantifies motor-cognitive interference by measuring exact reaction latency differential between single-task baseline and dual-task load.</p>
+              </div>
+            </div>
+            <div class="p-feat">
+              <span class="p-feat-num">02</span>
+              <div>
+                <h4 class="p-feat-title">Pre-Programmed Clinical Batteries</h4>
+                <p class="p-feat-text">Access verified dual-task protocols designed for TBI/concussion return-to-play, Parkinson's motor-freezing prevention, and geriatric fall risk.</p>
+              </div>
+            </div>
+            <div class="p-feat">
+              <span class="p-feat-num">03</span>
+              <div>
+                <h4 class="p-feat-title">EMR &amp; Documentation Export</h4>
+                <p class="p-feat-text">Generates clean PDF reports documenting progress under CPT 97530 (Therapeutic Activities) and CPT 97112 (Neuromuscular Re-education).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="platform-media">
+          <figure class="platform-figure">
+            <img 
+              src="/images/how-it-works/smartfit-controller-app-software-navigation-architecture.png" 
+              alt="SMARTfit controller software app navigation architecture and user interface workflow"
+              width="540" 
+              height="400" 
+              loading="lazy" 
+              class="platform-img"
+            />
+            <figcaption class="platform-caption">SMARTfit App Navigation Architecture: Rapid clinician protocol selection &amp; real-time DTC metric collection</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLINICAL PROTOCOL & VIDEO DEMONSTRATION (CLEAN, AIRY, HIGH-READABILITY) -->
+  <section class="video-protocol-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">CLINICAL PROTOCOL IN ACTION</span>
+        <h2 class="section-title">The 3-Step Dual-Task Cost (DTC) Assessment</h2>
+        <p class="section-desc">
+          Watch how sub-millisecond reaction times and Dual-Task Cost are evaluated in real time in under 5 minutes:
+        </p>
+      </div>
+
+      <!-- CENTER-STAGE VIDEO PLAYER -->
+      <div class="video-stage">
+        <div class="video-embed-wrapper">
+          <iframe 
+            src="https://www.youtube-nocookie.com/embed/uJT6lhjYhO0" 
+            title="SMARTfit Dual Task Cost Testing, Reporting and Programming Clinical Demonstration" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen 
+            loading="lazy" 
+            class="video-iframe"
+          ></iframe>
+        </div>
+        <p class="video-caption">Demonstrating a 30-second Sit-to-Stand test combined with alphanumeric cognitive target selection.</p>
+      </div>
+
+      <!-- 3-STEP HORIZONTAL PROGRESSION -->
+      <div class="protocol-grid">
+        <div class="protocol-card">
+          <div class="protocol-step-num">Step 01</div>
+          <h3 class="protocol-step-title">Physical Baseline</h3>
+          <span class="protocol-subtitle">e.g., 30s Sit-to-Stand or TUG</span>
+          <p class="protocol-text">
+            Measures raw gross-motor output without any mental distraction or visual cognitive load.
+          </p>
+          <div class="protocol-metric-chip">Metric: Repetitions &amp; Cadence</div>
+        </div>
+
+        <div class="protocol-card">
+          <div class="protocol-step-num">Step 02</div>
+          <h3 class="protocol-step-title">Cognitive Baseline</h3>
+          <span class="protocol-subtitle">Seated Alphanumeric Targets</span>
+          <p class="protocol-text">
+            Measures isolated visual processing speed, reaction latency (seconds), and strike accuracy while remaining seated.
+          </p>
+          <div class="protocol-metric-chip">Metric: Accuracy &amp; Latency (sec)</div>
+        </div>
+
+        <div class="protocol-card protocol-card--highlight">
+          <div class="protocol-step-num protocol-step-num--highlight">Step 03</div>
+          <h3 class="protocol-step-title">Concurrent Dual-Task</h3>
+          <span class="protocol-subtitle">Physical + Cognitive Combined</span>
+          <p class="protocol-text">
+            Executes both tasks simultaneously. Calculates exact <strong>Dual-Task Cost (DTC)</strong>—the quantifiable percentage lost when dividing mental bandwidth.
+          </p>
+          <div class="protocol-metric-chip protocol-metric-chip--highlight">Metric: % Performance Deficit (DTC)</div>
+        </div>
+      </div>
+
+      <!-- SUMMARY CALLOUT BAR -->
+      <div class="protocol-summary-bar">
+        <div class="summary-icon">📊</div>
+        <div class="summary-text">
+          <strong>Automated Clinical Retest Programming:</strong> Upon test completion, the software automatically prescribes targeted strength or attention protocols to reduce Dual-Task Cost over a 2–4 week retest window, documented for EMR export under <strong>CPT 97530 &amp; 97112</strong>.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAMIFICATION VALUE FRAMEWORK -->
+  <section class="gamification-section">
+    <div class="wrap">
+      <div class="gamification-card">
+        <div class="gamification-media">
+          <img 
+            src="/images/how-it-works/smartfit-gamification-dual-task-seven-pillars.jpg" 
+            alt="The 7 Pillars of Gamification in cognitive motor training: Learning, Skill, Achievement, User Engagement, Challenge, Goal, and Competition"
+            width="460" 
+            height="460" 
+            loading="lazy" 
+            class="gamification-img"
+          />
+        </div>
+        <div class="gamification-body">
+          <span class="section-badge">PATIENT ADHERENCE &amp; RETENTION</span>
+          <h2 class="section-title">The Value of Gamification in Functional Rehab</h2>
+          <p class="gamification-lead">
+            Traditional therapy repetitions frequently lead to patient boredom and plateau. Structured gamification introduces clear scoring, progressive challenge levels, and immediate feedback loops that boost session engagement by up to 300%.
+          </p>
+          <ul class="gamification-list">
+            <li><strong>Skill Mastery:</strong> Real-time auditory and visual feedback reinforces correct biomechanical strike technique.</li>
+            <li><strong>Intrinsic Motivation:</strong> Dynamic alphanumeric displays turn repetitive gait and balance drills into active challenges.</li>
+            <li><strong>Scalable Complexity:</strong> Clinicians instantly scale stimulus speed from seated memory-care participants to elite athletes.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLINICAL BOUNDARIES (CRISP WHITE SECTION) -->
+  <section class="boundaries-section">
+    <div class="wrap">
+      <div class="boundaries-card">
+        <div class="boundaries-header">
+          <span class="section-badge">ETHICAL CLINICAL BOUNDARIES</span>
+          <h2 class="section-title">Evidence Guardrails: What Science Does &amp; Does Not Prove</h2>
+          <p class="boundaries-intro">
+            At CMT Systems, we tell institutional buyers what the peer-reviewed research shows—including its strict limitations.
+          </p>
+        </div>
+
+        <div class="principles-grid">
+          {clinicalPrinciples.map((cp) => (
+            <div class="principle-item">
+              <h3 class="principle-title">{cp.title}</h3>
+              <p class="principle-text">{cp.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP (DARK BLUE ANCHOR) -->
+  <section class="science-cta-strip">
+    <div class="wrap text-center">
+      <h2>Looking to Introduce Objective Dual-Task Testing into Your Facility?</h2>
+      <p class="cta-lead">
+        We help clinical directors and facility owners evaluate equipment footprint, wall mounting, and clinical workflow before making a capital purchase.
+      </p>
+      <a class="cta-button" href="/photo-fit-review/">Request A Free Photo Fit Review &rarr;</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* HERO (CRISP WHITE, CLEAN, SPACIOUS) */
+  .science-hero {
+    padding: 5.5rem 0 4.5rem;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: #0284C7;
+    background: rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(2, 132, 199, 0.25);
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.25rem, 4.5vw, 3.25rem);
+    font-weight: 900;
+    color: #0c2044;
+    line-height: 1.15;
+    margin: 0 0 1.25rem;
+    max-width: 54rem;
+  }
+
+  .hero-lead {
+    font-size: 1.2rem;
+    color: #475569;
+    max-width: 52rem;
+    line-height: 1.65;
+    margin: 0 0 2.25rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 1.75rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #0c2044;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+
+  .cta-secondary:hover {
+    background: #F8FAFC;
+    border-color: #0c2044;
+  }
+
+  /* PILLARS (LIGHT SLATE WITH SPACIOUS WHITE CARDS) */
+  .pillars-section {
+    padding: 5.5rem 0 6.5rem;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+
+  .section-intro {
+    max-width: 48rem;
+    margin: 0 auto 3.5rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .section-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #FF6500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.75rem;
+    line-height: 1.2;
+  }
+
+  .section-desc {
+    font-size: 1.05rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  .pillar-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pillar-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+    border-color: #CBD5E1;
+  }
+
+  .pillar-num {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FF6500;
+    margin-bottom: 1rem;
+  }
+
+  .pillar-title {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.85rem;
+    line-height: 1.3;
+  }
+
+  .pillar-desc {
+    font-size: 0.98rem;
+    color: #475569;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* VISUALS SECTION (GIFS) */
+  .visuals-section {
+    padding: 5.5rem 0 6.5rem;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .visuals-intro {
+    max-width: 48rem;
+    margin: 0 auto 3.5rem;
+  }
+  .visuals-split-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  .visual-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .visual-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(12, 32, 68, 0.08);
+  }
+  .visual-media {
+    background: #0C2044;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 280px;
+  }
+  .visual-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+  .visual-body {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .visual-tag {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #0284C7;
+    margin-bottom: 0.5rem;
+  }
+  .visual-heading {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.75rem;
+  }
+  .visual-text {
+    font-size: 0.96rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* PLATFORM ARCHITECTURE SECTION */
+  .platform-section {
+    padding: 5.5rem 0 6.5rem;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .platform-container {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 3.5rem;
+    align-items: center;
+  }
+  .platform-lead {
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.65;
+    margin: 0 0 2rem;
+  }
+  .platform-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .p-feat {
+    display: flex;
+    gap: 1.25rem;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+  }
+  .p-feat-num {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #0284C7;
+    flex-shrink: 0;
+  }
+  .p-feat-title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.35rem;
+  }
+  .p-feat-text {
+    font-size: 0.92rem;
+    color: #64748B;
+    line-height: 1.55;
+    margin: 0;
+  }
+  .platform-figure {
+    margin: 0;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+  .platform-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1.5rem;
+    background: #FFFFFF;
+  }
+  .platform-caption {
+    font-size: 0.78rem;
+    color: #475569;
+    padding: 0.75rem 1rem;
+    background: #F1F5F9;
+    border-top: 1px solid #E2E8F0;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  /* VIDEO PROTOCOL SECTION (CRISP, AIRY, HIGH-READABILITY) */
+  .video-protocol-section {
+    padding: 5.5rem 0 6.5rem;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .video-stage {
+    max-width: 860px;
+    margin: 0 auto 3.5rem;
+  }
+  .video-embed-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000000;
+    box-shadow: 0 10px 30px rgba(12, 32, 68, 0.12);
+    border: 1px solid #CBD5E1;
+  }
+  .video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .video-caption {
+    font-size: 0.88rem;
+    color: #64748B;
+    text-align: center;
+    margin-top: 0.85rem;
+    font-style: italic;
+  }
+
+  /* 3-STEP HORIZONTAL PROTOCOL GRID */
+  .protocol-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+    margin-bottom: 2.5rem;
+  }
+  .protocol-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 2.25rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .protocol-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(12, 32, 68, 0.06);
+  }
+  .protocol-card--highlight {
+    background: #FFFFFF;
+    border-color: #0284C7;
+    box-shadow: 0 4px 20px rgba(2, 132, 199, 0.08);
+  }
+  .protocol-step-num {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #64748B;
+    background: #EDF2F7;
+    padding: 0.25rem 0.65rem;
+    border-radius: 9999px;
+    align-self: flex-start;
+    margin-bottom: 1rem;
+  }
+  .protocol-step-num--highlight {
+    background: #0284C7;
+    color: #FFFFFF;
+  }
+  .protocol-step-title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.25rem;
+    line-height: 1.3;
+  }
+  .protocol-subtitle {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #0284C7;
+    margin-bottom: 1rem;
+  }
+  .protocol-text {
+    font-size: 0.94rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0 0 1.5rem;
+    flex-grow: 1;
+  }
+  .protocol-text strong {
+    color: #0C2044;
+  }
+  .protocol-metric-chip {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #475569;
+    background: #EDF2F7;
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    align-self: flex-start;
+  }
+  .protocol-metric-chip--highlight {
+    color: #0369A1;
+    background: #E0F2FE;
+  }
+
+  /* SUMMARY BAR */
+  .protocol-summary-bar {
+    background: #F0F9FF;
+    border: 1px solid #BAE6FD;
+    border-radius: 12px;
+    padding: 1.5rem 1.75rem;
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+  }
+  .summary-icon {
+    font-size: 1.75rem;
+    flex-shrink: 0;
+  }
+  .summary-text {
+    font-size: 0.95rem;
+    color: #0C2044;
+    line-height: 1.6;
+  }
+  .summary-text strong {
+    color: #0369A1;
+  }
+
+  /* GAMIFICATION SECTION */
+  .gamification-section {
+    padding: 5.5rem 0;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .gamification-card {
+    display: grid;
+    grid-template-columns: 420px 1fr;
+    gap: 3.5rem;
+    align-items: center;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 3.5rem;
+  }
+  .gamification-media {
+    border-radius: 12px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  }
+  .gamification-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .gamification-lead {
+    font-size: 1.1rem;
+    color: #475569;
+    line-height: 1.65;
+    margin: 0 0 1.5rem;
+  }
+  .gamification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .gamification-list li {
+    font-size: 0.95rem;
+    color: #334155;
+    line-height: 1.6;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  .gamification-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #0284C7;
+    font-weight: 800;
+  }
+
+  /* BOUNDARIES (CRISP WHITE SECTION) */
+  .boundaries-section {
+    padding: 5.5rem 0 6.5rem;
+    background: #FFFFFF;
+  }
+
+  .boundaries-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 3.5rem;
+  }
+
+  .boundaries-header {
+    max-width: 50rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .boundaries-intro {
+    font-size: 1.05rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+
+  .principles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.25rem;
+  }
+
+  .principle-item {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 1.75rem;
+  }
+
+  .principle-title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.6rem;
+    line-height: 1.35;
+  }
+
+  .principle-text {
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  /* CTA STRIP */
+  .science-cta-strip {
+    padding: 5.5rem 0;
+    background: #0c2044;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .science-cta-strip h2 {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 1rem;
+  }
+
+  .cta-lead {
+    font-size: 1.15rem;
+    color: #CBD5E1;
+    max-width: 44rem;
+    margin: 0 auto 2.25rem;
+    line-height: 1.65;
+  }
+
+  @media (max-width: 900px) {
+    .protocol-grid {
+      grid-template-columns: 1fr;
+    }
+    .protocol-summary-bar {
+      flex-direction: column;
+      text-align: left;
+    }
+    .visuals-split-grid {
+      grid-template-columns: 1fr;
+    }
+    .platform-container {
+      grid-template-columns: 1fr;
+    }
+    .gamification-card {
+      grid-template-columns: 1fr;
+      padding: 2rem;
+    }
+    .boundaries-card {
+      padding: 2rem;
+    }
+  }
+</style>

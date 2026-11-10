@@ -1,8 +1,535 @@
 ---
-import StubPage from '../../layouts/StubPage.astro';
-import { getEntry } from 'astro:content';
-const entry = await getEntry('pages', 'research');
-if (!entry) throw new Error('Missing content entry: pages/research');
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pageTitle = "Clinical Research & Evidence Library | Dual-Task Cognitive-Motor Outcomes";
+const pageDescription = "Explore peer-reviewed and university research investigating dual-task cognitive-motor training, neuroplasticity, fall prevention, and neurological rehabilitation.";
+
+const studies = [
+  {
+    institution: "University at Buffalo",
+    dept: "Department of Exercise and Nutrition Sciences",
+    title: "Dual-Task Cognitive-Motor Training in Clinical Populations",
+    summary: "Evaluated motor-cognitive interference, dual-task cost (DTC) latency, and gait stability during high-intensity cognitive-motor challenge protocols.",
+    image: "/images/research/university-at-buffalo-dual-task-clinical-study-infographic.jpg",
+    alt: "University at Buffalo clinical research study infographic evaluating SMARTfit dual-task training outcomes",
+    badge: "University Clinical Study",
+    findings: "Demonstrated significant reductions in Dual-Task Cost (DTC) reaction latency and marked improvements in dual-task gait velocity and balance confidence.",
+    pdfLink: "/docs/research/university-at-buffalo-smartfit-clinical-study.pdf",
+    pdfTitle: "University at Buffalo Study (PDF)"
+  },
+  {
+    institution: "USC Division of Biokinesiology",
+    dept: "Physical Therapy & Neurological Sciences",
+    title: "Cognitive-Motor Dual-Task Interventions for Neurodegenerative Conditions",
+    summary: "Investigated prefrontal cortex activation, executive function retention, and fall-risk mitigation in older adults and neurological patients using gamified motor-cognitive targets.",
+    image: "/images/research/usc-biokinesiology-dual-task-parkinsons-study-infographic.jpg",
+    alt: "USC Biokinesiology research infographic on dual-task training for Parkinson's and older adult neuroplasticity",
+    badge: "Neurological & Geriatric Evidence",
+    findings: "Documented enhanced prefrontal cortex recruitment and significant improvements in rapid visual discrimination and executive inhibitory control under physical load.",
+    pdfLink: "/docs/research/fitbrain-program-exergaming-dual-task-outpatient-clinical-study.pdf",
+    pdfTitle: "FitBrain Program Clinical Study (PDF)"
+  }
+];
+
+const evidenceTiers = [
+  {
+    tier: "Tier 1: Device-Specific Research",
+    desc: "Studies conducted directly utilizing SMARTfit hardware interfaces measuring millisecond strike latency and Dual-Task Cost baselines.",
+    note: "High relevance for exact hardware validation."
+  },
+  {
+    tier: "Tier 2: Broad Dual-Task Literature",
+    desc: "Independent peer-reviewed meta-analyses validating concurrent cognitive-motor training for stroke, TBI, Parkinson's, and fall reduction.",
+    note: "Validates scientific modality, not a commercial guarantee."
+  },
+  {
+    tier: "Tier 3: Clinical Documentation (CPT)",
+    desc: "Skilled therapeutic delivery protocols supporting reimbursement under CPT 97530 (Therapeutic Activities) and CPT 97112 (Neuromuscular Re-ed).",
+    note: "Requires qualified clinical documentation and medical necessity."
+  }
+];
 ---
 
-<StubPage entry={entry} />
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <!-- HERO HEADER -->
+  <section class="research-hero">
+    <div class="wrap">
+      <div class="research-badge">PEER-REVIEWED &amp; CLINICAL EVIDENCE</div>
+      <h1 class="research-title">Dual-Task Research &amp; Clinical Evidence Library</h1>
+      <p class="research-subtitle">
+        At CMT Systems, we separate peer-reviewed neuroscience from vendor marketing hype. Explore university studies, clinical white papers, and objective data evaluating cognitive-motor training outcomes.
+      </p>
+
+      <div class="hero-evidence-pills">
+        <span class="e-pill">🧠 Neuroplasticity &amp; BDNF</span>
+        <span class="e-pill">⏱️ Sub-Millisecond DTC Tracking</span>
+        <span class="e-pill">🛡️ Fall Prevention &amp; Gait Resilience</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIVERSITY STUDIES SECTION -->
+  <section class="studies-section">
+    <div class="wrap">
+      <div class="section-intro text-center">
+        <span class="section-badge">FEATURED UNIVERSITY RESEARCH</span>
+        <h2 class="section-heading">Independent University &amp; Clinical Validations</h2>
+        <p class="section-desc">
+          Examining how simultaneous gross kinetic exertion and alphanumeric visual discrimination stimulate neuroplastic adaptation.
+        </p>
+      </div>
+
+      <div class="studies-grid">
+        {studies.map((s) => (
+          <article class="study-card">
+            <div class="study-media">
+              <img 
+                src={s.image} 
+                alt={s.alt} 
+                width="500" 
+                height="320" 
+                loading="lazy" 
+                class="study-img"
+              />
+              <span class="study-badge-pill">{s.badge}</span>
+            </div>
+            <div class="study-body">
+              <div class="study-institution">{s.institution} &bull; {s.dept}</div>
+              <h3 class="study-title">{s.title}</h3>
+              <p class="study-summary">{s.summary}</p>
+              
+              <div class="study-findings-box">
+                <span class="findings-label">Key Research Finding:</span>
+                <p class="findings-text">{s.findings}</p>
+              </div>
+
+              <div class="study-action-row">
+                <a href={s.pdfLink} target="_blank" rel="noopener noreferrer" class="btn-download">
+                  <svg class="pdf-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><line x1="9" y1="15" x2="12" y2="18"></line><line x1="15" y1="15" x2="12" y2="18"></line></svg>
+                  Read Full Study Paper (PDF)
+                </a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- COGNITIVE DECLINE INTERCEPTION MODEL -->
+  <section class="decline-model-section">
+    <div class="wrap">
+      <div class="model-card">
+        <div class="model-media">
+          <img 
+            src="/images/research/preclinical-mci-dementia-cognitive-decline-curve.jpg" 
+            alt="Scientific cognitive decline curve illustrating intervention window across Preclinical, MCI, and Dementia phases"
+            width="520" 
+            height="340" 
+            loading="lazy" 
+            class="model-img"
+          />
+        </div>
+        <div class="model-body">
+          <span class="section-badge">TIMING &amp; EARLY INTERVENTION</span>
+          <h2 class="section-heading">The Cognitive Decline Interception Curve</h2>
+          <p class="model-text">
+            Neurodegenerative decline progresses across three critical phases: <strong>Preclinical</strong> (silent neural changes), <strong>Mild Cognitive Impairment (MCI)</strong>, and <strong>Dementia</strong>. Traditional diagnostics often detect impairment only after significant functional loss.
+          </p>
+          <p class="model-text">
+            Dual-task cognitive-motor assessments challenge executive function under motor load, exposing subtle latency deficits during the crucial preclinical and MCI windows when neuroplastic intervention is most effective.
+          </p>
+          <div class="model-highlight-box">
+            <strong>Clinical Implication:</strong> Measuring sub-millisecond Dual-Task Cost (DTC) provides an objective, repeatable indicator of cognitive-motor decline before overt motor failure occurs.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVIDENCE INTEGRITY GUARDRAILS -->
+  <section class="guardrails-section">
+    <div class="wrap">
+      <div class="guardrails-card">
+        <div class="guardrails-header text-center">
+          <span class="section-badge">CMT SYSTEMS AUDIT STANDARDS</span>
+          <h2 class="section-heading">How We Evaluate Clinical Claims</h2>
+          <p class="guardrails-intro">
+            We hold all dual-task equipment manufacturers to rigorous commercial and scientific standards.
+          </p>
+        </div>
+
+        <div class="tiers-grid">
+          {evidenceTiers.map((t) => (
+            <div class="tier-card">
+              <h3 class="tier-title">{t.tier}</h3>
+              <p class="tier-desc">{t.desc}</p>
+              <span class="tier-note">{t.note}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA STRIP -->
+  <section class="research-cta-strip">
+    <div class="wrap text-center">
+      <h2>Need Evidence Review for Your Institutional Board or Grant Proposal?</h2>
+      <p class="cta-lead">
+        CMT Systems assists hospital boards, PT clinics, and senior living communities with clinical documentation, literature synthesis, and room clearance verification.
+      </p>
+      <a class="cta-button" href="/photo-fit-review/">Request A Facility Fit &amp; Evidence Review &rarr;</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .research-hero {
+    background: #0C2044;
+    color: #FFFFFF;
+    padding: 5rem 0 4rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .research-badge {
+    display: inline-block;
+    background: rgba(2, 132, 199, 0.2);
+    color: #38BDF8;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.9rem;
+    border-radius: 9999px;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+  }
+  .research-title {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: clamp(2.25rem, 4vw, 3.25rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin: 0 auto 1.25rem;
+    max-width: 52rem;
+    color: #FFFFFF;
+  }
+  .research-subtitle {
+    font-size: 1.15rem;
+    line-height: 1.65;
+    color: #CBD5E1;
+    max-width: 44rem;
+    margin: 0 auto 2rem;
+  }
+  .hero-evidence-pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  .e-pill {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 0.45rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #E2E8F0;
+  }
+
+  /* STUDIES SECTION */
+  .studies-section {
+    padding: 5.5rem 0 6.5rem;
+    background: #F8FAFC;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .section-intro {
+    max-width: 48rem;
+    margin: 0 auto 3.5rem;
+  }
+  .text-center { text-align: center; }
+  .section-badge {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #FF6500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .section-heading {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: clamp(1.85rem, 3vw, 2.5rem);
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.75rem;
+    line-height: 1.2;
+  }
+  .section-desc {
+    font-size: 1.05rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .studies-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  .study-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .study-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(12, 32, 68, 0.08);
+  }
+  .study-media {
+    position: relative;
+    background: #0C2044;
+    height: 240px;
+    overflow: hidden;
+  }
+  .study-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .study-badge-pill {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(12, 32, 68, 0.9);
+    color: #38BDF8;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    padding: 0.3rem 0.75rem;
+    border-radius: 9999px;
+    text-transform: uppercase;
+  }
+  .study-body {
+    padding: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .study-institution {
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #0284C7;
+    margin-bottom: 0.4rem;
+  }
+  .study-title {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.85rem;
+    line-height: 1.3;
+  }
+  .study-summary {
+    font-size: 0.96rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0 0 1.25rem;
+  }
+  .study-findings-box {
+    background: #F0F9FF;
+    border-left: 3px solid #0284C7;
+    padding: 1rem 1.25rem;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 1.75rem;
+  }
+  .findings-label {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #0369A1;
+    margin-bottom: 0.25rem;
+  }
+  .findings-text {
+    font-size: 0.92rem;
+    color: #0C2044;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 600;
+  }
+  .study-action-row {
+    margin-top: auto;
+  }
+  .btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #0284C7;
+    background: #F0F9FF;
+    border: 1px solid #BAE6FD;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .btn-download:hover {
+    background: #E0F2FE;
+    border-color: #0284C7;
+    color: #0369A1;
+  }
+  .pdf-icon { flex-shrink: 0; }
+
+  /* DECLINE MODEL SECTION */
+  .decline-model-section {
+    padding: 5.5rem 0 6.5rem;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .model-card {
+    display: grid;
+    grid-template-columns: 480px 1fr;
+    gap: 3.5rem;
+    align-items: center;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 1rem;
+    padding: 3.5rem;
+  }
+  .model-media {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  }
+  .model-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .model-text {
+    font-size: 1.05rem;
+    color: #475569;
+    line-height: 1.65;
+    margin: 0 0 1rem;
+  }
+  .model-highlight-box {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    background: #EFF6FF;
+    border: 1px solid #BFDBFE;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #1E3A8A;
+    line-height: 1.55;
+  }
+
+  /* GUARDRAILS SECTION */
+  .guardrails-section {
+    padding: 5.5rem 0;
+    background: #F8FAFC;
+  }
+  .guardrails-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 1rem;
+    padding: 3.5rem;
+  }
+  .guardrails-header {
+    max-width: 46rem;
+    margin: 0 auto 3rem;
+  }
+  .guardrails-intro {
+    font-size: 1.05rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+  }
+  .tiers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .tier-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .tier-title {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.6rem;
+  }
+  .tier-desc {
+    font-size: 0.94rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0 0 1rem;
+    flex-grow: 1;
+  }
+  .tier-note {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #0284C7;
+    background: #E0F2FE;
+    padding: 0.25rem 0.55rem;
+    border-radius: 4px;
+    align-self: flex-start;
+  }
+
+  /* CTA STRIP */
+  .research-cta-strip {
+    padding: 5.5rem 0;
+    background: #0C2044;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  .research-cta-strip h2 {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 1rem;
+  }
+  .cta-lead {
+    font-size: 1.15rem;
+    color: #CBD5E1;
+    max-width: 44rem;
+    margin: 0 auto 2.25rem;
+    line-height: 1.65;
+  }
+
+  @media (max-width: 900px) {
+    .studies-grid {
+      grid-template-columns: 1fr;
+    }
+    .model-card {
+      grid-template-columns: 1fr;
+      padding: 2rem;
+    }
+    .tiers-grid {
+      grid-template-columns: 1fr;
+    }
+    .guardrails-card {
+      padding: 2rem;
+    }
+  }
+</style>

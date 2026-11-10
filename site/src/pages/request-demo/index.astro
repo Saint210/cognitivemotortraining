@@ -1,8 +1,15 @@
 ---
-import StubPage from '../../layouts/StubPage.astro';
-import { getEntry } from 'astro:content';
-const entry = await getEntry('pages', 'request-demo');
-if (!entry) throw new Error('Missing content entry: pages/request-demo');
+// Redirect /request-demo/ to /photo-fit-review/
 ---
-
-<StubPage entry={entry} />
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting to Facility Photo Fit Review | CMT Systems</title>
+    <meta http-equiv="refresh" content="0;url=/photo-fit-review/" />
+    <link rel="canonical" href="https://cognitivemotortraining.com/photo-fit-review/" />
+  </head>
+  <body>
+    <p>Redirecting to <a href="/photo-fit-review/">Facility Photo Fit Review</a>...</p>
+  </body>
+</html>

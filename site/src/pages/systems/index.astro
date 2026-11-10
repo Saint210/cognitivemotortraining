@@ -1,8 +1,1313 @@
 ---
-import StubPage from '../../layouts/StubPage.astro';
-import { getEntry } from 'astro:content';
-const entry = await getEntry('pages', 'systems');
-if (!entry) throw new Error('Missing content entry: pages/systems');
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pageTitle = "SMARTfit System Configurations & Hardware Overview";
+const pageDescription = "Explore the complete SMARTfit product line: Mini Kiosk, ProTrainer, MultiTrainer, and Wireless/Wired Strike Pods. Evaluated for physical space, kinetic impact, and cognitive dual-task depth.";
+
+const systems = [
+  {
+    id: "mini",
+    name: "SMARTfit® Mini",
+    subtitle: "Compact Single-Station Cognitive-Motor Kiosk",
+    category: "Single-Station / Compact Footprint",
+    primaryImage: "/images/products/smartfit-mini-high-impact-wall-mounted.png",
+    altText: "SMARTfit Mini high-impact wall-mounted single station cognitive motor training kiosk with 9 target grid",
+    frameImage: "/images/products/smartfit-mini-portable-frame-high-impact.jpg",
+    frameAlt: "SMARTfit Mini mounted on a heavy-duty portable rolling frame with locking casters",
+    summary: "The flagship single-station unit engineered for high clinical throughput in space-conscious settings. Features 9 interactive alphanumeric LED strike targets with millisecond latency.",
+    impactRating: "High-Impact (Hands, feet, & medicine balls) or Low-Impact (Delicate touch)",
+    mountingOptions: "Structural Wall-Mount (Wood/Metal Studs, Concrete) OR Freestanding Portable Rolling Frame",
+    clearance: "Minimum 8 ft ceiling; 6 ft x 8 ft active movement zone",
+    userCapacity: "1 active user (1-on-1 clinician assessment or personal training)",
+    bestFit: "Physical Therapy Clinics, Neuro-Rehab Centers, Senior Living Memory Care, OT/PT Treatment Bays",
+    badges: ["Top Clinical Pick", "Wheelchair / ADA Accessible", "Portable Frame Option"],
+    specPdf: "/docs/spec-sheets/smartfit-mini-high-impact-wall-mount-specifications.pdf",
+    specPdfAlt: "/docs/spec-sheets/smartfit-mini-high-impact-rolling-frame-specifications.pdf",
+    specTitle: "SMARTfit Mini Wall-Mount Engineering Specs (PDF)"
+  },
+  {
+    id: "protrainer",
+    name: "SMARTfit® ProTrainer",
+    subtitle: "Expandable 2, 3, or 4-Station High-Impact Training Wall",
+    category: "Multi-Station / Athletic Performance Wall",
+    primaryImage: "/images/products/smartfit-protrainer-wall-mounted-cognitive-motor-system.jpg",
+    altText: "SMARTfit ProTrainer multi-station wall mounted cognitive motor system engineered for athletic medicine ball strikes",
+    frameImage: "/images/products/smartfit-protrainer-portable-frame-system.jpg",
+    frameAlt: "SMARTfit ProTrainer freestanding portable frame system for high school or gym spaces",
+    summary: "Built for intense kinetic loading and simultaneous multi-user competition. Stations can be configured side-by-side or partitioned across multiple therapy bays with synchronized scoring.",
+    impactRating: "Industrial High-Impact (Rated for high-velocity baseballs, soccer balls, and 12-lb medicine balls)",
+    mountingOptions: "Direct Wall-Mount backing OR Commercial Freestanding Modular Frame",
+    clearance: "Minimum 9 ft ceiling; 12–24 ft wall width depending on station count (2, 3, or 4 stations)",
+    userCapacity: "Up to 4–8 simultaneous participants (dual competition or squad circuits)",
+    bestFit: "University Athletics, Sports Performance Facilities, High-Volume PT Gyms, Tactical Readiness Hubs",
+    badges: ["Heavy Ball Impact", "Multi-Station Modular", "Team & Squad Drills"],
+    specPdf: "/docs/spec-sheets/smartfit-protrainer-athletic-multi-station-specifications.pdf",
+    specTitle: "SMARTfit ProTrainer Multi-Station Specs (PDF)"
+  },
+  {
+    id: "multitrainer",
+    name: "SMARTfit® MultiTrainer",
+    subtitle: "Dynamic Group Cognitive-Motor Circuit Station",
+    category: "Group Circuit / Physical Education",
+    primaryImage: "/images/products/smartfit-multitrainer.png",
+    altText: "SMARTfit MultiTrainer dynamic group cognitive-motor circuit training station with peripheral target panels",
+    summary: "Engineered specifically for active group environments requiring inclusive, fast-paced cognitive-motor circuits. Keeps multiple participants moving between cognitive target challenges.",
+    impactRating: "Medium-to-High Kinetic Impact",
+    mountingOptions: "Multi-panel wall integration or dedicated perimeter frame setup",
+    clearance: "Standard 8–10 ft commercial ceiling; 10 ft x 14 ft open activity area",
+    userCapacity: "Up to 10+ participants rotating through active cognitive stations",
+    bestFit: "K-12 Physical Education, Youth Athletics, Special Education, Commercial Fitness Clubs",
+    badges: ["Group Engagement", "ADHD & Sensory Focus", "Circuit Training"],
+    specPdf: "/docs/spec-sheets/smartfit-multitrainer-circuit-training-system-specifications.pdf",
+    specTitle: "SMARTfit MultiTrainer Circuit System Specs (PDF)"
+  },
+  {
+    id: "strike-pods-wireless",
+    name: "SMARTfit® Wireless Strike Pods",
+    subtitle: "Portable Mobile Cognitive-Motor Agility Kit",
+    category: "Mobile / Field Agility",
+    primaryImage: "/images/products/smartfit-strike-pods-portable-cognitive-training-kit.jpg",
+    altText: "SMARTfit Wireless Strike Pods portable cognitive training kit packed into heavy-duty travel duffel bag with stands",
+    frameImage: "/images/products/3-Strike-Pod-Kit-with-Stands-CPU.png",
+    frameAlt: "SMARTfit 3 Strike Pod kit mounted on telescoping stands with wireless tablet CPU controller",
+    summary: "True wireless versatility. Available in 3, 5, or 7-pod configurations with weighted telescoping stands, battery chargers, and durable transit duffel for mobile therapists and field trainers.",
+    impactRating: "High-Impact Kinetic Strike (Tolerates sticks, boxing gloves, hands, balls)",
+    mountingOptions: "Weighted Telescoping Tripod Stands, Pillar Straps, Wall Hanging Brackets, or Floor Cones",
+    clearance: "Zero fixed footprint — deploys in 3 minutes across any indoor bay or outdoor field",
+    userCapacity: "1 to 6 participants depending on pod deployment spacing and drill layout",
+    bestFit: "Traveling Therapists, Concussion Assessment Protocols, Pitching/Quarterback Agility, Multi-Bay Clinics",
+    badges: ["100% Mobile", "Battery Powered", "Rapid Deployment"],
+    specPdf: "/docs/spec-sheets/smartfit-wireless-strike-pods-3-system-specifications.pdf",
+    specTitle: "SMARTfit Wireless Strike Pods Specs (PDF)"
+  },
+  {
+    id: "strike-pods-wired",
+    name: "SMARTfit® Wired Strike Pods",
+    subtitle: "Room-Scale 12-Target Perimeter Installation",
+    category: "Room-Scale / Institutional Perimeter",
+    primaryImage: "/images/products/smartfit-wired-strike-pods-12-target-system.jpg",
+    altText: "SMARTfit Wired Strike Pods 12-target institutional installation deployed around clinical perimeter walls",
+    frameImage: "/images/products/smartfit-wired-strike-pods-facility-installation.jpg",
+    frameAlt: "SMARTfit Wired Strike Pod facility installation inside a neuro-rehabilitation therapy room",
+    summary: "The ultimate 360-degree immersive cognitive training arena. Pods are hardwired directly into the room's electrical infrastructure, eliminating battery swaps and enabling large-radius spatial navigation.",
+    impactRating: "Permanent High-Impact Wall/Pillar Enclosures",
+    mountingOptions: "Concealed Conduit Wall Mounting across 360-degree room perimeter",
+    clearance: "Scales to room dimensions from 15 ft x 15 ft up to 40 ft x 60 ft open spaces",
+    userCapacity: "Individual gait/vestibular navigation up to multi-user squad search-and-strike drills",
+    bestFit: "Dedicated Neuro-Rehab Suites, Hospital Inpatient Sensory Gyms, Tactical Decision Labs",
+    badges: ["Zero Battery Maintenance", "360° Spatial Navigation", "Permanent Infrastructure"],
+    specPdf: "/docs/spec-sheets/smartfit-wired-strike-pods-clinical-rehab-specifications.pdf",
+    specTitle: "SMARTfit Wired Strike Pods Perimeter Specs (PDF)"
+  }
+];
+
+const accessories = [
+  {
+    name: "48-Inch Weighted Portable Stand",
+    partNumber: "SF-ACC-STND48",
+    category: "Mounting & Mobility",
+    image: "/images/accessories/smartfit-48-inch-portable-stand-base.png",
+    alt: "SMARTfit 48-inch portable pod stand with weighted 8-lb steel disc base",
+    description: "Heavy-duty 8 lb steel base plate with quick-release telescoping upright. Allows Strike Pods to be positioned at exact anatomical strike heights (hip, torso, eye level) without drilling walls.",
+    bestFor: "Therapy clinics, gym turf, temporary field testing"
+  },
+  {
+    name: "Universal Rack & Post Strap Mount",
+    partNumber: "SF-ACC-STRP",
+    category: "Field & Rig Mounting",
+    image: "/images/accessories/smartfit-strikepod-mounting-bracket-rack-strap.jpg",
+    alt: "SMARTfit Strike Pod quick-mount bracket with industrial cinch strap for squat racks and gym pillars",
+    description: "Reinforced molded bracket with industrial ratcheting Velcro strap. Attaches pods securely to squat racks, pull-up rigs, basketball uprights, and structural columns in under 30 seconds.",
+    bestFor: "Sports performance racks, tactical gym rigs, outdoor fences"
+  },
+  {
+    name: "Swappable High-Capacity Li-Ion Battery",
+    partNumber: "SF-ACC-BATT",
+    category: "Power Architecture",
+    image: "/images/accessories/smartfit-lithium-ion-battery-pack.jpg",
+    alt: "SMARTfit rechargeable lithium-ion battery pack for wireless strike pods",
+    description: "Field-swappable lithium-ion battery module providing 8–10 hours of continuous active wireless operation. Features thermal protection and magnetic lock contacts for zero-downtime shift rotations.",
+    bestFor: "High-volume clinical days, tournament combines, mobile vans"
+  },
+  {
+    name: "Multi-Bay Smart Charging Cradle",
+    partNumber: "SF-ACC-CHRG",
+    category: "Power Architecture",
+    image: "/images/accessories/smartfit-multi-unit-charging-cradle.jpg",
+    alt: "SMARTfit multi-port desktop battery charging dock with status LED indicators",
+    description: "Intelligent desktop charging dock with independent channel monitoring and LED charging indicators. Charges depleted batteries to 100% in under 3 hours with overcharge protection.",
+    bestFor: "Clinic equipment rooms, athletic training offices"
+  },
+  {
+    name: "Pediatric & Neuro Foam Strike Noodles (3-Pack)",
+    partNumber: "SF-ACC-NDL3",
+    category: "Clinical Implements",
+    image: "/images/accessories/smartfit-strike-noodles-pediatric-rehab.jpg",
+    alt: "SMARTfit padded strike noodles for pediatric physical therapy and Parkinson's reach training",
+    description: "Closed-cell, sanitizable high-density foam strike batons. Extends upper extremity reach for stroke patients, reduces wrist impact for arthritic seniors, and gamifies pediatric motor therapy.",
+    bestFor: "Post-stroke hemiparesis, Parkinson's upper-limb drills, Pediatric OT"
+  },
+  {
+    name: "Reinforced Tactical Travel Duffel",
+    partNumber: "SF-ACC-DFL",
+    category: "Mobility & Transport",
+    image: "/images/accessories/smartfit-strike-pod-heavy-duty-travel-duffel.jpg",
+    alt: "SMARTfit heavy-duty ballistic nylon padded travel gear bag with custom pod compartments",
+    description: "Military-grade ballistic nylon duffel featuring custom die-cut foam partitions for 3 to 9 Strike Pods, tablet controller, stands, chargers, and cabling. Airport luggage compliant.",
+    bestFor: "Traveling athletic trainers, tactical mobile teams, mobile therapists"
+  }
+];
 ---
 
-<StubPage entry={entry} />
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <!-- JSON-LD SCHEMA: ITEMLIST & PRODUCT SPECIFICATIONS FOR AI & SEARCH ENGINES -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "SMARTfit Cognitive-Motor System Configurations",
+    "description": "Comprehensive specifications and hardware profiles for SMARTfit cognitive-motor training systems audited by CMT Systems.",
+    "itemListElement": systems.map((sys, idx) => ({
+      "@type": "ListItem",
+      "position": idx + 1,
+      "item": {
+        "@type": "Product",
+        "name": sys.name,
+        "description": sys.summary,
+        "category": sys.category,
+        "image": `https://cognitivemotortraining.com${sys.primaryImage}`,
+        "brand": {
+          "@type": "Brand",
+          "name": "SMARTfit"
+        },
+        ...(sys.specPdf ? {
+          "subjectOf": {
+            "@type": "DigitalDocument",
+            "name": sys.specTitle || `${sys.name} Technical Specifications`,
+            "encodingFormat": "application/pdf",
+            "url": `https://cognitivemotortraining.com${sys.specPdf}`,
+            "inLanguage": "en-US",
+            "author": {
+              "@type": "Organization",
+              "name": "CMT Systems"
+            }
+          }
+        } : {})
+      }
+    }))
+  })} />
+
+  <div class="systems-page">
+    <!-- HERO HEADER -->
+    <section class="systems-hero">
+      <div class="wrap">
+        <div class="systems-badge">INDEPENDENT HARDWARE DIRECTORY</div>
+        <h1 class="systems-title">SMARTfit® System Configurations</h1>
+        <p class="systems-subtitle">
+          From compact wall-mounted clinical kiosks to 360-degree room-scale sensory installations. Explore technical specifications, kinetic impact ratings, and facility mounting options audited by CMT Systems.
+        </p>
+
+        <div class="hero-highlights">
+          <div class="highlight-chip">
+            <span class="chip-icon">⚡</span>
+            <span>Sub-millisecond Dual-Task Cost Tracking</span>
+          </div>
+          <div class="highlight-chip">
+            <span class="chip-icon">🛡️</span>
+            <span>Heavy Kinetic Ball-Impact Engineered</span>
+          </div>
+          <div class="highlight-chip">
+            <span class="chip-icon">📐</span>
+            <span>Wall-Mounted &amp; Portable Frame Profiles</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT CATALOG LISTING -->
+    <section class="systems-catalog">
+      <div class="wrap">
+        <div class="catalog-grid">
+          {systems.map((system) => (
+            <article class="system-card" id={system.id}>
+              <div class="card-media">
+                <figure class="media-container">
+                  <img 
+                    src={system.primaryImage} 
+                    alt={system.altText} 
+                    loading="lazy" 
+                    width="480" 
+                    height="340"
+                    class="system-img"
+                  />
+                  <figcaption class="media-caption">{system.altText}</figcaption>
+                </figure>
+                {system.frameImage && (
+                  <div class="secondary-thumbnail">
+                    <span class="thumb-label">Alternate Mounting / Frame:</span>
+                    <img 
+                      src={system.frameImage} 
+                      alt={system.frameAlt} 
+                      loading="lazy" 
+                      width="120" 
+                      height="90"
+                    />
+                  </div>
+                )}
+              </div>
+
+              <div class="card-details">
+                <div class="card-header">
+                  <div class="system-category">{system.category}</div>
+                  <h2 class="system-name">{system.name}</h2>
+                  <div class="system-sub">{system.subtitle}</div>
+                </div>
+
+                <p class="system-desc">{system.summary}</p>
+
+                <div class="badge-row">
+                  {system.badges.map((badge) => (
+                    <span class="spec-badge">{badge}</span>
+                  ))}
+                </div>
+
+                <div class="specs-table">
+                  <div class="spec-row">
+                    <span class="spec-label">Impact Rating:</span>
+                    <span class="spec-val">{system.impactRating}</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Mounting:</span>
+                    <span class="spec-val">{system.mountingOptions}</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Space &amp; Clearance:</span>
+                    <span class="spec-val">{system.clearance}</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Throughput / Users:</span>
+                    <span class="spec-val">{system.userCapacity}</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Best Fit Setting:</span>
+                    <span class="spec-val highlight-val">{system.bestFit}</span>
+                  </div>
+                </div>
+
+                <div class="card-actions">
+                  <a href="/photo-fit-review/" class="btn-primary">
+                    Verify Fit For Your Facility &rarr;
+                  </a>
+                  {system.specPdf && (
+                    <a 
+                      href={system.specPdf} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      class="btn-outline btn-download"
+                      title={system.specTitle || "Download Technical Cut Sheet (PDF)"}
+                      aria-label={system.specTitle || "Download Technical Cut Sheet (PDF)"}
+                    >
+                      <svg class="pdf-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="12" y1="18" x2="12" y2="12"></line><line x1="9" y1="15" x2="12" y2="18"></line><line x1="15" y1="15" x2="12" y2="18"></line></svg>
+                      Download Specs (PDF)
+                    </a>
+                  )}
+                  <a href="/compare/" class="btn-outline">
+                    Compare vs Other Brands
+                  </a>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ESSENTIAL MOUNTING, MOBILITY & POWER ACCESSORIES -->
+    <section class="accessories-section">
+      <div class="wrap">
+        <div class="accessories-intro text-center">
+          <span class="gallery-badge">FIELD &amp; CLINIC DEPLOYMENT GEAR</span>
+          <h2 class="accessories-heading">Essential Mounting, Mobility &amp; Power Hardware</h2>
+          <p class="accessories-desc">
+            Cognitive-motor hardware achieves peak clinical utility when positioned at true anatomical strike vectors. These certified accessories allow rapid deployment across treatment bays, squat racks, open turf, and mobile testing environments.
+          </p>
+        </div>
+
+        <div class="accessories-grid">
+          {accessories.map((item) => (
+            <div class="accessory-card">
+              <div class="accessory-img-wrap">
+                <img 
+                  src={item.image} 
+                  alt={item.alt} 
+                  loading="lazy" 
+                  width="320" 
+                  height="260"
+                  class="accessory-img"
+                />
+                <span class="accessory-category-badge">{item.category}</span>
+              </div>
+              <div class="accessory-content">
+                <div class="accessory-part">Part #{item.partNumber}</div>
+                <h3 class="accessory-title">{item.name}</h3>
+                <p class="accessory-desc">{item.description}</p>
+                <div class="accessory-fit">
+                  <span class="accessory-fit-label">Optimal Environment:</span>
+                  <span class="accessory-fit-val">{item.bestFor}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div class="accessories-consult-strip">
+          <div class="consult-content">
+            <div class="consult-tag">ENGINEERING CLEARANCE NOTE</div>
+            <h3 class="consult-title">Need help planning equipment stands vs wall brackets?</h3>
+            <p class="consult-desc">
+              Facility flooring types, gypsum drywall limits, and ceiling heights dictate whether freestanding weighted bases or rack straps will provide vibration-free strike accuracy.
+            </p>
+          </div>
+          <a href="/photo-fit-review/" class="btn-primary">
+            Ask Robert In a Free Space Audit &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- IN-ACTION GALLERY -->
+    <section class="action-gallery-section">
+      <div class="wrap">
+        <div class="gallery-intro text-center">
+          <span class="gallery-badge">REAL-WORLD CLINICAL & PERFORMANCE USE</span>
+          <h2 class="gallery-heading">SMARTfit Systems In Action</h2>
+          <p class="gallery-desc">Across physical therapy clinics, senior wellness programs, pediatric rehab, and sports performance facilities.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item--wide">
+            <img
+              src="/images/rehab/smartfit-protrainer-occupational-therapy-senior-walker-clinic.jpg"
+              alt="Elderly woman with walker and gait belt striking SMARTfit ProTrainer portable kiosk during PT session supervised by masked clinician"
+              width="720" height="480" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® ProTrainer — Occupational Therapy / Senior Rehab Clinic</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="/images/rehab/smartfit-mini-pt-clinic-knee-rehab-upper-limb-training.jpg"
+              alt="Young male patient kneeling on foam block striking SMARTfit Mini targets with hand wrap during physical therapy session"
+              width="360" height="480" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® Mini — PT Clinic, Upper Limb Rehab</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="/images/rehab/smartfit-protrainer-wall-mounted-sports-rehab-medicine-ball-bosu.jpg"
+              alt="Male athlete on BOSU balance trainer pressing medicine ball into wall-mounted SMARTfit ProTrainer targets"
+              width="360" height="480" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® ProTrainer — Wall-Mount, Sports Rehab / BOSU Integration</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="/images/rehab/smartfit-mini-active-aging-senior-physical-therapist-clinic.jpg"
+              alt="Senior woman with physical therapist striking SMARTfit Mini 9-target blue panel in active aging clinic session"
+              width="360" height="300" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® Mini — Senior Active Aging / Memory Care Clinic</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="/images/rehab/smartfit-protrainer-pt-neuro-rehab-senior-assessment-clinic.jpg"
+              alt="PT clinician demonstrating SMARTfit ProTrainer target tap to senior female patient during cognitive motor assessment session"
+              width="360" height="300" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® ProTrainer — Neuro-Rehab / Cognitive Assessment</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="/images/rehab/smartfit-protrainer-wheelchair-occupational-therapy-clinic.jpg"
+              alt="Female patient in wheelchair reaching to strike SMARTfit ProTrainer portable panel supervised by male clinician in PT clinic"
+              width="360" height="300" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® ProTrainer — Wheelchair Accessible / OT Session</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="/images/rehab/smartfit-protrainer-pediatric-rehab-child-cognitive-motor.png"
+              alt="Young child reaching to touch numbered targets on blue SMARTfit ProTrainer portable panel supervised by clinical instructor"
+              width="360" height="480" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® ProTrainer — Pediatric Rehab / Cognitive Motor</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="/images/rehab/smartfit-single-sports-recovery-athlete-knee-rehab-soccer.jpg"
+              alt="Soccer athlete with knee brace touching SMARTfit Single freestanding targets with soccer ball on floor during sports recovery session"
+              width="360" height="480" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® Single — Sports Recovery / Return-to-Play Soccer Rehab</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="/images/rehab/smartfit-mini-physical-therapy-senior-woman-cognitive-exercise.jpg"
+              alt="Senior woman in mask striking SMARTfit Mini freestanding portable kiosk with extended arm during physical therapy session"
+              width="360" height="480" loading="lazy" class="gallery-img"
+            />
+            <figcaption class="gallery-caption">SMARTfit® Mini — Freestanding Portable / Senior PT Session</figcaption>
+          </figure>
+        </div>
+        <div class="gallery-cta-row">
+          <a href="/applications/" class="btn-outline-dark">View All Application Sectors &rarr;</a>
+          <a href="/photo-fit-review/" class="btn-primary">Get Your Facility Photo Fit Review &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FACILITY PLANNING CALLOUT -->
+    <section class="fit-banner-section">
+      <div class="wrap">
+        <div class="fit-banner">
+          <div class="banner-content">
+            <span class="banner-pill">FREE INDEPENDENT ENGINEERING AUDIT</span>
+            <h2 class="banner-heading">Unsure Which Mounting Style Fits Your Facility?</h2>
+            <p class="banner-sub">
+              Wall-mounted systems require proper stud backing and ceiling clearance. Portable systems need appropriate turning radius. Submit a photo of your therapy bay or athletic gym for a free 24-hour CAD and space verification.
+            </p>
+          </div>
+          <div class="banner-action">
+            <a href="/photo-fit-review/" class="banner-cta">
+              Request Facility Photo Fit Review &rarr;
+            </a>
+            <div class="banner-note">100% Vendor-Agnostic &bull; No Obligation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3D FACILITY DESIGN RENDERS -->
+    <section class="facility-renders-section">
+      <div class="wrap">
+        <div class="renders-intro text-center">
+          <span class="gallery-badge">ARCHITECTURAL 3D LAYOUTS</span>
+          <h2 class="renders-heading">Turnkey Facility Room Designs</h2>
+          <p class="renders-desc">
+            Explore 3D architectural renders showing how SMARTfit systems integrate into active aging wellness suites, athletic turf training hubs, and multi-station group fitness rooms.
+          </p>
+        </div>
+
+        <div class="renders-grid">
+          <div class="render-card">
+            <div class="render-media">
+              <img 
+                src="/images/room-renders/Active-Aging-Programs-Mini-PT2.jpg" 
+                alt="3D architectural render of an active aging cognitive wellness room featuring SMARTfit ProTrainer and Mini" 
+                width="600" 
+                height="340" 
+                loading="lazy" 
+                class="render-img"
+              />
+            </div>
+            <div class="render-body">
+              <h3 class="render-title">Active Aging &amp; Neuro-Wellness Suite</h3>
+              <p class="render-text">Features a wall-mounted ProTrainer 2-station alongside a SMARTfit Mini kiosk, ladder agility lanes, and neuro-stepping balance stations.</p>
+              <div class="render-tag">Ideal for: Senior Living, Hospital Outpatient &amp; Memory Care</div>
+            </div>
+          </div>
+
+          <div class="render-card">
+            <div class="render-media">
+              <img 
+                src="/images/room-renders/AthleticTurf-Angled-HiRes6.jpg" 
+                alt="3D architectural render of high performance sports training facility with turf, agility ladders, and SMARTfit ProTrainer 4-panel wall" 
+                width="600" 
+                height="340" 
+                loading="lazy" 
+                class="render-img"
+              />
+            </div>
+            <div class="render-body">
+              <h3 class="render-title">Athletic Performance Turf Arena</h3>
+              <p class="render-text">Full-scale performance center layout featuring ProTrainer 4-station modular wall, speed sled turf lanes, dual Mini kiosks, and plyometric equipment.</p>
+              <div class="render-tag">Ideal for: University Athletics, Pro Sports &amp; Orthopedic PT</div>
+            </div>
+          </div>
+
+          <div class="render-card">
+            <div class="render-media">
+              <img 
+                src="/images/room-renders/Youth-Fitness-Room-9Pod-PT4.jpg" 
+                alt="3D render of youth fitness gym layout with perimeter wall strike pods and ProTrainer station" 
+                width="600" 
+                height="340" 
+                loading="lazy" 
+                class="render-img"
+              />
+            </div>
+            <div class="render-body">
+              <h3 class="render-title">Perimeter Multi-Station Sensory Gym</h3>
+              <p class="render-text">Hardwired room-scale strike pods mounted along perimeter boundaries combined with ProTrainer stations for fast 360-degree circuit rotations.</p>
+              <div class="render-tag">Ideal for: K-12 Districts, YMCA/JCC &amp; Adaptive PE</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="renders-cta-strip text-center">
+          <p class="cta-strip-lead">Need a custom CAD floor plan or clearance audit for your upcoming facility renovation?</p>
+          <a href="/photo-fit-review/" class="btn-primary">Request 24-Hour Room Space Audit &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .systems-page {
+    background: #F8FAFC;
+    color: #0F172A;
+  }
+
+  /* HERO */
+  .systems-hero {
+    background: #0C2044;
+    color: #FFFFFF;
+    padding: 4.5rem 0 3.5rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .systems-badge {
+    display: inline-block;
+    background: rgba(2, 132, 199, 0.2);
+    color: #38BDF8;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.9rem;
+    border-radius: 9999px;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+  }
+  .systems-title {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: clamp(2.25rem, 4vw, 3rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin: 0 auto 1.25rem;
+    max-width: 48rem;
+    color: #FFFFFF;
+  }
+  .systems-subtitle {
+    font-size: 1.125rem;
+    line-height: 1.65;
+    color: #CBD5E1;
+    max-width: 42rem;
+    margin: 0 auto 2rem;
+  }
+  .hero-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .highlight-chip {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #E2E8F0;
+  }
+  .chip-icon {
+    font-size: 1rem;
+  }
+
+  /* CATALOG */
+  .systems-catalog {
+    padding: 4rem 0 5rem;
+  }
+  .catalog-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  /* SYSTEM CARD */
+  .system-card {
+    display: grid;
+    grid-template-columns: 440px 1fr;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .system-card:hover {
+    box-shadow: 0 12px 24px -4px rgba(12, 32, 68, 0.08);
+  }
+
+  .card-media {
+    background: #F1F5F9;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #E2E8F0;
+  }
+  .media-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .system-img {
+    max-width: 100%;
+    height: 260px;
+    object-fit: contain;
+    transition: transform 0.25s ease;
+  }
+  .system-card:hover .system-img {
+    transform: scale(1.03);
+  }
+  .media-caption {
+    font-size: 0.75rem;
+    color: #64748B;
+    margin-top: 0.75rem;
+    font-style: italic;
+    line-height: 1.4;
+  }
+
+  .secondary-thumbnail {
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px dashed #CBD5E1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+  .thumb-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #475569;
+  }
+  .secondary-thumbnail img {
+    height: 55px;
+    width: 75px;
+    object-fit: contain;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 0.375rem;
+    padding: 0.25rem;
+  }
+
+  .card-details {
+    padding: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .system-category {
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #0284C7;
+    margin-bottom: 0.35rem;
+  }
+  .system-name {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.25rem;
+  }
+  .system-sub {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #64748B;
+    margin-bottom: 1rem;
+  }
+  .system-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #334155;
+    margin-bottom: 1.25rem;
+  }
+
+  .badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .spec-badge {
+    background: #E0F2FE;
+    color: #0369A1;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.65rem;
+    border-radius: 9999px;
+  }
+
+  .specs-table {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.75rem;
+  }
+  .spec-row {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    padding: 0.4rem 0;
+    font-size: 0.875rem;
+    border-bottom: 1px solid #EDF2F7;
+  }
+  .spec-row:last-child {
+    border-bottom: none;
+  }
+  .spec-label {
+    font-weight: 700;
+    color: #475569;
+  }
+  .spec-val {
+    color: #1E293B;
+  }
+  .highlight-val {
+    color: #0369A1;
+    font-weight: 600;
+  }
+
+  .card-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .btn-primary {
+    background: #0284C7;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .btn-primary:hover {
+    background: #0369A1;
+  }
+  .btn-outline {
+    background: transparent;
+    color: #0C2044;
+    border: 1px solid #CBD5E1;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .btn-outline:hover {
+    border-color: #0C2044;
+    background: #F1F5F9;
+  }
+
+  .btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #0284C7;
+    border-color: #BAE6FD;
+    background: #F0F9FF;
+  }
+  .btn-download:hover {
+    background: #E0F2FE;
+    border-color: #0284C7;
+    color: #0369A1;
+  }
+  .pdf-icon {
+    flex-shrink: 0;
+  }
+
+  /* ESSENTIAL ACCESSORIES SECTION */
+  .accessories-section {
+    padding: 5rem 0;
+    background: #FFFFFF;
+    border-top: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .accessories-intro {
+    max-width: 48rem;
+    margin: 0 auto 3.5rem;
+  }
+  .accessories-heading {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0.75rem 0 1rem;
+    letter-spacing: -0.02em;
+  }
+  .accessories-desc {
+    font-size: 1.05rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .accessories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3.5rem;
+  }
+  .accessory-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .accessory-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(12, 32, 68, 0.08);
+  }
+  .accessory-img-wrap {
+    position: relative;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+    padding: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 240px;
+  }
+  .accessory-img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    transition: transform 0.25s ease;
+  }
+  .accessory-card:hover .accessory-img {
+    transform: scale(1.04);
+  }
+  .accessory-category-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(12, 32, 68, 0.06);
+    color: #0C2044;
+    font-size: 0.72rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid rgba(12, 32, 68, 0.1);
+  }
+  .accessory-content {
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .accessory-part {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #64748B;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.35rem;
+  }
+  .accessory-title {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.75rem;
+    line-height: 1.3;
+  }
+  .accessory-desc {
+    font-size: 0.9rem;
+    color: #475569;
+    line-height: 1.55;
+    margin: 0 0 1.25rem;
+    flex-grow: 1;
+  }
+  .accessory-fit {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 0.82rem;
+  }
+  .accessory-fit-label {
+    display: block;
+    font-weight: 800;
+    color: #0C2044;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.2rem;
+  }
+  .accessory-fit-val {
+    color: #334155;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .accessories-consult-strip {
+    background: #0C2044;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 2.25rem 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .consult-tag {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #38BDF8;
+    margin-bottom: 0.5rem;
+  }
+  .consult-title {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 0.5rem;
+  }
+  .consult-desc {
+    font-size: 0.92rem;
+    color: #CBD5E1;
+    margin: 0;
+    max-width: 42rem;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 840px) {
+    .accessories-consult-strip {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 2rem;
+    }
+  }
+
+  /* 3D RENDERS SECTION */
+  .facility-renders-section {
+    padding: 5rem 0 6rem;
+    background: #FFFFFF;
+    border-top: 1px solid #E2E8F0;
+  }
+  .renders-intro {
+    max-width: 48rem;
+    margin: 0 auto 3.5rem;
+  }
+  .renders-heading {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: clamp(2rem, 3.5vw, 2.75rem);
+    font-weight: 900;
+    color: #0C2044;
+    margin: 0.5rem 0 0.75rem;
+  }
+  .renders-desc {
+    font-size: 1.1rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .renders-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 3.5rem;
+  }
+  .render-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .render-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px -3px rgba(12, 32, 68, 0.08);
+  }
+  .render-media {
+    width: 100%;
+    height: 220px;
+    background: #0F172A;
+    overflow: hidden;
+  }
+  .render-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .render-card:hover .render-img {
+    transform: scale(1.05);
+  }
+  .render-body {
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .render-title {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #0C2044;
+    margin: 0 0 0.75rem;
+  }
+  .render-text {
+    font-size: 0.92rem;
+    color: #475569;
+    line-height: 1.6;
+    margin: 0 0 1.25rem;
+    flex-grow: 1;
+  }
+  .render-tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #0284C7;
+    background: #E0F2FE;
+    padding: 0.35rem 0.65rem;
+    border-radius: 0.375rem;
+    align-self: flex-start;
+  }
+  .renders-cta-strip {
+    background: #F1F5F9;
+    border: 1px dashed #CBD5E1;
+    border-radius: 1rem;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .cta-strip-lead {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0C2044;
+    margin: 0;
+  }
+  @media (max-width: 960px) {
+    .renders-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  /* ACTION GALLERY */
+  .action-gallery-section {
+    padding: 5rem 0 6rem;
+    background: #0C2044;
+  }
+  .gallery-intro {
+    max-width: 46rem;
+    margin: 0 auto 3rem;
+  }
+  .text-center { text-align: center; }
+  .gallery-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #38BDF8;
+    background: rgba(56,189,248,0.1);
+    border: 1px solid rgba(56,189,248,0.25);
+    padding: 0.3rem 0.85rem;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .gallery-heading {
+    font-family: var(--font-display, "Plus Jakarta Sans", sans-serif);
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0 0 0.75rem;
+  }
+  .gallery-desc {
+    font-size: 1.05rem;
+    color: #94A3B8;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 240px;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+  }
+  .gallery-item {
+    margin: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    background: #0F172A;
+  }
+  .gallery-item--wide {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .gallery-item:hover .gallery-img {
+    transform: scale(1.04);
+  }
+  .gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(12,32,68,0.9));
+    color: #E2E8F0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 1.5rem 0.75rem 0.6rem;
+    line-height: 1.3;
+  }
+  .gallery-cta-row {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn-outline-dark {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.85rem 1.75rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .btn-outline-dark:hover {
+    border-color: #FFFFFF;
+    background: rgba(255,255,255,0.08);
+  }
+
+  /* BANNER */
+  .fit-banner-section {
+    padding-bottom: 5rem;
+  }
+  .fit-banner {
+    background: linear-gradient(135deg, #0C2044 0%, #0F326D 100%);
+    border-radius: 1.25rem;
+    padding: 3rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .banner-pill {
+    display: inline-block;
+    background: rgba(56, 189, 248, 0.2);
+    color: #38BDF8;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    margin-bottom: 0.75rem;
+  }
+  .banner-heading {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 0 0 0.75rem;
+    color: #FFFFFF;
+  }
+  .banner-sub {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #CBD5E1;
+    max-width: 38rem;
+    margin: 0;
+  }
+  .banner-action {
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .banner-cta {
+    display: inline-block;
+    background: #38BDF8;
+    color: #0C2044;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 1rem 1.75rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .banner-cta:hover {
+    background: #7DD3FC;
+  }
+  .banner-note {
+    font-size: 0.75rem;
+    color: #94A3B8;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 900px) {
+    .system-card {
+      grid-template-columns: 1fr;
+    }
+    .card-media {
+      border-right: none;
+      border-bottom: 1px solid #E2E8F0;
+    }
+    .fit-banner {
+      flex-direction: column;
+      text-align: center;
+    }
+    .banner-sub {
+      margin-bottom: 1.5rem;
+    }
+    .card-actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .btn-primary, .btn-outline {
+      text-align: center;
+    }
+    .gallery-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 540px) {
+    .gallery-grid {
+      grid-template-columns: 1fr;
+      grid-auto-rows: 220px;
+    }
+    .gallery-item--wide {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+  }
+</style>

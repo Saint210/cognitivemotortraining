@@ -4,188 +4,205 @@ import NeuroMesh from '../components/NeuroMesh.astro';
 import { Image } from 'astro:assets';
 import miniProduct from '../assets/images/Mini-Low-Impact-45.png';
 
-const trustMetrics = [
-  { value: '900+', label: 'Commercial Deployments', sub: 'Hospitals, clinics & performance centers' },
-  { value: '20+', label: 'Countries Worldwide', sub: 'Standardized international protocols' },
-  { value: '13,000+', label: 'Patient & Athlete Profiles', sub: 'Tracked across SMARTfit Neuro-Cloud' },
-  { value: '400,000+', label: 'Sessions Completed', sub: 'Objective motor-cognitive data recorded' },
-];
-
-const personas = [
-  { id: 'rehab', label: 'Physical Therapy & Neuro-Rehab', link: '/applications/rehabilitation/' },
-  { id: 'senior', label: 'Senior Living & Fall Prevention', link: '/applications/healthy-aging/' },
-  { id: 'sports', label: 'Athletics & Sports Performance', link: '/applications/sports-performance/' },
-  { id: 'tactical', label: 'Tactical Readiness & Defense', link: '/applications/tactical/' },
-  { id: 'education', label: 'K-12 Physical Ed & Special Ed', link: '/applications/education/' },
-];
-
-const continuumStages = [
+const dimensions = [
   {
-    stage: '01',
-    title: 'Youth & Education',
-    subtitle: 'Pediatric Development & Active Learning',
-    desc: 'Pediatric neuro-development, ADHD focus training, active learning, and sensorimotor coordination in schools.',
-    target: 'K-12 Students & Special Education',
-    system: 'SMARTfit Mini Low-Impact',
+    num: '01',
+    name: 'Cognitive Complexity',
+    desc: 'Executive function depth (Stroop, Flanker, Working Memory, N-back, Math) vs. simple light stimulus-response.',
+    icon: '🧠',
   },
   {
-    stage: '02',
-    title: 'Sports Performance',
-    subtitle: 'Reaction Agility & Decision Speed',
-    desc: 'Multi-directional reaction agility under fatigue, peripheral target tracking, and return-to-play assessment.',
-    target: 'Collegiate, Pro & Elite Athletes',
-    system: 'ProTrainer & Wireless Strike Pods',
+    num: '02',
+    name: 'Stimulus Flexibility',
+    desc: 'Variety and customization of sensory triggers across visual, auditory, spatial, and alphanumeric modalities.',
+    icon: '⚡',
   },
   {
-    stage: '03',
-    title: 'Clinical Rehabilitation',
-    subtitle: 'Post-Stroke, TBI & Neuroplastic Remapping',
-    desc: 'Post-stroke motor recovery, Parkinson’s motor remapping, traumatic brain injury (TBI) therapy, and objective skilled documentation.',
-    target: 'Outpatient PT, OT & Hospital Networks',
-    system: 'SMARTfit Mini on Mobile Rolling Kiosk',
-    featured: true,
+    num: '03',
+    name: 'Response Flexibility',
+    desc: 'Diversity of motor response patterns: multi-directional targets, choice discrimination, and unpredictable sequencing.',
+    icon: '🎯',
   },
   {
-    stage: '04',
-    title: 'Fall Prevention',
-    subtitle: 'Dual-Task Gait & Center of Gravity',
-    desc: 'Dual-task gait retraining, dynamic center-of-gravity stabilization, functional reach, and balance confidence.',
-    target: 'Older Adults & Fall-Risk Patients',
-    system: 'SMARTfit Mini + Balance Platforms',
+    num: '04',
+    name: 'Physical Movement',
+    desc: 'Full-body kinetic impact (hands, feet, balls, medicine balls) vs. delicate tap-only panels or seated screens.',
+    icon: '🏃',
   },
   {
-    stage: '05',
-    title: 'Active Aging & Memory Care',
-    subtitle: 'Cognitive Longevity & Social Engagement',
-    desc: 'Cognitive longevity programming, executive function maintenance, social group engagement, and independent living mobility.',
-    target: 'Senior Living & Memory Care Communities',
-    system: 'SMARTfit Mini or MultiTrainer',
-  },
-  {
-    stage: '06',
-    title: 'Tactical Readiness',
-    subtitle: 'Decision-Making Under Physical Load',
-    desc: 'High-stress situational awareness, target discrimination under physical fatigue, and first-responder motor-cognitive conditioning.',
-    target: 'Military, Police & Fire Training Facilities',
-    system: 'ProTrainer High-Impact System',
+    num: '05',
+    name: 'Performance Data',
+    desc: 'Sub-millisecond Dual-Task Cost (DTC) latency tracking, EMR-exportable metrics, and clinical documentation for 97530.',
+    icon: '📊',
   },
 ];
 
-const cognitivePillars = [
-  { title: 'Working Memory', desc: 'Retaining multi-step clinical or athletic sequences while in continuous functional movement.' },
-  { title: 'Inhibitory Control', desc: 'Suppressing incorrect motor impulses when presented with sudden conflicting visual distractor cues.' },
-  { title: 'Cognitive Flexibility', desc: 'Rapidly switching physical motor strategies as task rules dynamically alter mid-drill.' },
-  { title: 'Processing Speed', desc: 'Measuring visual stimulus recognition and neuromuscular transmission down to milliseconds.' },
-  { title: 'Sustained Attention', desc: 'Maintaining high focus, reaction accuracy, and target precision through physical fatigue.' },
-  { title: 'Decision Making', desc: 'Selecting and executing the optimal physical response under strict time constraints.' },
-  { title: 'Spatial Orientation', desc: 'Tracking peripheral targets and spatial awareness across an expansive 180° visual field.' },
-  { title: 'Sensorimotor Coordination', desc: 'Translating visual-cognitive computations into accurate physical strikes.' },
+const marketSystems = [
+  {
+    name: 'SMARTfit®',
+    status: 'Top Recommendation',
+    category: 'Full-Body Dual-Task System',
+    highlight: true,
+    image: '/images/products/Mini-Low-Impact-45.png',
+    imageAlt: 'SMARTfit Mini Single-Station Cognitive-Motor Kiosk 3D Cutout',
+    movement: 'Extensive (Full-body, hands, feet, balls)',
+    cognitive: 'Extensive (Stroop, Flanker, Memory, Math)',
+    multiUser: 'Up to 10+ simultaneously',
+    fda: 'Commercial Equipment',
+    bestFit: 'Clinics & facilities needing total-body training',
+  },
+  {
+    name: 'Dynavision D2',
+    status: 'Specialized Evaluated System',
+    category: 'Visuomotor Diagnostic Board',
+    highlight: false,
+    image: '/images/competitors/dynavision-d2-light-board.png',
+    imageAlt: 'Dynavision D2 light-array visuomotor diagnostic board',
+    movement: 'Basic (Upper-extremity reach only)',
+    cognitive: 'Moderate (T-scope visual search)',
+    multiUser: '1 user at a time',
+    fda: 'FDA-Cleared Diagnostic/Therapy',
+    bestFit: 'Vision therapy & driver rehabilitation',
+  },
+  {
+    name: 'Dividat Senso',
+    status: 'Specialized Evaluated System',
+    category: 'Stepping Balance Plate',
+    highlight: false,
+    image: '/images/competitors/dividat-senso-stepping-platform.jpg',
+    imageAlt: 'Dividat Senso force-plate balance stepping platform',
+    movement: 'Moderate (Lower-body stepping only)',
+    cognitive: 'Moderate (Stepping games & choices)',
+    multiUser: '1 user at a time',
+    fda: 'Commercial Equipment',
+    bestFit: 'Geriatric fall prevention & senior living',
+  },
+  {
+    name: 'Bioness (BITS)',
+    status: 'Specialized Evaluated System',
+    category: 'Touchscreen Cognitive Panel',
+    highlight: false,
+    image: '/images/competitors/bioness-bits-touchscreen.jpg',
+    imageAlt: 'Bioness BITS standardized occupational therapy touchscreen',
+    movement: 'Low (Standing/seated screen taps)',
+    cognitive: 'Extensive (Cognitive battery tests)',
+    multiUser: '1 user at a time',
+    fda: 'FDA-Cleared Diagnostic/Therapy',
+    bestFit: 'Occupational therapy & fine-motor testing',
+  },
+];
+
+const audienceSectors = [
+  {
+    title: 'Physical Therapy & Neuro-Rehab',
+    icon: '🏥',
+    image: '/images/rehab/smartfit-protrainer-pt-neuro-rehab-senior-assessment-clinic.jpg',
+    imageAlt: 'PT clinician demonstrating SMARTfit ProTrainer target tap to senior female patient during cognitive motor neuro-rehab assessment session',
+    desc: 'Objective Dual-Task Cost (DTC) baseline data for stroke, TBI, Parkinson’s, and orthopedic rehabilitation under CPT 97530.',
+    link: '/applications/',
+    tag: 'Clinical PT/OT',
+  },
+  {
+    title: 'Senior Living & Memory Care',
+    icon: '🏘️',
+    image: '/images/rehab/smartfit-protrainer-senior-wellness-boxing-partner-training.jpg',
+    imageAlt: 'Two seniors in boxing gloves training on wall-mounted SMARTfit ProTrainer cognitive motor system in senior wellness facility',
+    desc: 'High-engagement fall risk mitigation and cognitive dual-task programming with 1:10 staff-to-resident efficiency.',
+    link: '/applications/',
+    tag: 'Geriatric Wellness',
+  },
+  {
+    title: 'Athletics & Sports Performance',
+    icon: '🏆',
+    image: '/images/rehab/smartfit-protrainer-wall-mounted-sports-rehab-medicine-ball-bosu.jpg',
+    imageAlt: 'Male athlete standing on BOSU balance trainer pressing medicine ball into wall-mounted SMARTfit ProTrainer targets during sports performance session',
+    desc: 'Heavy ball-impact tolerance, sub-millisecond visual reaction latency, and objective concussion return-to-play metrics.',
+    link: '/applications/',
+    tag: 'Human Performance',
+  },
+  {
+    title: 'Tactical & Military Readiness',
+    icon: '🎯',
+    image: '/images/rehab/smartfit-trainer-sports-recovery-return-to-sport-soccer.jpg',
+    imageAlt: 'Soccer athlete in high-intensity cognitive motor drill on SMARTfit Trainer � sports performance and tactical readiness training',
+    desc: 'High-stress motor-cognitive conditioning to counteract tunnel vision and sharpen shoot/no-shoot decision latency.',
+    link: '/applications/',
+    tag: 'Tactical / Defense',
+  },
+  {
+    title: 'K-12 PE & Special Education',
+    icon: '🏫',
+    image: '/images/rehab/smartfit-protrainer-pediatric-rehab-child-cognitive-motor.png',
+    imageAlt: 'Young child reaching to touch numbered LED targets on blue SMARTfit ProTrainer portable panel supervised by clinical instructor',
+    desc: 'Inclusive active sensory engagement, ADHD focus conditioning, and measurable IEP gross-motor developmental progress.',
+    link: '/applications/',
+    tag: 'School Districts',
+  },
 ];
 ---
 
 <BaseLayout 
-  title="Cognitive Motor Training Systems"
-  description="CMT Systems is the authoritative B2B partner for SMARTfit dual-task cognitive-motor systems. Evidence-based training for rehabilitation, senior living, and athletics."
+  title="Cognitive-Motor Equipment Selection & Facility Fit Advisory"
+  description="Selecting the right cognitive-motor technology shouldn't be complicated. We evaluate dual-task systems using our 5-Dimension Framework to guide your facility fit, equipment selection, and staff onboarding."
 >
   <!-- ========================================================================= -->
-  <!-- MODULE 01 & 02: HERO SECTION (DARK COMMAND-CENTER)                        -->
+  <!-- MODULE 1: THE HERO (DARK NAVY #0c2044)                                    -->
   <!-- ========================================================================= -->
-  <section class="hero-section">
+  <section class="hero-module">
     <NeuroMesh />
     
     <div class="wrap hero-container">
       <div class="hero-content">
         <div class="eyebrow-pill">
-          <span class="pill-spark">⚡</span>
-          <span>ADVANCED DUAL-TASK NEURO-MOTOR TECHNOLOGY</span>
+          <span class="pill-spark">📐</span>
+          <span>EQUIPMENT ADVISORY & FACILITY PLANNING</span>
         </div>
         
         <h1 class="hero-headline">
-          Brain Health Is The <span class="text-gradient">Next Frontier</span> Of Human Performance.
+          Selecting the right cognitive–motor technology shouldn't be complicated.
         </h1>
         
         <p class="hero-lead">
-          Evidence-based cognitive-motor training protocols that simultaneously engage cognitive processing, 
-          reactive agility, dynamic balance, and functional movement across clinical, athletic, and healthy aging populations.
+          We evaluate dual-task systems using our 5-Dimension Framework—analyzing cognitive depth, physical impact, and spatial requirements—so your facility invests with confidence. Get hands-on guidance on system selection, room clearance, and manufacturer-backed clinical onboarding.
         </p>
 
-        <div class="hero-checkmarks">
-          <div class="check-item">
-            <span class="check-icon">✓</span>
-            <span>Peer-Reviewed Evidence</span>
-          </div>
-          <div class="check-item">
-            <span class="check-icon">✓</span>
-            <span>Objective DTC Measurement</span>
-          </div>
-          <div class="check-item">
-            <span class="check-icon">✓</span>
-            <span>High-Impact Commercial Build</span>
-          </div>
-        </div>
-
         <div class="hero-cta-group">
-          <a class="cta-primary" href="/request-demo/">
-            Request Institutional Quote &rarr;
+          <a class="cta-primary" href="/photo-fit-review/">
+            Request a Free Photo Fit Review &rarr;
           </a>
-          <a class="cta-secondary" href="/texas-in-services/">
-            <span class="play-icon">▶</span>
-            Schedule Texas On-Site Demo
+          <a class="cta-secondary" href="/evaluation-framework/">
+            Explore the 5-Dimension Framework
           </a>
-        </div>
-
-        <!-- PERSONA ROUTING CHIPS -->
-        <div class="persona-selector">
-          <p class="persona-prompt">SELECT YOUR FACILITY SETTING FOR TAILORED SPECIFICATIONS:</p>
-          <div class="persona-chips">
-            {personas.map((p) => (
-              <a class="persona-chip" href={p.link}>{p.label}</a>
-            ))}
-          </div>
         </div>
       </div>
 
-      <!-- HERO VISUAL: 3D HARDWARE + COMMAND HUD -->
+      <!-- HARDWARE HUD DISPLAY -->
       <div class="hero-visual">
         <div class="hud-card">
           <div class="hud-header">
-            <div class="hud-status">
-              <span class="live-dot"></span>
-              <span>SMARTFIT NEURO-CLOUD 4.0</span>
-            </div>
-            <span class="hud-badge">CLINICAL DUAL-TASK HUD</span>
+            <span class="hud-badge-audited">FEATURED SPECIFICATION</span>
+            <span class="hud-live-tag">CLINICAL & REHAB</span>
           </div>
 
-          <div class="hud-preview-image">
+          <div class="hud-image-box">
             <Image 
               src={miniProduct}
-              alt="SMARTfit Mini Single-Station Cognitive-Motor Kiosk"
-              width={400}
-              height={400}
+              alt="SMARTfit Mini Single-Station Cognitive-Motor Kiosk on Rolling Frame"
+              width={380}
+              height={380}
               format="webp"
               class="hardware-render"
             />
-            <div class="render-caption">
-              <span class="caption-title">SMARTfit Mini Single-Station</span>
-              <span class="caption-spec">Mobile Rolling Kiosk &bull; 9 Target Strike Face</span>
-            </div>
           </div>
 
-          <div class="hud-telemetry">
-            <div class="telemetry-box">
-              <span class="tel-label">Dual-Task Cost (DTC)</span>
-              <span class="tel-value tel-cyan">-18.4%</span>
-              <span class="tel-sub">Objective Cognitive Cost</span>
+          <div class="hud-score-row">
+            <div class="score-pill">
+              <span class="score-title">5-Dimension Fit</span>
+              <span class="score-value">High Kinetic + Dual-Task</span>
             </div>
-            <div class="telemetry-box">
-              <span class="tel-label">Reaction Latency</span>
-              <span class="tel-value tel-green">214 ms</span>
-              <span class="tel-sub">Sensory Neuromuscular Transmission</span>
-            </div>
-            <div class="telemetry-box">
-              <span class="tel-label">Neuroplastic Stimulus</span>
-              <span class="tel-value tel-orange">Active</span>
-              <span class="tel-sub">Prefrontal Cortex Remapping</span>
+            <div class="score-pill">
+              <span class="score-title">Onboarding</span>
+              <span class="score-value score-accent">SMARTfit Direct Training</span>
             </div>
           </div>
         </div>
@@ -194,1732 +211,1025 @@ const cognitivePillars = [
   </section>
 
   <!-- ========================================================================= -->
-  <!-- MODULE 03: TRUST & DEPLOYMENT METRICS (CRISP LIGHT SLATE)                 -->
+  <!-- MODULE 2: THE TRUST STRIP (CRISP WHITE #FFFFFF)                           -->
   <!-- ========================================================================= -->
-  <section class="trust-strip">
+  <section class="trust-module">
     <div class="wrap">
-      <div class="metrics-grid">
-        {trustMetrics.map((m) => (
-          <div class="metric-card">
-            <span class="metric-num">{m.value}</span>
-            <span class="metric-label">{m.label}</span>
-            <span class="metric-sub">{m.sub}</span>
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon">🔧</div>
+          <h3 class="trust-title">Field Installation Insight</h3>
+          <p class="trust-desc">Real-world experience assembling hardware, mounting frames, and configuring systems on site.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">📐</div>
+          <h3 class="trust-title">Facility Space Planning</h3>
+          <p class="trust-desc">We review your wall studs, ceiling clearance, and patient movement zones before you spend a dime.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">⚖️</div>
+          <h3 class="trust-title">5-Dimension Evaluation</h3>
+          <p class="trust-desc">Objective benchmarks comparing cognitive load, kinetic impact, and data tracking across systems.</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">🎓</div>
+          <h3 class="trust-title">Turnkey Onboarding</h3>
+          <p class="trust-desc">Direct manufacturer-backed clinical training and certification so your team hits the ground running.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- MODULE 3: THE 5-DIMENSION FRAMEWORK (LIGHT SLATE #F8FAFC / #F1F5F9)       -->
+  <!-- ========================================================================= -->
+  <section class="framework-module">
+    <div class="wrap">
+      <div class="module-header text-center">
+        <span class="section-eyebrow">EQUIPMENT DECISION BENCHMARKS</span>
+        <h2 class="section-headline section-headline--dark">The CMT 5-Dimension Evaluation Framework</h2>
+        <p class="section-lead section-lead--dark">
+          We evaluate systems across five objective criteria—Cognitive Complexity, Stimulus Flexibility, Response Flexibility, Physical Movement, and Performance Data—to help facilities compare options with clarity.
+        </p>
+      </div>
+
+      <div class="dimensions-grid">
+        {dimensions.map((dim) => (
+          <div class="dimension-card">
+            <div class="dim-top">
+              <span class="dim-icon">{dim.icon}</span>
+              <span class="dim-num">{dim.num}</span>
+            </div>
+            <h3 class="dim-name">{dim.name}</h3>
+            <p class="dim-desc">{dim.desc}</p>
           </div>
+        ))}
+      </div>
+
+      <div class="framework-cta-box text-center">
+        <a class="framework-btn" href="/evaluation-framework/">
+          Explore the Framework Methodology &rarr;
+        </a>
+        <a class="framework-btn-sec" href="/resources/evaluation-worksheet.md" download>
+          Download Evaluation Worksheet (.md) &darr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- MODULE 3.5: AUDIENCE & SETTING SOLUTIONS                                  -->
+  <!-- ========================================================================= -->
+  <section class="sectors-module">
+    <div class="wrap">
+      <div class="module-header text-center">
+        <span class="section-eyebrow">EQUIPMENT GUIDANCE BY SETTING</span>
+        <h2 class="section-headline section-headline--dark">Which environment are you outfitting?</h2>
+        <p class="section-lead section-lead--dark">
+          Every facility has distinct throughput constraints, safety requirements, and clinical objectives. Explore our recommended equipment guidance for your specific sector:
+        </p>
+      </div>
+
+      <div class="sectors-grid">
+        {audienceSectors.map((sector) => (
+          <a class="sector-card" href={sector.link}>
+            <div class="sector-media">
+              <img 
+                src={sector.image} 
+                alt={sector.imageAlt} 
+                width="280" 
+                height="150" 
+                loading="lazy" 
+                class="sector-media-img" 
+              />
+              <span class="sector-tag">{sector.tag}</span>
+            </div>
+            <div class="sector-body">
+              <h3 class="sector-title">{sector.title}</h3>
+              <p class="sector-desc">{sector.desc}</p>
+              <span class="sector-link">Explore Sector Guidance &rarr;</span>
+            </div>
+          </a>
         ))}
       </div>
     </div>
   </section>
 
   <!-- ========================================================================= -->
-  <!-- MODULE 04: THE PARADIGM SHIFT (LUMINOUS WHITE & CRISP CONTRAST)           -->
+  <!-- MODULE 4: THE MARKET LANDSCAPE (CRISP WHITE #FFFFFF)                      -->
   <!-- ========================================================================= -->
-  <section class="contrast-section">
+  <section class="landscape-module">
     <div class="wrap">
-      <div class="section-header text-center">
-        <span class="section-eyebrow">THE SENSORIMOTOR DEFICIT</span>
-        <h2 class="section-headline section-headline--dark">Traditional Training Misses Half The Equation.</h2>
+      <div class="module-header text-center">
+        <span class="section-eyebrow">OBJECTIVE SPECIFICATION COMPARISON</span>
+        <h2 class="section-headline section-headline--dark">How Top Systems Compare — And Why We Recommend SMARTfit</h2>
         <p class="section-lead section-lead--dark">
-          Physical rehabilitation trains the body in isolation. Brain games train the mind on a screen. 
-          Real-world functional independence and athletic performance require both systems to communicate under millisecond time constraints.
+          Based on published manufacturer specifications and technical documentation, SMARTfit stands out for facilities seeking high-impact, total-body kinetic dual-task training.
         </p>
       </div>
 
-      <div class="contrast-grid">
-        <!-- TRADITIONAL CARD (LIGHT CRISP SLATE) -->
-        <div class="contrast-card contrast-card--traditional">
-          <div class="card-badge card-badge--muted">TRADITIONAL PHYSICAL TRAINING</div>
-          <h3 class="card-title card-title--dark">Isolated Motor Execution</h3>
-          <ul class="contrast-list">
-            <li>
-              <span class="icon-bad">✕</span>
-              <div>
-                <strong>Isolated Motor Output:</strong> Repetitive physical exercise without cognitive demand fails to prepare the patient for real-world environmental distractions.
+      <!-- TIER 1 SYSTEMS GRID -->
+      <div class="systems-grid">
+        {marketSystems.map((sys) => (
+          <div class={`system-card ${sys.highlight ? 'system-card--recommended' : ''}`}>
+            {sys.highlight && <div class="rec-badge">TOP RECOMMENDATION</div>}
+            
+            {sys.image && (
+              <div class={`sys-media-box ${sys.highlight ? 'sys-media-box--highlight' : ''}`}>
+                <img 
+                  src={sys.image} 
+                  alt={sys.imageAlt || `${sys.name} hardware`} 
+                  width="220" 
+                  height="140" 
+                  loading="lazy" 
+                  class="sys-thumb-img"
+                />
               </div>
-            </li>
-            <li>
-              <span class="icon-bad">✕</span>
-              <div>
-                <strong>Subjective Progress Notes:</strong> Reliance on visual observation leaves skilled therapy documentation vulnerable to payer scrutiny and denials.
-              </div>
-            </li>
-            <li>
-              <span class="icon-bad">✕</span>
-              <div>
-                <strong>Static Neurological Stimulus:</strong> Fails to trigger the heightened neuroplastic adaptations produced by combined aerobic and cognitive exertion.
-              </div>
-            </li>
-            <li>
-              <span class="icon-bad">✕</span>
-              <div>
-                <strong>High Therapy Dropout:</strong> Repetitive, monotonous rehabilitation exercises lead to low patient adherence and compliance.
-              </div>
-            </li>
-          </ul>
-        </div>
+            )}
 
-        <!-- CMT DUAL-TASK CARD (RICH NAVY POWER CARD) -->
-        <div class="contrast-card contrast-card--cmt">
-          <div class="card-badge card-badge--accent">CMT COGNITIVE-MOTOR INTEGRATION</div>
-          <h3 class="card-title card-title--light">Simultaneous Dual-Task Training</h3>
-          <ul class="contrast-list contrast-list--light">
-            <li>
-              <span class="icon-good">✓</span>
-              <div>
-                <strong>Simultaneous Sensorimotor Processing:</strong> Forces the prefrontal cortex and motor cortex to process visual stimuli while executing dynamic physical movement.
-              </div>
-            </li>
-            <li>
-              <span class="icon-good">✓</span>
-              <div>
-                <strong>Objective Dual-Task Cost (DTC):</strong> Automatically quantifies the exact percentage of performance loss when moving under cognitive load.
-              </div>
-            </li>
-            <li>
-              <span class="icon-good">✓</span>
-              <div>
-                <strong>Standardized Clinical Protocols:</strong> Generates objective data supporting therapeutic activity documentation (CPT 97530 & 97112 skilled care plans).
-              </div>
-            </li>
-            <li>
-              <span class="icon-good">✓</span>
-              <div>
-                <strong>92%+ Patient Adherence:</strong> Over 3,000 gamified, interactive visual-audio target activities keep patients and athletes deeply engaged.
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================================================= -->
-  <!-- MODULE 05: FOUNDATIONAL SCIENCE (AIRY LIGHT SLATE)                        -->
-  <!-- ========================================================================= -->
-  <section class="explainer-section">
-    <div class="wrap explainer-grid">
-      <div class="explainer-text">
-        <span class="section-eyebrow">NEUROLOGICAL MECHANISMS</span>
-        <h2 class="section-headline section-headline--dark">What Is Cognitive-Motor Training?</h2>
-        <p class="explainer-p">
-          Cognitive-Motor Training (CMT) is the simultaneous integration of physical exercise and cognitive tasks designed to stimulate neuroplasticity. 
-          Unlike sequential training (exercising first, then playing a brain game), CMT forces the central nervous system to allocate neural resources between balance, movement, working memory, and decision-making simultaneously.
-        </p>
-        
-        <div class="benefit-box">
-          <div class="benefit-item">
-            <span class="benefit-num">01</span>
-            <div>
-              <strong>Neuroplastic Remapping:</strong> Accelerates neural pathway recruitment following stroke, traumatic brain injury (TBI), or neurological decline.
-            </div>
-          </div>
-          <div class="benefit-item">
-            <span class="benefit-num">02</span>
-            <div>
-              <strong>Functional Transfer:</strong> Reduces cognitive distraction during walking—the leading hidden cause of senior falls and athletic non-contact injuries.
-            </div>
-          </div>
-        </div>
-
-        <a class="learn-more-link" href="/how-it-works/">
-          Explore The Published Dual-Task Science &rarr;
-        </a>
-      </div>
-
-      <!-- VENN DIAGRAM VISUAL COMPONENT -->
-      <div class="venn-wrapper">
-        <div class="venn-card">
-          <h4 class="venn-header">THE COGNITIVE-MOTOR INTEGRATION ENGINE</h4>
-          <div class="venn-graphic">
-            <div class="venn-circle venn-circle--cog">
-              <span class="venn-tag">COGNITIVE LOAD</span>
-              <span class="venn-item">&bull; Working Memory</span>
-              <span class="venn-item">&bull; Executive Function</span>
-              <span class="venn-item">&bull; Decision Speed</span>
+            <div class="sys-header">
+              <h3 class="sys-name">{sys.name}</h3>
+              <span class="sys-cat">{sys.category}</span>
             </div>
             
-            <div class="venn-core">
-              <span class="core-glow"></span>
-              <span class="core-title">CMT CORE</span>
-              <span class="core-desc">Dual-Task Neuroplastic Stimulus</span>
-            </div>
+            <ul class="sys-specs-list">
+              <li>
+                <strong>Physical Movement:</strong> 
+                <span>{sys.movement}</span>
+              </li>
+              <li>
+                <strong>Cognitive Depth:</strong> 
+                <span>{sys.cognitive}</span>
+              </li>
+              <li>
+                <strong>Multi-User Capacity:</strong> 
+                <span>{sys.multiUser}</span>
+              </li>
+              <li>
+                <strong>Regulatory / FDA:</strong> 
+                <span>{sys.fda}</span>
+              </li>
+              <li class="sys-best-fit">
+                <strong>Best Fit Setting:</strong> 
+                <span>{sys.bestFit}</span>
+              </li>
+            </ul>
 
-            <div class="venn-circle venn-circle--mot">
-              <span class="venn-tag">MOTOR ACTION</span>
-              <span class="venn-item">&bull; Dynamic Balance</span>
-              <span class="venn-item">&bull; Agility &amp; Gait</span>
-              <span class="venn-item">&bull; Reaction Strikes</span>
+            <div class="sys-footer">
+              {sys.highlight ? (
+                <div class="sys-actions-stack">
+                  <a class="sys-cta-rec" href="/photo-fit-review/">Check Space Fit For SMARTfit &rarr;</a>
+                  <a class="sys-cta-audit" href="/reviews/">Read Hardware Review &rarr;</a>
+                </div>
+              ) : (
+                <div class="sys-actions-stack">
+                  <a class="sys-cta-comp" href="/compare/">Compare Systems &rarr;</a>
+                  <a class="sys-cta-audit" href="/reviews/">Read Specification Review &rarr;</a>
+                </div>
+              )}
             </div>
           </div>
-          <p class="venn-footer-note">
-            Standardized via SMARTfit Neuro-Cloud algorithms &bull; Standardized TUG-Cognitive protocol
+        ))}
+      </div>
+
+      <!-- COMMERCIAL DISCLOSURE -->
+      <div class="disclosure-box">
+        <p>
+          <strong>Commercial Transparency Disclosure:</strong> We may receive compensation when you purchase equipment through our referrals. Commercial relationships do not establish clinical superiority. We evaluate all equipment objectively based on physical specs and published literature.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- MODULE 5: THE PHOTO FIT REVIEW (DARK NAVY #0c2044)                        -->
+  <!-- ========================================================================= -->
+  <section class="photo-fit-module">
+    <div class="wrap">
+      <div class="photo-fit-card">
+        <div class="photo-fit-intro">
+          <span class="eyebrow-accent">ZERO-COST SPACE PLANNING</span>
+          <h2 class="photo-fit-title">Before you order, verify your room fit.</h2>
+          <p class="photo-fit-lead">
+            Avoid the common mistakes facilities make: ordering equipment that doesn't match the ceiling height, wall backing, electrical layout, or patient movement zones.
           </p>
+        </div>
+
+        <div class="photo-steps-grid">
+          <div class="step-card">
+            <div class="step-circle">1</div>
+            <h4 class="step-title">Tell Us About Your Setting</h4>
+            <p class="step-desc">Share your clinical or athletic goals, patient population, and weekly volume.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-circle">2</div>
+            <h4 class="step-title">Send A Photo Of Your Space</h4>
+            <p class="step-desc">Snap 1–2 photos of your intended therapy wall, ceiling clearance, and floor perimeter.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-circle">3</div>
+            <h4 class="step-title">Get Practical Fit Guidance</h4>
+            <p class="step-desc">Receive a personalized space clearance assessment and equipment recommendation in 24–48 hours.</p>
+          </div>
+        </div>
+
+        <div class="photo-fit-action text-center">
+          <a class="photo-fit-cta" href="/photo-fit-review/">
+            Request a Free Photo Fit Review &rarr;
+          </a>
+          <p class="photo-fit-note">100% Free &bull; No obligation &bull; Turnaround within 24–48 hours</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ========================================================================= -->
-  <!-- MODULE 06: THE BRAIN HEALTH CONTINUUM (NAVY THEATER CONTAINER)            -->
+  <!-- MODULE 6: THE EVIDENCE GUARDRAIL (CRISP WHITE #FFFFFF)                    -->
   <!-- ========================================================================= -->
-  <section class="continuum-section">
+  <section class="evidence-module">
     <div class="wrap">
-      <div class="section-header text-center">
-        <span class="section-eyebrow">POPULATION-SPECIFIC PROTOCOLS</span>
-        <h2 class="section-headline">The Brain Health Continuum</h2>
-        <p class="section-lead">
-          Standardized hardware and software protocols engineered for clinical rehabilitation, senior independence, athletic performance, and tactical defense.
-        </p>
-      </div>
-
-      <div class="continuum-grid">
-        {continuumStages.map((st) => (
-          <div class={`continuum-card ${st.featured ? 'continuum-card--featured' : ''}`}>
-            <div class="card-stage-row">
-              <span class="stage-tag">STAGE {st.stage}</span>
-              {st.featured && <span class="featured-badge">FEATURED HUB</span>}
-            </div>
-            <h3 class="st-title">{st.title}</h3>
-            <span class="st-sub">{st.subtitle}</span>
-            <p class="st-desc">{st.desc}</p>
-            <div class="st-meta">
-              <p><strong>Target:</strong> {st.target}</p>
-              <p><strong>Primary System:</strong> {st.system}</p>
-            </div>
-            <a class="st-link" href="/applications/">
-              View Application Details &rarr;
+      <div class="evidence-inner">
+        <div class="evidence-content">
+          <span class="section-eyebrow">CLINICAL INTEGRITY &amp; ETHICS</span>
+          <h2 class="section-headline section-headline--dark">
+            We tell you what the research shows—including its limits.
+          </h2>
+          <p class="evidence-copy">
+            We review published literature and present the evidence honestly. We will not tell you this equipment prevents falls, treats Parkinson's, or guarantees outcomes. If a claim isn't supported, we'll say so.
+          </p>
+          <p class="evidence-copy">
+            Dual-task training is supported by substantial academic research for targeting neuroplasticity, cognitive-motor interference, and postural control. But commercial equipment does not replace clinical judgment, individualized care plans, or skilled provider oversight.
+          </p>
+          <div class="evidence-cta-row">
+            <a class="evidence-link-btn" href="/how-it-works/">
+              Read Our Evidence Library &rarr;
+            </a>
+            <a class="evidence-phone-link" href="tel:18004317788">
+              Questions? Call Equipment Advisor: <strong>1-800-431-7788</strong>
             </a>
           </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================================================= -->
-  <!-- MODULE 07: HARDWARE & SYSTEMS SUITE (CRISP WHITE STUDIO CARDS)            -->
-  <!-- ========================================================================= -->
-  <section class="hardware-section">
-    <div class="wrap">
-      <div class="section-header text-center">
-        <span class="section-eyebrow">COMMERCIAL-GRADE SPECIFICATIONS</span>
-        <h2 class="section-headline section-headline--dark">Engineered For High-Impact Institutional Environments</h2>
-        <p class="section-lead section-lead--dark">
-          Modular physical strike panels, wireless portable pods, and cloud-connected clinical controllers built for high-volume facilities.
-        </p>
-      </div>
-
-      <div class="hardware-grid">
-        <!-- SYSTEM 1: MINI -->
-        <div class="hw-card">
-          <div class="hw-image-wrap">
-            <Image 
-              src={miniProduct}
-              alt="SMARTfit Mini Single-Station"
-              width={400}
-              height={400}
-              format="webp"
-            />
-          </div>
-          <div class="hw-body">
-            <span class="hw-category">SINGLE-STATION KIOSK</span>
-            <h3 class="hw-title">SMARTfit Mini System</h3>
-            <p class="hw-desc">
-              The flagship single-station platform for clinics and wellness centers. Features a 46" x 46" impact face with 9 multi-symbol target zones.
-            </p>
-            <ul class="hw-specs">
-              <li><strong>Mounting:</strong> Mobile rolling stand or direct on-wall track</li>
-              <li><strong>Impact Levels:</strong> Low-Impact (Hands/Balls) &amp; High-Impact</li>
-              <li><strong>Accessibility:</strong> ADA compliant, wheelchair accessible, motorized height adjust</li>
-              <li><strong>Best For:</strong> Outpatient physical therapy, OT, senior living wellness</li>
-            </ul>
-            <div class="hw-action">
-              <a class="btn-hw" href="/systems/mini/">View Mini Specifications &rarr;</a>
-            </div>
-          </div>
         </div>
 
-        <!-- SYSTEM 2: PROTRAINER -->
-        <div class="hw-card">
-          <div class="hw-image-wrap">
-            <img src="/images/products/protrainer-2.jpg" alt="SMARTfit ProTrainer Multi-Station System" />
-          </div>
-          <div class="hw-body">
-            <span class="hw-category">MULTI-STATION SYSTEM</span>
-            <h3 class="hw-title">SMARTfit ProTrainer</h3>
-            <p class="hw-desc">
-              Modular 2, 3, or 4-station systems designed for high-volume hospitals, sports performance complexes, and tactical gymnasiums.
-            </p>
-            <ul class="hw-specs">
-              <li><strong>Configuration:</strong> 2 to 4 synchronized stations on wall or frame</li>
-              <li><strong>Target Nodes:</strong> Up to 36 independently responsive strike zones</li>
-              <li><strong>Multi-User:</strong> Train multiple patients or athletes simultaneously</li>
-              <li><strong>Best For:</strong> Inpatient rehabilitation, collegiate athletics, defense readiness</li>
-            </ul>
-            <div class="hw-action">
-              <a class="btn-hw" href="/systems/protrainer/">View ProTrainer Configurations &rarr;</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- SYSTEM 3: STRIKE PODS -->
-        <div class="hw-card">
-          <div class="hw-image-wrap">
-            <img src="/images/products/smartfit-strikepods.png" alt="SMARTfit Wireless Strike Pods" />
-          </div>
-          <div class="hw-body">
-            <span class="hw-category">PORTABLE WIRELESS ECOSYSTEM</span>
-            <h3 class="hw-title">Wireless Strike Pods</h3>
-            <p class="hw-desc">
-              Ultra-portable, battery-powered multi-modal strike targets connecting wirelessly up to 100 meters for 360° ambulatory training.
-            </p>
-            <ul class="hw-specs">
-              <li><strong>Kits Available:</strong> Bundles of 3, 5, 7, or 9 wireless pods</li>
-              <li><strong>Connectivity:</strong> Ultra-low latency mesh with central tablet controller</li>
-              <li><strong>Mounting:</strong> Floor pods, magnetic wall mounts, or adjustable stands</li>
-              <li><strong>Best For:</strong> Hallway gait assessment, athletic agility turf, mobile therapists</li>
-            </ul>
-            <div class="hw-action">
-              <a class="btn-hw" href="/systems/strike-pods/">View Strike Pods Kits &rarr;</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <p class="hardware-disclaimer">
-        * All systems include commercial warranty, cloud software licensing, and optional professional installation. Exact quotations provided upon consultation.
-      </p>
-    </div>
-  </section>
-
-  <!-- ========================================================================= -->
-  <!-- MODULE 08: THE SCIENCE & DUAL-TASK COST (LIGHT SLATE WITH NAVY HUD)       -->
-  <!-- ========================================================================= -->
-  <section class="science-section">
-    <div class="wrap">
-      <div class="science-card">
-        <div class="science-text">
-          <span class="section-eyebrow">OBJECTIVE SENSORIMOTOR METRICS</span>
-          <h2 class="science-headline">Dual-Task Cost (DTC) Quantified.</h2>
-          <p class="science-lead">
-            When asked to walk while performing a cognitive calculation, gait speed slows and balance wavers. 
-            This performance drop is clinically defined as <strong>Dual-Task Cost (DTC)</strong>—the most sensitive predictive indicator of fall risk, concussion recovery, and neurological decline.
-          </p>
-          <div class="science-bullet">
-            <strong>Standardized Assessment Protocol:</strong> 
-            Compatible with the Timed Up and Go (TUG) Cognitive assessment battery. Quantifies milliseconds and error rates automatically.
-          </div>
-        </div>
-
-        <!-- DTC CHART COMPONENT -->
-        <div class="dtc-chart-card">
-          <div class="chart-header">
-            <span>DUAL-TASK GAIT DEGRADATION ANALYSIS</span>
-            <span class="live-pill">CLINICAL BENCHMARK</span>
-          </div>
-
-          <div class="chart-bars">
-            <div class="bar-group">
-              <div class="bar-label-row">
-                <span>Single-Task Baseline (Normal Gait Speed)</span>
-                <span class="bar-val">100% Efficiency</span>
-              </div>
-              <div class="bar-track">
-                <div class="bar-fill bar-fill--base" style="width: 100%;"></div>
-              </div>
-            </div>
-
-            <div class="bar-group">
-              <div class="bar-label-row">
-                <span>Traditional Multitask Gait (Untrained Dual-Task)</span>
-                <span class="bar-val bar-val--danger">-28.4% DTC (High Fall/Injury Risk)</span>
-              </div>
-              <div class="bar-track">
-                <div class="bar-fill bar-fill--danger" style="width: 71.6%;"></div>
-              </div>
-            </div>
-
-            <div class="bar-group">
-              <div class="bar-label-row">
-                <span>Post-CMT Dual-Task Protocol (Trained Neuro-Motor)</span>
-                <span class="bar-val bar-val--success">-7.8% DTC (Optimized Dual-Tasking)</span>
-              </div>
-              <div class="bar-track">
-                <div class="bar-fill bar-fill--success" style="width: 92.2%;"></div>
-              </div>
-            </div>
-          </div>
-
-          <p class="chart-footnote">
-            Data visualization illustrative of standardized dual-task gait cost recovery documented in peer-reviewed motor-cognitive trials.
-          </p>
+        <div class="evidence-card">
+          <h4 class="evidence-card-title">CMT Evidence Principles</h4>
+          <ul class="evidence-checklist">
+            <li>
+              <span class="check-green">✓</span>
+              <span><strong>Separation of Claims:</strong> Academic dual-task science is never conflated with manufacturer marketing.</span>
+            </li>
+            <li>
+              <span class="check-green">✓</span>
+              <span><strong>No Clinical Guarantees:</strong> No promises of disease reversal, fall elimination, or cure.</span>
+            </li>
+            <li>
+              <span class="check-green">✓</span>
+              <span><strong>CPT Billing Context:</strong> Codes 97530/97112 refer to skilled therapeutic activities billed under licensed provider discretion.</span>
+            </li>
+            <li>
+              <span class="check-green">✓</span>
+              <span><strong>The Concession Rule:</strong> Every head-to-head comparison honestly notes where competitors excel.</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- ========================================================================= -->
-  <!-- MODULE 09: EXECUTIVE FUNCTION 8-GRID (CRISP LUMINOUS WHITE)               -->
-  <!-- ========================================================================= -->
-  <section class="pillars-section">
-    <div class="wrap">
-      <div class="section-header text-center">
-        <span class="section-eyebrow">COGNITIVE ARCHITECTURE</span>
-        <h2 class="section-headline section-headline--dark">Targeting The 8 Core Cognitive Pillars</h2>
-        <p class="section-lead section-lead--dark">
-          CMT software protocols engage the specific executive function domains responsible for motor coordination, reaction speed, and functional independence.
-        </p>
-      </div>
-
-      <div class="pillars-grid">
-        {cognitivePillars.map((p, idx) => (
-          <div class="pillar-card">
-            <span class="pillar-num">0{idx + 1}</span>
-            <h4 class="pillar-title">{p.title}</h4>
-            <p class="pillar-desc">{p.desc}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================================================= -->
-  <!-- MODULE 10: COMPARISON TABLE (CRISP WHITE WITH ACCENT COLUMN)              -->
-  <!-- ========================================================================= -->
-  <section class="compare-section">
-    <div class="wrap">
-      <div class="section-header text-center">
-        <span class="section-eyebrow">INSTITUTIONAL BENCHMARK</span>
-        <h2 class="section-headline section-headline--dark">Why Clinical &amp; Athletic Leaders Choose SMARTfit</h2>
-        <p class="section-lead section-lead--dark">
-          Evaluating the critical technological difference between commercial cognitive-motor systems and consumer light gadgets.
-        </p>
-      </div>
-
-      <div class="table-container">
-        <table class="benchmark-table">
-          <thead>
-            <tr>
-              <th class="col-feature">Capability / Benchmark</th>
-              <th class="col-smartfit">
-                <div class="th-smartfit">
-                  <span class="th-brand">SMARTfit CMT Systems</span>
-                  <span class="th-sub">Clinical-Grade Dual-Task</span>
-                </div>
-              </th>
-              <th class="col-other">Consumer Light Pods (e.g. BlazePod)</th>
-              <th class="col-other">Static Visual Boards (e.g. Dynavision D2)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="cell-feature">High-Impact Strike Surface</td>
-              <td class="cell-smartfit"><span class="check-yes">✓ YES</span> (Heavy balls, bats, fists)</td>
-              <td class="cell-other">No (Light touch only)</td>
-              <td class="cell-other">No (Light hand tap only)</td>
-            </tr>
-            <tr>
-              <td class="cell-feature">Dynamic Full-Body Functional Movement</td>
-              <td class="cell-smartfit"><span class="check-yes">✓ YES</span> (Ambulatory, multi-directional)</td>
-              <td class="cell-other">Limited (Ground placement)</td>
-              <td class="cell-other">No (Static standing position)</td>
-            </tr>
-            <tr>
-              <td class="cell-feature">Integrated Cognitive Software Engines</td>
-              <td class="cell-smartfit"><span class="check-yes">✓ YES</span> (Math, memory, words, Stroop)</td>
-              <td class="cell-other">Basic light reaction only</td>
-              <td class="cell-other">Basic visual patterns</td>
-            </tr>
-            <tr>
-              <td class="cell-feature">Automated Dual-Task Cost (DTC) Calculation</td>
-              <td class="cell-smartfit"><span class="check-yes">✓ YES</span> (Automated algorithms)</td>
-              <td class="cell-other">No</td>
-              <td class="cell-other">No</td>
-            </tr>
-            <tr>
-              <td class="cell-feature">Standardized Assessment Batteries</td>
-              <td class="cell-smartfit"><span class="check-yes">✓ YES</span> (TUG-Cognitive, normative data)</td>
-              <td class="cell-other">No</td>
-              <td class="cell-other">Visual reaction only</td>
-            </tr>
-            <tr>
-              <td class="cell-feature">Multi-Station Scalable Expansion</td>
-              <td class="cell-smartfit"><span class="check-yes">✓ YES</span> (Up to 4 synchronized stations)</td>
-              <td class="cell-other">No</td>
-              <td class="cell-other">No (Single station)</td>
-            </tr>
-            <tr>
-              <td class="cell-feature">Objective Progress Data Export</td>
-              <td class="cell-smartfit"><span class="check-yes">✓ YES</span> (EMR/EHR clinical documentation)</td>
-              <td class="cell-other">Basic mobile app logs</td>
-              <td class="cell-other">Proprietary on-screen logs</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================================================= -->
-  <!-- MODULE 11: CFO & PROCUREMENT ACCELERATOR (CLEAN WHITE CARDS)              -->
-  <!-- ========================================================================= -->
-  <section class="procurement-section">
-    <div class="wrap">
-      <div class="section-header text-center">
-        <span class="section-eyebrow">FISCAL JUSTIFICATION &amp; PLANNING</span>
-        <h2 class="section-headline section-headline--dark">Institutional Procurement Accelerator</h2>
-        <p class="section-lead section-lead--dark">
-          Download implementation blueprints, room footprint planning guides, and clinical documentation briefs for your review committee.
-        </p>
-      </div>
-
-      <div class="lead-magnets-grid">
-        <div class="magnet-card">
-          <div class="magnet-badge">CLINICAL REHAB BRIEF</div>
-          <h4 class="magnet-title">Practice Economics &amp; Functional Documentation Guide</h4>
-          <p class="magnet-desc">
-            An overview of how outpatient physical therapy clinics structure and document skilled therapeutic activities and neuromuscular re-education incorporating dual-task protocols.
-          </p>
-          <a class="magnet-cta" href="/request-demo/">Download Clinical Brief &rarr;</a>
-        </div>
-
-        <div class="magnet-card">
-          <div class="magnet-badge">CAPITAL ASSET GUIDE</div>
-          <h4 class="magnet-title">IRS Section 179 Accelerated Depreciation Brief</h4>
-          <p class="magnet-desc">
-            A practical executive summary of federal accelerated depreciation guidelines applicable to capital medical and wellness equipment placed in service this fiscal year.
-          </p>
-          <a class="magnet-cta" href="/request-demo/">Download Tax Brief &rarr;</a>
-        </div>
-
-        <div class="magnet-card">
-          <div class="magnet-badge">FACILITY PLANNING KIT</div>
-          <h4 class="magnet-title">Institutional RFP &amp; Facility Footprint Planning Kit</h4>
-          <p class="magnet-desc">
-            Architectural room footprint diagrams, electrical specifications, ADA accessibility parameters, and wall reinforcement requirements for seamless deployment.
-          </p>
-          <a class="magnet-cta" href="/request-demo/">Download Planning Kit &rarr;</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================================================= -->
-  <!-- MODULE 12: TEXAS REGIONAL ACCENT & FINAL CONVERSION BANNER                -->
-  <!-- ========================================================================= -->
-  <section class="texas-banner">
-    <div class="wrap texas-banner-inner">
-      <div class="texas-content">
-        <span class="texas-tag">📍 SERVING TEXAS HEALTHCARE &amp; ATHLETIC NETWORKS</span>
-        <h3 class="texas-title">Experience An On-Site Clinical In-Service At Your Facility</h3>
-        <p class="texas-desc">
-          Located in Greater Houston, Dallas-Fort Worth, Austin, or San Antonio? 
-          Schedule a live clinical demonstration at your facility. Experience the hardware firsthand with your clinical and performance teams.
-        </p>
-      </div>
-      <div class="texas-cta">
-        <a class="cta-texas" href="/texas-in-services/">Schedule Texas In-Service &rarr;</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- MASTER BOTTOM CONVERSION CONTAINER -->
-  <section class="master-cta-section">
-    <div class="wrap text-center">
-      <h2 class="master-cta-headline">Ready To Elevate Cognitive-Motor Outcomes At Your Facility?</h2>
-      <p class="master-cta-lead">
-        Connect with an institutional equipment advisor to evaluate room footprints, clinical application protocols, and custom system pricing.
-      </p>
-      <div class="master-cta-actions">
-        <a class="cta-button cta-button--large" href="/request-demo/">
-          Request a Private Consultation &amp; Quote &rarr;
-        </a>
-        <a class="cta-phone" href="tel:18004317788">
-          Call Consultation Desk: 1-800-431-7788
-        </a>
-      </div>
-      <p class="master-cta-sub">
-        Private commercial quotation &bull; Institutional delivery nationwide &bull; Texas regional support
-      </p>
-    </div>
-  </section>
-
-  <style>
-    /* HERO STYLES (DARK COMMAND CENTER) */
-    .hero-section {
-      position: relative;
-      padding: 5rem 0 6rem;
-      background: radial-gradient(circle at top center, #0F1E4A 0%, #060B19 75%);
-      overflow: hidden;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    .hero-container {
-      position: relative;
-      z-index: 10;
-      display: grid;
-      grid-template-columns: 1.15fr 0.95fr;
-      gap: 3.5rem;
-      align-items: center;
-    }
-    .eyebrow-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      background: rgba(28, 100, 242, 0.15);
-      border: 1px solid rgba(28, 100, 242, 0.35);
-      color: #93C5FD;
-      font-size: 0.75rem;
-      font-weight: 700;
-      padding: 0.35rem 0.85rem;
-      border-radius: 999px;
-      letter-spacing: 0.08em;
-      margin-bottom: 1.5rem;
-    }
-    .hero-headline {
-      font-family: var(--font-display);
-      font-size: 3.25rem;
-      font-weight: 900;
-      line-height: 1.12;
-      letter-spacing: -0.03em;
-      color: #FFFFFF;
-      margin: 0 0 1.5rem;
-    }
-    .text-gradient {
-      background: linear-gradient(135deg, #FFFFFF 40%, var(--color-accent) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .hero-lead {
-      font-size: 1.12rem;
-      line-height: 1.65;
-      color: #94A3B8;
-      margin: 0 0 1.75rem;
-      max-width: 36rem;
-    }
-    .hero-checkmarks {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.25rem;
-      margin-bottom: 2rem;
-    }
-    .check-item {
-      display: flex;
-      align-items: center;
-      gap: 0.45rem;
-      font-size: 0.88rem;
-      font-weight: 600;
-      color: #F8FAFC;
-    }
-    .check-icon {
-      color: #10B981;
-      font-weight: 900;
-    }
-    .hero-cta-group {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      flex-wrap: wrap;
-      margin-bottom: 2.5rem;
-    }
-    .cta-primary {
-      background: linear-gradient(135deg, var(--color-accent), #EA580C);
-      color: #fff;
-      font-family: var(--font-display);
-      font-weight: 800;
-      font-size: 1rem;
-      padding: 0.95rem 1.85rem;
-      border-radius: 8px;
-      box-shadow: 0 4px 20px rgba(255, 101, 0, 0.3);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .cta-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 28px rgba(255, 101, 0, 0.45);
-    }
-    .cta-secondary {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      color: #F8FAFC;
-      font-family: var(--font-display);
-      font-weight: 700;
-      font-size: 0.95rem;
-      padding: 0.95rem 1.6rem;
-      border-radius: 8px;
-      transition: background 0.2s, border-color 0.2s;
-    }
-    .cta-secondary:hover {
-      background: rgba(255, 255, 255, 0.12);
-      border-color: rgba(255, 255, 255, 0.3);
-    }
-    .play-icon {
-      font-size: 0.75rem;
-      color: var(--color-accent);
-    }
-
-    /* PERSONA CHIPS */
-    .persona-selector {
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      padding-top: 1.5rem;
-    }
-    .persona-prompt {
-      font-size: 0.72rem;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      color: #64748B;
-      margin: 0 0 0.75rem;
-    }
-    .persona-chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    .persona-chip {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      color: #94A3B8;
-      font-size: 0.78rem;
-      font-weight: 600;
-      padding: 0.4rem 0.75rem;
-      border-radius: 6px;
-      transition: all 0.2s;
-    }
-    .persona-chip:hover {
-      background: rgba(28, 100, 242, 0.2);
-      border-color: #3B82F6;
-      color: #fff;
-    }
-
-    /* HUD CARD */
-    .hud-card {
-      background: #101A36;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 16px;
-      padding: 1.5rem;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(28, 100, 242, 0.15);
-    }
-    .hud-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 1.25rem;
-      font-size: 0.75rem;
-      font-weight: 700;
-    }
-    .hud-status {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      color: #94A3B8;
-    }
-    .live-dot {
-      width: 7px;
-      height: 7px;
-      background: #10B981;
-      border-radius: 50%;
-      box-shadow: 0 0 8px #10B981;
-    }
-    .hud-badge {
-      background: rgba(28, 100, 242, 0.25);
-      color: #93C5FD;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-      font-size: 0.68rem;
-      letter-spacing: 0.05em;
-    }
-    .hud-preview-image {
-      background: radial-gradient(circle at center, #16244C 0%, #080E21 80%);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 10px;
-      padding: 1.75rem;
-      text-align: center;
-      position: relative;
-    }
-    .hardware-render {
-      max-height: 260px;
-      width: auto;
-      object-fit: contain;
-      filter: drop-shadow(0 10px 20px rgba(0,0,0,0.6));
-    }
-    .render-caption {
-      margin-top: 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.2rem;
-    }
-    .caption-title {
-      font-family: var(--font-display);
-      font-weight: 800;
-      font-size: 0.95rem;
-      color: #fff;
-    }
-    .caption-spec {
-      font-size: 0.75rem;
-      color: #94A3B8;
-    }
-    .hud-telemetry {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 0.75rem;
-      margin-top: 1.25rem;
-    }
-    .telemetry-box {
-      background: rgba(0, 0, 0, 0.4);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 8px;
-      padding: 0.75rem;
-      display: flex;
-      flex-direction: column;
-    }
-    .tel-label {
-      font-size: 0.68rem;
-      color: #94A3B8;
-      font-weight: 700;
-    }
-    .tel-value {
-      font-family: var(--font-display);
-      font-size: 1.15rem;
-      font-weight: 900;
-      margin: 0.25rem 0;
-    }
-    .tel-sub {
-      font-size: 0.62rem;
-      color: #64748B;
-    }
-    .tel-cyan { color: #00D2FF; }
-    .tel-green { color: #10B981; }
-    .tel-orange { color: #FF6500; }
-
-    /* ========================================================================= */
-    /* MODULE 03: TRUST METRICS STRIP (LUMINOUS LIGHT SLATE)                     */
-    /* ========================================================================= */
-    .trust-strip {
-      background: #FFFFFF;
-      border-bottom: 1px solid #E2E8F0;
-      padding: 3rem 0;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
-    }
-    .metrics-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 2rem;
-    }
-    .metric-card {
-      display: flex;
-      flex-direction: column;
-      border-left: 3px solid var(--color-accent);
-      padding-left: 1.25rem;
-    }
-    .metric-num {
-      font-family: var(--font-display);
-      font-size: 2.25rem;
-      font-weight: 900;
-      color: #0F172A;
-      line-height: 1;
-      margin-bottom: 0.35rem;
-    }
-    .metric-label {
-      font-weight: 700;
-      font-size: 0.92rem;
-      color: #1E293B;
-    }
-    .metric-sub {
-      font-size: 0.78rem;
-      color: #64748B;
-    }
-
-    /* COMMON HEADERS FOR LIGHT & DARK */
-    .section-header {
-      max-width: 48rem;
-      margin: 0 auto 3.5rem;
-    }
-    .section-eyebrow {
-      font-size: 0.75rem;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      color: var(--color-accent);
-      text-transform: uppercase;
-      display: block;
-      margin-bottom: 0.75rem;
-    }
-    .section-headline {
-      font-family: var(--font-display);
-      font-size: 2.5rem;
-      font-weight: 900;
-      color: #FFFFFF;
-      line-height: 1.2;
-      letter-spacing: -0.02em;
-      margin: 0 0 1rem;
-    }
-    .section-headline--dark {
-      color: #0F172A !important;
-    }
-    .section-lead {
-      font-size: 1.05rem;
-      color: #94A3B8;
-      line-height: 1.6;
-      margin: 0;
-    }
-    .section-lead--dark {
-      color: #475569 !important;
-    }
-    .text-center { text-align: center; }
-
-    /* ========================================================================= */
-    /* MODULE 04: CONTRAST SECTION (CRISP WHITE BACKGROUND)                      */
-    /* ========================================================================= */
-    .contrast-section {
-      padding: 6rem 0;
-      background: #F8FAFC;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .contrast-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2.25rem;
-    }
-    .contrast-card {
-      border-radius: 16px;
-      padding: 2.75rem;
-    }
-    .contrast-card--traditional {
-      background: #FFFFFF;
-      border: 1px solid #CBD5E1;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
-    }
-    .contrast-card--cmt {
-      background: linear-gradient(145deg, #0A1435 0%, #101E4A 100%);
-      border: 2px solid #2563EB;
-      box-shadow: 0 12px 35px rgba(37, 99, 235, 0.2);
-    }
-    .card-badge {
-      font-size: 0.72rem;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      display: inline-block;
-      padding: 0.35rem 0.75rem;
-      border-radius: 6px;
-      margin-bottom: 1.25rem;
-    }
-    .card-badge--muted {
-      background: #F1F5F9;
-      color: #64748B;
-      border: 1px solid #E2E8F0;
-    }
-    .card-badge--accent {
-      background: var(--color-accent);
-      color: #fff;
-    }
-    .card-title {
-      font-family: var(--font-display);
-      font-size: 1.6rem;
-      font-weight: 800;
-      margin: 0 0 1.5rem;
-    }
-    .card-title--dark {
-      color: #0F172A;
-    }
-    .card-title--light {
-      color: #FFFFFF;
-    }
-    .contrast-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 1.35rem;
-    }
-    .contrast-list li {
-      display: flex;
-      gap: 0.85rem;
-      font-size: 0.92rem;
-      line-height: 1.55;
-      color: #334155;
-    }
-    .contrast-list--light li {
-      color: #CBD5E1;
-    }
-    .icon-bad {
-      color: #DC2626;
-      font-weight: 900;
-      font-size: 1.1rem;
-      flex-shrink: 0;
-    }
-    .icon-good {
-      color: #10B981;
-      font-weight: 900;
-      font-size: 1.1rem;
-      flex-shrink: 0;
-    }
-
-    /* ========================================================================= */
-    /* MODULE 05: EXPLAINER SECTION (CRISP WHITE BACKGROUND)                     */
-    /* ========================================================================= */
-    .explainer-section {
-      padding: 6rem 0;
-      background: #FFFFFF;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .explainer-grid {
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 4rem;
-      align-items: center;
-    }
-    .explainer-p {
-      font-size: 1.08rem;
-      color: #334155;
-      line-height: 1.7;
-      margin-bottom: 2rem;
-    }
-    .benefit-box {
-      display: flex;
-      flex-direction: column;
-      gap: 1.25rem;
-      margin-bottom: 2rem;
-    }
-    .benefit-item {
-      display: flex;
-      gap: 1rem;
-      align-items: flex-start;
-      font-size: 0.95rem;
-      color: #1E293B;
-      background: #F8FAFC;
-      border: 1px solid #E2E8F0;
-      padding: 1rem 1.25rem;
-      border-radius: 8px;
-    }
-    .benefit-num {
-      background: var(--color-accent);
-      color: #FFFFFF;
-      font-family: var(--font-display);
-      font-weight: 900;
-      padding: 0.2rem 0.55rem;
-      border-radius: 4px;
-      font-size: 0.82rem;
-      flex-shrink: 0;
-    }
-    .learn-more-link {
-      color: #2563EB;
-      font-weight: 700;
-      font-size: 0.95rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-    .learn-more-link:hover {
-      color: var(--color-accent);
-    }
-
-    /* VENN DIAGRAM (ELEVATED CLEAN WHITE SHADOW CONTAINER) */
-    .venn-card {
-      background: #F8FAFC;
-      border: 1px solid #E2E8F0;
-      border-radius: 16px;
-      padding: 2.25rem;
-      text-align: center;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
-    }
-    .venn-header {
-      font-family: var(--font-display);
-      font-size: 0.8rem;
-      letter-spacing: 0.1em;
-      color: #64748B;
-      margin: 0 0 2rem;
-      font-weight: 800;
-    }
-    .venn-graphic {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 220px;
-    }
-    .venn-circle {
-      width: 175px;
-      height: 175px;
-      border-radius: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem;
-      font-size: 0.75rem;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-    }
-    .venn-circle--cog {
-      background: #EFF6FF;
-      border: 2px solid #3B82F6;
-      color: #1E3A8A;
-      margin-right: -25px;
-    }
-    .venn-circle--mot {
-      background: #FFF7ED;
-      border: 2px solid var(--color-accent);
-      color: #7C2D12;
-      margin-left: -25px;
-    }
-    .venn-tag {
-      font-weight: 800;
-      margin-bottom: 0.4rem;
-    }
-    .venn-item {
-      margin: 0.1rem 0;
-    }
-    .venn-core {
-      position: absolute;
-      width: 95px;
-      height: 95px;
-      border-radius: 50%;
-      background: #0F172A;
-      color: #FFFFFF;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 0.5rem;
-      z-index: 10;
-      box-shadow: 0 8px 25px rgba(15, 23, 42, 0.35);
-    }
-    .core-title {
-      font-family: var(--font-display);
-      font-weight: 900;
-      font-size: 0.8rem;
-      color: #FBBF24;
-    }
-    .core-desc {
-      font-size: 0.55rem;
-      font-weight: 700;
-      line-height: 1.1;
-      margin-top: 0.2rem;
-      text-align: center;
-      color: #E2E8F0;
-    }
-    .venn-footer-note {
-      font-size: 0.75rem;
-      color: #64748B;
-      margin-top: 2rem;
-    }
-
-    /* ========================================================================= */
-    /* MODULE 06: CONTINUUM SECTION (DARK NAVY THEATER ACCENT)                   */
-    /* ========================================================================= */
-    .continuum-section {
-      padding: 6.5rem 0;
-      background: radial-gradient(circle at center, #0F1D45 0%, #060B19 80%);
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    .continuum-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1.5rem;
-    }
-    .continuum-card {
-      background: #0C152E;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 14px;
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      transition: transform 0.2s, border-color 0.2s;
-    }
-    .continuum-card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(255, 255, 255, 0.25);
-    }
-    .continuum-card--featured {
-      border: 2px solid var(--color-accent);
-      background: linear-gradient(160deg, #132047 0%, #0A1128 100%);
-      box-shadow: 0 10px 30px rgba(255, 101, 0, 0.15);
-    }
-    .card-stage-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0.75rem;
-    }
-    .stage-tag {
-      font-size: 0.7rem;
-      font-weight: 800;
-      color: #94A3B8;
-      letter-spacing: 0.06em;
-    }
-    .featured-badge {
-      background: var(--color-accent);
-      color: #fff;
-      font-size: 0.65rem;
-      font-weight: 800;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-    }
-    .st-title {
-      font-family: var(--font-display);
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: #fff;
-      margin: 0 0 0.25rem;
-    }
-    .st-sub {
-      font-size: 0.8rem;
-      color: #38BDF8;
-      font-weight: 600;
-      margin-bottom: 0.85rem;
-      display: block;
-    }
-    .st-desc {
-      font-size: 0.88rem;
-      color: #CBD5E1;
-      line-height: 1.55;
-      margin: 0 0 1.25rem;
-      flex-grow: 1;
-    }
-    .st-meta {
-      border-top: 1px solid rgba(255, 255, 255, 0.1);
-      padding-top: 0.85rem;
-      margin-bottom: 1rem;
-      font-size: 0.78rem;
-      color: #94A3B8;
-    }
-    .st-meta p {
-      margin: 0.2rem 0;
-    }
-    .st-meta strong {
-      color: #F8FAFC;
-    }
-    .st-link {
-      color: var(--color-accent);
-      font-size: 0.88rem;
-      font-weight: 700;
-    }
-
-    /* ========================================================================= */
-    /* MODULE 07: HARDWARE SECTION (CLEAN WHITE STUDIO CARDS)                    */
-    /* ========================================================================= */
-    .hardware-section {
-      padding: 6rem 0;
-      background: #FFFFFF;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .hardware-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2.25rem;
-    }
-    .hw-card {
-      background: #FFFFFF;
-      border: 1px solid #E2E8F0;
-      border-radius: 16px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .hw-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-    }
-    .hw-image-wrap {
-      background: #F8FAFC;
-      padding: 2.5rem 1.5rem;
-      text-align: center;
-      min-height: 220px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .hw-image-wrap img {
-      max-height: 190px;
-      max-width: 100%;
-      object-fit: contain;
-      filter: drop-shadow(0 8px 16px rgba(0,0,0,0.12));
-    }
-    .hw-body {
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-    }
-    .hw-category {
-      font-size: 0.72rem;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      color: var(--color-accent);
-      margin-bottom: 0.4rem;
-    }
-    .hw-title {
-      font-family: var(--font-display);
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: #0F172A;
-      margin: 0 0 0.75rem;
-    }
-    .hw-desc {
-      font-size: 0.9rem;
-      color: #475569;
-      line-height: 1.6;
-      margin: 0 0 1.25rem;
-    }
-    .hw-specs {
-      list-style: none;
-      padding: 0;
-      margin: 0 0 1.75rem;
-      border-top: 1px solid #E2E8F0;
-      padding-top: 1.1rem;
-      font-size: 0.82rem;
-      color: #64748B;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      flex-grow: 1;
-    }
-    .hw-specs strong {
-      color: #1E293B;
-    }
-    .btn-hw {
-      display: block;
-      text-align: center;
-      background: #0F172A;
-      color: #FFFFFF;
-      font-weight: 700;
-      font-size: 0.9rem;
-      padding: 0.8rem;
-      border-radius: 8px;
-      transition: background 0.2s;
-    }
-    .btn-hw:hover {
-      background: var(--color-accent);
-    }
-    .hardware-disclaimer {
-      text-align: center;
-      font-size: 0.82rem;
-      color: #64748B;
-      margin-top: 2.5rem;
-    }
-
-    /* ========================================================================= */
-    /* MODULE 08: SCIENCE & DTC (LIGHT SLATE WITH NAVY ANALYTICS CARD)           */
-    /* ========================================================================= */
-    .science-section {
-      padding: 6.5rem 0;
-      background: #F8FAFC;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .science-card {
-      background: #FFFFFF;
-      border: 1px solid #CBD5E1;
-      border-radius: 20px;
-      padding: 3.5rem;
-      display: grid;
-      grid-template-columns: 1fr 1.15fr;
-      gap: 3.5rem;
-      align-items: center;
-      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.05);
-    }
-    .science-headline {
-      font-family: var(--font-display);
-      font-size: 2.25rem;
-      font-weight: 900;
-      color: #0F172A;
-      margin: 0 0 1rem;
-      letter-spacing: -0.02em;
-    }
-    .science-lead {
-      font-size: 1.05rem;
-      color: #475569;
-      line-height: 1.65;
-      margin-bottom: 1.75rem;
-    }
-    .science-bullet {
-      background: #EFF6FF;
-      border-left: 4px solid #2563EB;
-      padding: 1rem 1.25rem;
-      border-radius: 0 8px 8px 0;
-      font-size: 0.88rem;
-      color: #1E3A8A;
-      line-height: 1.5;
-    }
-    .dtc-chart-card {
-      background: #0A1435;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 14px;
-      padding: 2rem;
-      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
-    }
-    .chart-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 0.72rem;
-      font-weight: 800;
-      color: #94A3B8;
-      margin-bottom: 1.75rem;
-    }
-    .live-pill {
-      background: rgba(0, 210, 255, 0.15);
-      color: #00D2FF;
-      padding: 0.25rem 0.55rem;
-      border-radius: 4px;
-      font-size: 0.68rem;
-    }
-    .chart-bars {
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
-    }
-    .bar-label-row {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.82rem;
-      color: #F8FAFC;
-      margin-bottom: 0.45rem;
-      font-weight: 600;
-    }
-    .bar-val { font-weight: 700; }
-    .bar-val--danger { color: #F87171; }
-    .bar-val--success { color: #34D399; }
-    .bar-track {
-      height: 13px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 999px;
-      overflow: hidden;
-    }
-    .bar-fill {
-      height: 100%;
-      border-radius: 999px;
-    }
-    .bar-fill--base { background: #3B82F6; }
-    .bar-fill--danger { background: #EF4444; }
-    .bar-fill--success { background: #10B981; }
-    .chart-footnote {
-      font-size: 0.72rem;
-      color: #94A3B8;
-      margin-top: 1.5rem;
-      line-height: 1.45;
-    }
-
-    /* ========================================================================= */
-    /* MODULE 09: 8 COGNITIVE PILLARS (CRISP LUMINOUS WHITE)                     */
-    /* ========================================================================= */
-    .pillars-section {
-      padding: 6.5rem 0;
-      background: #FFFFFF;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .pillars-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1.5rem;
-    }
-    .pillar-card {
-      background: #F8FAFC;
-      border: 1px solid #E2E8F0;
-      border-radius: 12px;
-      padding: 1.75rem;
-      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
-    }
-    .pillar-card:hover {
-      transform: translateY(-2px);
-      border-color: #CBD5E1;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
-    }
-    .pillar-num {
-      font-family: var(--font-display);
-      font-size: 0.78rem;
-      font-weight: 900;
-      color: var(--color-accent);
-      margin-bottom: 0.5rem;
-      display: block;
-    }
-    .pillar-title {
-      font-family: var(--font-display);
-      font-size: 1.1rem;
-      font-weight: 800;
-      color: #0F172A;
-      margin: 0 0 0.6rem;
-    }
-    .pillar-desc {
-      font-size: 0.85rem;
-      color: #475569;
-      line-height: 1.55;
-      margin: 0;
-    }
-
-    /* ========================================================================= */
-    /* MODULE 10: COMPARISON TABLE (CRISP LIGHT SLATE WITH NAVY POWER COLUMN)   */
-    /* ========================================================================= */
-    .compare-section {
-      padding: 6.5rem 0;
-      background: #F8FAFC;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .table-container {
-      overflow-x: auto;
-      border-radius: 14px;
-      border: 1px solid #CBD5E1;
-      background: #FFFFFF;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
-    }
-    .benchmark-table {
-      width: 100%;
-      border-collapse: collapse;
-      text-align: left;
-      font-size: 0.9rem;
-    }
-    .benchmark-table th, .benchmark-table td {
-      padding: 1.35rem 1.6rem;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .benchmark-table th {
-      background: #F1F5F9;
-      font-family: var(--font-display);
-      font-weight: 700;
-      color: #334155;
-      font-size: 0.88rem;
-    }
-    .col-smartfit {
-      background: #0A1435 !important;
-      border-left: 2px solid var(--color-accent);
-      border-right: 2px solid var(--color-accent);
-    }
-    .th-smartfit {
-      display: flex;
-      flex-direction: column;
-    }
-    .th-brand {
-      color: #FFFFFF;
-      font-size: 1.05rem;
-      font-weight: 900;
-    }
-    .th-sub {
-      color: #FBBF24;
-      font-size: 0.72rem;
-      font-weight: 700;
-    }
-    .cell-smartfit {
-      background: #0F1D45;
-      border-left: 2px solid var(--color-accent);
-      border-right: 2px solid var(--color-accent);
-      color: #FFFFFF;
-      font-weight: 600;
-    }
-    .check-yes {
-      color: #34D399;
-      font-weight: 900;
-      margin-right: 0.25rem;
-    }
-    .cell-feature {
-      font-weight: 700;
-      color: #0F172A;
-    }
-    .cell-other {
-      color: #64748B;
-    }
-
-    /* ========================================================================= */
-    /* MODULE 11: PROCUREMENT ACCELERATOR (CRISP WHITE CARDS)                    */
-    /* ========================================================================= */
-    .procurement-section {
-      padding: 6.5rem 0;
-      background: #FFFFFF;
-      border-bottom: 1px solid #E2E8F0;
-    }
-    .lead-magnets-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-    }
-    .magnet-card {
-      background: #F8FAFC;
-      border: 1px solid #E2E8F0;
-      border-radius: 14px;
-      padding: 2.25rem;
-      display: flex;
-      flex-direction: column;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .magnet-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
-    }
-    .magnet-badge {
-      font-size: 0.7rem;
-      font-weight: 800;
-      color: #2563EB;
-      letter-spacing: 0.08em;
-      margin-bottom: 0.85rem;
-    }
-    .magnet-title {
-      font-family: var(--font-display);
-      font-size: 1.25rem;
-      font-weight: 800;
-      color: #0F172A;
-      margin: 0 0 0.85rem;
-      line-height: 1.35;
-    }
-    .magnet-desc {
-      font-size: 0.88rem;
-      color: #475569;
-      line-height: 1.6;
-      margin: 0 0 1.5rem;
-      flex-grow: 1;
-    }
-    .magnet-cta {
-      color: var(--color-accent);
-      font-weight: 700;
-      font-size: 0.92rem;
-    }
-
-    /* ========================================================================= */
-    /* MODULE 12: TEXAS REGIONAL ACCENT & FINAL CONVERSION BANNER                */
-    /* ========================================================================= */
-    .texas-banner {
-      background: linear-gradient(135deg, #0A1435 0%, #172B68 100%);
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-      padding: 3.25rem 0;
-    }
-    .texas-banner-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 2rem;
-    }
-    .texas-tag {
-      font-size: 0.75rem;
-      font-weight: 800;
-      letter-spacing: 0.1em;
-      color: #FBBF24;
-      display: block;
-      margin-bottom: 0.4rem;
-    }
-    .texas-title {
-      font-family: var(--font-display);
-      font-size: 1.7rem;
-      font-weight: 900;
-      color: #FFFFFF;
-      margin: 0 0 0.5rem;
-    }
-    .texas-desc {
-      font-size: 0.95rem;
-      color: #CBD5E1;
-      max-width: 44rem;
-      margin: 0;
-      line-height: 1.55;
-    }
-    .cta-texas {
-      background: #FBBF24;
-      color: #060B19;
-      font-family: var(--font-display);
-      font-weight: 900;
-      font-size: 0.95rem;
-      padding: 0.95rem 1.8rem;
-      border-radius: 8px;
-      white-space: nowrap;
-      box-shadow: 0 4px 16px rgba(251, 191, 36, 0.35);
-      transition: transform 0.2s;
-    }
-    .cta-texas:hover {
-      transform: translateY(-2px);
-    }
-
-    /* MASTER BOTTOM CTA */
-    .master-cta-section {
-      padding: 7.5rem 0;
-      background: radial-gradient(circle at center, #111D45 0%, #060B19 80%);
-    }
-    .master-cta-headline {
-      font-family: var(--font-display);
-      font-size: 2.75rem;
-      font-weight: 900;
-      color: #FFFFFF;
-      margin: 0 0 1rem;
-      letter-spacing: -0.02em;
-    }
-    .master-cta-lead {
-      font-size: 1.15rem;
-      color: #94A3B8;
-      max-width: 40rem;
-      margin: 0 auto 2.5rem;
-      line-height: 1.6;
-    }
-    .master-cta-actions {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-      margin-bottom: 1.5rem;
-    }
-    .cta-button--large {
-      padding: 1.15rem 2.25rem;
-      font-size: 1.05rem;
-    }
-    .cta-phone {
-      color: #F8FAFC;
-      font-family: var(--font-display);
-      font-weight: 700;
-      font-size: 1rem;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      padding: 1.15rem 1.85rem;
-      border-radius: 8px;
-      background: rgba(255, 255, 255, 0.05);
-      transition: background 0.2s;
-    }
-    .cta-phone:hover {
-      background: rgba(255, 255, 255, 0.1);
-    }
-    .master-cta-sub {
-      font-size: 0.82rem;
-      color: #64748B;
-    }
-
-    /* RESPONSIVE BREAKPOINTS */
-    @media (max-width: 1024px) {
-      .hero-container {
-        grid-template-columns: 1fr;
-        gap: 3rem;
-      }
-      .contrast-grid, .explainer-grid, .science-card {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-      }
-      .continuum-grid, .hardware-grid, .lead-magnets-grid {
-        grid-template-columns: 1fr;
-      }
-      .pillars-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .metrics-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.5rem;
-      }
-    }
-
-    @media (max-width: 640px) {
-      .hero-headline {
-        font-size: 2.25rem;
-      }
-      .section-headline {
-        font-size: 1.85rem;
-      }
-      .master-cta-headline {
-        font-size: 2rem;
-      }
-      .pillars-grid {
-        grid-template-columns: 1fr;
-      }
-      .metrics-grid {
-        grid-template-columns: 1fr;
-      }
-      .hud-telemetry {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
 </BaseLayout>
+
+<style>
+  /* GLOBAL TOKENS & HELPERS */
+  .text-center { text-align: center; }
+  .section-eyebrow {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: #FF6500;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  .section-headline {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+  }
+  .section-headline--dark {
+    color: #0c2044;
+  }
+  .section-lead {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    max-width: 44rem;
+    margin: 0 auto;
+  }
+  .section-lead--dark {
+    color: #475569;
+  }
+
+  /* MODULE 1: HERO */
+  .hero-module {
+    position: relative;
+    padding: 5rem 0 5.5rem;
+    background: radial-gradient(circle at 60% 30%, #152c5b 0%, #0c2044 65%, #060B19 100%);
+    color: #FFFFFF;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .hero-container {
+    position: relative;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 3.5rem;
+    align-items: center;
+  }
+  .eyebrow-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 101, 0, 0.15);
+    border: 1px solid rgba(255, 101, 0, 0.4);
+    color: #FF6500;
+    padding: 0.35rem 0.9rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.5rem;
+  }
+  .hero-headline {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.15;
+    color: #FFFFFF;
+    margin: 0 0 1.25rem;
+  }
+  .hero-lead {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #CBD5E1;
+    margin: 0 0 2.25rem;
+    max-width: 36rem;
+  }
+  .hero-cta-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .cta-primary {
+    background: #FF6500;
+    color: #FFFFFF;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 0.95rem;
+    padding: 0.85rem 1.75rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(255, 101, 0, 0.4);
+    transition: transform 0.2s, background 0.2s;
+  }
+  .cta-primary:hover {
+    background: #FF7A1A;
+    transform: translateY(-2px);
+  }
+  .cta-secondary {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.85rem 1.5rem;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  .cta-secondary:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  /* HERO HUD */
+  .hud-card {
+    background: rgba(10, 17, 40, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 1.75rem;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
+  }
+  .hud-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .hud-badge-audited {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #00D2FF;
+    letter-spacing: 0.05em;
+  }
+  .hud-live-tag {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10B981;
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+  }
+  .hud-image-box {
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .hardware-render {
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.6));
+  }
+  .hud-score-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .score-pill {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 0.6rem 0.85rem;
+  }
+  .score-title {
+    display: block;
+    font-size: 0.7rem;
+    color: #94A3B8;
+    text-transform: uppercase;
+  }
+  .score-value {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #FFFFFF;
+  }
+  .score-accent { color: #FF6500; }
+
+  /* MODULE 2: TRUST STRIP */
+  .trust-module {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+    padding: 3rem 0;
+  }
+  .trust-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  .trust-item {
+    text-align: left;
+  }
+  .trust-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .trust-title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.4rem;
+  }
+  .trust-desc {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #64748B;
+    margin: 0;
+  }
+
+  /* MODULE 3: FRAMEWORK */
+  .framework-module {
+    background: #F8FAFC;
+    padding: 5rem 0;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .module-header {
+    margin-bottom: 3.5rem;
+  }
+  .dimensions-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.25rem;
+  }
+  .dimension-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 1.75rem 1.25rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .dimension-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  }
+  .dim-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .dim-icon { font-size: 1.5rem; }
+  .dim-num {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #94A3B8;
+  }
+  .dim-name {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.5rem;
+    line-height: 1.3;
+  }
+  .dim-desc {
+    font-size: 0.825rem;
+    line-height: 1.5;
+    color: #64748B;
+    margin: 0;
+  }
+  .framework-cta-box {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .framework-btn {
+    display: inline-block;
+    background: #0c2044;
+    color: #FFFFFF;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.92rem;
+    padding: 0.8rem 1.75rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .framework-btn:hover {
+    background: #152c5b;
+  }
+  .framework-btn-sec {
+    display: inline-block;
+    background: #FFFFFF;
+    color: #0c2044;
+    border: 1px solid #CBD5E1;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.92rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+  }
+  .framework-btn-sec:hover {
+    border-color: #0c2044;
+    background: #F8FAFC;
+  }
+
+  /* MODULE 3.5: AUDIENCE & SETTING SOLUTIONS */
+  .sectors-module {
+    background: #F1F5F9;
+    padding: 5rem 0;
+    border-top: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .sectors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+  .sector-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  }
+  .sector-card:hover {
+    transform: translateY(-3px);
+    border-color: #FF6500;
+    box-shadow: 0 8px 24px rgba(255, 101, 0, 0.08);
+  }
+  .sector-media {
+    position: relative;
+    height: 140px;
+    overflow: hidden;
+    background: #0C2044;
+  }
+  .sector-media-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .sector-card:hover .sector-media-img {
+    transform: scale(1.05);
+  }
+  .sector-media .sector-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: rgba(12, 32, 68, 0.85);
+    backdrop-filter: blur(4px);
+    padding: 0.25rem 0.55rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  .sector-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  .sector-title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.6rem;
+    line-height: 1.3;
+  }
+  .sector-desc {
+    font-size: 0.85rem;
+    color: #64748B;
+    line-height: 1.5;
+    margin: 0 0 1.25rem;
+  }
+  .sector-link {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #0c2044;
+    transition: color 0.2s;
+  }
+  .sector-card:hover .sector-link {
+    color: #FF6500;
+  }
+
+  /* MODULE 4: MARKET LANDSCAPE */
+  .landscape-module {
+    background: #FFFFFF;
+    padding: 5rem 0;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .systems-grid {
+    display: grid;
+    grid-template-columns: 1.25fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    align-items: stretch;
+    margin-bottom: 3rem;
+  }
+  .system-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  .system-card--recommended {
+    border: 2px solid #FF6500;
+    box-shadow: 0 10px 30px rgba(255, 101, 0, 0.12);
+    background: #FFFDFB;
+  }
+  .rec-badge {
+    position: absolute;
+    top: -12px;
+    left: 1.5rem;
+    background: #FF6500;
+    color: #FFF;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+  }
+  .sys-media-box {
+    text-align: center;
+    background: #F8FAFC;
+    border-radius: 8px;
+    padding: 0.75rem;
+    margin: 0.75rem 0 1rem;
+    border: 1px solid #E2E8F0;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sys-media-box--highlight {
+    border-color: rgba(255, 101, 0, 0.2);
+    background: #FFF9F5;
+  }
+  .sys-thumb-img {
+    max-height: 100px;
+    max-width: 100%;
+    width: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+  .sys-header {
+    margin-bottom: 1.25rem;
+  }
+  .sys-name {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.25rem;
+  }
+  .sys-cat {
+    font-size: 0.8rem;
+    color: #64748B;
+    font-weight: 600;
+  }
+  .sys-specs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    font-size: 0.825rem;
+    line-height: 1.4;
+  }
+  .sys-specs-list strong {
+    display: block;
+    color: #0c2044;
+  }
+  .sys-specs-list span {
+    color: #64748B;
+  }
+  .sys-best-fit {
+    border-top: 1px dashed #E2E8F0;
+    padding-top: 0.75rem;
+    margin-top: 0.25rem;
+  }
+  .sys-best-fit span {
+    color: #0c2044;
+    font-weight: 600;
+  }
+  .sys-actions-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .sys-cta-rec {
+    display: block;
+    background: #FF6500;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 0.7rem;
+    border-radius: 6px;
+  }
+  .sys-cta-comp {
+    display: block;
+    border: 1px solid #CBD5E1;
+    color: #475569;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.7rem;
+    border-radius: 6px;
+  }
+  .sys-cta-audit {
+    display: block;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    color: #0c2044;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.82rem;
+    padding: 0.55rem;
+    border-radius: 6px;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .sys-cta-audit:hover {
+    background: #EDF2F7;
+    border-color: #CBD5E1;
+  }
+
+  /* DISCLOSURE BOX */
+  .disclosure-box {
+    background: #F8FAFC;
+    border-left: 3px solid #64748B;
+    padding: 1rem 1.25rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #64748B;
+  }
+
+  /* MODULE 5: PHOTO FIT REVIEW */
+  .photo-fit-module {
+    background: #0c2044;
+    color: #FFFFFF;
+    padding: 5.5rem 0;
+  }
+  .photo-fit-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 3.5rem;
+  }
+  .eyebrow-accent {
+    display: inline-block;
+    color: #FF6500;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .photo-fit-title {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0 0 0.75rem;
+  }
+  .photo-fit-lead {
+    font-size: 1.1rem;
+    color: #CBD5E1;
+    max-width: 40rem;
+    margin: 0 0 3rem;
+  }
+  .photo-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  .step-card {
+    background: rgba(10, 17, 40, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 2rem 1.5rem;
+  }
+  .step-circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #FF6500;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+  }
+  .step-title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin: 0 0 0.5rem;
+  }
+  .step-desc {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #94A3B8;
+    margin: 0;
+  }
+  .photo-fit-cta {
+    display: inline-block;
+    background: #FF6500;
+    color: #FFFFFF;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    padding: 1rem 2.25rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(255, 101, 0, 0.45);
+    transition: transform 0.2s, background 0.2s;
+  }
+  .photo-fit-cta:hover {
+    background: #FF7A1A;
+    transform: translateY(-2px);
+  }
+  .photo-fit-note {
+    font-size: 0.8rem;
+    color: #94A3B8;
+    margin: 0.75rem 0 0;
+  }
+
+  /* MODULE 6: EVIDENCE GUARDRAIL */
+  .evidence-module {
+    background: #FFFFFF;
+    padding: 5rem 0;
+  }
+  .evidence-inner {
+    display: grid;
+    grid-template-columns: 1.25fr 0.95fr;
+    gap: 3.5rem;
+    align-items: center;
+  }
+  .evidence-copy {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 1.25rem;
+  }
+  .evidence-cta-row {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .evidence-link-btn {
+    background: #0c2044;
+    color: #FFF;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+  }
+  .evidence-phone-link {
+    font-size: 0.9rem;
+    color: #475569;
+  }
+  .evidence-phone-link strong {
+    color: #0c2044;
+  }
+  .evidence-card {
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+  .evidence-card-title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .evidence-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .evidence-checklist li {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #334155;
+  }
+  .check-green {
+    color: #10B981;
+    font-weight: 800;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 1024px) {
+    .hero-container { grid-template-columns: 1fr; }
+    .hero-headline { font-size: 2.25rem; }
+    .trust-grid { grid-template-columns: repeat(2, 1fr); }
+    .dimensions-grid { grid-template-columns: repeat(2, 1fr); }
+    .systems-grid { grid-template-columns: repeat(2, 1fr); }
+    .photo-steps-grid { grid-template-columns: 1fr; }
+    .evidence-inner { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .trust-grid { grid-template-columns: 1fr; }
+    .dimensions-grid { grid-template-columns: 1fr; }
+    .systems-grid { grid-template-columns: 1fr; }
+  }
+</style>

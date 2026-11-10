@@ -1,0 +1,806 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pageTitle = "Facility Photo Fit Review & Space Planning";
+const pageDescription = "Request a free facility space planning and equipment fit review before purchasing cognitive-motor equipment. We analyze ceiling heights, wall studs, and room flow.";
+---
+
+<BaseLayout title={pageTitle} description={pageDescription}>
+  <div class="fit-review-page">
+    <!-- HERO HEADER -->
+    <section class="fit-hero">
+      <div class="wrap">
+        <div class="fit-badge">EQUIPMENT SELECTION &amp; SPACE PLANNING</div>
+        <h1 class="fit-title">Request A Facility Photo Fit Review</h1>
+        <p class="fit-subtitle">
+          Before committing capital to cognitive-motor equipment, verify your room dimensions, wall structural backing, ceiling clearance, and patient movement zones with an experienced installer.
+        </p>
+        <div class="fit-stats-row">
+          <div class="fit-stat">
+            <span class="stat-number">24 Hr</span>
+            <span class="stat-label">Turnaround Time</span>
+          </div>
+          <div class="fit-stat">
+            <span class="stat-number">Hands-On</span>
+            <span class="stat-label">Installer Guidance</span>
+          </div>
+          <div class="fit-stat">
+            <span class="stat-number">$0</span>
+            <span class="stat-label">No-Cost Facility Review</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN FORM & SIDEBAR SECTION -->
+    <section class="fit-main-section">
+      <div class="wrap fit-grid">
+        <!-- FORM CONTAINER -->
+        <div class="fit-form-card">
+          <h2 class="form-heading">Facility &amp; Space Planning Intake</h2>
+          <p class="form-subtext">
+            Complete the details below. Our equipment specialist (Robert Aguilar) will review your facility specifications, suggest the optimal mounting and frame configuration, and connect you directly with SMARTfit for formal quotes and clinical training.
+          </p>
+
+          <form class="audit-form" id="photoFitForm" enctype="multipart/form-data">
+            <!-- STATUS NOTIFICATION BOX -->
+            <div id="formStatus" class="form-status-msg" style="display: none;"></div>
+
+            <!-- SECTION 1: CONTACT -->
+            <div class="form-section-title">1. Your Organization &amp; Contact Details</div>
+            
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="fullName" required placeholder="Dr. Sarah Jenkins, PT, DPT" />
+              </div>
+              <div class="form-group">
+                <label for="orgName">Organization / Clinic Name *</label>
+                <input type="text" id="orgName" name="orgName" required placeholder="Apex Neuro Physical Therapy" />
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="workEmail">Professional Email *</label>
+                <input type="email" id="workEmail" name="workEmail" required placeholder="sjenkins@apexneuropt.com" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Direct Phone *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="(210) 555-0199" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="facilityType">Facility / Setting Type *</label>
+              <select id="facilityType" name="facilityType" required>
+                <option value="">Select your setting...</option>
+                <option value="pt-neuro">Physical Therapy &amp; Neuro-Rehab Clinic</option>
+                <option value="hospital-rehab">Hospital Inpatient / Outpatient Rehabilitation</option>
+                <option value="senior-living">Senior Living Community / Memory Care</option>
+                <option value="athletics-college">College / University Athletic Department</option>
+                <option value="athletics-private">Private Sports Performance Center</option>
+                <option value="tactical-defense">Tactical Readiness / Military / Defense</option>
+                <option value="k12-education">K-12 Physical Education / Special Education</option>
+                <option value="other">Other Institutional Facility</option>
+              </select>
+            </div>
+
+            <!-- SECTION 2: PHYSICAL SPACE -->
+            <div class="form-section-title">2. Physical Space &amp; Wall Specifications</div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="ceilingHeight">Ceiling Clearance Height *</label>
+                <select id="ceilingHeight" name="ceilingHeight" required>
+                  <option value="">Select ceiling height...</option>
+                  <option value="under-8ft">Under 8 feet (Requires compact/low-profile mount)</option>
+                  <option value="8-9ft">8 to 9 feet (Standard commercial)</option>
+                  <option value="9-10ft">9 to 10 feet (Ideal clearance)</option>
+                  <option value="over-10ft">10+ feet (Open athletic / gym space)</option>
+                  <option value="unknown">Unsure / Need verification</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="wallConstruction">Wall Construction / Mounting Surface *</label>
+                <select id="wallConstruction" name="wallConstruction" required>
+                  <option value="">Select wall type...</option>
+                  <option value="drywall-wood">Drywall on Wood Studs (16" on-center)</option>
+                  <option value="drywall-metal">Drywall on Metal Studs (Requires backing)</option>
+                  <option value="concrete-cmu">Solid Concrete or CMU Block</option>
+                  <option value="freestanding">Cannot mount to wall — Free-standing / Rolling Frame only</option>
+                  <option value="unknown">Unsure / Need site advice</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="mountingPref">Mounting Preference</label>
+              <select id="mountingPref" name="mountingPref">
+                <option value="undecided">Undecided — Recommend Best Fit</option>
+                <option value="rolling-frame">Portable Heavy-Duty Rolling Frame (No wall drilling)</option>
+                <option value="wall-mounted">Permanent Wall-Mounted Kiosk</option>
+                <option value="multi-station">Multi-Station Wall (Athletics / Large Bays)</option>
+                <option value="pods">Perimeter Pods (360-degree spatial navigation)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="spacePhotos">Facility Photos (Wall &amp; Floor Clearance)</label>
+              <div class="upload-note">
+                <p><strong>Snap 1–3 photos on your phone:</strong> Show your intended wall, ceiling height, and floor clearance so Robert can inspect studs, outlets, and patient movement paths.</p>
+                <input type="file" id="spacePhotos" name="spacePhotos" multiple accept="image/*" class="file-input" />
+              </div>
+            </div>
+
+            <!-- VISUAL MOUNTING REFERENCE -->
+            <div class="mounting-reference-box">
+              <div class="reference-title">Audited Mounting Profiles &amp; Clearance Examples</div>
+              <p class="reference-desc">Unsure which configuration fits your walls or ceiling? Here are the 4 common formats we verify during your audit:</p>
+              
+              <div class="mounting-grid">
+                <div class="mounting-card">
+                  <div class="mount-img-wrap">
+                    <img 
+                      src="/images/rehab/smartfit-protrainer-senior-cognitive-fine-motor-finger-touch.jpg" 
+                      alt="Senior woman pointing to SMARTfit ProTrainer wall-mounted target showing zero-footprint clinical installation" 
+                      width="180" 
+                      height="120" 
+                      loading="lazy" 
+                    />
+                  </div>
+                  <div class="mount-name">Wall-Mounted Kiosk</div>
+                  <div class="mount-desc">Requires 16" wood/metal studs or solid CMU. Zero floor footprint.</div>
+                </div>
+
+                <div class="mounting-card">
+                  <div class="mount-img-wrap">
+                    <img 
+                      src="/images/rehab/smartfit-mini-physical-therapy-senior-woman-cognitive-exercise.jpg" 
+                      alt="Senior woman in physical therapy session striking SMARTfit Mini freestanding portable kiosk" 
+                      width="180" 
+                      height="120" 
+                      loading="lazy" 
+                    />
+                  </div>
+                  <div class="mount-name">Freestanding Rolling Frame</div>
+                  <div class="mount-desc">Heavy-duty base with locking casters. Ideal when wall drilling is restricted.</div>
+                </div>
+
+                <div class="mounting-card">
+                  <div class="mount-img-wrap">
+                    <img 
+                      src="/images/rehab/smartfit-protrainer-wall-mounted-sports-rehab-medicine-ball-bosu.jpg" 
+                      alt="Athlete on BOSU pressing medicine ball into wall-mounted SMARTfit ProTrainer multi-station system" 
+                      width="180" 
+                      height="120" 
+                      loading="lazy" 
+                    />
+                  </div>
+                  <div class="mount-name">Multi-Station Wall</div>
+                  <div class="mount-desc">2 to 4-station modular wall engineered for heavy medicine-ball impact.</div>
+                </div>
+
+                <div class="mounting-card">
+                  <div class="mount-img-wrap">
+                    <img 
+                      src="/images/products/smartfit-wired-strike-pods-facility-installation.jpg" 
+                      alt="SMARTfit Wired Strike Pod facility installation inside a neuro-rehabilitation therapy room" 
+                      width="180" 
+                      height="120" 
+                      loading="lazy" 
+                    />
+                  </div>
+                  <div class="mount-name">Room-Scale Perimeter</div>
+                  <div class="mount-desc">360-degree hardwired conduit pods for full-room spatial navigation.</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SECTION 3: CLINICAL GOALS & TIMELINE -->
+            <div class="form-section-title">3. Clinical Modality &amp; Decision Timeline</div>
+
+            <div class="form-group">
+              <label for="primaryGoal">Primary Training / Clinical Focus *</label>
+              <select id="primaryGoal" name="primaryGoal" required>
+                <option value="">Select primary focus...</option>
+                <option value="neuro-pt">Neuro-Rehab (Stroke, Parkinson's, TBI, Vestibular)</option>
+                <option value="fall-prevention">Fall Prevention &amp; Dual-Task Mobility in Older Adults</option>
+                <option value="ortho-sports">Sports Agility, Reaction Speed &amp; Concussion Return-to-Play</option>
+                <option value="tactical-stress">High-Stress Tactical Reaction &amp; Decision Processing</option>
+                <option value="pediatric-adhd">Pediatric Sensorimotor &amp; Special Education</option>
+                <option value="multi-discipline">Multi-Discipline Wellness &amp; Cross-Training</option>
+              </select>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="timeline">Procurement Timeline *</label>
+                <select id="timeline" name="timeline" required>
+                  <option value="">Select timeline...</option>
+                  <option value="immediate">Immediate (&lt; 30 days)</option>
+                  <option value="1-3-months">1 to 3 months</option>
+                  <option value="3-6-months">3 to 6 months</option>
+                  <option value="next-fiscal">Next Fiscal Year / Grant Budgeting</option>
+                  <option value="research-only">Research &amp; Feasibility Stage Only</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="texasDemo">Interested in Texas On-Site Demo?</label>
+                <select id="texasDemo" name="texasDemo">
+                  <option value="no">No / Out of State (Virtual CAD Review)</option>
+                  <option value="san-antonio">Yes — San Antonio Region</option>
+                  <option value="houston">Yes — Houston / TMC Region</option>
+                  <option value="austin">Yes — Austin / Central Texas</option>
+                  <option value="dfw">Yes — Dallas / Fort Worth Region</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Specific Questions or Equipment You Are Currently Considering</label>
+              <textarea id="notes" name="notes" rows="4" placeholder="e.g. Currently evaluating SMARTfit Mini vs. Dynavision D2 for outpatient stroke rehab. Wondering about wheelchair access and CPT 97530 documentation..."></textarea>
+            </div>
+
+            <button type="submit" id="submitBtn" class="submit-btn">
+              Submit For Facility Fit Review &rarr;
+            </button>
+            
+            <p class="form-privacy-note">
+              🔒 <strong>Confidentiality Guaranteed:</strong> Your floor plans, photos, and contact info are strictly confidential. We never sell your data or share facility details with third-party telemarketers.
+            </p>
+          </form>
+
+          <script>
+            const form = document.getElementById('photoFitForm') as HTMLFormElement;
+            const statusBox = document.getElementById('formStatus') as HTMLDivElement;
+            const submitBtn = document.getElementById('submitBtn') as HTMLButtonElement;
+
+            if (form && statusBox && submitBtn) {
+              form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                submitBtn.disabled = true;
+                const originalText = submitBtn.textContent;
+                submitBtn.textContent = 'Uploading & Submitting...';
+                
+                statusBox.style.display = 'block';
+                statusBox.className = 'form-status-msg status-loading';
+                statusBox.textContent = 'Uploading photos and submitting your facility specifications...';
+
+                try {
+                  const formData = new FormData(form);
+                  const res = await fetch('/api/photo-fit', {
+                    method: 'POST',
+                    body: formData,
+                  });
+
+                  const result = await res.json();
+
+                  if (res.ok && result.success) {
+                    statusBox.className = 'form-status-msg status-success';
+                    statusBox.innerHTML = `
+                      <strong>Success!</strong> Your Photo Fit Review request has been received. 
+                      Robert Aguilar will review your space dimensions and photo specs within 24–48 hours.
+                    `;
+                    form.reset();
+                  } else {
+                    throw new Error(result.error || 'Submission failed. Please check required fields.');
+                  }
+                } catch (err: any) {
+                  statusBox.className = 'form-status-msg status-error';
+                  statusBox.innerHTML = `<strong>Submission Error:</strong> ${err.message || 'Unable to submit at this moment. You can also call directly at 1-800-431-7788.'}`;
+                } finally {
+                  submitBtn.disabled = false;
+                  submitBtn.textContent = originalText;
+                }
+              });
+            }
+          </script>
+        </div>
+
+        <!-- SIDEBAR TRUST PANEL -->
+        <aside class="fit-sidebar">
+          <!-- CARD 1: WHAT YOU RECEIVE -->
+          <div class="sidebar-card">
+            <h3 class="sidebar-heading">What You Receive Within 24 Hours</h3>
+            <ul class="sidebar-list">
+              <li>
+                <div class="list-bullet">✓</div>
+                <div>
+                  <strong>Space Clearance CAD Profile:</strong> Exact footprint requirements, player movement perimeter, and wheelchair turning radiuses.
+                </div>
+              </li>
+              <li>
+                <div class="list-bullet">✓</div>
+                <div>
+                  <strong>Wall Anchoring Verification:</strong> Structural assessment of your wood studs, metal framing, or masonry to prevent wall pullout under heavy strikes.
+                </div>
+              </li>
+              <li>
+                <div class="list-bullet">✓</div>
+                <div>
+                  <strong>Objective Equipment Scorecard:</strong> Independent ranking of SMARTfit vs. alternatives for your specific clinical patient population.
+                </div>
+              </li>
+              <li>
+                <div class="list-bullet">✓</div>
+                <div>
+                  <strong>Private Institutional Pricing:</strong> Access to unlisted commercial quotes, Section 179 tax incentive guidance, and direct procurement channels.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CARD 2: LEAD AUDITOR CREDENTIALS -->
+          <div class="sidebar-card sidebar-card--expert">
+            <div class="expert-header">
+              <div class="expert-avatar">RA</div>
+              <div>
+                <h4 class="expert-name">Robert Aguilar</h4>
+                <p class="expert-role">Lead Technology Auditor &amp; Installer</p>
+              </div>
+            </div>
+            <p class="expert-bio">
+              "As a former SMARTfit installer and trainer who personally owns three systems, I've seen firsthand which equipment gets daily clinical use and which collects dust in the corner. My job is to make sure you get the right system for your space the first time."
+            </p>
+            <div class="expert-contact">
+              <p>Direct Inquiries: <a href="tel:18004317788"><strong>1-800-431-7788</strong></a></p>
+            </div>
+          </div>
+
+          <!-- CARD 3: 5-DIMENSION AUDIT -->
+          <div class="sidebar-card">
+            <h3 class="sidebar-heading">Audited on 5 Clinical Dimensions</h3>
+            <div class="rubric-item">
+              <span class="rubric-name">1. Cognitive Load Depth</span>
+              <span class="rubric-bar"><span style="width: 95%;"></span></span>
+            </div>
+            <div class="rubric-item">
+              <span class="rubric-name">2. Kinetic Impact Tolerance</span>
+              <span class="rubric-bar"><span style="width: 100%;"></span></span>
+            </div>
+            <div class="rubric-item">
+              <span class="rubric-name">3. Dual-Task Cost (DTC) Fidelity</span>
+              <span class="rubric-bar"><span style="width: 90%;"></span></span>
+            </div>
+            <div class="rubric-item">
+              <span class="rubric-name">4. Clinical EMR Exportability</span>
+              <span class="rubric-bar"><span style="width: 85%;"></span></span>
+            </div>
+            <div class="rubric-item">
+              <span class="rubric-name">5. Facility Footprint &amp; Flow</span>
+              <span class="rubric-bar"><span style="width: 90%;"></span></span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .fit-review-page {
+    background: #FFFFFF;
+    color: #1E293B;
+  }
+
+  /* HERO */
+  .fit-hero {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E2E8F0;
+    padding: 5rem 0 4rem;
+    text-align: center;
+  }
+  .fit-badge {
+    display: inline-block;
+    background: rgba(2, 132, 199, 0.08);
+    color: #0284C7;
+    border: 1px solid rgba(2, 132, 199, 0.25);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.9rem;
+    border-radius: 9999px;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+  }
+  .fit-title {
+    font-family: var(--font-display);
+    font-size: clamp(2.25rem, 4.5vw, 3rem);
+    font-weight: 900;
+    line-height: 1.15;
+    color: #0c2044;
+    margin: 0 auto 1.25rem;
+    max-width: 48rem;
+  }
+  .fit-subtitle {
+    font-size: 1.15rem;
+    line-height: 1.65;
+    color: #475569;
+    max-width: 44rem;
+    margin: 0 auto 2.5rem;
+  }
+  .fit-stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    flex-wrap: wrap;
+  }
+  .fit-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stat-number {
+    font-family: var(--font-display);
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #FF6500;
+  }
+  .stat-label {
+    font-size: 0.8rem;
+    color: #64748B;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+  }
+
+  /* MAIN GRID */
+  .fit-main-section {
+    background: #F8FAFC;
+    padding: 5rem 0 6rem;
+  }
+  .fit-grid {
+    display: grid;
+    grid-template-columns: 1.7fr 1.1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  /* FORM CARD */
+  .fit-form-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 3rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  }
+  .form-heading {
+    font-family: var(--font-display);
+    font-size: 1.65rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 0.5rem;
+  }
+  .form-subtext {
+    font-size: 0.95rem;
+    color: #64748B;
+    line-height: 1.6;
+    margin-bottom: 2.25rem;
+  }
+
+  /* FORM ELEMENTS */
+  .audit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.35rem;
+  }
+  .form-section-title {
+    font-family: var(--font-display);
+    font-size: 0.92rem;
+    font-weight: 800;
+    color: #0284C7;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-bottom: 1px solid #E2E8F0;
+    padding-bottom: 0.6rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .form-row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+  .form-group label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #334155;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 8px;
+    color: #0F172A;
+    padding: 0.75rem 0.95rem;
+    font-family: var(--font-body);
+    font-size: 0.92rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #FF6500;
+    box-shadow: 0 0 0 3px rgba(255, 101, 0, 0.15);
+  }
+  .upload-note {
+    background: #F8FAFC;
+    border: 1px dashed #CBD5E1;
+    border-radius: 8px;
+    padding: 1.25rem;
+    font-size: 0.88rem;
+    color: #64748B;
+    line-height: 1.5;
+  }
+  .file-input {
+    margin-top: 0.75rem;
+    width: 100%;
+  }
+
+  /* MOUNTING REFERENCE */
+  .mounting-reference-box {
+    background: #F1F5F9;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+  .reference-title {
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin-bottom: 0.35rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .reference-desc {
+    font-size: 0.85rem;
+    color: #475569;
+    margin-bottom: 1.25rem;
+    line-height: 1.5;
+  }
+  .mounting-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .mounting-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .mount-img-wrap {
+    height: 100px;
+    background: #F8FAFC;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.65rem;
+    padding: 0.5rem;
+  }
+  .mount-img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .mount-name {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin-bottom: 0.25rem;
+  }
+  .mount-desc {
+    font-size: 0.74rem;
+    color: #64748B;
+    line-height: 1.4;
+  }
+
+  /* SUBMIT BUTTON */
+  .submit-btn {
+    background: #FF6500;
+    color: #FFFFFF;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    padding: 1.1rem 2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(255, 101, 0, 0.35);
+    transition: background 0.2s, transform 0.1s;
+    margin-top: 1rem;
+  }
+  .submit-btn:hover {
+    background: #E55B00;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(255, 101, 0, 0.45);
+  }
+  .form-privacy-note {
+    font-size: 0.8rem;
+    color: #64748B;
+    line-height: 1.5;
+    margin: 0.5rem 0 0;
+  }
+
+  /* SIDEBAR CARDS */
+  .fit-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .sidebar-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 14px;
+    padding: 2rem;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
+  }
+  .sidebar-heading {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #E2E8F0;
+  }
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .sidebar-list li {
+    display: flex;
+    gap: 0.85rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #475569;
+  }
+  .list-bullet {
+    background: rgba(16, 185, 129, 0.12);
+    color: #10B981;
+    font-weight: 900;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 0.8rem;
+  }
+
+  /* EXPERT CARD */
+  .sidebar-card--expert {
+    border-left: 4px solid #FF6500;
+  }
+  .expert-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .expert-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FF6500, #1C64F2);
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(255, 101, 0, 0.3);
+  }
+  .expert-name {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #0c2044;
+    margin: 0;
+  }
+  .expert-role {
+    font-size: 0.8rem;
+    color: #FF6500;
+    font-weight: 600;
+    margin: 0.15rem 0 0;
+  }
+  .expert-bio {
+    font-size: 0.88rem;
+    color: #475569;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 1.25rem;
+  }
+  .expert-contact p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: #64748B;
+  }
+  .expert-contact a {
+    color: #0c2044;
+  }
+  .expert-contact a strong {
+    color: #FF6500;
+  }
+
+  /* RUBRIC BARS */
+  .rubric-item {
+    margin-bottom: 1rem;
+  }
+  .rubric-name {
+    display: block;
+    font-size: 0.82rem;
+    color: #475569;
+    margin-bottom: 0.35rem;
+    font-weight: 700;
+  }
+  .rubric-bar {
+    display: block;
+    width: 100%;
+    height: 7px;
+    background: #E2E8F0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .rubric-bar span {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, #1C64F2, #00D2FF);
+    border-radius: 4px;
+  }
+
+  /* FORM STATUS MESSAGE */
+  .form-status-msg {
+    padding: 1rem 1.25rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  .status-loading {
+    background: #EFF6FF;
+    border: 1px solid #BFDBFE;
+    color: #1D4ED8;
+  }
+  .status-success {
+    background: #ECFDF5;
+    border: 1px solid #A7F3D0;
+    color: #065F46;
+  }
+  .status-error {
+    background: #FEF2F2;
+    border: 1px solid #FECACA;
+    color: #991B1B;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .fit-grid {
+      grid-template-columns: 1fr;
+    }
+    .form-row-2 {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
