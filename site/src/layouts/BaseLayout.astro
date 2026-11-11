@@ -581,13 +581,20 @@ const navLinks = [
         .nav-disclosure summary {
           list-style: none;
           cursor: pointer;
-          color: var(--color-text-light);
+          color: #FFFFFF;
+          background: rgba(255, 255, 255, 0.08);
           font-weight: 700;
-          font-size: 0.9rem;
-          padding: 0.4rem 0.8rem;
-          border: 1px solid var(--color-border);
+          font-size: 0.875rem;
+          padding: 0.45rem 0.9rem;
+          border: 1px solid rgba(255, 255, 255, 0.2);
           border-radius: 6px;
           user-select: none;
+          transition: background 0.2s ease, border-color 0.2s ease;
+        }
+        .nav-disclosure summary:hover,
+        .nav-disclosure[open] summary {
+          background: rgba(255, 255, 255, 0.16);
+          border-color: rgba(255, 255, 255, 0.4);
         }
         .nav-disclosure summary::-webkit-details-marker {
           display: none;
@@ -597,28 +604,46 @@ const navLinks = [
           right: 0;
           top: calc(100% + 0.5rem);
           background: #0A1128;
-          border: 1px solid var(--color-border);
-          border-radius: 8px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          border-radius: 10px;
           list-style: none;
           margin: 0;
-          padding: 1rem;
+          padding: 0.75rem;
           width: 16rem;
           max-width: calc(100vw - 2rem);
           z-index: 100;
-          box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+          box-shadow: 0 16px 36px rgba(0, 0, 0, 0.75);
         }
         .nav-list--mobile li {
-          margin-bottom: 0.85rem;
+          margin-bottom: 0.35rem;
+        }
+        .nav-list--mobile li a {
+          display: block;
+          color: #F8FAFC !important;
+          font-size: 0.95rem;
+          font-weight: 600;
+          padding: 0.6rem 0.85rem;
+          border-radius: 6px;
+          text-decoration: none;
+          transition: background 0.18s ease, color 0.18s ease;
+        }
+        .nav-list--mobile li a:hover {
+          color: #FFFFFF !important;
+          background: rgba(255, 255, 255, 0.1);
         }
         .mobile-cta {
           display: block;
           text-align: center;
-          background: var(--color-accent);
-          color: #fff !important;
-          padding: 0.6rem;
+          background: var(--color-accent) !important;
+          color: #FFFFFF !important;
+          padding: 0.75rem 1rem !important;
           border-radius: 6px;
-          font-weight: 700;
-          margin-top: 0.5rem;
+          font-weight: 800 !important;
+          margin-top: 0.65rem;
+          box-shadow: 0 4px 14px rgba(255, 101, 0, 0.35);
+        }
+        .mobile-cta:hover {
+          background: var(--color-accent-hover) !important;
         }
         .footer-grid {
           grid-template-columns: 1fr;
