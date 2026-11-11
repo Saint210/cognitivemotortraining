@@ -383,6 +383,9 @@ const pageDescription = "Request a free facility space planning and equipment fi
   .fit-review-page {
     background: #FFFFFF;
     color: #1E293B;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
   }
 
   /* HERO */
@@ -465,6 +468,8 @@ const pageDescription = "Request a free facility space planning and equipment fi
     border-radius: 16px;
     padding: 3rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    width: 100%;
+    box-sizing: border-box;
   }
   .form-heading {
     font-family: var(--font-display);
@@ -485,6 +490,8 @@ const pageDescription = "Request a free facility space planning and equipment fi
     display: flex;
     flex-direction: column;
     gap: 1.35rem;
+    width: 100%;
+    box-sizing: border-box;
   }
   .form-section-title {
     font-family: var(--font-display);
@@ -502,11 +509,15 @@ const pageDescription = "Request a free facility space planning and equipment fi
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
+    width: 100%;
+    box-sizing: border-box;
   }
   .form-group {
     display: flex;
     flex-direction: column;
     gap: 0.45rem;
+    width: 100%;
+    box-sizing: border-box;
   }
   .form-group label {
     font-size: 0.85rem;
@@ -524,6 +535,9 @@ const pageDescription = "Request a free facility space planning and equipment fi
     font-family: var(--font-body);
     font-size: 0.92rem;
     transition: border-color 0.2s, box-shadow 0.2s;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   .form-group input:focus,
   .form-group select:focus,
@@ -798,6 +812,10 @@ const pageDescription = "Request a free facility space planning and equipment fi
   @media (max-width: 900px) {
     .fit-grid {
       grid-template-columns: 1fr;
+      max-width: 44rem;
+      margin: 0 auto;
+      width: 100%;
+      box-sizing: border-box;
     }
     .form-row-2 {
       grid-template-columns: 1fr;
@@ -806,33 +824,87 @@ const pageDescription = "Request a free facility space planning and equipment fi
 
   @media (max-width: 640px) {
     .fit-hero {
-      padding: 3rem 0 2rem;
+      padding: 2.75rem 0 2rem;
+    }
+    .fit-title {
+      font-size: 1.75rem;
+    }
+    .fit-subtitle {
+      font-size: 0.95rem;
+      margin-bottom: 1.75rem;
+    }
+    .fit-stats-row {
+      gap: 1rem;
+      justify-content: space-around;
+      padding: 0 0.5rem;
+    }
+    .stat-number {
+      font-size: 1.65rem;
+    }
+    .stat-label {
+      font-size: 0.72rem;
     }
     .fit-main-section {
-      padding: 3rem 0 4rem;
+      padding: 2.5rem 0 3.5rem;
+    }
+    .fit-grid {
+      gap: 2rem;
+      padding: 0;
+      width: 100%;
     }
     .fit-form-card {
-      padding: 1.5rem;
+      padding: 1.5rem 1.15rem;
+      border-radius: 12px;
+      margin: 0 auto;
+      width: 100%;
+      box-sizing: border-box;
     }
     .form-heading {
       font-size: 1.35rem;
+      text-align: center;
+    }
+    .form-subtext {
+      font-size: 0.88rem;
+      text-align: center;
+      margin-bottom: 1.75rem;
+    }
+    .form-section-title {
+      font-size: 0.85rem;
+    }
+    .form-row-2 {
+      grid-template-columns: 1fr !important;
+      gap: 1.1rem !important;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100% !important;
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      font-size: 0.95rem;
     }
     .submit-btn {
       font-size: 0.95rem;
       padding: 1rem 1.25rem;
       width: 100%;
+      box-sizing: border-box;
+    }
+    .mounting-reference-box {
+      padding: 1rem;
+      width: 100%;
+      box-sizing: border-box;
     }
   }
 
   @media (max-width: 480px) {
     .fit-form-card {
-      padding: 1.25rem 1rem;
+      padding: 1.25rem 0.85rem;
     }
     .mounting-grid {
       grid-template-columns: 1fr;
     }
     .sidebar-card {
-      padding: 1.25rem;
+      padding: 1.25rem 1rem;
     }
   }
 </style>

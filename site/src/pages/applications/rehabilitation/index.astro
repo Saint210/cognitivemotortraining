@@ -325,6 +325,24 @@ const subverticals = [
         </table>
       </div>
 
+      <!-- MOBILE STACKED CPT CARDS (NO SLIDING REQUIRED) -->
+      <div class="cpt-mobile-stack">
+        {cptCodes.map((row) => (
+          <article class="cpt-mobile-card">
+            <div class="cpt-card-top">
+              <span class="cpt-badge">{row.code}</span>
+              <div class="disc-pills">
+                {row.discipline.split(' / ').map(d => (
+                  <span class={`disc-pill disc-${d.replace('/', '').trim().toLowerCase()}`}>{d.trim()}</span>
+                ))}
+              </div>
+            </div>
+            <h3 class="cpt-card-title">{row.procedure}</h3>
+            <p class="cpt-card-desc">{row.description}</p>
+          </article>
+        ))}
+      </div>
+
       <div class="cpt-footer-note">
         <p>
           <strong>Note on 97129 / 97130:</strong> These codes require a qualified health professional (SLP, OT, or physician) to deliver skilled cognitive intervention. Equipment alone does not meet the threshold for billing — documented skilled clinician delivery is required by payers. 
@@ -887,6 +905,10 @@ const subverticals = [
     box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   }
 
+  .cpt-mobile-stack {
+    display: none;
+  }
+
   .cpt-table {
     width: 100%;
     border-collapse: collapse;
@@ -1301,6 +1323,42 @@ const subverticals = [
     .cpt-table td {
       padding: 0.75rem 0.85rem;
       font-size: 0.82rem;
+    }
+    .cpt-table-wrapper {
+      display: none !important;
+    }
+    .cpt-mobile-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .cpt-mobile-card {
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      border-radius: 10px;
+      padding: 1.25rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    }
+    .cpt-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .cpt-card-title {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #0c2044;
+      margin: 0 0 0.5rem;
+      line-height: 1.3;
+    }
+    .cpt-card-desc {
+      font-size: 0.88rem;
+      color: #475569;
+      line-height: 1.55;
+      margin: 0;
     }
   }
 </style>
