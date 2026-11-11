@@ -863,7 +863,7 @@ const accessories = [
   }
   .accessories-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     margin-bottom: 3.5rem;
   }
@@ -1301,6 +1301,31 @@ const accessories = [
     }
   }
   @media (max-width: 540px) {
+    .hero-section {
+      padding: 3rem 0 2rem;
+    }
+    .systems-section,
+    .accessories-section,
+    .facility-renders-section {
+      padding: 3.5rem 0;
+    }
+    .system-card {
+      padding: 1.25rem;
+    }
+    .card-header {
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+    .spec-row {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+      padding: 0.5rem 0;
+    }
+    .spec-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
     .gallery-grid {
       grid-template-columns: 1fr;
       grid-auto-rows: 220px;

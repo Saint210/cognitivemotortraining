@@ -755,7 +755,7 @@ const faqs = [
 
   .breakdowns-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2.5rem;
   }
 
@@ -1159,7 +1159,7 @@ const faqs = [
 
   .faqs-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
   }
@@ -1215,6 +1215,40 @@ const faqs = [
   @media (max-width: 768px) {
     .breakdowns-grid {
       grid-template-columns: 1fr;
+    }
+    .faqs-grid {
+      grid-template-columns: 1fr;
+    }
+    .breakdown-card {
+      padding: 1.5rem;
+    }
+    .faq-card {
+      padding: 1.5rem;
+    }
+    .versus-hero {
+      padding: 3.5rem 0 2.5rem;
+    }
+    .breakdowns-section,
+    .faqs-section {
+      padding: 3.5rem 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .breakdown-card {
+      padding: 1.25rem;
+    }
+    .teardown-vs-visual {
+      flex-direction: column;
+      gap: 0.75rem;
+      padding: 1rem;
+    }
+    .teardown-vs-badge {
+      transform: rotate(90deg);
+      margin: 0.25rem 0;
+    }
+    .teardown-product {
+      width: 100%;
     }
   }
 </style>

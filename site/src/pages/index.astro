@@ -1228,8 +1228,36 @@ const audienceSectors = [
     .evidence-inner { grid-template-columns: 1fr; }
   }
   @media (max-width: 640px) {
+    .hero-section { padding: 3.5rem 0 2.5rem; }
+    .section-padding { padding: 3.5rem 0; }
     .trust-grid { grid-template-columns: 1fr; }
     .dimensions-grid { grid-template-columns: 1fr; }
     .systems-grid { grid-template-columns: 1fr; }
+    .hero-actions {
+      flex-direction: column;
+      width: 100%;
+    }
+    .hero-actions .cta-button,
+    .hero-actions .cta-button--secondary {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+    .hud-card { padding: 1.25rem; }
+    .trust-card, .system-card, .dimension-card { padding: 1.25rem; }
+  }
+
+  @media (max-width: 480px) {
+    .hud-score-row {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+    .hero-headline {
+      font-size: 1.85rem;
+    }
+    .hero-badge {
+      font-size: 0.7rem;
+      padding: 0.3rem 0.65rem;
+    }
   }
 </style>

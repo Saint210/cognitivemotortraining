@@ -595,7 +595,7 @@ const topDownGames = [
   }
   .method-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     margin-bottom: 2.5rem;
   }
@@ -697,7 +697,7 @@ const topDownGames = [
   }
   .games-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.75rem;
   }
   .game-card {
@@ -855,5 +855,67 @@ const topDownGames = [
     color: #FF6500;
     text-decoration: none;
     font-weight: 600;
+  }
+
+  /* RESPONSIVE MOBILE OPTIMIZATION */
+  @media (max-width: 768px) {
+    .gl-hero {
+      padding: 3rem 0 2.25rem;
+    }
+    .gl-title {
+      font-size: 2rem;
+    }
+    .gl-lead {
+      font-size: 1rem;
+    }
+    .gl-stats-strip {
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+    }
+    .gl-stat-sep {
+      display: none;
+    }
+    .games-grid {
+      grid-template-columns: 1fr;
+    }
+    .method-grid {
+      grid-template-columns: 1fr;
+    }
+    .gl-method-section,
+    .gl-games-section {
+      padding: 3.5rem 0;
+    }
+    .gl-cta-section {
+      padding: 3.5rem 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .game-card {
+      padding: 1.25rem;
+    }
+    .method-card {
+      padding: 1.25rem;
+    }
+    .gl-stats-strip {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+    .gl-stat-item {
+      width: 100%;
+      justify-content: space-between;
+    }
+    .game-card-header {
+      gap: 0.75rem;
+    }
+    .game-icon-circle {
+      width: 40px;
+      height: 40px;
+      font-size: 1.25rem;
+    }
+    .game-name {
+      font-size: 1.1rem;
+    }
   }
 </style>

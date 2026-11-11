@@ -834,6 +834,54 @@ const audits = [
     }
   }
 
+  @media (max-width: 640px) {
+    .reviews-hero {
+      padding: 3rem 0 2rem;
+    }
+    .reviews-content-section {
+      padding: 3.5rem 0 4rem;
+    }
+    .audit-card {
+      padding: 1.25rem;
+    }
+    .card-top-row {
+      gap: 1.25rem;
+      margin-bottom: 1.25rem;
+    }
+    .card-header-main {
+      min-width: 0;
+      width: 100%;
+      gap: 1rem;
+    }
+    .evidence-row {
+      padding: 0.85rem 1rem;
+      gap: 0.75rem;
+    }
+    .evidence-item {
+      min-width: 120px;
+    }
+    .evidence-item--wide {
+      min-width: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card-header-main {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .audit-hardware-thumb {
+      width: 100%;
+      height: 140px;
+    }
+    .card-header-score {
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+    }
+  }
+
   /* EVIDENCE GRADE BADGE */
   .evidence-grade {
     width: 56px; height: 56px;

@@ -1,4 +1,4 @@
-﻿---
+---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const sectors = [
@@ -639,6 +639,41 @@ const sectors = [
     }
     .sector-audit-card {
       padding: 2rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .apps-hero {
+      padding: 3rem 0 2rem;
+    }
+    .apps-content-section {
+      padding: 3.5rem 0 4rem;
+    }
+    .sector-audit-card {
+      padding: 1.25rem;
+    }
+    .sector-card-top {
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 1.25rem;
+    }
+    .sector-icon-box {
+      width: 52px;
+      height: 52px;
+      font-size: 2rem;
+    }
+    .sector-card-title {
+      font-size: 1.4rem;
+    }
+    .detail-block {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .sector-card-top {
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
 </style>
